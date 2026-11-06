@@ -1,0 +1,9 @@
+{
+  "_source": "Space Marine Chapters without a game-datacards file of their own: their units sit in the Space Marines file with the Chapter's faction keyword (Vulkan He'stan has SALAMANDERS). Wahapedia 11th filters by these Chapters, and a detachment of theirs says \"Your army can include SALAMANDERS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter\". BLOOD RAVENS is in that filter too but has no unit in either source (BSData only has the choice 'Faction: Blood Ravens'), so it is left out.",
+  "ultramarines": { "name": "Ultramarines", "keyword": "Ultramarines", "parent": "space_marines", "catalogues": ["Imperium - Ultramarines"] },
+  "imperialfists": { "name": "Imperial Fists", "keyword": "Imperial Fists", "parent": "space_marines", "catalogues": ["Imperium - Imperial Fists"] },
+  "ironhands": { "name": "Iron Hands", "keyword": "Iron Hands", "parent": "space_marines", "catalogues": ["Imperium - Iron Hands"] },
+  "ravenguard": { "name": "Raven Guard", "keyword": "Raven Guard", "parent": "space_marines", "catalogues": ["Imperium - Raven Guard"] },
+  "salamanders": { "name": "Salamanders", "keyword": "Salamanders", "parent": "space_marines", "catalogues": ["Imperium - Salamanders"] },
+  "whitescars": { "name": "White Scars", "keyword": "White Scars", "parent": "space_marines", "catalogues": ["Imperium - White Scars"] }
+}

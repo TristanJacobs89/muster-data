@@ -1,0 +1,4 @@
+{
+  "_source": "The commits muster-data reads, pinned so every inventory and build can be made again. game-datacards' commit comes with the Muster bundle the inventory reads (its manifest's sha); BSData's is pinned here.",
+  "bsdata": { "repo": "BSData/wh40k-11e", "sha": "6530077baf71155644fad99e932974436bc559ee", "date": "2026-11-04" }
+}

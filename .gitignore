@@ -1,0 +1,9 @@
+# This repo holds JSON only. The tooling that reads and writes it is @muster/texts in the Muster
+# repo (packages/texts); everything else here stays local.
+*
+!*/
+!*.json
+!.gitignore
+# Games Workshop's text: never committed.
+.cache/
+work/
