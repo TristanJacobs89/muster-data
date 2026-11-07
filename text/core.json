@@ -24,7 +24,7 @@
   "core/stratagems/Insane Bravery/effect": "That battle-shock roll automatically successful",
   "core/stratagems/Insane Bravery/restrictions": "Once per battle",
   "core/stratagems/Insane Bravery/target": "That unit",
-  "core/stratagems/Insane Bravery/when": "Battle-shock step of your Command phase\nJust before you make a battle-shock roll for a friendly unit",
+  "core/stratagems/Insane Bravery/when": "your Command phase: Battle‑shock step\njust before friendly unit's battle-shock roll",
   "core/stratagems/New Orders/effect": "That card discarded\n1 new Secondary Mission card drawn",
   "core/stratagems/New Orders/target": "Active Secondary Mission card of yours",
   "core/stratagems/New Orders/when": "End of your Command phase",

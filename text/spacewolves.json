@@ -90,7 +90,7 @@
   "spacewolves/datasheets/5d78ad6a-0eaa-5cb9-877f-76b039ebac0a/wargear_options/1/instruction": "Each model: Bolt Pistol → 1 Boltgun and 1 Storm Shield",
   "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/composition/0": "5-10 Wulfen",
   "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/data/abilities/Death Totem/text": "Unit's melee attacks: may re-roll Hit rolls of 1",
-  "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/data/abilities/Savage Frenzy/text": "Enemy unit engaged with your unit (excluding MONSTER/VEHICLE units) makes a fall-back move\nThat unit must use the desperate escape mode\nIf that unit is Battle-shocked: -1 to those hazard rolls",
+  "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/data/abilities/Savage Frenzy/text": "Restriction: MONSTER/VEHICLE units excluded\nTiming: enemy unit’s fall-back move\nCondition: enemy unit engaged with your unit\nResult:\n- desperate escape mode required for that enemy unit\n- enemy unit Battle-shocked: -1 to those hazard rolls",
   "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/data/wargear_options/0/choices/0/text": "1 Stormfrag Auto-launcher",
   "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/data/wargear_options/0/heading": "Each model: Death Totem → 1 Stormfrag Auto-launcher",
   "spacewolves/datasheets/6f5e1517-b22e-544e-bf10-b3b3a2d66daf/data/wargear_options/0/instruction": "Each model: Death Totem → 1 Stormfrag Auto-launcher",
