@@ -10,7 +10,7 @@ One branch per data version, named after the game-datacards data version it matc
 
 | Path | What it holds |
 | --- | --- |
-| `manifest.json` | The data version, Muster's release date for it, and the changes since the previous version |
+| `manifest.json` | The data version, Muster's release date for it, and `from` with the text keys whose source text changed, came or went since that version (points and units are in Muster's own data) |
 | `text/<part>.json` | One map of text key to text per part: `core`, `missions`, `secondaries`, `detachments` and one file per faction |
 | `data/` | Muster's faction keys and the pinned commits of the sources |
 | `editorial/glossary.json` | The game terms the text keeps exact |
