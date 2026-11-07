@@ -287,7 +287,7 @@
   "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/composition/0": "1 Navis Sergeant-at-Arms",
   "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/composition/1": "9 Navis Armsmen",
   "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/data/abilities/Breaching Team/text": "Each time a model in this unit makes an attack\nRe-roll wound roll of 1\nTarget is an enemy unit within range of an objective marker: may re-roll the wound roll instead",
-  "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/data/abilities/CAT Unit/text": "Once per battle\nThis unit selected to shoot\nUntil end of phase: ranged weapons of models in this unit have [IGNORES COVER] gained\n\nDesigner's Note, 1 Gheistskull token and 1 CAT Unit token placed next to this unit; each token removed once its ability has been used",
+  "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/data/abilities/CAT Unit/text": "Once per battle\nThis unit selected to shoot\nUntil end of phase: ranged weapons of models in this unit have [IGNORES COVER] gained",
   "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/data/abilities/Endurant Shield/text": "Bearer: 4+ invulnerable save",
   "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/data/abilities/Gheistskull/text": "Once per battle\nThis unit selected as target of the **Grenade** Stratagem\nMay target an enemy unit visible to and ≤18\" of this unit, not within Engagement Range of any unit in your army (instead of one ≤8\")",
   "agents/datasheets/77016539-3dc1-5d1b-a9a4-8c4830429c71/data/wargear_options/0/choices/0/text": "1 Autopistol and 1 Chainsword",
