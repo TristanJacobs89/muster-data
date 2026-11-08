@@ -1,5 +1,5 @@
 {
-  "deathguard/datasheets/0108df02-9869-5b94-9596-80f0fe42b689/composition/0": "1 Typhus – EPIC HERO",
+  "deathguard/datasheets/0108df02-9869-5b94-9596-80f0fe42b689/composition/0": "1 Typhus (EPIC HERO)",
   "deathguard/datasheets/0108df02-9869-5b94-9596-80f0fe42b689/data/abilities/Destroyer Hive/text": "While this model leads a unit\nMelee attack targeting that unit: -1 to Hit roll",
   "deathguard/datasheets/0108df02-9869-5b94-9596-80f0fe42b689/data/abilities/Eater Plague/text": "Timing: your Shooting phase\nSelect: optionally 1 enemy unit, visible to this PSYKER and ≤18\" from it\nRestriction: Lone Operative units excluded if both outside any Attached unit and >12\" from this PSYKER\nRoll 1D6:\n- 1: D3 mortal wounds suffered by this PSYKER's unit\n- 2-5: D6 mortal wounds suffered by selected enemy unit\n- 6: D3+3 mortal wounds suffered by selected enemy unit",
   "deathguard/datasheets/03151889-d649-524b-a300-a012a530cb1e/composition/0": "1 Blightlord Champion",
@@ -186,8 +186,8 @@
   "deathguard/datasheets/3773dc53-7315-5caf-9abd-01d88825732c/wargear_options/2/instruction": "This model: + 1 Havoc launcher",
   "deathguard/datasheets/3ccbc88a-f41b-56bc-a482-6accee485958/composition/0": "1 Plague Surgeon",
   "deathguard/datasheets/3ccbc88a-f41b-56bc-a482-6accee485958/data/abilities/Inflamed Infections/text": "Start of the Fight phase\nSelect: enemy unit within Engagement Range of this model\nDuration: until end of phase\nResult:\n- attack by this model targeting that unit: unmodified Hit roll of 5+ scores a Critical Hit\n- that unit Below Half-strength: unmodified Hit roll of 4+ scores a Critical Hit instead",
-  "deathguard/datasheets/3ccbc88a-f41b-56bc-a482-6accee485958/data/abilities/Tainted Narthecium/text": "While this model leads a unit\nYour Command phase\nMay return 1 destroyed Bodyguard model to that unit",
-  "deathguard/datasheets/53013666-f538-593a-b245-e9af5213228c/composition/0": "1 Mortarion – EPIC HERO",
+  "deathguard/datasheets/3ccbc88a-f41b-56bc-a482-6accee485958/data/abilities/Tainted Narthecium/text": "Timing: your Command phase\nCondition: while this model leads a unit\nResult: may return 1 destroyed Bodyguard model to that unit",
+  "deathguard/datasheets/53013666-f538-593a-b245-e9af5213228c/composition/0": "1 Mortarion (EPIC HERO)",
   "deathguard/datasheets/53013666-f538-593a-b245-e9af5213228c/data/abilities/Damaged: 1-6 WOUNDS REMAINING/text": "While this model has 1-6 wounds remaining\nEach time this model makes an attack: -1 to Hit roll",
   "deathguard/datasheets/53013666-f538-593a-b245-e9af5213228c/data/abilities/Host of Plagues/text": "End of your Movement phase\nEach enemy unit ≤6\" of this model: +1 to the roll if that unit is Afflicted\nRoll 1D6:\n- 3+: that unit suffers D3 mortal wounds",
   "deathguard/datasheets/53013666-f538-593a-b245-e9af5213228c/data/abilities/Lord of the Death Guard: Boon of Death/text": "Timing: Fight phase, when attack target selected\nCondition: target = friendly DEATH GUARD unit ≤6\" of this model\nResult: this model may activate ability\nif activated, for each model in targeted unit destroyed by melee attack:\nif model has not fought this phase\nRoll 1D6:\n- 2+: removal from play deferred; after attacking unit completes attacks, destroyed model may fight, then removed from play\nDuration: until end of phase",
