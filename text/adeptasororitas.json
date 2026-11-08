@@ -153,7 +153,7 @@
   "adeptasororitas/datasheets/5293ce3b-95be-5140-9274-e92d7697236a/composition/1": "4-9 Sisters Repentia",
   "adeptasororitas/datasheets/5293ce3b-95be-5140-9274-e92d7697236a/data/abilities/Overseer of Redemption/text": "While this unit contains a Repentia Superior model\nMelee attack by a Sisters Repentia model in this unit\nmay re-roll the Hit roll\nmay re-roll the Wound roll",
   "adeptasororitas/datasheets/5e4d40c1-01c3-53c4-b5ac-9e63c0f5fc00/composition/0": "1 Canoness with Jump Pack",
-  "adeptasororitas/datasheets/5e4d40c1-01c3-53c4-b5ac-9e63c0f5fc00/data/abilities/Divine Deliverance/text": "Restriction: once per battle\nTiming: start of the Fight phase\nResult: this model may use this ability; if so, until end of phase:\n- melee weapons equipped by this model: +3 to Attacks\n- those weapons: [DEVASTATING WOUNDS] gained",
+  "adeptasororitas/datasheets/5e4d40c1-01c3-53c4-b5ac-9e63c0f5fc00/data/abilities/Divine Deliverance/text": "Once per battle\nStart of the Fight phase\nThis model may use this ability\nUntil end of phase:\n- melee weapons equipped by this model: +3 to Attacks\n- those weapons: [DEVASTATING WOUNDS] gained",
   "adeptasororitas/datasheets/5e4d40c1-01c3-53c4-b5ac-9e63c0f5fc00/data/abilities/Sacred Command/text": "Once per battle round, for 1 of your army's units with this ability\nWhen that unit is targeted with a Stratagem\nOptionally, CP cost of that use reduced by 1CP",
   "adeptasororitas/datasheets/5e4d40c1-01c3-53c4-b5ac-9e63c0f5fc00/data/wargear_options/0/choices/0/text": "1 Holy eviscerator",
   "adeptasororitas/datasheets/5e4d40c1-01c3-53c4-b5ac-9e63c0f5fc00/data/wargear_options/0/choices/1/text": "1 Ministorum hand flamer and 1 Power weapon",

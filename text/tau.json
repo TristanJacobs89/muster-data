@@ -466,7 +466,7 @@
   "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/composition/0": "1 Commander Shadowsun (EPIC HERO)",
   "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/data/abilities/Advanced Guardian Drone/text": "Ranged attacks at the bearer\n-1 to Wound roll",
   "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/data/abilities/Agile Combatant/text": "This model: eligible to shoot in a turn it Fell Back",
-  "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/data/abilities/Command-link Drone (Aura)/text": "Condition: friendly T’AU EMPIRE unit ≤6\" of the bearer\nTiming: each time you select that unit as target of a Stratagem\nResult:\nRoll 1D6:\n- 5+: 1CP gained",
+  "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/data/abilities/Command-link Drone (Aura)/text": "While a friendly T’AU EMPIRE unit ≤6\" of the bearer\nEach time you select that unit as target of a Stratagem\nRoll 1D6:\n- 5+: 1CP gained",
   "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/data/abilities/Hero of the Empire/text": "While a friendly T’AU EMPIRE unit ≤6\" of this model\nRanged attacks by that unit's models: Hit roll of 1 re-rolled",
   "tau/datasheets/ada4d0e5-17fc-5789-bb6c-ae0457815a4a/data/abilities/Supreme Commander/text": "This model in your army: must be your WARLORD",
   "tau/datasheets/ae4982ca-f892-5469-9a27-d7d2021aae17/composition/0": "1-3 Piranhas",

@@ -215,7 +215,7 @@
   "space_marines/datasheets/2ff66703-b397-5f27-b037-f11a84965fcc/wargear_options/0/instruction": "This model: Bolt Rifle → 1 Power Weapon",
   "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/composition/0": "1 Rhino\nEquipped: 1 Armoured Tracks, 1 Storm Bolter",
   "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/data/abilities/TRANSPORT/text": "Transport: 12 ADEPTUS ASTARTES INFANTRY models\nCannot transport GRAVIS, JUMP PACK or TERMINATOR models",
-  "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/data/abilities/Veiling Smoke (Once per phase, per unit)/text": "Result:\n- this unit may be targeted by **Smokescreen** Stratagem, regardless of other uses of it this phase\n- if targeted, that use: -1CP\n- if targeted, that use: does not prevent uses of **Smokescreen** on other units this phase",
+  "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/data/abilities/Veiling Smoke (Once per phase, per unit)/text": "This unit may be targeted by **Smokescreen** Stratagem, regardless of other uses of it this phase\nIf targeted:\n- that use: -1CP\n- that use: does not prevent uses of **Smokescreen** on other units this phase",
   "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/data/wargear_options/0/choices/0/text": "1 Hunter-killer Missile",
   "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/data/wargear_options/0/heading": "This model: + 1 Hunter-killer Missile",
   "space_marines/datasheets/37ad9afa-0732-530e-ac40-a91802dcc98a/data/wargear_options/0/instruction": "This model: + 1 Hunter-killer Missile",

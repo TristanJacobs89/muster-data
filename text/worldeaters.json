@@ -199,7 +199,7 @@
   "worldeaters/datasheets/ad5f64b2-6e98-5d14-beae-ed083a8b13ab/wargear_options/4/instruction": "Per 5 models: up to 1: Combi-bolter → 1 of:\n- 1 Heavy flamer\n- 1 Reaper autocannon",
   "worldeaters/datasheets/b57a335d-822d-5efc-8d3b-179d2ed1c0e7/composition/0": "1 Slaughterbound",
   "worldeaters/datasheets/b57a335d-822d-5efc-8d3b-179d2ed1c0e7/data/abilities/Lord of the Eightbound/text": "This model attached to a WORLD EATERS POSSESSED unit during the Declare Battle Formations step\nDeep Strike and Scouts 6\" gained until end of battle",
-  "worldeaters/datasheets/b57a335d-822d-5efc-8d3b-179d2ed1c0e7/data/abilities/Possessed Lord/text": "Restriction: once per battle\nTiming: start of the Fight phase\nResult: this model may use this ability; if so, until end of phase:\n- melee weapons equipped by this model: +3 to Attacks\n- those weapons: [DEVASTATING WOUNDS] gained",
+  "worldeaters/datasheets/b57a335d-822d-5efc-8d3b-179d2ed1c0e7/data/abilities/Possessed Lord/text": "Once per battle\nStart of the Fight phase\nThis model may use this ability\nUntil end of phase:\n- melee weapons equipped by this model: +3 to Attacks\n- those weapons: [DEVASTATING WOUNDS] gained",
   "worldeaters/datasheets/b57a335d-822d-5efc-8d3b-179d2ed1c0e7/data/abilities/Rage Eternal/text": "Timing: your Command phase\nCondition: while this model is leading a unit\nResult: may return 1 destroyed Bodyguard model to that unit",
   "worldeaters/datasheets/bafeb65b-91d6-5b9d-b071-115160122588/composition/0": "2 Chaos Spawn",
   "worldeaters/datasheets/bafeb65b-91d6-5b9d-b071-115160122588/data/abilities/To Slake its Rage/text": "This unit: eligible to declare a charge in a turn in which it Advanced",
