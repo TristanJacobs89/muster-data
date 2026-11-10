@@ -1,0 +1,598 @@
+{
+  "provenance": {
+    "bundle": "995-66f655a72669",
+    "dataVersion": 995,
+    "gdcSha": "ebcd0cbedb197fd8246b7cff580fde3625c6f3f1",
+    "gdcDate": "2026-10-16",
+    "bsdataRepo": "BSData/wh40k-11e",
+    "bsdataSha": "6530077baf71155644fad99e932974436bc559ee",
+    "bsdataDate": "2026-11-04"
+  },
+  "totals": {
+    "units": 3904,
+    "texts": 21143,
+    "uniqueTexts": 9717,
+    "words": 236682,
+    "bsdataTexts": 2435,
+    "shared": 435
+  },
+  "kinds": {
+    "composition": {
+      "texts": 1267,
+      "unique": 1165
+    },
+    "wargear instruction": {
+      "texts": 2684,
+      "unique": 1005
+    },
+    "wargear heading": {
+      "texts": 2684,
+      "unique": 990
+    },
+    "wargear choice": {
+      "texts": 4386,
+      "unique": 980
+    },
+    "ability": {
+      "texts": 4767,
+      "unique": 2646
+    },
+    "transport": {
+      "texts": 70,
+      "unique": 64
+    },
+    "army rule": {
+      "texts": 48,
+      "unique": 38
+    },
+    "detachment rule": {
+      "texts": 266,
+      "unique": 265
+    },
+    "enhancement": {
+      "texts": 817,
+      "unique": 812
+    },
+    "stratagem": {
+      "texts": 3671,
+      "unique": 2360
+    },
+    "invulnerable condition": {
+      "texts": 48,
+      "unique": 10
+    },
+    "core stratagem": {
+      "texts": 36,
+      "unique": 35
+    },
+    "core rule": {
+      "texts": 98,
+      "unique": 84
+    },
+    "secondary": {
+      "texts": 72,
+      "unique": 50
+    },
+    "mission": {
+      "texts": 223,
+      "unique": 90
+    },
+    "twist": {
+      "texts": 6,
+      "unique": 6
+    }
+  },
+  "factions": [
+    {
+      "faction": "adeptasororitas",
+      "units": 137,
+      "both": 33,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 8,
+      "bsdataOnlyImported": 96,
+      "legends": 42,
+      "legendsAsNormal": [],
+      "texts": 720,
+      "uniqueTexts": 361,
+      "bsdataTexts": 55
+    },
+    {
+      "faction": "adeptuscustodes",
+      "units": 137,
+      "both": 36,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 3,
+      "bsdataOnlyImported": 98,
+      "legends": 44,
+      "legendsAsNormal": [
+        "Aleya",
+        "Custodian Guard Sodality with Adrasite Spears",
+        "Custodian Guard Sodality with Pyrithite Spears",
+        "Sagittarum Custodians Sodality",
+        "Valerian",
+        "Venerable Contemptor Dreadnought",
+        "Venerable Land Raider"
+      ],
+      "texts": 448,
+      "uniqueTexts": 280,
+      "bsdataTexts": 23
+    },
+    {
+      "faction": "adeptusmechanicus",
+      "units": 139,
+      "both": 34,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 7,
+      "bsdataOnlyImported": 98,
+      "legends": 41,
+      "legendsAsNormal": [],
+      "texts": 615,
+      "uniqueTexts": 376,
+      "bsdataTexts": 54
+    },
+    {
+      "faction": "space_marines",
+      "units": 198,
+      "both": 96,
+      "gdcOnly": [
+        "Tarantula Air Defence Battery"
+      ],
+      "bsdataOnlyOwn": 10,
+      "bsdataOnlyImported": 91,
+      "legends": 63,
+      "legendsAsNormal": [
+        "Centurion Assault Squad",
+        "Centurion Devastator Squad",
+        "Cerberus",
+        "Dreadnought",
+        "Falchion",
+        "Hammerfall Bunker",
+        "Kratos",
+        "Land Raider Excelsior",
+        "Mastodon",
+        "Predator Annihilator",
+        "Predator Destructor",
+        "Rapier Carrier",
+        "Razorback",
+        "Relic Razorback",
+        "Rhino Primaris",
+        "Scout Bike Squad",
+        "Sicaran",
+        "Stormhawk Interceptor",
+        "Stormraven Gunship",
+        "Stormtalon Gunship",
+        "Tarantula Sentry Battery",
+        "Terrax-pattern Termite",
+        "Typhon",
+        "Vanguard Veteran Squad",
+        "Venerable Dreadnought",
+        "Vindicator",
+        "Whirlwind"
+      ],
+      "texts": 1626,
+      "uniqueTexts": 734,
+      "bsdataTexts": 147
+    },
+    {
+      "faction": "blacktemplar",
+      "units": 16,
+      "both": 15,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 1,
+      "bsdataOnlyImported": 0,
+      "legends": 0,
+      "legendsAsNormal": [],
+      "texts": 323,
+      "uniqueTexts": 167,
+      "bsdataTexts": 6
+    },
+    {
+      "faction": "bloodangels",
+      "units": 125,
+      "both": 14,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 13,
+      "bsdataOnlyImported": 98,
+      "legends": 49,
+      "legendsAsNormal": [],
+      "texts": 334,
+      "uniqueTexts": 164,
+      "bsdataTexts": 61
+    },
+    {
+      "faction": "darkangels",
+      "units": 117,
+      "both": 16,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 3,
+      "bsdataOnlyImported": 98,
+      "legends": 40,
+      "legendsAsNormal": [],
+      "texts": 212,
+      "uniqueTexts": 143,
+      "bsdataTexts": 21
+    },
+    {
+      "faction": "deathwatch",
+      "units": 10,
+      "both": 10,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 0,
+      "bsdataOnlyImported": 0,
+      "legends": 0,
+      "legendsAsNormal": [],
+      "texts": 309,
+      "uniqueTexts": 132,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "spacewolves",
+      "units": 138,
+      "both": 21,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 19,
+      "bsdataOnlyImported": 98,
+      "legends": 56,
+      "legendsAsNormal": [],
+      "texts": 354,
+      "uniqueTexts": 210,
+      "bsdataTexts": 96
+    },
+    {
+      "faction": "ultramarines",
+      "units": 114,
+      "both": 8,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 8,
+      "bsdataOnlyImported": 98,
+      "legends": 42,
+      "legendsAsNormal": [],
+      "texts": 67,
+      "uniqueTexts": 59,
+      "bsdataTexts": 32
+    },
+    {
+      "faction": "imperialfists",
+      "units": 101,
+      "both": 2,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 1,
+      "bsdataOnlyImported": 98,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 11,
+      "uniqueTexts": 11,
+      "bsdataTexts": 5
+    },
+    {
+      "faction": "ironhands",
+      "units": 100,
+      "both": 2,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 0,
+      "bsdataOnlyImported": 98,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 7,
+      "uniqueTexts": 7,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "ravenguard",
+      "units": 100,
+      "both": 2,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 0,
+      "bsdataOnlyImported": 98,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 6,
+      "uniqueTexts": 6,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "salamanders",
+      "units": 100,
+      "both": 2,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 0,
+      "bsdataOnlyImported": 98,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 6,
+      "uniqueTexts": 6,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "whitescars",
+      "units": 100,
+      "both": 2,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 0,
+      "bsdataOnlyImported": 98,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 6,
+      "uniqueTexts": 6,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "agents",
+      "units": 98,
+      "both": 29,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 20,
+      "bsdataOnlyImported": 49,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 844,
+      "uniqueTexts": 425,
+      "bsdataTexts": 126
+    },
+    {
+      "faction": "astramilitarum",
+      "units": 235,
+      "both": 72,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 66,
+      "bsdataOnlyImported": 97,
+      "legends": 100,
+      "legendsAsNormal": [],
+      "texts": 2036,
+      "uniqueTexts": 777,
+      "bsdataTexts": 201
+    },
+    {
+      "faction": "aeldari",
+      "units": 126,
+      "both": 75,
+      "gdcOnly": [
+        "Vyper"
+      ],
+      "bsdataOnlyOwn": 27,
+      "bsdataOnlyImported": 23,
+      "legends": 43,
+      "legendsAsNormal": [],
+      "texts": 1463,
+      "uniqueTexts": 753,
+      "bsdataTexts": 147
+    },
+    {
+      "faction": "chaos_spacemarines",
+      "units": 232,
+      "both": 54,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 60,
+      "bsdataOnlyImported": 118,
+      "legends": 85,
+      "legendsAsNormal": [],
+      "texts": 1262,
+      "uniqueTexts": 638,
+      "bsdataTexts": 291
+    },
+    {
+      "faction": "chaosdaemons",
+      "units": 150,
+      "both": 52,
+      "gdcOnly": [
+        "Soul Grinder"
+      ],
+      "bsdataOnlyOwn": 50,
+      "bsdataOnlyImported": 47,
+      "legends": 42,
+      "legendsAsNormal": [],
+      "texts": 710,
+      "uniqueTexts": 415,
+      "bsdataTexts": 190
+    },
+    {
+      "faction": "chaosknights",
+      "units": 135,
+      "both": 20,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 17,
+      "bsdataOnlyImported": 98,
+      "legends": 42,
+      "legendsAsNormal": [],
+      "texts": 393,
+      "uniqueTexts": 242,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "deathguard",
+      "units": 125,
+      "both": 29,
+      "gdcOnly": [
+        "Myphitic Blight-haulers"
+      ],
+      "bsdataOnlyOwn": 48,
+      "bsdataOnlyImported": 47,
+      "legends": 55,
+      "legendsAsNormal": [],
+      "texts": 475,
+      "uniqueTexts": 307,
+      "bsdataTexts": 100
+    },
+    {
+      "faction": "drukhari",
+      "units": 48,
+      "both": 23,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 25,
+      "bsdataOnlyImported": 0,
+      "legends": 9,
+      "legendsAsNormal": [],
+      "texts": 691,
+      "uniqueTexts": 399,
+      "bsdataTexts": 73
+    },
+    {
+      "faction": "emperors_children",
+      "units": 76,
+      "both": 18,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 11,
+      "bsdataOnlyImported": 47,
+      "legends": 20,
+      "legendsAsNormal": [],
+      "texts": 366,
+      "uniqueTexts": 254,
+      "bsdataTexts": 44
+    },
+    {
+      "faction": "gsc",
+      "units": 176,
+      "both": 24,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 129,
+      "bsdataOnlyImported": 23,
+      "legends": 73,
+      "legendsAsNormal": [],
+      "texts": 495,
+      "uniqueTexts": 321,
+      "bsdataTexts": 95
+    },
+    {
+      "faction": "greyknights",
+      "units": 132,
+      "both": 26,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 8,
+      "bsdataOnlyImported": 98,
+      "legends": 42,
+      "legendsAsNormal": [],
+      "texts": 862,
+      "uniqueTexts": 393,
+      "bsdataTexts": 68
+    },
+    {
+      "faction": "imperialknights",
+      "units": 104,
+      "both": 22,
+      "gdcOnly": [
+        "Sir Hekhtur"
+      ],
+      "bsdataOnlyOwn": 5,
+      "bsdataOnlyImported": 76,
+      "legends": 37,
+      "legendsAsNormal": [],
+      "texts": 479,
+      "uniqueTexts": 243,
+      "bsdataTexts": 0
+    },
+    {
+      "faction": "votann",
+      "units": 48,
+      "both": 22,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 3,
+      "bsdataOnlyImported": 23,
+      "legends": 20,
+      "legendsAsNormal": [],
+      "texts": 561,
+      "uniqueTexts": 345,
+      "bsdataTexts": 48
+    },
+    {
+      "faction": "necrons",
+      "units": 90,
+      "both": 52,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 15,
+      "bsdataOnlyImported": 23,
+      "legends": 32,
+      "legendsAsNormal": [],
+      "texts": 724,
+      "uniqueTexts": 489,
+      "bsdataTexts": 92
+    },
+    {
+      "faction": "orks",
+      "units": 96,
+      "both": 67,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 6,
+      "bsdataOnlyImported": 23,
+      "legends": 35,
+      "legendsAsNormal": [
+        "Big Trakk",
+        "Boss Zagstruk",
+        "Burna Boyz",
+        "Grot Mega-tank",
+        "Grot Tanks",
+        "Kaptin Badrukk",
+        "Kill Tank",
+        "Lifta Wagon",
+        "Lootas",
+        "Mad Dok Grotsnik",
+        "Mekboy Workshop",
+        "Warboss on Warbike"
+      ],
+      "texts": 937,
+      "uniqueTexts": 525,
+      "bsdataTexts": 50
+    },
+    {
+      "faction": "tau",
+      "units": 89,
+      "both": 43,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 23,
+      "bsdataOnlyImported": 23,
+      "legends": 40,
+      "legendsAsNormal": [],
+      "texts": 1022,
+      "uniqueTexts": 460,
+      "bsdataTexts": 126
+    },
+    {
+      "faction": "thousandsons",
+      "units": 114,
+      "both": 28,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 39,
+      "bsdataOnlyImported": 47,
+      "legends": 46,
+      "legendsAsNormal": [],
+      "texts": 466,
+      "uniqueTexts": 299,
+      "bsdataTexts": 74
+    },
+    {
+      "faction": "tyranids",
+      "units": 87,
+      "both": 52,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 12,
+      "bsdataOnlyImported": 23,
+      "legends": 25,
+      "legendsAsNormal": [],
+      "texts": 534,
+      "uniqueTexts": 373,
+      "bsdataTexts": 23
+    },
+    {
+      "faction": "worldeaters",
+      "units": 111,
+      "both": 25,
+      "gdcOnly": [],
+      "bsdataOnlyOwn": 39,
+      "bsdataOnlyImported": 47,
+      "legends": 48,
+      "legendsAsNormal": [],
+      "texts": 1255,
+      "uniqueTexts": 391,
+      "bsdataTexts": 57
+    }
+  ],
+  "libraries": {
+    "Unaligned Forces": {
+      "texts": 72,
+      "unique": 38
+    },
+    "Library - Titans": {
+      "texts": 17,
+      "unique": 13
+    }
+  }
+}
