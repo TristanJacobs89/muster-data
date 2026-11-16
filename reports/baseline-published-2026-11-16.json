@@ -1,0 +1,952 @@
+{
+  "_source": "The game data bundles Muster published at https://muster.tj-apps.nl/data/ on 16 Nov 2026 (#977, phase B): what the app serves before muster-data becomes the source. Per bundle its manifest's provenance, the SHA-256 of each data file as served, and per faction the counts of what it holds. The rules text is not in a published bundle (Muster's own text is in text/). Phase C checks its snapshot of 995 against this. The next release replaces 995's bundle: it adds the army rules game-datacards lacks (Muster #925) and the schema 33 ally flag.",
+  "schema": 32,
+  "newest": "995-1fda06759f79",
+  "bundles": [
+    {
+      "bundle": "972-e3170862175b",
+      "data_version": 972,
+      "sha": "1e1e3e2bdc60f36dbf215a9434e1981d4a026ca5",
+      "date": "2026-10-02",
+      "schema": 32,
+      "files": {
+        "factions/adeptasororitas.json": "e61b047f1d535893f716fc33b35bacd86117679e5fa40e154ed40f3622758daa",
+        "factions/adeptuscustodes.json": "9d2278cc3c6926dc93a65870866884d095a181971b25427c4183ea6fd15da2ef",
+        "factions/adeptusmechanicus.json": "cb35207806e6f38960efd4e3b0a05732f23cd9e0f559323dc6e0b4bfa08423a6",
+        "factions/space_marines.json": "6975d2c4955630ab23e39511d11c71cf56e07f068222898c156830482f36cfde",
+        "factions/blacktemplar.json": "eab54a375be386638ebccfcbe34e12755b1ea044d822f5d873a99d5a574948f7",
+        "factions/bloodangels.json": "a6b6b4fee6ae486c30722b0f2b6a4938d831fe8627c09c47c651902841e4f50a",
+        "factions/darkangels.json": "7c86e14c13fff701a0ea2850fe739a0a7ad09609928e2a8e54f9bfe03c007166",
+        "factions/deathwatch.json": "215325b09e7d73d809804488fc75e905325dcbc8d4d1459f60a3904fa29eb2cf",
+        "factions/spacewolves.json": "be3a0a458af02511356c218890adf657eec3f476caa09b5e322bf3ce815cd9b9",
+        "factions/agents.json": "2d0284b1dd866dc9de06095956fdd7f9e2e8a8805b44d6d6cebfede72cb581c3",
+        "factions/astramilitarum.json": "333dcb9d0707280bcaa3a2276051aa32c7c4523d878c0124c0f4af1d28330f76",
+        "factions/aeldari.json": "c7d38e8d36d056d9df36fde824af8f9217678a9e3898f13d48897eff3657f89f",
+        "factions/chaos_spacemarines.json": "558134718739f3bc89d417464495c5b3ca42bba8110a38ab47a00420efcbbe29",
+        "factions/chaosdaemons.json": "46b1be3d38333abac71605e411429101bd791646bceeb929f47927402775dd27",
+        "factions/chaosknights.json": "3fbe2211214c65625b552b675caffaa7992c84153d81de7e754fe06d930a48cc",
+        "factions/deathguard.json": "c4e0fb7ad81e54a1717f8406ad89e281c5d2a044130949caf0fdae16eb6701f6",
+        "factions/drukhari.json": "15f0f4c30d52a1b24462adf4964e17363db59af2e7c4a05251a70cb77e64beee",
+        "factions/emperors_children.json": "7f36db2e304d181dce2462903f3017202849adb224f5e7d2af6f85895ff6af30",
+        "factions/gsc.json": "c6248c4ba7f3684b09390555ecb742bd33cbb3c44684791b533869022b0cd102",
+        "factions/greyknights.json": "dc879941a918eca853455d0bd44dd6d17530a2976b9553e8c7dcfe7fab8500b7",
+        "factions/imperialknights.json": "96808d5f2388bec5a017e18719a34b72b2125a4ec082515cb8b24f724f671fb0",
+        "factions/votann.json": "bc04fec49eda0b08cb8bffb5b00461cc4821ad98157d6a615442f2b42b0e4cd9",
+        "factions/necrons.json": "e8a4a8246bf74eea2a7eac8f1f11607d2e8cb4b54c66fc32be5257418a79e103",
+        "factions/orks.json": "4dc75ffb310ff2a6827ad7407a1038fcdd74b89edd373ad21e0051865c2a50ae",
+        "factions/tau.json": "1fcfa5af9a4fe1cd528f5c57a6184dd6e6f807abdd39ca11e9cde15128b718ab",
+        "factions/thousandsons.json": "c96a073e0a574b1b96e46718074fc9f74465db94cab0fd9863b0c3c94cee93ab",
+        "factions/tyranids.json": "792e46d0ca72d8b1c70dc218f40bb01e694f8c992e1b993ec471f78f5a5a92d2",
+        "factions/worldeaters.json": "70259a7b41699066414124114dbc658cbdccf2b9b44054736fbfc16ab409e7f0",
+        "core.json": "61a0ae8375761791994d7d598be9dd3a9486fb98f054ab574309a62b191e49b8",
+        "secondaries.json": "505c8b71356485357c1b6aef127cdcac4f8b3e7fead66a9d18d417519896fb4f",
+        "missions.json": "4623d0907a75d23ece819b180bd9e8004b23ade40dace03e50c9a5e6c1478bc4",
+        "battle-sizes.json": "4fe10969dd78dcbdf634036da202503052b0041d2f5fdde203dba3117fba8cd8"
+      },
+      "factions": {
+        "adeptasororitas": {
+          "datasheets": 33,
+          "army_rules": [
+            "Acts of Faith"
+          ],
+          "detachments": 8,
+          "enhancements": 25,
+          "stratagems": 36
+        },
+        "adeptuscustodes": {
+          "datasheets": 31,
+          "army_rules": [
+            "Martial Ka’tah"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "adeptusmechanicus": {
+          "datasheets": 34,
+          "army_rules": [
+            "Doctrina Imperatives"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "space_marines": {
+          "datasheets": 115,
+          "army_rules": [
+            "Combat Doctrines"
+          ],
+          "detachments": 22,
+          "enhancements": 57,
+          "stratagems": 88
+        },
+        "blacktemplar": {
+          "datasheets": 15,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist"
+          ],
+          "detachments": 18,
+          "enhancements": 37,
+          "stratagems": 58
+        },
+        "bloodangels": {
+          "datasheets": 14,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "darkangels": {
+          "datasheets": 16,
+          "army_rules": [
+            "Combat Doctrines"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "deathwatch": {
+          "datasheets": 10,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist",
+            "Veteran Recruits"
+          ],
+          "detachments": 16,
+          "enhancements": 36,
+          "stratagems": 54
+        },
+        "spacewolves": {
+          "datasheets": 21,
+          "army_rules": [
+            "Combat Doctrines",
+            "Curse of the Wulfen",
+            "Transhuman Strategist"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "agents": {
+          "datasheets": 29,
+          "army_rules": [
+            "Assigned Agents"
+          ],
+          "detachments": 5,
+          "enhancements": 20,
+          "stratagems": 30
+        },
+        "astramilitarum": {
+          "datasheets": 72,
+          "army_rules": [
+            "Voice of Command"
+          ],
+          "detachments": 11,
+          "enhancements": 38,
+          "stratagems": 57
+        },
+        "aeldari": {
+          "datasheets": 76,
+          "army_rules": [
+            "Battle Focus"
+          ],
+          "detachments": 15,
+          "enhancements": 52,
+          "stratagems": 78
+        },
+        "chaos_spacemarines": {
+          "datasheets": 54,
+          "army_rules": [
+            "Dark Pacts",
+            "Cults of the Dark Gods"
+          ],
+          "detachments": 17,
+          "enhancements": 62,
+          "stratagems": 93
+        },
+        "chaosdaemons": {
+          "datasheets": 53,
+          "army_rules": [
+            "The Shadow of Chaos",
+            "Daemonic Pact"
+          ],
+          "detachments": 9,
+          "enhancements": 29,
+          "stratagems": 46
+        },
+        "chaosknights": {
+          "datasheets": 20,
+          "army_rules": [
+            "Harbingers of Dread",
+            "Super-heavy Walker",
+            "Dreadblades"
+          ],
+          "detachments": 8,
+          "enhancements": 28,
+          "stratagems": 39
+        },
+        "deathguard": {
+          "datasheets": 30,
+          "army_rules": [
+            "Nurgle’s Gift (Aura)",
+            "Pact of Decay"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "drukhari": {
+          "datasheets": 23,
+          "army_rules": [
+            "Power From Pain",
+            "Corsairs and Travelling Players"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "emperors_children": {
+          "datasheets": 18,
+          "army_rules": [
+            "Thrill Seekers",
+            "Pact of Excess"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "gsc": {
+          "datasheets": 24,
+          "army_rules": [
+            "Cult Ambush"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "greyknights": {
+          "datasheets": 26,
+          "army_rules": [
+            "Gate of Infinity"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "imperialknights": {
+          "datasheets": 23,
+          "army_rules": [
+            "Code Chivalric",
+            "Bondsman",
+            "Super-heavy Walker",
+            "Freeblades"
+          ],
+          "detachments": 8,
+          "enhancements": 26,
+          "stratagems": 39
+        },
+        "votann": {
+          "datasheets": 22,
+          "army_rules": [
+            "Prioritised Efficiency"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "necrons": {
+          "datasheets": 52,
+          "army_rules": [
+            "Reanimation Protocols"
+          ],
+          "detachments": 12,
+          "enhancements": 42,
+          "stratagems": 63
+        },
+        "orks": {
+          "datasheets": 67,
+          "army_rules": [
+            "Da Boss",
+            "Unstable energies"
+          ],
+          "detachments": 15,
+          "enhancements": 38,
+          "stratagems": 40
+        },
+        "tau": {
+          "datasheets": 43,
+          "army_rules": [
+            "Drones",
+            "For the Greater Good"
+          ],
+          "detachments": 7,
+          "enhancements": 23,
+          "stratagems": 31
+        },
+        "thousandsons": {
+          "datasheets": 28,
+          "army_rules": [
+            "Cabal of Sorcerers",
+            "Pact of Sorcery"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "tyranids": {
+          "datasheets": 52,
+          "army_rules": [
+            "Synapse",
+            "Shadow in the Warp"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "worldeaters": {
+          "datasheets": 25,
+          "army_rules": [
+            "Blessings of Khorne"
+          ],
+          "detachments": 8,
+          "enhancements": 26,
+          "stratagems": 39
+        }
+      }
+    },
+    {
+      "bundle": "981-b9788afbf5cb",
+      "data_version": 981,
+      "sha": "9ed8868bc0cd53ee40a6101ab1ce57b522a056f9",
+      "date": "2026-10-16",
+      "schema": 32,
+      "files": {
+        "factions/adeptasororitas.json": "f80ef87ccaa43a2cf009a49dfb31e82233370c6b42aefbea46d14ee5572017c0",
+        "factions/adeptuscustodes.json": "f75cb1a9a2ab32105aa7af1ca53a3cff326c8b64dd7ca0a8adc5526b155df795",
+        "factions/adeptusmechanicus.json": "6bb3851647aa8a16e44cb86229f3e0e7fd433e95821939d3c6ed5b3d79867d40",
+        "factions/space_marines.json": "4ce8bc0ec1af585bf944f8d915f1547d224d3d403058bc1ac46b044dff433cfa",
+        "factions/blacktemplar.json": "cbcf3d56cf7cf24882818561d66a2a2b17d284a0cba91f99bf74879c33a79c0f",
+        "factions/bloodangels.json": "b17ce6cfa8242171904da19356c1cf482371479d512a2f9b0b29afa8464f3e42",
+        "factions/darkangels.json": "db64bd018a0785228e48aa1090d73b969a7f6c33b073356ae33be884bef6b0e9",
+        "factions/deathwatch.json": "6beab7a7d0c1b7801a31d4f9e039820c9c902b3cea191fd8786634dbc5000aca",
+        "factions/spacewolves.json": "b08cbf7c4d84a95e4068cf1554ef02b6ed376c43e21f3a0eceb592920799fa80",
+        "factions/agents.json": "6ccf65fa514d81130868b87ada6a40b0cc9e7dd7c295383c4088d5ae65111c98",
+        "factions/astramilitarum.json": "c5e87a00a17ba45fbf0bd27ca070d2976ae6e14fbdb7987664127d2f73cb6ce9",
+        "factions/aeldari.json": "5a8996eccf5693f0c42e0d09d917ceca7735561d91ae0e05c2eb22757a340aac",
+        "factions/chaos_spacemarines.json": "de87e73b4323a417f60b609dfb2160dd854a357cb63fde2868cf8a060ea10e23",
+        "factions/chaosdaemons.json": "c9849828dd571eeaa7c139fdcbbf888cfde381d2e3ce31df90dd73dcbe46ee76",
+        "factions/chaosknights.json": "1c8154d2af8acbd565e520dcb7fb8489e5a7d1692b6d423decb9218a655cf8f0",
+        "factions/deathguard.json": "bac7bc3a169dcc1ad4fdca5c579e75b6d8ecfd51a2c61468035ab51892cfae3a",
+        "factions/drukhari.json": "96fc27ed13de32520474214818b93f91af712e143df8a0bbbaf07bf757c37828",
+        "factions/emperors_children.json": "192b287577e2822d702ddd6d3c350d4de01ccf093df2fafc8189eac1ea7e79e1",
+        "factions/gsc.json": "f49a873cf8f0e082c8467949ba4a1f8de6925587e1c11a66a69ba364959704a3",
+        "factions/greyknights.json": "eb0f31cc0382db476d0aa2ef06ecdd9fde33280154f19b8dd8c78542f533eb69",
+        "factions/imperialknights.json": "865c495cde4da6791e2062461d142e92984ae551808f2424a720a4afa94e7730",
+        "factions/votann.json": "fefd997750682f61c87d223890278e1fa8c13a7741c8560e0fead795e732b227",
+        "factions/necrons.json": "cc7ebfb8b9353af268f6bbf700b34a27d5544f1c4714e38f537e37adca416645",
+        "factions/orks.json": "dc1a2e0089babe476c0f0224d8156b477c12feeefde9efb24b96130884360617",
+        "factions/tau.json": "7eace0210de56a012ffaabe2d76488c88e4f2340155a32f42e3d7bb49d40096d",
+        "factions/thousandsons.json": "b26dc41118a48f4c63921352aeb3209d7e5e0f7ab2384013c3cbe63321a02030",
+        "factions/tyranids.json": "5ee31f12d475fe9388556c60ffafc63fb82ac18e93e28aca2ec370d218472aa5",
+        "factions/worldeaters.json": "2a3b95f2bacfce34a2f033bc0b6d2d72b5a7a8c03683731f57191e6a5336b389",
+        "core.json": "832a09fa254e466f038c385ac47361275bd39d17b2c795f7b87894fe0700bdbe",
+        "secondaries.json": "c0b618a05b9c6227591787dd4bc8f1b8825e9fcd8ea145bc44d74782fde86e41",
+        "missions.json": "75ef355fb86f8e8211e465531743d9bcff4d0df1bed8ae8209e8e6e8290b6ccc",
+        "battle-sizes.json": "4fe10969dd78dcbdf634036da202503052b0041d2f5fdde203dba3117fba8cd8"
+      },
+      "factions": {
+        "adeptasororitas": {
+          "datasheets": 33,
+          "army_rules": [
+            "Acts of Faith"
+          ],
+          "detachments": 8,
+          "enhancements": 25,
+          "stratagems": 36
+        },
+        "adeptuscustodes": {
+          "datasheets": 36,
+          "army_rules": [
+            "Martial Ka’tah"
+          ],
+          "detachments": 13,
+          "enhancements": 29,
+          "stratagems": 41
+        },
+        "adeptusmechanicus": {
+          "datasheets": 34,
+          "army_rules": [
+            "Doctrina Imperatives"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "space_marines": {
+          "datasheets": 115,
+          "army_rules": [
+            "Combat Doctrines"
+          ],
+          "detachments": 22,
+          "enhancements": 57,
+          "stratagems": 88
+        },
+        "blacktemplar": {
+          "datasheets": 15,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist"
+          ],
+          "detachments": 18,
+          "enhancements": 37,
+          "stratagems": 58
+        },
+        "bloodangels": {
+          "datasheets": 14,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "darkangels": {
+          "datasheets": 16,
+          "army_rules": [
+            "Combat Doctrines"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "deathwatch": {
+          "datasheets": 10,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist",
+            "Veteran Recruits"
+          ],
+          "detachments": 16,
+          "enhancements": 36,
+          "stratagems": 54
+        },
+        "spacewolves": {
+          "datasheets": 21,
+          "army_rules": [
+            "Combat Doctrines",
+            "Curse of the Wulfen",
+            "Transhuman Strategist"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "agents": {
+          "datasheets": 29,
+          "army_rules": [
+            "Assigned Agents"
+          ],
+          "detachments": 5,
+          "enhancements": 20,
+          "stratagems": 30
+        },
+        "astramilitarum": {
+          "datasheets": 72,
+          "army_rules": [
+            "Voice of Command"
+          ],
+          "detachments": 11,
+          "enhancements": 38,
+          "stratagems": 57
+        },
+        "aeldari": {
+          "datasheets": 76,
+          "army_rules": [
+            "Battle Focus"
+          ],
+          "detachments": 15,
+          "enhancements": 52,
+          "stratagems": 78
+        },
+        "chaos_spacemarines": {
+          "datasheets": 54,
+          "army_rules": [
+            "Dark Pacts",
+            "Cults of the Dark Gods"
+          ],
+          "detachments": 17,
+          "enhancements": 62,
+          "stratagems": 93
+        },
+        "chaosdaemons": {
+          "datasheets": 53,
+          "army_rules": [
+            "The Shadow of Chaos",
+            "Daemonic Pact"
+          ],
+          "detachments": 9,
+          "enhancements": 29,
+          "stratagems": 46
+        },
+        "chaosknights": {
+          "datasheets": 20,
+          "army_rules": [
+            "Harbingers of Dread",
+            "Super-heavy Walker",
+            "Dreadblades"
+          ],
+          "detachments": 8,
+          "enhancements": 28,
+          "stratagems": 39
+        },
+        "deathguard": {
+          "datasheets": 30,
+          "army_rules": [
+            "Nurgle’s Gift (Aura)",
+            "Pact of Decay"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "drukhari": {
+          "datasheets": 23,
+          "army_rules": [
+            "Power From Pain",
+            "Corsairs and Travelling Players"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "emperors_children": {
+          "datasheets": 18,
+          "army_rules": [
+            "Thrill Seekers",
+            "Pact of Excess"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "gsc": {
+          "datasheets": 24,
+          "army_rules": [
+            "Cult Ambush"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "greyknights": {
+          "datasheets": 26,
+          "army_rules": [
+            "Gate of Infinity"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "imperialknights": {
+          "datasheets": 23,
+          "army_rules": [
+            "Code Chivalric",
+            "Bondsman",
+            "Super-heavy Walker",
+            "Freeblades"
+          ],
+          "detachments": 8,
+          "enhancements": 26,
+          "stratagems": 39
+        },
+        "votann": {
+          "datasheets": 22,
+          "army_rules": [
+            "Prioritised Efficiency"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "necrons": {
+          "datasheets": 52,
+          "army_rules": [
+            "Reanimation Protocols"
+          ],
+          "detachments": 12,
+          "enhancements": 42,
+          "stratagems": 63
+        },
+        "orks": {
+          "datasheets": 67,
+          "army_rules": [
+            "Da Boss",
+            "Unstable energies"
+          ],
+          "detachments": 15,
+          "enhancements": 38,
+          "stratagems": 40
+        },
+        "tau": {
+          "datasheets": 43,
+          "army_rules": [
+            "Drones",
+            "For the Greater Good"
+          ],
+          "detachments": 7,
+          "enhancements": 23,
+          "stratagems": 31
+        },
+        "thousandsons": {
+          "datasheets": 28,
+          "army_rules": [
+            "Cabal of Sorcerers",
+            "Pact of Sorcery"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "tyranids": {
+          "datasheets": 52,
+          "army_rules": [
+            "Synapse",
+            "Shadow in the Warp"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "worldeaters": {
+          "datasheets": 25,
+          "army_rules": [
+            "Blessings of Khorne"
+          ],
+          "detachments": 8,
+          "enhancements": 26,
+          "stratagems": 39
+        }
+      }
+    },
+    {
+      "bundle": "995-1fda06759f79",
+      "data_version": 995,
+      "sha": "ebcd0cbedb197fd8246b7cff580fde3625c6f3f1",
+      "date": "2026-10-16",
+      "schema": 32,
+      "files": {
+        "factions/adeptasororitas.json": "049c5534176bd813d904fdd6c904545ab30d64f89c61cc641fb8b45c37a26f1d",
+        "factions/adeptuscustodes.json": "3b280dbfd7ca7e6e5ac09519cc2092eaa4a3d70b49e77724da7f9d82f63a1129",
+        "factions/adeptusmechanicus.json": "e94d0ae0bfdf3dffcd54609e122fecd150f599afcc833d944a874f35a4dd7998",
+        "factions/space_marines.json": "8aac526eb5e6cffef9aad15ec37f250d499eb33f8b206b79f2d3644422cee1d0",
+        "factions/blacktemplar.json": "6924c666253f003caae90a981c063b16733c49dab9efe8e54fb70d0d861c2d0b",
+        "factions/bloodangels.json": "5d4a16a698d28312a68067e404a96de9a99415f633dd98aa32e7bb5d8c92a340",
+        "factions/darkangels.json": "5df820ffe3a55099c11c5f7912b7ae869735ddbe470698b0892d99a6492ed5af",
+        "factions/deathwatch.json": "9e33d75732960b5dbbb82fb0e389bc97a44e439636b2b66ff3e3eb2a4cde37f8",
+        "factions/spacewolves.json": "70d82ef6400454a6881fe66960fc98f605f765287f0e16dd8b9eca8d5c81c119",
+        "factions/agents.json": "cdfcc8d233fd96fda300b5e988a6d820676ed2afab232e1439f83ccd5c9f74e0",
+        "factions/astramilitarum.json": "a6e938903c2d1f792d7637f14425701768bb4f6f9f0cdc7afd8b82b483ceb6fb",
+        "factions/aeldari.json": "e99ab9b7c8d599dc76c61b58d42f7ac558be6d953cba6e7f34ab65a483862246",
+        "factions/chaos_spacemarines.json": "87b779350a723307ab7fb76bcf503cba8aa692facf911498a1d6ff13957d7731",
+        "factions/chaosdaemons.json": "4b8d3a3c43086e54aad8f35e6e3d38171948c7490eb1f69282fd28e9e559ed75",
+        "factions/chaosknights.json": "03e3416d8ba998f13f26a5aebcdbd6d72c23719bfac5b71ab9f5bc4ef09093f8",
+        "factions/deathguard.json": "3d87ac682d7eb782389bc4c649978c0b69f07697431400bafbebcb3c826c1fba",
+        "factions/drukhari.json": "d22c1987e4ac1fce3824b0a67ebfda772cf6f386049f05521e0d384a11ea69bf",
+        "factions/emperors_children.json": "97cdc12fc3ef26469f06ed261af697d3a4e7bca57bed16be67d1d4cd4913aa5a",
+        "factions/gsc.json": "aefe0d5b5db946f21931e2c1ae665c53a10679c76f4db68bf31298a06c64086f",
+        "factions/greyknights.json": "3057f08d318dff65ba3850ccd91c0b1113e4c33b13b3312cebe53c6a85e2a5a4",
+        "factions/imperialknights.json": "72727ccf0435f6f870ad073fb0f687a89366490626eb82ca09be123191de91cd",
+        "factions/votann.json": "362f62b93353aef29d1ace58c9ccf21395f45ada37453fea6902c9a23d533c39",
+        "factions/necrons.json": "92d3723355b6b0d10a38c967075db25ba15c16e4478ed8994a4d7c9265195e67",
+        "factions/orks.json": "b758e32738b6e8809862c942c70ebd8d6d7e14bcf9f1f4964dd7288bc580b00f",
+        "factions/tau.json": "a75c81d1272108036e903a8c559c5e292ae972cc104d4987434e0735a30e58e9",
+        "factions/thousandsons.json": "2c969d01156dac95029c76eb2c89875aa6d13a1874881f98ba716f8662cdfa93",
+        "factions/tyranids.json": "bbd707b137b4beeadb0d4ba643b324649768536f83ff097b5255463fb4c05329",
+        "factions/worldeaters.json": "7196bf9e64383fd91e04e6daf6b19c9923555acf05e34537fabdac562a132b15",
+        "core.json": "832a09fa254e466f038c385ac47361275bd39d17b2c795f7b87894fe0700bdbe",
+        "secondaries.json": "21a3d22163db2a9c385f1c989567fd288e1912578c41a6070ba38c50c647e3cc",
+        "missions.json": "c8c36e61c8d7243d20200421e3a8d78c96b1e9b7748da64ed5642e0300a4317f",
+        "battle-sizes.json": "4fe10969dd78dcbdf634036da202503052b0041d2f5fdde203dba3117fba8cd8"
+      },
+      "factions": {
+        "adeptasororitas": {
+          "datasheets": 33,
+          "army_rules": [
+            "Acts of Faith"
+          ],
+          "detachments": 8,
+          "enhancements": 25,
+          "stratagems": 36
+        },
+        "adeptuscustodes": {
+          "datasheets": 36,
+          "army_rules": [
+            "Martial Ka’tah"
+          ],
+          "detachments": 13,
+          "enhancements": 29,
+          "stratagems": 41
+        },
+        "adeptusmechanicus": {
+          "datasheets": 34,
+          "army_rules": [
+            "Doctrina Imperatives"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "space_marines": {
+          "datasheets": 115,
+          "army_rules": [
+            "Combat Doctrines"
+          ],
+          "detachments": 22,
+          "enhancements": 57,
+          "stratagems": 88
+        },
+        "blacktemplar": {
+          "datasheets": 15,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist"
+          ],
+          "detachments": 18,
+          "enhancements": 37,
+          "stratagems": 58
+        },
+        "bloodangels": {
+          "datasheets": 14,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "darkangels": {
+          "datasheets": 16,
+          "army_rules": [
+            "Combat Doctrines"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "deathwatch": {
+          "datasheets": 10,
+          "army_rules": [
+            "Combat Doctrines",
+            "Transhuman Strategist",
+            "Veteran Recruits"
+          ],
+          "detachments": 16,
+          "enhancements": 36,
+          "stratagems": 54
+        },
+        "spacewolves": {
+          "datasheets": 21,
+          "army_rules": [
+            "Combat Doctrines",
+            "Curse of the Wulfen",
+            "Transhuman Strategist"
+          ],
+          "detachments": 19,
+          "enhancements": 41,
+          "stratagems": 64
+        },
+        "agents": {
+          "datasheets": 29,
+          "army_rules": [
+            "Assigned Agents"
+          ],
+          "detachments": 5,
+          "enhancements": 20,
+          "stratagems": 30
+        },
+        "astramilitarum": {
+          "datasheets": 72,
+          "army_rules": [
+            "Voice of Command"
+          ],
+          "detachments": 11,
+          "enhancements": 38,
+          "stratagems": 57
+        },
+        "aeldari": {
+          "datasheets": 76,
+          "army_rules": [
+            "Battle Focus"
+          ],
+          "detachments": 15,
+          "enhancements": 52,
+          "stratagems": 78
+        },
+        "chaos_spacemarines": {
+          "datasheets": 54,
+          "army_rules": [
+            "Dark Pacts",
+            "Cults of the Dark Gods"
+          ],
+          "detachments": 17,
+          "enhancements": 62,
+          "stratagems": 93
+        },
+        "chaosdaemons": {
+          "datasheets": 53,
+          "army_rules": [
+            "The Shadow of Chaos",
+            "Daemonic Pact"
+          ],
+          "detachments": 9,
+          "enhancements": 29,
+          "stratagems": 46
+        },
+        "chaosknights": {
+          "datasheets": 20,
+          "army_rules": [
+            "Harbingers of Dread",
+            "Super-heavy Walker",
+            "Dreadblades"
+          ],
+          "detachments": 8,
+          "enhancements": 28,
+          "stratagems": 39
+        },
+        "deathguard": {
+          "datasheets": 30,
+          "army_rules": [
+            "Nurgle’s Gift (Aura)",
+            "Pact of Decay"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "drukhari": {
+          "datasheets": 23,
+          "army_rules": [
+            "Power From Pain",
+            "Corsairs and Travelling Players"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "emperors_children": {
+          "datasheets": 18,
+          "army_rules": [
+            "Thrill Seekers",
+            "Pact of Excess"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "gsc": {
+          "datasheets": 24,
+          "army_rules": [
+            "Cult Ambush"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "greyknights": {
+          "datasheets": 26,
+          "army_rules": [
+            "Gate of Infinity"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "imperialknights": {
+          "datasheets": 23,
+          "army_rules": [
+            "Code Chivalric",
+            "Bondsman",
+            "Super-heavy Walker",
+            "Freeblades"
+          ],
+          "detachments": 8,
+          "enhancements": 26,
+          "stratagems": 39
+        },
+        "votann": {
+          "datasheets": 22,
+          "army_rules": [
+            "Prioritised Efficiency"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "necrons": {
+          "datasheets": 52,
+          "army_rules": [
+            "Reanimation Protocols"
+          ],
+          "detachments": 12,
+          "enhancements": 42,
+          "stratagems": 63
+        },
+        "orks": {
+          "datasheets": 67,
+          "army_rules": [
+            "Da Boss",
+            "Unstable energies"
+          ],
+          "detachments": 15,
+          "enhancements": 38,
+          "stratagems": 40
+        },
+        "tau": {
+          "datasheets": 43,
+          "army_rules": [
+            "Drones",
+            "For the Greater Good"
+          ],
+          "detachments": 7,
+          "enhancements": 23,
+          "stratagems": 31
+        },
+        "thousandsons": {
+          "datasheets": 28,
+          "army_rules": [
+            "Cabal of Sorcerers",
+            "Pact of Sorcery"
+          ],
+          "detachments": 9,
+          "enhancements": 30,
+          "stratagems": 45
+        },
+        "tyranids": {
+          "datasheets": 52,
+          "army_rules": [
+            "Synapse",
+            "Shadow in the Warp"
+          ],
+          "detachments": 10,
+          "enhancements": 34,
+          "stratagems": 51
+        },
+        "worldeaters": {
+          "datasheets": 25,
+          "army_rules": [
+            "Blessings of Khorne"
+          ],
+          "detachments": 8,
+          "enhancements": 26,
+          "stratagems": 39
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "bundle": "995-100d8d91b010",
+  "fields": 18740,
+  "covered": 18740,
+  "parts": [
+    {
+      "part": "adeptasororitas",
+      "fields": 566,
+      "covered": 566,
+      "missing": []
+    },
+    {
+      "part": "adeptuscustodes",
+      "fields": 262,
+      "covered": 262,
+      "missing": []
+    },
+    {
+      "part": "adeptusmechanicus",
+      "fields": 364,
+      "covered": 364,
+      "missing": []
+    },
+    {
+      "part": "aeldari",
+      "fields": 1009,
+      "covered": 1009,
+      "missing": []
+    },
+    {
+      "part": "agents",
+      "fields": 547,
+      "covered": 547,
+      "missing": []
+    },
+    {
+      "part": "astramilitarum",
+      "fields": 1589,
+      "covered": 1589,
+      "missing": []
+    },
+    {
+      "part": "blacktemplar",
+      "fields": 214,
+      "covered": 214,
+      "missing": []
+    },
+    {
+      "part": "bloodangels",
+      "fields": 229,
+      "covered": 229,
+      "missing": []
+    },
+    {
+      "part": "chaos_spacemarines",
+      "fields": 859,
+      "covered": 859,
+      "missing": []
+    },
+    {
+      "part": "chaosdaemons",
+      "fields": 341,
+      "covered": 341,
+      "missing": []
+    },
+    {
+      "part": "chaosknights",
+      "fields": 237,
+      "covered": 237,
+      "missing": []
+    },
+    {
+      "part": "core",
+      "fields": 93,
+      "covered": 93,
+      "missing": []
+    },
+    {
+      "part": "darkangels",
+      "fields": 150,
+      "covered": 150,
+      "missing": []
+    },
+    {
+      "part": "deathguard",
+      "fields": 363,
+      "covered": 363,
+      "missing": []
+    },
+    {
+      "part": "deathwatch",
+      "fields": 318,
+      "covered": 318,
+      "missing": []
+    },
+    {
+      "part": "detachments",
+      "fields": 4754,
+      "covered": 4754,
+      "missing": []
+    },
+    {
+      "part": "drukhari",
+      "fields": 442,
+      "covered": 442,
+      "missing": []
+    },
+    {
+      "part": "emperors_children",
+      "fields": 251,
+      "covered": 251,
+      "missing": []
+    },
+    {
+      "part": "greyknights",
+      "fields": 418,
+      "covered": 418,
+      "missing": []
+    },
+    {
+      "part": "gsc",
+      "fields": 222,
+      "covered": 222,
+      "missing": []
+    },
+    {
+      "part": "imperialknights",
+      "fields": 327,
+      "covered": 327,
+      "missing": []
+    },
+    {
+      "part": "missions",
+      "fields": 229,
+      "covered": 229,
+      "missing": []
+    },
+    {
+      "part": "necrons",
+      "fields": 384,
+      "covered": 384,
+      "missing": []
+    },
+    {
+      "part": "orks",
+      "fields": 715,
+      "covered": 715,
+      "missing": []
+    },
+    {
+      "part": "secondaries",
+      "fields": 72,
+      "covered": 72,
+      "missing": []
+    },
+    {
+      "part": "space_marines",
+      "fields": 1443,
+      "covered": 1443,
+      "missing": []
+    },
+    {
+      "part": "spacewolves",
+      "fields": 237,
+      "covered": 237,
+      "missing": []
+    },
+    {
+      "part": "tau",
+      "fields": 764,
+      "covered": 764,
+      "missing": []
+    },
+    {
+      "part": "thousandsons",
+      "fields": 368,
+      "covered": 368,
+      "missing": []
+    },
+    {
+      "part": "tyranids",
+      "fields": 309,
+      "covered": 309,
+      "missing": []
+    },
+    {
+      "part": "votann",
+      "fields": 314,
+      "covered": 314,
+      "missing": []
+    },
+    {
+      "part": "worldeaters",
+      "fields": 350,
+      "covered": 350,
+      "missing": []
+    }
+  ]
+}

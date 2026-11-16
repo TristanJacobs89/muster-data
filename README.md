@@ -14,7 +14,7 @@ One branch per data version, named after the game-datacards data version it matc
 | `text/<part>.json` | One map of text key to text per part: `core`, `missions`, `secondaries`, `detachments` and one file per faction |
 | `data/` | Muster's faction keys and the pinned commits of the sources |
 | `editorial/glossary.json` | The game terms the text keeps exact |
-| `reports/` | Counts per data version: how many texts, of which kinds |
+| `reports/` | Counts per data version: how many texts, of which kinds; `coverage-<bundle>.json`, how much of a bundle's rules text Muster's own text covers (every text the source fills and every army rule); `baseline-published-<date>.json`, the bundles Muster published before muster-data became the source |
 
 A text key names where the text belongs in Muster's game data, for example `necrons/datasheets/<id>/data/abilities/<name>/text`. The names, characteristics and points themselves are not here: Muster's app gets those from its own data bundles.
 
