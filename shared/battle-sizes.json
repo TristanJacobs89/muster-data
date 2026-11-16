@@ -1,0 +1,29 @@
+{
+  "schema": 33,
+  "sizes": [
+    {
+      "id": "65043d30-87c0-4290-8fce-8c22756b48cd",
+      "name": "Incursion",
+      "points": 1000,
+      "detachment_points": 2,
+      "enhancements": 2,
+      "unit_limit": 2
+    },
+    {
+      "id": "86f87247-68c5-4932-aca2-da325e917326",
+      "name": "Strike Force",
+      "points": 2000,
+      "detachment_points": 3,
+      "enhancements": 4,
+      "unit_limit": 3
+    },
+    {
+      "id": "e3b64f66-549e-46ab-8d38-38a9a103e8c8",
+      "name": "Onslaught",
+      "points": 3000,
+      "detachment_points": 3,
+      "enhancements": 4,
+      "unit_limit": 3
+    }
+  ]
+}

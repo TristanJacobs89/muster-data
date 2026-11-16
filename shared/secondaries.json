@@ -1,0 +1,720 @@
+{
+  "schema": 33,
+  "source": "Chapter Approved 2026-2027",
+  "data_version": "981",
+  "limits": {
+    "per_round": 15,
+    "per_battle": 45,
+    "fixed_per_card": 20
+  },
+  "battle_ready_vp": 10,
+  "cards": [
+    {
+      "id": "bd2667f1-48c5-4e93-9698-0f8d060b3d16",
+      "name": "A Grievous Blow",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "discard",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "4013bdf8-0738-4485-bc47-91467b939e32",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": 5,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "d9885cd4-b11b-4a8b-9bd1-b95d184ca08f",
+      "name": "A Tempting Target",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "8f85e5c5-8641-45cf-bd52-3655065ff2a3",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "56ceebfa-1be3-4520-a7cb-10b5e8b2a150",
+      "name": "Assassination",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "7b69d151-5f72-44dc-bb83-f9ca305b6800",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 1,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "46466800-24ac-47f2-9c4e-587b927e0e50",
+      "name": "Beacon",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "50d30c48-79c2-400d-bcfa-ba9758ac39a3",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "d9be141e-e643-4e72-8307-d554b09e6322",
+      "name": "Behind Enemy Lines",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "shuffle",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "6341c549-1176-43d8-af77-0b9ab696a411",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": 5,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "17374e7d-fa50-48e4-8e5e-e0a69e18af13",
+      "name": "Bring It Down",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "discard",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "552284ff-b018-4b0d-bc6a-f76ca74f8bdf",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": 5,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "6973d6b9-7be3-4367-b3a8-972181decc82",
+      "name": "Burden Of Trust",
+      "when_label": "WHEN DRAWN/START OF YOUR TURN",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "19a1a84e-eed7-4677-a5b6-b0461a1ff953",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 2,
+              "cap": 5,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "93e49fea-c72a-451a-a9ff-87ded15507e1",
+      "name": "Centre Ground",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "7ef476fe-d708-45ea-8c56-654c1cf3dea7",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "b50dc2df-5fc8-419d-a15a-449879497fc7",
+      "name": "Cleanse",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "shuffle",
+      "note": "",
+      "actions": [
+        {
+          "name": "CLEANSE",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "ed86b5f7-9f2e-4599-a11e-a702a26d0d74",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "fec72ac4-c912-48fa-a890-3a79d32876e3",
+      "name": "Defend Stronghold",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "shuffle",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "1dd6dac5-840f-4592-a127-bcd832ae672e",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "6765a1e5-b93b-4a61-b45b-dde7982ebf4e",
+      "name": "Display of Might",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "284f45db-0fde-41ca-a3ec-748a1d207586",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        },
+        {
+          "id": "6f10e45f-bdb2-482b-a7dc-d0fa4b9f9e59",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        2,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "324da760-ff51-40ed-a492-9f4736f035ea",
+      "name": "Engage On All Fronts",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "267a3312-851b-4d77-bd1f-7408721bb1f3",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "scores": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "4d57213e-58c0-4246-8e72-667a015f0496",
+      "name": "Forward Position",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "shuffle",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "1e8baaee-061c-4cd0-9397-c09869fdc817",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "d172b226-9350-4068-a644-0ca3eb032f2f",
+      "name": "No Prisoners",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "a8511220-8356-4890-9e2a-8afc9db5410c",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 2,
+              "cap": 5,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "2799a104-12fb-4030-890b-a52a061b22ea",
+      "name": "Outflank",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "9339a2ed-cf5c-4fd2-a8ea-d898506e4bdb",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "d4f08fce-3703-485f-9c28-f7ab578308c2",
+      "name": "Overwhelming Force",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "b13c7a9d-0c8a-4ef1-a0fa-d3a614f87004",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 3,
+              "cap": 5,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "3e5b914a-fa4f-46b5-a08f-95cf8de1a2c9",
+      "name": "Plunder",
+      "when_label": "WHEN DRAWN",
+      "when_drawn": "",
+      "replace": "shuffle",
+      "note": "",
+      "actions": [
+        {
+          "name": "PLUNDER",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "1ae94581-5a99-4858-ae90-05ae46b79e2c",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "a8cf02a6-4301-441c-987c-7bdc3e86b36a",
+      "name": "Secure No Man's Land",
+      "when_label": "",
+      "when_drawn": "",
+      "replace": null,
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "d952307a-5027-43f6-ad80-12f56759cc0e",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ],
+          "fixed_lines": []
+        }
+      ],
+      "scores": [
+        0,
+        5
+      ]
+    }
+  ]
+}
