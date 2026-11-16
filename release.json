@@ -1,0 +1,177 @@
+{
+  "data_version": 995,
+  "schema": 33,
+  "sha": "ebcd0cbedb197fd8246b7cff580fde3625c6f3f1",
+  "date": "2026-10-16",
+  "factions": [
+    {
+      "key": "adeptasororitas",
+      "name": "Adepta Sororitas",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "adeptuscustodes",
+      "name": "Adeptus Custodes",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "adeptusmechanicus",
+      "name": "Adeptus Mechanicus",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "space_marines",
+      "name": "Adeptus Astartes (Space Marines)",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "blacktemplar",
+      "name": "Black Templars",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "bloodangels",
+      "name": "Blood Angels",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "darkangels",
+      "name": "Dark Angels",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "deathwatch",
+      "name": "Deathwatch",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "spacewolves",
+      "name": "Space Wolves",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "agents",
+      "name": "Agents of the Imperium",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "astramilitarum",
+      "name": "Astra Militarum",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "aeldari",
+      "name": "Aeldari (Asuryani)",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "chaos_spacemarines",
+      "name": "Chaos Space Marines",
+      "parent": null,
+      "group": "Chaos"
+    },
+    {
+      "key": "chaosdaemons",
+      "name": "Chaos Daemons",
+      "parent": null,
+      "group": "Chaos"
+    },
+    {
+      "key": "chaosknights",
+      "name": "Chaos Knights",
+      "parent": null,
+      "group": "Chaos"
+    },
+    {
+      "key": "deathguard",
+      "name": "Death Guard",
+      "parent": null,
+      "group": "Chaos"
+    },
+    {
+      "key": "drukhari",
+      "name": "Drukhari",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "emperors_children",
+      "name": "Emperor's Children",
+      "parent": null,
+      "group": "Chaos"
+    },
+    {
+      "key": "gsc",
+      "name": "Genestealer Cults",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "greyknights",
+      "name": "Grey Knights",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "imperialknights",
+      "name": "Imperial Knights",
+      "parent": null,
+      "group": "Imperium"
+    },
+    {
+      "key": "votann",
+      "name": "Leagues of Votann",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "necrons",
+      "name": "Necrons",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "orks",
+      "name": "Orks",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "tau",
+      "name": "T'au Empire",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "thousandsons",
+      "name": "Thousand Sons",
+      "parent": null,
+      "group": "Chaos"
+    },
+    {
+      "key": "tyranids",
+      "name": "Tyranids",
+      "parent": null,
+      "group": "Xenos"
+    },
+    {
+      "key": "worldeaters",
+      "name": "World Eaters",
+      "parent": null,
+      "group": "Chaos"
+    }
+  ],
+  "bundle": "995-36eba100ac66"
+}

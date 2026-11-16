@@ -1,0 +1,619 @@
+{
+  "schema": 33,
+  "stratagems": [
+    {
+      "name": "Command Re-roll",
+      "cp": 1,
+      "type": "",
+      "turn": "either",
+      "phases": [
+        "any"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [],
+        "excludes": []
+      }
+    },
+    {
+      "name": "Fire Overwatch",
+      "cp": 1,
+      "type": "",
+      "turn": "opponents",
+      "phases": [
+        "movement"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [],
+        "excludes": [
+          "titanic"
+        ]
+      }
+    },
+    {
+      "name": "Crushing Impact",
+      "cp": 1,
+      "type": "",
+      "turn": "your",
+      "phases": [
+        "charge"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [
+          "monster",
+          "vehicle"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "name": "Epic Challenge",
+      "cp": 1,
+      "type": "",
+      "turn": "either",
+      "phases": [
+        "fight"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [
+          "character"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "name": "Rapid Ingress",
+      "cp": 1,
+      "type": "",
+      "turn": "opponents",
+      "phases": [
+        "movement"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null
+    },
+    {
+      "name": "Heroic Intervention",
+      "cp": 1,
+      "type": "",
+      "turn": "opponents",
+      "phases": [
+        "charge"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": {
+        "text": "",
+        "cp": 1,
+        "exclusive": false
+      }
+    },
+    {
+      "name": "Insane Bravery",
+      "cp": 1,
+      "type": "",
+      "turn": "your",
+      "phases": [
+        "charge"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": "battle",
+      "secondary_effect": null,
+      "units": {
+        "targets": [],
+        "excludes": []
+      }
+    },
+    {
+      "name": "Smokescreen",
+      "cp": 1,
+      "type": "",
+      "turn": "opponents",
+      "phases": [
+        "shooting"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [
+          "smoke"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "name": "Explosives",
+      "cp": 1,
+      "type": "",
+      "turn": "your",
+      "phases": [
+        "shooting"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [
+          "explosives",
+          "grenades"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "name": "Counteroffensive",
+      "cp": 2,
+      "type": "",
+      "turn": "opponents",
+      "phases": [
+        "fight"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null,
+      "units": {
+        "targets": [],
+        "excludes": []
+      }
+    },
+    {
+      "name": "New Orders",
+      "cp": 1,
+      "type": "Strategic Ploy",
+      "turn": "your",
+      "phases": [
+        "command"
+      ],
+      "when": "",
+      "target": "",
+      "effect": "",
+      "restrictions": "",
+      "once_per": null,
+      "secondary_effect": null
+    }
+  ],
+  "keywords": [
+    {
+      "id": "anti",
+      "name": "Anti-",
+      "on": "weapons",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "assault",
+      "name": "Assault",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "blast",
+      "name": "Blast",
+      "on": "weapons",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "blinding-light",
+      "name": "BLINDING LIGHT",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "bubblechukka",
+      "name": "Bubblechukka",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "cleave",
+      "name": "Cleave",
+      "on": "weapons",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "close-quarters",
+      "name": "CLOSE-QUARTERS",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "conversion",
+      "name": "Conversion",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "dead-choppy",
+      "name": "Dead Choppy",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "devastating-wounds",
+      "name": "Devastating Wounds",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "devastating-wounds-infantry",
+      "name": "DEVASTATING WOUNDS: INFANTRY",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "devastating-wounds-monster-vehicle",
+      "name": "DEVASTATING WOUNDS: MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "devastating-wounds-non-monster-vehicle",
+      "name": "DEVASTATING WOUNDS: non-MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "devastating-wounds-psyker",
+      "name": "DEVASTATING WOUNDS: PSYKER",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "extra-attacks",
+      "name": "Extra Attacks",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "harpooned",
+      "name": "Harpooned",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "hazardous",
+      "name": "Hazardous",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "heavy",
+      "name": "Heavy",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "ignores-cover",
+      "name": "Ignores Cover",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "indirect-fire",
+      "name": "Indirect Fire",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "lethal-hits",
+      "name": "Lethal Hits",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "lethal-hits-monster-vehicle",
+      "name": "LETHAL HITS: MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "lethal-hits-non-monster-vehicle",
+      "name": "LETHAL HITS: non-MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "linked-fire",
+      "name": "Linked Fire",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "melta",
+      "name": "Melta",
+      "on": "weapons",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "one-shot",
+      "name": "One Shot",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "overcharge",
+      "name": "Overcharge",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "plasma-warhead",
+      "name": "Plasma Warhead",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "precision",
+      "name": "Precision",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "psychic",
+      "name": "Psychic",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "psychic-assassin",
+      "name": "Psychic Assassin",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "rapid-fire",
+      "name": "Rapid Fire",
+      "on": "weapons",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "reverberating-summons",
+      "name": "Reverberating Summons",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "snagged",
+      "name": "Snagged",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "sustained-hits",
+      "name": "Sustained Hits",
+      "on": "weapons",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "sustained-hits-1-infantry",
+      "name": "SUSTAINED HITS 1: INFANTRY",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "sustained-hits-1-non-monster-vehicle",
+      "name": "SUSTAINED HITS 1: non-MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "sustained-hits-2-monster-vehicle",
+      "name": "SUSTAINED HITS 2: MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "sustained-hits-2-non-monster-vehicle",
+      "name": "SUSTAINED HITS 2: non-MONSTER/VEHICLE",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "torrent",
+      "name": "Torrent",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "twin-linked",
+      "name": "Twin-linked",
+      "on": "weapons",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "damaged",
+      "name": "Damaged",
+      "on": "abilities",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "deadly-demise",
+      "name": "Deadly Demise",
+      "on": "abilities",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "deep-strike",
+      "name": "Deep Strike",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "feel-no-pain",
+      "name": "Feel No Pain",
+      "on": "abilities",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "fights-first",
+      "name": "Fights First",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "firing-deck",
+      "name": "Firing Deck",
+      "on": "abilities",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "hover",
+      "name": "Hover",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "infiltrators",
+      "name": "Infiltrators",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "leader",
+      "name": "Leader",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "lone-operative",
+      "name": "Lone Operative",
+      "on": "abilities",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "scouts",
+      "name": "Scouts",
+      "on": "abilities",
+      "parameterized": true,
+      "text": ""
+    },
+    {
+      "id": "stealth",
+      "name": "Stealth",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "super-heavy-walker",
+      "name": "Super-heavy Walker",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "on": "abilities",
+      "parameterized": false,
+      "text": ""
+    }
+  ]
+}
