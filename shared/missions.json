@@ -1,0 +1,2812 @@
+{
+  "schema": 33,
+  "source": "Chapter Approved 2026-2027",
+  "data_version": "972",
+  "limits": {
+    "per_round": 15,
+    "per_battle": 45
+  },
+  "dispositions": [
+    {
+      "id": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "name": "Take and Hold"
+    },
+    {
+      "id": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "name": "Disruption"
+    },
+    {
+      "id": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "name": "Priority Assets"
+    },
+    {
+      "id": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "name": "Purge the Foe"
+    },
+    {
+      "id": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "name": "Reconnaissance"
+    }
+  ],
+  "primaries": [
+    {
+      "id": "68897733-c64d-49bb-a39f-c926df18a128",
+      "name": "Battlefield Dominance",
+      "disposition": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "against": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "8257ad80-e257-431f-92e7-97c26ba82052",
+          "timing": "FIRST AND SECOND BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "37a8da5f-fa7e-4bcb-8ad4-685dbb96a80c",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "ed87b70c-bb09-49c7-bf06-54ca47956dcd",
+        "a91b88cf-262c-4b0e-bd90-535f9277ae45",
+        "c0ade67f-ba04-4e62-8892-d85f7a32a7ea"
+      ]
+    },
+    {
+      "id": "06e05989-d0d1-4343-a7c1-4af50bcffa0f",
+      "name": "Determined Acquisition",
+      "disposition": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "against": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "d5e30305-2edf-4371-bded-b237cc3b6330",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "dc83f9cc-3eaf-407b-9e60-6609ca520fc8",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "4d1d689a-1424-4aff-ad86-9087f9b79de2",
+        "7af36165-f7c3-4f4d-8583-ae2d58fcfe0d",
+        "c93288d3-d899-462b-b583-1c6a9c1fd169"
+      ]
+    },
+    {
+      "id": "a4d0448d-20ad-4962-b168-39f747dbba45",
+      "name": "Inescapable Dominion",
+      "disposition": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "against": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "c7498016-1c97-4e48-a498-e7b9ff11adac",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "fb96fd3f-4b80-4e72-a3db-81ebeeb93cc5",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "3278bdf0-d47e-4308-b3fe-188d8adbef96",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "411cd37a-ba13-4719-b18a-45a9cfa0ca89",
+        "82a248ac-ced9-4be9-af81-eb406d3ad7c0",
+        "7716c9cb-7ad1-4f01-b230-0c51f4355d9a"
+      ]
+    },
+    {
+      "id": "247d0d40-7b9b-40f3-8a18-2df924ce88bb",
+      "name": "Immovable Object",
+      "disposition": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "against": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "8f3f5fc1-562c-4368-b2a0-1ed8297fde52",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "37679b69-13bc-4e17-a013-582384f7eb91",
+          "timing": "SECOND TO FOURTH BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "7caf9085-244e-450c-a418-825fd7dab2eb",
+          "timing": "FIFTH BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "1817b8d7-5883-4227-8fbb-44b820b7f0b2",
+        "fef207c7-5027-437d-bd1c-cd403a540b9c",
+        "9b9b0db0-4884-49cd-bd65-de28ab7faecd"
+      ]
+    },
+    {
+      "id": "f47496bb-e89b-45d5-b969-6d3b19e5a9ec",
+      "name": "Purge and Secure",
+      "disposition": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "against": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "11feba79-cf3c-4b99-8ec7-8519f91b7d70",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "9204e9e2-c412-40c7-acb2-fedee854f883",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "9b11552c-ae28-4199-93a2-5eaac6c3fa12",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "3f277a84-f3f3-4117-8e2d-8fd2d6d29791",
+        "43d1e185-2b92-406a-ae30-92cea1f0fa16",
+        "329d6325-40a7-4bbb-9bed-565556ff8a98"
+      ]
+    },
+    {
+      "id": "eecd8d9e-73a3-4316-ac51-ed2e424d36a5",
+      "name": "Death Trap",
+      "disposition": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "against": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "note": "",
+      "actions": [
+        {
+          "name": "BOOBY TRAP",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "a7c88242-95e5-4b9c-bcdb-7d3f04dadaf4",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "1da0b3f0-f394-45e6-8b6d-5fbed32e180c",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "cebce72e-be8a-480a-9e1b-40600f243632",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "4d1d689a-1424-4aff-ad86-9087f9b79de2",
+        "7af36165-f7c3-4f4d-8583-ae2d58fcfe0d",
+        "c93288d3-d899-462b-b583-1c6a9c1fd169"
+      ]
+    },
+    {
+      "id": "0feb35eb-f5a7-4ec9-bd3d-280719be68c5",
+      "name": "Outmanoeuvre",
+      "disposition": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "against": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "efff9a98-7d91-4e01-b68d-a7b3f6429ab6",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 10,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "e4fd6fc0-0aea-4c5e-af08-c102963d0c6d",
+          "timing": "FIRST BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "0501278d-ceea-444d-b793-597223cc83c7",
+          "timing": "SECOND AND THIRD BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            2,
+            3
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "6c7e3648-f47d-4366-b103-a1432ce2ab4c",
+          "timing": "FOURTH BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 6,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "abb7424a-64ca-4915-83a2-7e66b04b3990",
+        "95b63f18-2696-4d37-96a5-6ed2aedf3937",
+        "04093b69-65b4-491f-9f1e-9ad9c2f91d59"
+      ]
+    },
+    {
+      "id": "be3afaf6-8886-45d3-b95e-7a7199fd202e",
+      "name": "Locate and Deny",
+      "disposition": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "against": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "note": "",
+      "actions": [
+        {
+          "name": "SENSOR SWEEP",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "eff24194-91dc-44f6-b8c2-d6b33183bceb",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "4d8d2c31-f138-4abc-970c-53c0986a5981",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "4042270c-d28e-426c-8562-0f5e20348ed5",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "019d6708-3fd8-4140-9ed2-ad4b46121d56",
+        "afabc959-7652-4614-9d8d-12d4e4c2a519",
+        "0e4a1b7a-4fad-4481-bc97-4c8fd90509e3"
+      ]
+    },
+    {
+      "id": "dca82582-3914-4eb5-9e23-b17782343d2e",
+      "name": "Delaying Action",
+      "disposition": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "against": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "d4b214e6-907f-4e8f-a8bf-300e606751fd",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "c07aa590-f9cb-4704-9e17-b46defb6b136",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "d1bfc17c-1ea5-4ff9-a291-c5c7fd32b1ab",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "91d0332a-ad1d-4aa1-800a-af85839a5696",
+        "f153cefe-10f7-4c7e-b898-0ea19fa666d7",
+        "8b696de1-ff91-4365-be32-c252da2a5211"
+      ]
+    },
+    {
+      "id": "948cdd1b-8e33-4ff9-9feb-7d983ec211e5",
+      "name": "Smoke and Mirrors",
+      "disposition": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "against": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "note": "",
+      "actions": [
+        {
+          "name": "DECOY",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "1d3f0e58-7738-44eb-bc6b-a5dcd5617e0a",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "9c5509c2-bc59-48b8-9b07-0c0b79dca192",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "924ee3b9-f18c-4a02-ad10-66aad3577d69",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 10,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "3380ca53-34dd-470f-9c0f-272f150342ee",
+        "64704890-9ea2-4012-90d1-cf1013bde656",
+        "0abf2302-b76a-4002-998a-2435f4b63775"
+      ]
+    },
+    {
+      "id": "4b3e8cba-68e8-4d2c-80b2-b9f034e172fd",
+      "name": "Secure Asset",
+      "disposition": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "against": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "note": "",
+      "actions": [
+        {
+          "name": "SECURE ASSET",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "e384c7a9-16cb-4eb2-9d4f-bfc7ef8e571b",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "f3b7d5e9-0e4b-4f5e-9d2a-f2914135a08c",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "411cd37a-ba13-4719-b18a-45a9cfa0ca89",
+        "82a248ac-ced9-4be9-af81-eb406d3ad7c0",
+        "7716c9cb-7ad1-4f01-b230-0c51f4355d9a"
+      ]
+    },
+    {
+      "id": "a40202a3-6558-4ce8-971f-f6dbaf00933f",
+      "name": "Extract Relic",
+      "disposition": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "against": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "note": "",
+      "actions": [
+        {
+          "name": "SENSOR SWEEP",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "a8285d99-aa13-49ee-ad21-2a5506a25be0",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "80f96131-8197-4692-a5da-ba06f5dd06cd",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "73dae786-3a24-4e1c-b2e3-91c38f19bd1c",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "019d6708-3fd8-4140-9ed2-ad4b46121d56",
+        "afabc959-7652-4614-9d8d-12d4e4c2a519",
+        "0e4a1b7a-4fad-4481-bc97-4c8fd90509e3"
+      ]
+    },
+    {
+      "id": "c1d1f556-19b4-41c1-ad30-d00b848012b3",
+      "name": "Sabotage",
+      "disposition": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "against": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "note": "",
+      "actions": [
+        {
+          "name": "SABOTAGE",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "a0c0d566-a8f4-49b2-874e-d406ac050f3a",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "5a1b86cd-25df-4a9b-8731-acd2f5221998",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "252843ef-7e2a-4b8b-aa6b-36a2f778b545",
+        "a448369d-286d-4b4f-aea5-bfb054938fd4",
+        "3878f6df-cb4e-45b6-ae35-ef02f8180a09"
+      ]
+    },
+    {
+      "id": "c0bad90e-a96c-4f99-8760-35360f049e13",
+      "name": "Vital Link",
+      "disposition": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "against": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "note": "",
+      "actions": [
+        {
+          "name": "MAINTAIN CONTROL",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "257ab5de-875b-40c8-9654-45990b0e4647",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 1,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "122f0df2-b3ae-448b-ab4d-d70409ed6156",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": true,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "0f1ba145-e2bf-4faa-8af6-516bfd291555",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 10,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "d74b950f-43c6-42b7-9388-824716265a5a",
+        "7637886d-14f4-4f8d-aae1-597281d22331",
+        "aece871e-74de-46a6-b514-87f202245f3b"
+      ]
+    },
+    {
+      "id": "d571a090-d002-4773-9946-0bda4f37c039",
+      "name": "Vanguard Operation",
+      "disposition": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "against": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "note": "",
+      "actions": [
+        {
+          "name": "VANGUARD OPERATION",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "efd6439e-70e2-4aa3-a0bb-5f59434933db",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "b6d112e8-8efa-49da-891a-ead4ccf265b8",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "f21df4ca-ebcd-4d5a-90d2-5f399b33117b",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 10,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "b5516bfb-ddf7-419f-9c51-d7d6a69d0fb1",
+        "ed60f881-287a-45ce-a1c1-dd793d100595",
+        "19432b28-bcfc-4258-a420-297160a1441c"
+      ]
+    },
+    {
+      "id": "6b52b665-1289-4f59-8f25-753a5e17758f",
+      "name": "Unstoppable Force",
+      "disposition": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "against": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "cf4ffb2b-5c24-4923-a140-05e225140e19",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "31752eeb-ce4d-43ad-a610-8199447468fa",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "803ec059-be3a-450a-8ee7-10d5e53d7f65",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "613154c4-148f-4c3d-b110-fcc20455e4b8",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "1817b8d7-5883-4227-8fbb-44b820b7f0b2",
+        "fef207c7-5027-437d-bd1c-cd403a540b9c",
+        "9b9b0db0-4884-49cd-bd65-de28ab7faecd"
+      ]
+    },
+    {
+      "id": "2a68706e-fa98-4c79-a431-67069fb93f4e",
+      "name": "Punishment",
+      "disposition": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "against": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "2e7d9a9a-c5d1-4694-adea-4f0539611784",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "7ce4778b-74f7-4602-a468-77fd4f075961",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "aeb91a25-ef04-4670-bd58-33265b7dac29",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 8,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "91d0332a-ad1d-4aa1-800a-af85839a5696",
+        "f153cefe-10f7-4c7e-b898-0ea19fa666d7",
+        "8b696de1-ff91-4365-be32-c252da2a5211"
+      ]
+    },
+    {
+      "id": "79481fc9-419a-4998-9bea-a2379387d9b0",
+      "name": "Destroyer's Wrath",
+      "disposition": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "against": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "53189a32-f75f-416d-9738-9e90755d2975",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "28732ad3-fb5d-4b89-9fa1-430d52e700da",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 6,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "d3d2d55e-9c3a-4b0a-9a53-8a67ac68b084",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "d74b950f-43c6-42b7-9388-824716265a5a",
+        "7637886d-14f4-4f8d-aae1-597281d22331",
+        "aece871e-74de-46a6-b514-87f202245f3b"
+      ]
+    },
+    {
+      "id": "9a401fb2-86f4-4b09-9f62-dffb4dd3f89f",
+      "name": "Meatgrinder",
+      "disposition": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "against": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "52287d96-da33-4593-9800-32f0f91f20a9",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "acb1f9d6-6a5c-477a-a482-12e7f57bb292",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "c7f01c46-72fc-45d2-9d75-34c562aa3b45",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "6250bc57-ca6d-42b6-8c6f-f5531eba3a07",
+        "3205c756-7fac-4000-bdc9-e742b0e2c2a6",
+        "40190243-4f2b-4c5a-bfed-73b441335d11"
+      ]
+    },
+    {
+      "id": "c0160440-ab79-4cb2-af8a-7b8eb2f832f0",
+      "name": "Consecrate",
+      "disposition": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "against": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "5f3a2489-1797-46c0-9655-d9d4bb9be05b",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 6,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "d5e260dc-e9c2-4cf9-ad2b-e66176fcf505",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "8bc63847-eb95-405b-8325-96f0324d977f",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "d927c3b3-6c15-4305-90c0-70afc707aeb8",
+        "80aed795-1bc2-41fc-813c-1851b451605e",
+        "713f4170-8f3b-4cdc-866d-e50c580537dd"
+      ]
+    },
+    {
+      "id": "262241d5-5717-4400-9012-d151cf6745eb",
+      "name": "Reconnaissance Sweep",
+      "disposition": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "against": "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "68b2efe8-c806-4eb7-bb88-c2077fe1c1dd",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 6,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "2d5da85f-68e3-4059-ae88-b2f6f09337cc",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 1,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "24e7bc8a-a237-467f-814a-8f6406409b2f",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "3f277a84-f3f3-4117-8e2d-8fd2d6d29791",
+        "43d1e185-2b92-406a-ae30-92cea1f0fa16",
+        "329d6325-40a7-4bbb-9bed-565556ff8a98"
+      ]
+    },
+    {
+      "id": "7d8df9d0-2483-4ba3-bc6c-0c08f62f211c",
+      "name": "Surveil the Foe",
+      "disposition": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "against": "6a24433b-0910-4386-8169-ac2b2ef9e377",
+      "note": "",
+      "actions": [
+        {
+          "name": "SURVEIL THE FOE",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "8bed9edb-97eb-4d65-a364-607e96583af8",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "dd25ee17-fee1-4b17-9dc9-38c99809fb44",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "2f6ee7fb-7333-48ac-bebe-00d44dcf0375",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "3380ca53-34dd-470f-9c0f-272f150342ee",
+        "64704890-9ea2-4012-90d1-cf1013bde656",
+        "0abf2302-b76a-4002-998a-2435f4b63775"
+      ]
+    },
+    {
+      "id": "118b350c-35e6-4966-9208-f6aa58254a0c",
+      "name": "Search and Scour",
+      "disposition": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "against": "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+      "note": "",
+      "actions": [],
+      "objectives": [
+        {
+          "id": "174d1d4b-496f-46b5-b37a-ec295c3c2d06",
+          "timing": "ANY BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 2,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "0f0c8ec7-a780-4281-b23a-4f784470a4f3",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "88d872a6-0fe2-4606-9393-10c400b63337",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "b5516bfb-ddf7-419f-9c51-d7d6a69d0fb1",
+        "ed60f881-287a-45ce-a1c1-dd793d100595",
+        "19432b28-bcfc-4258-a420-297160a1441c"
+      ]
+    },
+    {
+      "id": "12d85492-6018-4fd7-b04d-78ca19159a61",
+      "name": "Triangulation",
+      "disposition": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "against": "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+      "note": "",
+      "actions": [
+        {
+          "name": "TRIANGULATE",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "57b5eaf7-1787-4775-aee7-5bc1dee1891e",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "3812a93e-a964-46ee-ba46-d60c5a660fff",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 3,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 6,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            },
+            {
+              "vp": 10,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": true,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "76272de4-3f77-4b5c-8d2f-25ff1bb9442e",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 10,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "d927c3b3-6c15-4305-90c0-70afc707aeb8",
+        "80aed795-1bc2-41fc-813c-1851b451605e",
+        "713f4170-8f3b-4cdc-866d-e50c580537dd"
+      ]
+    },
+    {
+      "id": "662be231-e658-4007-9e78-406749ebc71a",
+      "name": "Gather Intel",
+      "disposition": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "against": "cc033412-45dd-4f17-9ef6-700f5b96c213",
+      "note": "",
+      "actions": [
+        {
+          "name": "EXTRACT INTELLIGENCE",
+          "starts": "",
+          "units": "",
+          "completes": "",
+          "effect": "",
+          "limit": "",
+          "restriction": ""
+        }
+      ],
+      "objectives": [
+        {
+          "id": "6eb0ad94-380d-4489-a833-68380538fb4c",
+          "timing": "FIRST BATTLE ROUND",
+          "when": "",
+          "rounds": [
+            1
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 6,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "f492bde6-b8bd-40a5-b4dd-3405126e2a16",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 4,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "1001d776-d370-42db-8a2f-a7ef89000535",
+          "timing": "SECOND BATTLE ROUND ONWARDS",
+          "when": "",
+          "rounds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_of_battle": false,
+          "lines": [
+            {
+              "vp": 7,
+              "cap": null,
+              "input": "stepper",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        },
+        {
+          "id": "28faaa23-e78c-4122-aa2a-f53c381762cf",
+          "timing": "END OF THE BATTLE",
+          "when": "",
+          "rounds": [],
+          "end_of_battle": true,
+          "lines": [
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            },
+            {
+              "vp": 5,
+              "cap": null,
+              "input": "checkbox",
+              "cumulative": false,
+              "exclusive": false,
+              "criteria": ""
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        "79c16f68-fac0-4352-a176-533f8ee03dbb",
+        "308e6128-d502-4cf7-82d7-4df8afd6e3df",
+        "a5d62d8d-fde7-4860-b172-912cb266234f"
+      ]
+    }
+  ],
+  "deployments": [
+    {
+      "id": "29df4291-6744-4c31-8765-96456890e1db",
+      "name": "Hammer and Anvil"
+    },
+    {
+      "id": "4979b61c-026b-40c7-85fa-0f3e14c4666e",
+      "name": "Crucible Of Battle"
+    },
+    {
+      "id": "592426f6-ce87-4572-b293-96766b9008ca",
+      "name": "Sweeping Engagement"
+    },
+    {
+      "id": "97231123-f0ad-4b94-be0f-34582a31ea90",
+      "name": "Dawn Of War"
+    },
+    {
+      "id": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d",
+      "name": "Tipping Point"
+    },
+    {
+      "id": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674",
+      "name": "Search and Destroy"
+    }
+  ],
+  "layouts": [
+    {
+      "id": "abb7424a-64ca-4915-83a2-7e66b04b3990",
+      "name": "Disruption / Disruption - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "95b63f18-2696-4d37-96a5-6ed2aedf3937",
+      "name": "Disruption / Disruption - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "04093b69-65b4-491f-9f1e-9ad9c2f91d59",
+      "name": "Disruption / Disruption - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "019d6708-3fd8-4140-9ed2-ad4b46121d56",
+      "name": "Disruption / Priority Assets - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "afabc959-7652-4614-9d8d-12d4e4c2a519",
+      "name": "Disruption / Priority Assets - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "0e4a1b7a-4fad-4481-bc97-4c8fd90509e3",
+      "name": "Disruption / Priority Assets - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "3380ca53-34dd-470f-9c0f-272f150342ee",
+      "name": "Disruption / Reconnaissance - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "64704890-9ea2-4012-90d1-cf1013bde656",
+      "name": "Disruption / Reconnaissance - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "97231123-f0ad-4b94-be0f-34582a31ea90"
+    },
+    {
+      "id": "0abf2302-b76a-4002-998a-2435f4b63775",
+      "name": "Disruption / Reconnaissance - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "6a24433b-0910-4386-8169-ac2b2ef9e377",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "252843ef-7e2a-4b8b-aa6b-36a2f778b545",
+      "name": "Priority Assets / Priority Assets - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "a448369d-286d-4b4f-aea5-bfb054938fd4",
+      "name": "Priority Assets / Priority Assets - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "3878f6df-cb4e-45b6-ae35-ef02f8180a09",
+      "name": "Priority Assets / Priority Assets - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "91d0332a-ad1d-4aa1-800a-af85839a5696",
+      "name": "Purge the Foe / Disruption - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "f153cefe-10f7-4c7e-b898-0ea19fa666d7",
+      "name": "Purge the Foe / Disruption - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "8b696de1-ff91-4365-be32-c252da2a5211",
+      "name": "Purge the Foe / Disruption - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "d74b950f-43c6-42b7-9388-824716265a5a",
+      "name": "Purge the Foe / Priority Assets - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "97231123-f0ad-4b94-be0f-34582a31ea90"
+    },
+    {
+      "id": "7637886d-14f4-4f8d-aae1-597281d22331",
+      "name": "Purge the Foe / Priority Assets - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "aece871e-74de-46a6-b514-87f202245f3b",
+      "name": "Purge the Foe / Priority Assets - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "29df4291-6744-4c31-8765-96456890e1db"
+    },
+    {
+      "id": "6250bc57-ca6d-42b6-8c6f-f5531eba3a07",
+      "name": "Purge the Foe / Purge the Foe - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "3205c756-7fac-4000-bdc9-e742b0e2c2a6",
+      "name": "Purge the Foe / Purge the Foe - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "40190243-4f2b-4c5a-bfed-73b441335d11",
+      "name": "Purge the Foe / Purge the Foe - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "d927c3b3-6c15-4305-90c0-70afc707aeb8",
+      "name": "Purge the Foe / Reconnaissance - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "29df4291-6744-4c31-8765-96456890e1db"
+    },
+    {
+      "id": "80aed795-1bc2-41fc-813c-1851b451605e",
+      "name": "Purge the Foe / Reconnaissance - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "97231123-f0ad-4b94-be0f-34582a31ea90"
+    },
+    {
+      "id": "713f4170-8f3b-4cdc-866d-e50c580537dd",
+      "name": "Purge the Foe / Reconnaissance - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "b5516bfb-ddf7-419f-9c51-d7d6a69d0fb1",
+      "name": "Reconnaissance / Priority Assets - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "cc033412-45dd-4f17-9ef6-700f5b96c213",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "ed60f881-287a-45ce-a1c1-dd793d100595",
+      "name": "Reconnaissance / Priority Assets - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "cc033412-45dd-4f17-9ef6-700f5b96c213",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "19432b28-bcfc-4258-a420-297160a1441c",
+      "name": "Reconnaissance / Priority Assets - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "cc033412-45dd-4f17-9ef6-700f5b96c213",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "79c16f68-fac0-4352-a176-533f8ee03dbb",
+      "name": "Reconnaissance / Reconnaissance - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "cc033412-45dd-4f17-9ef6-700f5b96c213",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "308e6128-d502-4cf7-82d7-4df8afd6e3df",
+      "name": "Reconnaissance / Reconnaissance - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "cc033412-45dd-4f17-9ef6-700f5b96c213",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "a5d62d8d-fde7-4860-b172-912cb266234f",
+      "name": "Reconnaissance / Reconnaissance - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "cc033412-45dd-4f17-9ef6-700f5b96c213",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "4d1d689a-1424-4aff-ad86-9087f9b79de2",
+      "name": "Take and Hold / Disruption - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "7af36165-f7c3-4f4d-8583-ae2d58fcfe0d",
+      "name": "Take and Hold / Disruption - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "c93288d3-d899-462b-b583-1c6a9c1fd169",
+      "name": "Take and Hold / Disruption - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "6a24433b-0910-4386-8169-ac2b2ef9e377"
+      ],
+      "deployment": "29df4291-6744-4c31-8765-96456890e1db"
+    },
+    {
+      "id": "411cd37a-ba13-4719-b18a-45a9cfa0ca89",
+      "name": "Take and Hold / Priority Assets - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "4979b61c-026b-40c7-85fa-0f3e14c4666e"
+    },
+    {
+      "id": "82a248ac-ced9-4be9-af81-eb406d3ad7c0",
+      "name": "Take and Hold / Priority Assets - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "29df4291-6744-4c31-8765-96456890e1db"
+    },
+    {
+      "id": "7716c9cb-7ad1-4f01-b230-0c51f4355d9a",
+      "name": "Take and Hold / Priority Assets - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "8989bd9e-4bd5-49f8-b4d9-7acb47fccf41"
+      ],
+      "deployment": "97231123-f0ad-4b94-be0f-34582a31ea90"
+    },
+    {
+      "id": "1817b8d7-5883-4227-8fbb-44b820b7f0b2",
+      "name": "Take and Hold / Purge the Foe - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f"
+      ],
+      "deployment": "592426f6-ce87-4572-b293-96766b9008ca"
+    },
+    {
+      "id": "fef207c7-5027-437d-bd1c-cd403a540b9c",
+      "name": "Take and Hold / Purge the Foe - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "9b9b0db0-4884-49cd-bd65-de28ab7faecd",
+      "name": "Take and Hold / Purge the Foe - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "c9572fd5-d8cd-41b6-b613-13265ac1c04f"
+      ],
+      "deployment": "29df4291-6744-4c31-8765-96456890e1db"
+    },
+    {
+      "id": "3f277a84-f3f3-4117-8e2d-8fd2d6d29791",
+      "name": "Take and Hold / Reconnaissance - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "43d1e185-2b92-406a-ae30-92cea1f0fa16",
+      "name": "Take and Hold / Reconnaissance - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "97231123-f0ad-4b94-be0f-34582a31ea90"
+    },
+    {
+      "id": "329d6325-40a7-4bbb-9bed-565556ff8a98",
+      "name": "Take and Hold / Reconnaissance - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "cc033412-45dd-4f17-9ef6-700f5b96c213"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    },
+    {
+      "id": "ed87b70c-bb09-49c7-bf06-54ca47956dcd",
+      "name": "Take and Hold / Take and Hold - Layout A",
+      "letter": "A",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f"
+      ],
+      "deployment": "d1c7a63c-ff7f-4fc3-a998-a4e4dca7ce5d"
+    },
+    {
+      "id": "a91b88cf-262c-4b0e-bd90-535f9277ae45",
+      "name": "Take and Hold / Take and Hold - Layout B",
+      "letter": "B",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f"
+      ],
+      "deployment": "97231123-f0ad-4b94-be0f-34582a31ea90"
+    },
+    {
+      "id": "c0ade67f-ba04-4e62-8892-d85f7a32a7ea",
+      "name": "Take and Hold / Take and Hold - Layout C",
+      "letter": "C",
+      "dispositions": [
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f",
+        "27b26ab3-d5e3-450c-af69-829ca3229f7f"
+      ],
+      "deployment": "fe7d7ea0-6e39-4d45-b5a6-a68d72cda674"
+    }
+  ],
+  "twists": [
+    {
+      "id": "c9149128-3611-4ee4-be35-f42daa0c7e8e",
+      "name": "Martial Pride",
+      "rules": ""
+    },
+    {
+      "id": "194d945f-0b44-4f95-a016-5be39cb2437c",
+      "name": "Mirrored World",
+      "rules": ""
+    },
+    {
+      "id": "53ae9133-3fbc-45d2-aaf2-f2ac5ec20006",
+      "name": "Night Fighting",
+      "rules": ""
+    },
+    {
+      "id": "e9e72f61-fef9-4e72-8ac2-9f9b662c7392",
+      "name": "Nowhere to Hide",
+      "rules": ""
+    },
+    {
+      "id": "1be5bbd5-07c2-42db-acdd-764bcaafc9b2",
+      "name": "Ruinscape",
+      "rules": ""
+    },
+    {
+      "id": "4c90c070-d670-4416-ae04-0bd2633754fb",
+      "name": "Scrambled Communications",
+      "rules": ""
+    }
+  ]
+}
