@@ -10,8 +10,8 @@ One branch per release, named after its data version (`972`, `981` and `995`, th
 
 `releases.json` on `main` names what is published: per release its version, the commit of its branch, and `retired` for one that stays only for what is on it. Muster's data host, `data.muster.tj-apps.nl`, serves exactly that: each release's bundle, packed and checked by Muster's pipeline, and its text. A push to `main` that changes `releases.json` deploys the host (`.github/workflows/deploy.yml`); a build that fails a check publishes nothing.
 
+- **A new release** follows a Games Workshop update (a Munitorum Field Manual or a Balance Dataslate), every faction at once. Numbers go up in steps of 10 (`1010`, `1020`), a hotfix in between (`1011`); they are whole numbers, not semver. Muster's `pipeline promote 1010` makes branch `1010` from the release before; each faction's import from Wahapedia's export, with its diff for review, is a pull request into that branch. When all are in, its commit goes at the end of `releases.json`. Until then no player sees the branch; after it the data is frozen.
 - **A text fix:** commit it on the release's branch, then put that commit in `releases.json`.
-- **A new release:** a branch made from the newest (Muster's `pipeline promote`), then its entry at the end of `releases.json`.
 
 Muster's own tests and local builds read the commits Muster pins (`packages/pipeline/data/muster-data.json`), which may lag behind.
 
