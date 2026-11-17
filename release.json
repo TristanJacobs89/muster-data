@@ -1,8 +1,8 @@
 {
-  "data_version": 1000,
-  "schema": 34,
+  "data_version": 1010,
+  "schema": 35,
   "sha": "ebcd0cbedb197fd8246b7cff580fde3625c6f3f1",
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "factions": [
     {
       "key": "adeptasororitas",
@@ -173,9 +173,9 @@
       "group": "Chaos"
     }
   ],
-  "bundle": "1000-f86efd222374",
   "upstream": {
     "data_version": 995,
     "sha": "ebcd0cbedb197fd8246b7cff580fde3625c6f3f1"
-  }
+  },
+  "bundle": "1010-f887cb50cf8f"
 }

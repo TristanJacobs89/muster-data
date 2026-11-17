@@ -1,5 +1,5 @@
 {
-  "schema": 34,
+  "schema": 35,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "bundle": {
           "type": "string",
@@ -66,23 +66,50 @@
           }
         },
         "upstream": {
-          "type": "object",
-          "properties": {
-            "data_version": {
-              "type": "integer",
-              "minimum": 1,
-              "maximum": 9007199254740991
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "data_version": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 9007199254740991
+                },
+                "sha": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{40}$"
+                }
+              },
+              "required": [
+                "data_version",
+                "sha"
+              ],
+              "additionalProperties": false
             },
-            "sha": {
-              "type": "string",
-              "pattern": "^[0-9a-f]{40}$"
+            {
+              "type": "object",
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "const": "wahapedia"
+                },
+                "updated": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+                },
+                "sha": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{40}$"
+                }
+              },
+              "required": [
+                "source",
+                "updated",
+                "sha"
+              ],
+              "additionalProperties": false
             }
-          },
-          "required": [
-            "data_version",
-            "sha"
-          ],
-          "additionalProperties": false
+          ]
         }
       },
       "required": [
@@ -101,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "faction": {
           "type": "object",
@@ -5931,7 +5958,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "stratagems": {
           "type": "array",
@@ -6115,7 +6142,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "source": {
           "type": "string"
@@ -6388,7 +6415,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "source": {
           "type": "string"
@@ -6710,7 +6737,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "sizes": {
           "minItems": 1,
@@ -6769,7 +6796,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 34
+          "const": 35
         },
         "text": {
           "type": "object",
