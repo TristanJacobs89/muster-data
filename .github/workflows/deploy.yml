@@ -1,0 +1,67 @@
+# Publishes what releases.json names (Muster #986): a push to main that changes it deploys Muster's data
+# host, data.muster.tj-apps.nl (Coolify resource "Muster Data", built from Muster's services/data at its
+# last release). That build packs and checks every release named here; one that fails a check publishes
+# nothing (the host keeps serving what it had) and fails this run. A manual run deploys again.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths: [releases.json]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: releases.json
+          sparse-checkout-cone-mode: false
+      - name: Deploy, and wait until Coolify is done
+        env:
+          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
+        run: |
+          auth="Authorization: Bearer $COOLIFY_TOKEN"
+          # force: Muster's commit is the same as last time, so without it Coolify reuses the image it
+          # has and never reads muster-data again.
+          response=$(curl -fsS -X POST -H "$auth" "https://coolify.tj-apps.nl/api/v1/deploy?uuid=xx3afy3ajhlcrbzft9eunxlp&force=true")
+          deployment=$(jq -r '.deployments[0].deployment_uuid // empty' <<< "$response")
+          [ -n "$deployment" ] || { echo "Coolify started no deploy: $response"; exit 1; }
+          for i in $(seq 1 90); do
+            status=$(curl -fsS -H "$auth" "https://coolify.tj-apps.nl/api/v1/deployments/$deployment" | jq -r .status)
+            case "$status" in
+              finished) break ;;
+              failed | cancelled*) echo "Coolify says the deploy $status: see its log in Coolify." && exit 1 ;;
+            esac
+            [ "$i" = 90 ] && { echo "Not done after 15 minutes ($status): check the deploy in Coolify." && exit 1; }
+            sleep 10
+          done
+      - name: The host serves every release named here, retired as named, each with its text as published
+        run: |
+          index=$(curl -fsS --retry 6 --retry-delay 5 --retry-all-errors https://data.muster.tj-apps.nl/index.json)
+          want=$(jq -c '[.releases[] | [.version, (.retired // false)]]' releases.json)
+          have=$(jq -c '[.bundles[] | [.data_version, (.retired // false)]]' <<< "$index")
+          [ "$want" = "$have" ] || { echo "releases.json names $want, the host serves $have."; exit 1; }
+          for release in $(jq -r '.releases[] | "\(.version)=\(.commit)"' releases.json); do
+            version=${release%%=*} commit=${release#*=}
+            # Only a 404 means a release without text (972, 981); any other failure fails the run.
+            code=$(curl -sS -o manifest.json -w '%{http_code}' "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$commit/manifest.json")
+            [ "$code" = 404 ] && { echo "$version: no text."; continue; }
+            [ "$code" = 200 ] || { echo "$version: its manifest at $commit answered $code."; exit 1; }
+            published=$(jq -er '.revision // .date' manifest.json)
+            served=$(curl -fsS "https://data.muster.tj-apps.nl/text/$version/manifest.json" | jq -er '.revision // .date')
+            [ "$published" = "$served" ] || { echo "$version: text $published at $commit, the host serves $served."; exit 1; }
+            echo "$version: text $served."
+          done

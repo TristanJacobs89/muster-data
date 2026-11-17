@@ -4,6 +4,8 @@
 !*/
 !*.json
 !.gitignore
+# The deploy of Muster's data host when releases.json changes (Muster #986).
+!.github/workflows/*.yml
 # Games Workshop's text: never committed.
 .cache/
 work/
