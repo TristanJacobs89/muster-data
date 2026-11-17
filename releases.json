@@ -1,0 +1,24 @@
+{
+  "repo": "TristanJacobs89/muster-data",
+  "releases": [
+    {
+      "version": 972,
+      "commit": "7514acbcf8a4636183261ecc612be46a22515b7d",
+      "retired": true
+    },
+    {
+      "version": 981,
+      "commit": "e78b7a28528cb1037d675f4d265a96535faebc0d",
+      "retired": true
+    },
+    {
+      "version": 995,
+      "commit": "ea432c27b170c6cfd8e38374f75949a4564ea526",
+      "retired": true
+    },
+    {
+      "version": 1000,
+      "commit": "9933ec59fc75b09aaab030b38b8d778406a74e18"
+    }
+  ]
+}

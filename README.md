@@ -4,7 +4,16 @@ Game data and rules text for [Muster](https://github.com/TristanJacobs89/muster)
 
 ## Branches
 
-One branch per release, named after its data version (`972`, `981`, `995`; the game-datacards data version it was first made from). Muster's pipeline packs each release's bundle at the commit Muster pins (`packages/pipeline/data/muster-data.json`). A published release is frozen: its data must pack to the bundle id in its `release.json`, so a data change is a new release; its text may still change. `main` holds only what every release shares.
+One branch per release, named after its data version (`972`, `981` and `995`, the game-datacards data versions they were first made from; Muster's own numbers from `1000`). A published release is frozen: its data must pack to the bundle id in its `release.json`, so a data change is a new release; its text may still change. `main` holds only what every release shares.
+
+## Publishing
+
+`releases.json` on `main` names what is published: per release its version, the commit of its branch, and `retired` for one that stays only for what is on it. Muster's data host, `data.muster.tj-apps.nl`, serves exactly that: each release's bundle, packed and checked by Muster's pipeline, and its text. A push to `main` that changes `releases.json` deploys the host (`.github/workflows/deploy.yml`); a build that fails a check publishes nothing.
+
+- **A text fix:** commit it on the release's branch, then put that commit in `releases.json`.
+- **A new release:** a branch made from the newest (Muster's `pipeline promote`), then its entry at the end of `releases.json`.
+
+Muster's own tests and local builds read the commits Muster pins (`packages/pipeline/data/muster-data.json`), which may lag behind.
 
 ## Files
 
