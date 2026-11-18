@@ -7148,8 +7148,8 @@
         "name": "Infernal Lance",
         "dp": 3,
         "dispositions": [
-          "Purge the Foe",
-          "Priority Assets"
+          "Priority Assets",
+          "Purge the Foe"
         ],
         "unique": [],
         "rules": [
@@ -7715,7 +7715,7 @@
             ]
           },
           {
-            "name": "Panoply of the Cursed Knight",
+            "name": "Panoply of the Cursed Knights",
             "points": 15,
             "text": "",
             "targets": [
