@@ -10392,6 +10392,16 @@
             "excludes": []
           },
           {
+            "name": "Perplexing Cloak",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "thousand sons infantry"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
             "name": "Biomechanical Mutation",
             "points": 15,
             "text": "",
@@ -10407,16 +10417,6 @@
             "text": "",
             "targets": [
               "thousand sons"
-            ],
-            "non_character": false,
-            "excludes": []
-          },
-          {
-            "name": "The Perplexing Cloak",
-            "points": 20,
-            "text": "",
-            "targets": [
-              "thousand sons infantry"
             ],
             "non_character": false,
             "excludes": []
@@ -10754,8 +10754,8 @@
         "name": "Grand Coven",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Disruption"
+          "Disruption",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -11193,8 +11193,8 @@
         "name": "Rubricae Phalanx",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -11235,7 +11235,7 @@
             "excludes": []
           },
           {
-            "name": "The Stave Abominus",
+            "name": "Stave Abominus",
             "points": 20,
             "text": "",
             "targets": [
