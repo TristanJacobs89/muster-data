@@ -532,6 +532,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -2078,6 +2079,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -2582,6 +2584,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -3278,7 +3281,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Frame",
@@ -3942,6 +3945,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -5581,7 +5585,7 @@
             "name": "Boltstorm Gauntlet",
             "profiles": [
               {
-                "name": "Boltstorm Gauntlet",
+                "name": "Boltstorm Gauntlet – Ranged",
                 "range": "12\"",
                 "a": "3",
                 "skill": "2+",
@@ -5653,7 +5657,7 @@
             "name": "Boltstorm Gauntlet",
             "profiles": [
               {
-                "name": "Boltstorm Gauntlet",
+                "name": "Boltstorm Gauntlet – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -5973,15 +5977,13 @@
               {
                 "name": "Instigator Bolt Carbine",
                 "range": "24\"",
-                "a": "2",
+                "a": "1",
                 "skill": "2+",
-                "s": "5",
+                "s": "4",
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 1",
-                  "PRECISION",
-                  "ASSAULT"
+                  "PRECISION"
                 ]
               }
             ]
@@ -6087,12 +6089,7 @@
             "kind": "other",
             "timing": {
               "once_per": "round",
-              "when": [
-                {
-                  "turn": "your",
-                  "phase": "shooting"
-                }
-              ]
+              "when": []
             }
           }
         ],
@@ -6903,7 +6900,7 @@
           }
         ],
         "transport": "",
-        "base_size": "90x52.5mm Oval Base",
+        "base_size": "90 x 52mm",
         "imperial_armour": false,
         "keywords": [
           "Captain",
@@ -7478,11 +7475,11 @@
               "cost": 0
             },
             {
-              "name": "Chainsword",
+              "name": "Relic Shield",
               "cost": 0
             },
             {
-              "name": "Relic Shield",
+              "name": "Chainsword",
               "cost": 0
             }
           ],
@@ -7937,11 +7934,11 @@
                 "cost": 0
               },
               {
-                "name": "Chainsword",
+                "name": "Relic Shield",
                 "cost": 0
               },
               {
-                "name": "Relic Shield",
+                "name": "Chainsword",
                 "cost": 0
               }
             ],
@@ -8064,9 +8061,9 @@
               {
                 "name": "Talassarian Tempest Blade – Coup de Grace",
                 "range": "Melee",
-                "a": "7",
+                "a": "6",
                 "skill": "2+",
-                "s": "6",
+                "s": "5",
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
@@ -8082,13 +8079,13 @@
                 "ap": "-2",
                 "d": "1",
                 "keywords": [
-                  "SUSTAINED HITS 1: INFANTRY"
+                  "Sustained Hits 1"
                 ]
               },
               {
                 "name": "Talassarian Tempest Blade – Strike",
                 "range": "Melee",
-                "a": "5",
+                "a": "4",
                 "skill": "2+",
                 "s": "6",
                 "ap": "-3",
@@ -8164,19 +8161,10 @@
         "leads": [
           "Victrix Honour Guard"
         ],
-        "supports": [
-          "Victrix Honour Guard"
-        ],
+        "supports": [],
         "attaches": [
           {
             "type": "leader",
-            "target": "Victrix Honour Guard",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "support",
             "target": "Victrix Honour Guard",
             "requires_detachment": null,
             "requires_keyword": null,
@@ -9299,7 +9287,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -10243,7 +10231,7 @@
           }
         ],
         "transport": "",
-        "base_size": "90x52.5mm Oval Base",
+        "base_size": "90 x 52mm",
         "imperial_armour": false,
         "keywords": [
           "Chaplain",
@@ -10857,7 +10845,9 @@
         "Tacticus",
         "Explosives",
         "Imperium",
-        "Character"
+        "Character",
+        "Ancient",
+        "Champion"
       ],
       "points": [
         {
@@ -10880,21 +10870,15 @@
       ],
       "wargear_options": [],
       "composition": [
+        "",
+        "",
+        "",
         ""
       ],
       "data": {
         "stats": [
           {
             "name": "Company veteran with bolt rifle",
-            "m": "6\"",
-            "t": "5",
-            "sv": "3+",
-            "w": "4",
-            "ld": "6+",
-            "oc": "2"
-          },
-          {
-            "name": "Company Veteran with heavy bolter",
             "m": "6\"",
             "t": "5",
             "sv": "3+",
@@ -11031,7 +11015,9 @@
           "Tacticus",
           "Explosives",
           "Imperium",
-          "Character"
+          "Character",
+          "Ancient",
+          "Champion"
         ],
         "factions": [
           "Adeptus Astartes"
@@ -11075,15 +11061,13 @@
             "name": "Ancient",
             "min": 1,
             "max": 1,
-            "statline": "Company veteran with bolt rifle",
-            "statline_assumed": true
+            "statline": "Company veteran with bolt rifle"
           },
           {
             "name": "Company Champion",
             "min": 1,
             "max": 1,
-            "statline": "Company veteran with bolt rifle",
-            "statline_assumed": true
+            "statline": "Company veteran with bolt rifle"
           },
           {
             "name": "Company Veteran with Bolt Rifle",
@@ -11095,7 +11079,7 @@
             "name": "Company Veteran with Heavy Bolter",
             "min": 1,
             "max": 1,
-            "statline": "Company Veteran with heavy bolter"
+            "statline": "Company veteran with bolt rifle"
           }
         ],
         "loadouts": [
@@ -11105,24 +11089,24 @@
             "wargear": [
               "Combat Knife",
               "Master-crafted Bolt Pistol",
-              "Master-crafted Heavy Bolter"
+              "Master-crafted Bolt Rifle"
             ]
           },
           {
             "model": 1,
             "role": null,
             "wargear": [
-              "Combat Knife",
               "Master-crafted Bolt Pistol",
-              "Master-crafted Bolt Rifle"
+              "Master-crafted Power Weapon"
             ]
           },
           {
             "model": 2,
             "role": null,
             "wargear": [
+              "Combat Knife",
               "Master-crafted Bolt Pistol",
-              "Master-crafted Power Weapon"
+              "Master-crafted Heavy Bolter"
             ]
           }
         ],
@@ -11449,6 +11433,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -11849,11 +11834,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Crushing Feet",
+              "name": "Missile Launcher",
               "cost": 0
             },
             {
-              "name": "Missile Launcher",
+              "name": "Crushing Feet",
               "cost": 0
             }
           ],
@@ -12259,11 +12244,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Crushing Feet",
+                "name": "Missile Launcher",
                 "cost": 0
               },
               {
-                "name": "Missile Launcher",
+                "name": "Crushing Feet",
                 "cost": 0
               }
             ],
@@ -12413,7 +12398,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Custom",
+        "base_size": "",
         "imperial_armour": false,
         "keywords": [
           "Dedicated Transport",
@@ -12579,6 +12564,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -12905,6 +12891,7 @@
       ],
       "wargear_options": [],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -13147,6 +13134,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -13776,7 +13764,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -15009,7 +14997,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -15170,6 +15158,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -15453,6 +15442,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -15731,12 +15721,12 @@
               "cost": 0
             },
             {
-              "name": "Ironhail Skytalon Array",
-              "cost": 0
-            },
-            {
               "name": "Orbital Comms Array",
               "cost": 10
+            },
+            {
+              "name": "Ironhail Skytalon Array",
+              "cost": 0
             },
             {
               "name": "Shield Dome",
@@ -16138,12 +16128,12 @@
                 "cost": 0
               },
               {
-                "name": "Ironhail Skytalon Array",
-                "cost": 0
-              },
-              {
                 "name": "Orbital Comms Array",
                 "cost": 10
+              },
+              {
+                "name": "Ironhail Skytalon Array",
+                "cost": 0
               },
               {
                 "name": "Shield Dome",
@@ -16333,6 +16323,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -16604,6 +16595,7 @@
       ],
       "wargear_options": [],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -16833,6 +16825,7 @@
       ],
       "wargear_options": [],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -17072,6 +17065,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -17505,6 +17499,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -18206,7 +18201,7 @@
           }
         ],
         "transport": "",
-        "base_size": "None",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -18949,8 +18944,9 @@
           }
         ],
         "invul": {
-          "value": "",
-          "condition": ""
+          "value": "4+",
+          "condition": "",
+          "against": "melee"
         },
         "ranged": [
           {
@@ -19948,68 +19944,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Autocannon",
-              "cost": 0
-            },
-            {
-              "name": "Lascannon",
-              "cost": 0
-            },
-            {
-              "name": "Volkite Caliver",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Autocannon",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Lascannon",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Volkite Caliver",
-                  "count": 2
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Bolter"
-          ],
-          "replaces_options": [],
-          "replaces_counts": {
-            "Heavy Bolter": 2
-          }
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Melta Blast-gun",
               "cost": 0
             },
@@ -20051,68 +19985,6 @@
             "Kratos Battle Cannon"
           ],
           "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Heavy Flamer",
-              "cost": 0
-            },
-            {
-              "name": "Lascannon",
-              "cost": 0
-            },
-            {
-              "name": "Volkite Culverin",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Heavy Flamer",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Lascannon",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Volkite Culverin",
-                  "count": 2
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Bolter"
-          ],
-          "replaces_options": [],
-          "replaces_counts": {
-            "Heavy Bolter": 2
-          }
         },
         {
           "instruction": "",
@@ -20240,6 +20112,130 @@
           ],
           "replaces": [],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Autocannon",
+              "cost": 0
+            },
+            {
+              "name": "Lascannonss",
+              "cost": 0
+            },
+            {
+              "name": "Volkite Caliver",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Autocannon",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Lascannonss",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Volkite Caliver",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Heavy Bolter"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Heavy Bolter": 2
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Heavy Flamer",
+              "cost": 0
+            },
+            {
+              "name": "Lascannonss",
+              "cost": 0
+            },
+            {
+              "name": "Volkite Culverin",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy Flamer",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Lascannonss",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Volkite Culverin",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Heavy Bolter"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Heavy Bolter": 2
+          }
         }
       ],
       "composition": [
@@ -20586,7 +20582,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -20654,68 +20650,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Autocannon",
-                "cost": 0
-              },
-              {
-                "name": "Lascannon",
-                "cost": 0
-              },
-              {
-                "name": "Volkite Caliver",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Autocannon",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Lascannon",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Volkite Caliver",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Bolter"
-            ],
-            "replaces_options": [],
-            "replaces_counts": {
-              "Heavy Bolter": 2
-            }
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Melta Blast-gun",
                 "cost": 0
               },
@@ -20757,68 +20691,6 @@
               "Kratos Battle Cannon"
             ],
             "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Heavy Flamer",
-                "cost": 0
-              },
-              {
-                "name": "Lascannon",
-                "cost": 0
-              },
-              {
-                "name": "Volkite Culverin",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Heavy Flamer",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Lascannon",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Volkite Culverin",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Bolter"
-            ],
-            "replaces_options": [],
-            "replaces_counts": {
-              "Heavy Bolter": 2
-            }
           },
           {
             "instruction": "",
@@ -20946,6 +20818,130 @@
             ],
             "replaces": [],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Autocannon",
+                "cost": 0
+              },
+              {
+                "name": "Lascannonss",
+                "cost": 0
+              },
+              {
+                "name": "Volkite Caliver",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Autocannon",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Lascannonss",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Volkite Caliver",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Heavy Bolter"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Heavy Bolter": 2
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Heavy Flamer",
+                "cost": 0
+              },
+              {
+                "name": "Lascannonss",
+                "cost": 0
+              },
+              {
+                "name": "Volkite Culverin",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy Flamer",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Lascannonss",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Volkite Culverin",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Heavy Bolter"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Heavy Bolter": 2
+            }
           }
         ]
       }
@@ -21238,7 +21234,7 @@
           }
         ],
         "transport": "",
-        "base_size": "None",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -21692,7 +21688,7 @@
           }
         ],
         "transport": "",
-        "base_size": "None",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -22199,7 +22195,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -22680,7 +22676,7 @@
           }
         ],
         "transport": "",
-        "base_size": "None",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -23037,7 +23033,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105x70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -24118,11 +24114,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Master-crafted Power Weapon",
+              "name": "Neo-volkite Pistol",
               "cost": 0
             },
             {
-              "name": "Neo-volkite Pistol",
+              "name": "Master-crafted Power Weapon",
               "cost": 0
             }
           ],
@@ -24737,11 +24733,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Master-crafted Power Weapon",
+                "name": "Neo-volkite Pistol",
                 "cost": 0
               },
               {
-                "name": "Neo-volkite Pistol",
+                "name": "Master-crafted Power Weapon",
                 "cost": 0
               }
             ],
@@ -26156,7 +26152,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -26464,6 +26460,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -26611,7 +26608,7 @@
           }
         ],
         "transport": "",
-        "base_size": "90x52.5mm Oval Base",
+        "base_size": "90 x 52mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -27040,7 +27037,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -27478,7 +27475,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -27885,7 +27882,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Artillery",
@@ -28263,7 +28260,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Dedicated Transport",
@@ -29069,6 +29066,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -29655,7 +29653,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Dedicated Transport",
@@ -30748,7 +30746,7 @@
           }
         ],
         "transport": "",
-        "base_size": "None",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Dedicated Transport",
@@ -31022,7 +31020,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -31167,7 +31165,7 @@
             "name": "Hand of Dominion",
             "profiles": [
               {
-                "name": "Hand of Dominion",
+                "name": "Hand of Dominion – Ranged",
                 "range": "36\"",
                 "a": "4",
                 "skill": "2+",
@@ -31175,8 +31173,8 @@
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
-                  "SUSTAINED HITS 1",
-                  "RAPID FIRE 2"
+                  "Rapid Fire 2",
+                  "Sustained Hits 1"
                 ]
               }
             ]
@@ -31205,7 +31203,7 @@
             "name": "Hand of Dominion",
             "profiles": [
               {
-                "name": "Hand of Dominion",
+                "name": "Hand of Dominion – Melee",
                 "range": "Melee",
                 "a": "7",
                 "skill": "2+",
@@ -31213,7 +31211,7 @@
                 "ap": "-4",
                 "d": "4",
                 "keywords": [
-                  "LETHAL HITS"
+                  "Lethal Hits"
                 ]
               }
             ]
@@ -31409,10 +31407,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Bolt Pistol",
-              "cost": 0
-            },
-            {
               "name": "Boltgun",
               "cost": 0
             },
@@ -31457,7 +31451,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 5,
           "model": 0,
           "loadout": 0,
           "heading": "",
@@ -31581,15 +31575,6 @@
         "stats": [
           {
             "name": "Scout Biker",
-            "m": "12\"",
-            "t": "5",
-            "sv": "4+",
-            "w": "3",
-            "ld": "6+",
-            "oc": "2"
-          },
-          {
-            "name": "Scout Biker Sergeant",
             "m": "12\"",
             "t": "5",
             "sv": "4+",
@@ -31941,7 +31926,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x25mm Oval Base",
+        "base_size": "75 x 25mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -31997,7 +31982,7 @@
             "name": "Scout Biker Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Scout Biker Sergeant"
+            "statline": "Scout Biker"
           },
           {
             "name": "Scout Biker",
@@ -32056,10 +32041,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Bolt Pistol",
-                "cost": 0
-              },
-              {
                 "name": "Boltgun",
                 "cost": 0
               },
@@ -32104,7 +32085,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 5,
             "model": 0,
             "loadout": 0,
             "heading": "",
@@ -32435,6 +32416,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -33316,7 +33298,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -33683,6 +33665,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -34982,7 +34965,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Aircraft",
@@ -35511,7 +35494,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -35946,7 +35929,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Aircraft",
@@ -36231,7 +36214,7 @@
           }
         ],
         "transport": "",
-        "base_size": "90x52.5mm Oval Base",
+        "base_size": "90 x 52mm",
         "imperial_armour": false,
         "keywords": [
           "Captain",
@@ -36408,7 +36391,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -36623,7 +36606,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Artillery",
@@ -37023,12 +37006,12 @@
           "instruction": "",
           "options": [
             {
-              "name": "Thunder Hammer",
-              "cost": 0
-            },
-            {
               "name": "Storm Shield",
               "cost": 5
+            },
+            {
+              "name": "Thunder Hammer",
+              "cost": 0
             }
           ],
           "source": 2,
@@ -37062,6 +37045,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -37239,12 +37223,12 @@
             "instruction": "",
             "options": [
               {
-                "name": "Thunder Hammer",
-                "cost": 0
-              },
-              {
                 "name": "Storm Shield",
                 "cost": 5
+              },
+              {
+                "name": "Thunder Hammer",
+                "cost": 0
               }
             ],
             "source": 2,
@@ -37395,12 +37379,12 @@
               "cost": 0
             },
             {
-              "name": "Cyclone Missile Launcher",
-              "cost": 10
-            },
-            {
               "name": "Heavy Flamer",
               "cost": 0
+            },
+            {
+              "name": "Cyclone Missile Launcher",
+              "cost": 10
             },
             {
               "name": "Storm Bolter",
@@ -37457,6 +37441,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -37807,12 +37792,12 @@
                 "cost": 0
               },
               {
-                "name": "Cyclone Missile Launcher",
-                "cost": 10
-              },
-              {
                 "name": "Heavy Flamer",
                 "cost": 0
+              },
+              {
+                "name": "Cyclone Missile Launcher",
+                "cost": 10
               },
               {
                 "name": "Storm Bolter",
@@ -38108,7 +38093,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Dedicated Transport",
@@ -39090,7 +39075,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -39413,15 +39398,6 @@
             "w": "2",
             "ld": "6+",
             "oc": "1"
-          },
-          {
-            "name": "Vanguard Veteran Sergeant",
-            "m": "6\"",
-            "t": "5",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
           }
         ],
         "invul": null,
@@ -39631,7 +39607,7 @@
             "name": "Vanguard Veteran Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Vanguard Veteran Sergeant"
+            "statline": "Vanguard Veteran"
           },
           {
             "name": "Vanguard Veteran",
@@ -39940,6 +39916,7 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
@@ -39974,10 +39951,22 @@
             ]
           },
           {
-            "name": "Supercharge",
+            "name": "Plasma pistol",
             "profiles": [
               {
-                "name": "Supercharge",
+                "name": "Plasma Pistol – Standard",
+                "range": "12\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "7",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "CLOSE-QUARTERS"
+                ]
+              },
+              {
+                "name": "Plasma Pistol – Supercharge",
                 "range": "12\"",
                 "a": "1",
                 "skill": "3+",
@@ -39985,7 +39974,7 @@
                 "ap": "-3",
                 "d": "2",
                 "keywords": [
-                  "HAZARDOUS",
+                  "Hazardous",
                   "CLOSE-QUARTERS"
                 ]
               }
@@ -40364,11 +40353,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Dreadnought Fist",
+              "name": "Heavy Flamer",
               "cost": 0
             },
             {
-              "name": "Heavy Flamer",
+              "name": "Dreadnought Fist",
               "cost": 0
             },
             {
@@ -40432,15 +40421,7 @@
           "instruction": "",
           "options": [
             {
-              "name": "Assault Cannon",
-              "cost": 0
-            },
-            {
               "name": "Dreadnought Inferno Cannon",
-              "cost": 0
-            },
-            {
-              "name": "Heavy Flamer",
               "cost": 0
             },
             {
@@ -40468,7 +40449,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -40904,11 +40885,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Dreadnought Fist",
+                "name": "Heavy Flamer",
                 "cost": 0
               },
               {
-                "name": "Heavy Flamer",
+                "name": "Dreadnought Fist",
                 "cost": 0
               },
               {
@@ -40972,15 +40953,7 @@
             "instruction": "",
             "options": [
               {
-                "name": "Assault Cannon",
-                "cost": 0
-              },
-              {
                 "name": "Dreadnought Inferno Cannon",
-                "cost": 0
-              },
-              {
-                "name": "Heavy Flamer",
                 "cost": 0
               },
               {
@@ -41008,7 +40981,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -41097,7 +41070,9 @@
         "Imperium",
         "Infantry",
         "Tacticus",
-        "Epic Hero"
+        "Epic Hero",
+        "Champion",
+        "Ancient"
       ],
       "points": [
         {
@@ -41123,6 +41098,8 @@
       ],
       "wargear_options": [],
       "composition": [
+        "",
+        "",
         ""
       ],
       "data": {
@@ -41224,15 +41201,7 @@
             "name": "Banner of Macragge",
             "text": "",
             "kind": "wargear",
-            "timing": {
-              "once_per": null,
-              "when": [
-                {
-                  "turn": "your",
-                  "phase": "movement"
-                }
-              ]
-            }
+            "timing": null
           }
         ],
         "transport": "",
@@ -41242,7 +41211,9 @@
           "Imperium",
           "Infantry",
           "Tacticus",
-          "Epic Hero"
+          "Epic Hero",
+          "Champion",
+          "Ancient"
         ],
         "factions": [
           "Adeptus Astartes",
@@ -41550,7 +41521,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -41977,10 +41948,24 @@
       ],
       "wargear_options": [],
       "composition": [
+        "",
+        "",
+        "",
+        "",
+        "",
         ""
       ],
       "data": {
         "stats": [
+          {
+            "name": "Gaius Silva",
+            "m": "6\"",
+            "t": "3",
+            "sv": "4+",
+            "w": "3",
+            "ld": "6+",
+            "oc": "1"
+          },
           {
             "name": "Veteran Sergeant Metaurus",
             "m": "6\"",
@@ -41998,24 +41983,6 @@
             "w": "4",
             "ld": "6+",
             "oc": "2"
-          },
-          {
-            "name": "Gaius Silva",
-            "m": "6\"",
-            "t": "3",
-            "sv": "4+",
-            "w": "3",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
-            "name": "Lucia Vestha",
-            "m": "6\"",
-            "t": "3",
-            "sv": "4+",
-            "w": "3",
-            "ld": "6+",
-            "oc": "1"
           }
         ],
         "invul": {
@@ -42229,7 +42196,7 @@
           }
         ],
         "transport": "",
-        "base_size": "28.5mm, 40mm",
+        "base_size": "Gaius Silva: 28.5mm, Aemelia Minervas: 28.5mm, Veteran Sergeant Metaurus: 40mm, Dainal Komelius: 28.5mm, Ancient Gadriel: 40mm, Lucia Vestha: 28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -42324,7 +42291,7 @@
             "name": "Aemelia Minervas",
             "min": 1,
             "max": 1,
-            "statline": "Veteran Sergeant Metaurus",
+            "statline": "Gaius Silva",
             "statline_assumed": true
           },
           {
@@ -42337,7 +42304,7 @@
             "name": "Dainal Kornelius",
             "min": 1,
             "max": 1,
-            "statline": "Veteran Sergeant Metaurus",
+            "statline": "Gaius Silva",
             "statline_assumed": true
           },
           {
@@ -42350,7 +42317,8 @@
             "name": "Lucia Vestha",
             "min": 1,
             "max": 1,
-            "statline": "Lucia Vestha"
+            "statline": "Gaius Silva",
+            "statline_assumed": true
           },
           {
             "name": "Veteran Sergeant Metaurus",
@@ -42372,32 +42340,32 @@
             "model": 1,
             "role": null,
             "wargear": [
-              "Astropathic Blast",
-              "Force Stave"
+              "Bolt Rifle",
+              "Ceramite Fists"
             ]
           },
           {
             "model": 2,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Master-crafted Power Weapon"
+              "Astropathic Blast",
+              "Force Stave"
             ]
           },
           {
             "model": 3,
             "role": null,
             "wargear": [
-              "Bolt Rifle",
-              "Ceramite Fists"
+              "Archeotech Laspistol",
+              "Ultramarian Combat Weapons"
             ]
           },
           {
             "model": 4,
             "role": null,
             "wargear": [
-              "Archeotech Laspistol",
-              "Ultramarian Combat Weapons"
+              "Heavy Bolt Pistol",
+              "Master-crafted Power Weapon"
             ]
           }
         ],
@@ -42614,7 +42582,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -42744,7 +42712,7 @@
   "rules": {
     "faction": "space_marines",
     "name": "Adeptus Astartes",
-    "data_version": "2026-10-16T18:38:12.764Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Combat Doctrines",
@@ -42773,8 +42741,8 @@
         "name": "Blade of Ultramar",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -43119,8 +43087,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -44161,32 +44129,32 @@
             "excludes": [],
             "modifiers": [
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "s",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "ap",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               }
             ]
           },
@@ -44540,11 +44508,11 @@
             "modifiers": [
               {
                 "who": "unit",
+                "only": "Torrent",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "only": "Torrent"
+                "change": 1
               }
             ]
           },
@@ -45461,11 +45429,7 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": {
-              "text": "",
-              "cp": 0,
-              "exclusive": false
-            },
+            "secondary_effect": null,
             "units": {
               "targets": [
                 "adeptus astartes"
@@ -45653,9 +45617,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
@@ -45675,9 +45639,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
