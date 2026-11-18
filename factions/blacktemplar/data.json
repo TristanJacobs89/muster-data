@@ -167,11 +167,11 @@
                 "range": "18\"",
                 "a": "1",
                 "skill": "2+",
-                "s": "5",
+                "s": "4",
                 "ap": "-1",
                 "d": "1",
                 "keywords": [
-                  "CLOSE-QUARTERS"
+                  "Pistol"
                 ]
               }
             ]
@@ -468,8 +468,8 @@
       "epic_hero": true,
       "loadout": [
         "Plasma Pistol",
-        "Artificer crozius",
-        "Close combat weapon"
+        "Artificier Crozius",
+        "Servitor Combat Weapon"
       ],
       "wargear_options": [],
       "composition": [
@@ -479,21 +479,21 @@
       "data": {
         "stats": [
           {
-            "name": "Cenobyte Servitor",
-            "m": "6\"",
-            "t": "4",
-            "sv": "3+",
-            "w": "1",
-            "ld": "8+",
-            "oc": "1"
-          },
-          {
             "name": "Chaplain Grimaldus",
             "m": "6\"",
             "t": "5",
             "sv": "3+",
             "w": "5",
             "ld": "5+",
+            "oc": "1"
+          },
+          {
+            "name": "Cenobyte Servitor",
+            "m": "6\"",
+            "t": "4",
+            "sv": "3+",
+            "w": "1",
+            "ld": "8+",
             "oc": "1"
           }
         ],
@@ -630,7 +630,7 @@
           }
         ],
         "transport": "",
-        "base_size": "28.5mm, 40mm",
+        "base_size": "Chaplain Grimaldus: 40mm, Cenobyte Servitor: 28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Imperium",
@@ -711,8 +711,8 @@
         ],
         "loadout": [
           "Plasma Pistol",
-          "Artificer crozius",
-          "Close combat weapon"
+          "Artificier Crozius",
+          "Servitor Combat Weapon"
         ],
         "model_types": [
           {
@@ -730,18 +730,18 @@
         ],
         "loadouts": [
           {
-            "model": null,
+            "model": 0,
             "role": null,
             "wargear": [
-              "Plasma Pistol",
-              "Artificer crozius"
+              "Artificier Crozius",
+              "Plasma Pistol"
             ]
           },
           {
-            "model": null,
+            "model": 1,
             "role": null,
             "wargear": [
-              "Close combat weapon"
+              "Servitor Combat Weapon"
             ]
           }
         ],
@@ -944,8 +944,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Master-crafted Power Weapon",
-              "Bolt Pistol"
+              "Bolt Pistol",
+              "Master-crafted Power Weapon"
             ]
           }
         ],
@@ -1167,19 +1167,19 @@
       "data": {
         "stats": [
           {
-            "name": "Initiate",
+            "name": "Neophyte",
             "m": "6\"",
-            "t": "5",
-            "sv": "3+",
+            "t": "4",
+            "sv": "4+",
             "w": "2",
             "ld": "6+",
             "oc": "2"
           },
           {
-            "name": "Neophyte",
+            "name": "Initiate",
             "m": "6\"",
-            "t": "4",
-            "sv": "4+",
+            "t": "5",
+            "sv": "3+",
             "w": "2",
             "ld": "6+",
             "oc": "2"
@@ -1428,7 +1428,7 @@
           }
         ],
         "transport": "",
-        "base_size": "28.5mm, 32mm, 40mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -1488,7 +1488,7 @@
             "name": "Sword Brother",
             "min": 1,
             "max": 1,
-            "statline": "Initiate",
+            "statline": "Neophyte",
             "statline_assumed": true
           },
           {
@@ -1936,8 +1936,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Bolt Pistol",
-              "Black Sword"
+              "Black Sword",
+              "Bolt Pistol"
             ]
           }
         ],
@@ -4290,8 +4290,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Plasma Pistol",
-              "Master-crafted Power Weapon"
+              "Master-crafted Power Weapon",
+              "Plasma Pistol"
             ]
           }
         ],
@@ -5443,8 +5443,8 @@
             }
           ],
           "replaces": [
-            "Heavy Bolt Pistol",
-            "Chainsword"
+            "Chainsword",
+            "Heavy Bolt Pistol"
           ],
           "replaces_options": []
         }
@@ -5714,8 +5714,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ]
           }
         ],
@@ -5885,8 +5885,8 @@
               }
             ],
             "replaces": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ],
             "replaces_options": []
           }
@@ -5897,7 +5897,7 @@
   "rules": {
     "faction": "blacktemplar",
     "name": "Black Templars",
-    "data_version": "2026-10-16T18:38:13.204Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Combat Doctrines",
@@ -6843,32 +6843,32 @@
             "excludes": [],
             "modifiers": [
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "s",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "ap",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               }
             ]
           },
