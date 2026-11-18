@@ -186,7 +186,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -783,7 +783,7 @@
             "name": "Spear of the Void Dragon",
             "profiles": [
               {
-                "name": "Spear of the Void Dragon – Ranged",
+                "name": "Spear of the Void Dragon",
                 "range": "12\"",
                 "a": "D3",
                 "skill": "2+",
@@ -2130,7 +2130,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60mm",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3160,7 +3160,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3380,6 +3380,23 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Aeonstave",
+            "profiles": [
+              {
+                "name": "Aeonstave – Ranged",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
           }
         ],
         "melee": [
@@ -3388,6 +3405,21 @@
             "profiles": [
               {
                 "name": "Chronomancer’s stave – Melee",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Aeonstave",
+            "profiles": [
+              {
+                "name": "Aeonstave – Melee",
                 "range": "Melee",
                 "a": "3",
                 "skill": "4+",
@@ -3628,7 +3660,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -4169,7 +4201,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4365,7 +4397,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4917,7 +4949,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5948,7 +5980,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -6555,7 +6587,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -7588,23 +7620,6 @@
         ],
         "melee": [
           {
-            "name": "Blade tail",
-            "profiles": [
-              {
-                "name": "Blade tail",
-                "range": "Melee",
-                "a": "6",
-                "skill": "2+",
-                "s": "6",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "Extra Attacks"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Unmaker Gauntlet",
             "profiles": [
               {
@@ -7616,6 +7631,23 @@
                 "ap": "-3",
                 "d": "3",
                 "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Blade tail and whip coils",
+            "profiles": [
+              {
+                "name": "Blade tail and whip coils",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Extra Attacks"
+                ]
               }
             ]
           }
@@ -7860,7 +7892,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8040,7 +8072,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -9949,7 +9981,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -10727,68 +10759,10 @@
       ],
       "epic_hero": false,
       "loadout": [
-        "Tesla sphere",
-        "Armoured bulk"
+        "Armoured bulk",
+        "Tesla spheres"
       ],
-      "wargear_options": [
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Antimatter Meteor",
-              "cost": 0
-            },
-            {
-              "name": "Cosmic Fire",
-              "cost": 0
-            },
-            {
-              "name": "Time’s Arrow",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": false
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Antimatter Meteor",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Cosmic Fire",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Time’s Arrow",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        }
-      ],
+      "wargear_options": [],
       "composition": [
         ""
       ],
@@ -10822,6 +10796,66 @@
                 "d": "1",
                 "keywords": [
                   "Sustained Hits 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Antimatter Meteor",
+            "profiles": [
+              {
+                "name": "Antimatter Meteor",
+                "range": "24\"",
+                "a": "D6+3",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Blast",
+                  "Devastating Wounds",
+                  "Indirect Fire",
+                  "C'tan Power"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cosmic Fire",
+            "profiles": [
+              {
+                "name": "Cosmic Fire",
+                "range": "18\"",
+                "a": "3D6",
+                "skill": "-",
+                "s": "6",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Devastating Wounds",
+                  "Torrent",
+                  "C'tan Power"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Time’s Arrow",
+            "profiles": [
+              {
+                "name": "Time’s Arrow",
+                "range": "24\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "3",
+                "ap": "-2",
+                "d": "6",
+                "keywords": [
+                  "Anti-character 4+",
+                  "Devastating Wounds",
+                  "Precision",
+                  "C'tan Power"
                 ]
               }
             ]
@@ -10879,7 +10913,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -10920,8 +10954,8 @@
           "after": 1
         },
         "loadout": [
-          "Tesla sphere",
-          "Armoured bulk"
+          "Armoured bulk",
+          "Tesla spheres"
         ],
         "model_types": [
           {
@@ -10936,73 +10970,15 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Tesla sphere",
+              "Tesla spheres",
               "Armoured bulk"
             ],
             "counts": {
-              "Tesla sphere": 4
+              "Tesla spheres": 4
             }
           }
         ],
-        "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Antimatter Meteor",
-                "cost": 0
-              },
-              {
-                "name": "Cosmic Fire",
-                "cost": 0
-              },
-              {
-                "name": "Time’s Arrow",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": false
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Antimatter Meteor",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Cosmic Fire",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Time’s Arrow",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          }
-        ]
+        "wargear_options": []
       }
     },
     {
@@ -11118,23 +11094,6 @@
         ],
         "melee": [
           {
-            "name": "Scythe of Dust",
-            "profiles": [
-              {
-                "name": "Scythe of Dust",
-                "range": "Melee",
-                "a": "12",
-                "skill": "2+",
-                "s": "8",
-                "ap": "-3",
-                "d": "2",
-                "keywords": [
-                  "Lethal Hits"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Armoured bulk",
             "profiles": [
               {
@@ -11146,6 +11105,23 @@
                 "ap": "0",
                 "d": "1",
                 "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Weapons of the Final Triarch",
+            "profiles": [
+              {
+                "name": "Weapons of the Final Triarch",
+                "range": "Melee",
+                "a": "12",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Lethal Hits"
+                ]
               }
             ]
           }
@@ -11213,7 +11189,7 @@
           }
         ],
         "transport": "",
-        "base_size": "The Silent King: Szarekh: 100mm\nTriarchal Menhir: 50mm",
+        "base_size": "SZAREKH: 100mm, TRIARCHAL MENHIR: 50mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -11604,7 +11580,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -11948,7 +11924,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60mm",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -12707,7 +12683,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -12822,7 +12798,7 @@
   "rules": {
     "faction": "necrons",
     "name": "Necrons",
-    "data_version": "2026-10-16T18:38:17.729Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Reanimation Protocols",
@@ -13315,7 +13291,7 @@
             "excludes": []
           },
           {
-            "name": "Prelocational Optimiser",
+            "name": "Relocational Optimiser",
             "points": 25,
             "text": "",
             "targets": [
@@ -13462,6 +13438,17 @@
             ],
             "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "kind": "keyword",
+                "keyword": "Destroyer Cult"
+              },
+              {
+                "kind": "stat",
+                "stat": "m",
+                "change": 3
+              }
+            ],
             "attaches": [
               {
                 "type": "support",
@@ -13494,17 +13481,6 @@
                 "requires_keyword": null,
                 "excludes_detachment": null,
                 "name_only": true
-              }
-            ],
-            "modifiers": [
-              {
-                "kind": "keyword",
-                "keyword": "Destroyer Cult"
-              },
-              {
-                "kind": "stat",
-                "stat": "m",
-                "change": 3
               }
             ]
           },
@@ -13955,7 +13931,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "necrons"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Cosmic Precision",
@@ -14159,7 +14141,7 @@
             "name": "Dominance Protocols",
             "cp": 1,
             "type": "",
-            "turn": "your",
+            "turn": "either",
             "phases": [
               "command"
             ],
@@ -14180,9 +14162,9 @@
             "name": "Will of the Conqueror",
             "cp": 1,
             "type": "",
-            "turn": "either",
+            "turn": "your",
             "phases": [
-              "fight"
+              "movement"
             ],
             "when": "",
             "target": "",
@@ -14252,7 +14234,7 @@
             "points": 35,
             "text": "",
             "targets": [
-              "c'tan shard of the voiddragon"
+              "c'tan shard of the void dragon"
             ],
             "non_character": false,
             "excludes": []
@@ -14709,7 +14691,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "necrons"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Sentinels of Eternity",
@@ -14992,7 +14980,9 @@
             "name": "Veil of Darkness",
             "points": 20,
             "text": "",
-            "targets": [],
+            "targets": [
+              "necrons"
+            ],
             "non_character": false,
             "excludes": []
           },
