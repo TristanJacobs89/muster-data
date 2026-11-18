@@ -152,7 +152,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Aestred Thurga: 32mm\nAgathae Dolan: 25mm",
+        "base_size": "AESTRED THURGA: 32mm, AGATHAE DOLAN: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -2505,10 +2505,7 @@
             "name": "Sacred Command",
             "text": "",
             "kind": "other",
-            "timing": {
-              "once_per": "round",
-              "when": []
-            }
+            "timing": null
           },
           {
             "name": "Divine Deliverance",
@@ -2942,7 +2939,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6126,7 +6123,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7012,7 +7009,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7192,7 +7189,6 @@
       ],
       "wargear_options": [],
       "composition": [
-        "",
         ""
       ],
       "data": {
@@ -7526,7 +7522,14 @@
             "name": "The Pulpit of Saint Holline’s Basilica",
             "text": "",
             "kind": "other",
-            "timing": null
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "ability",
+                "name": "Stealth"
+              }
+            ]
           },
           {
             "name": "Fiery Conviction",
@@ -9823,10 +9826,10 @@
             ]
           },
           {
-            "name": "Twin penitent flail",
+            "name": "Twin penitent flails",
             "profiles": [
               {
-                "name": "Twin penitent flail",
+                "name": "Twin penitent flails",
                 "range": "Melee",
                 "a": "8",
                 "skill": "4+",
@@ -9834,8 +9837,8 @@
                 "ap": "-1",
                 "d": "1",
                 "keywords": [
-                  "Twin-linked",
-                  "Sustained Hits 1"
+                  "Sustained Hits 1",
+                  "Twin-linked"
                 ]
               }
             ]
@@ -10131,7 +10134,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Repentia Superior: 32mm\nSister Repentia: 28.5mm",
+        "base_size": "REPENTIA SUPERIOR: 32mm, SISTERS REPENTIA: 28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -10193,8 +10196,7 @@
             "name": "Sisters Repentia",
             "min": 4,
             "max": 9,
-            "statline": "Repentia Superior",
-            "statline_assumed": true
+            "statline": "Sister Repentia"
           }
         ],
         "loadouts": [
@@ -11165,7 +11167,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Saint Celestine: 40mm\nGeminae Superia: 32mm",
+        "base_size": "CELESTINE: 40mm, GEMINAE SUPERIA: 32mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -11296,70 +11298,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Meltagun",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 3,
-          "loadout": 2,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Meltagun",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Plasma gun"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Holy fire",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": 3,
-          "loadout": 2,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Holy fire",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Ministorum hand flamer",
               "cost": 0
             },
@@ -11370,7 +11308,7 @@
           ],
           "source": 7,
           "model": 4,
-          "loadout": 3,
+          "loadout": 2,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -11411,7 +11349,7 @@
           ],
           "source": 8,
           "model": 4,
-          "loadout": 3,
+          "loadout": 2,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -11437,6 +11375,70 @@
             "Sanctifier melee weapon"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Meltagun",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 3,
+          "loadout": 4,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Meltagun",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Plasma gun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Holy fire",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 3,
+          "loadout": 4,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Holy fire",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
         }
       ],
       "composition": [
@@ -11450,42 +11452,6 @@
         "stats": [
           {
             "name": "Miraculist",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Salvationist",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Death Cult Assassin",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Missionary",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Sanctifier",
             "m": "6\"",
             "t": "3",
             "sv": "6+",
@@ -11789,25 +11755,25 @@
             "name": "Salvationist",
             "min": 1,
             "max": 1,
-            "statline": "Salvationist"
+            "statline": "Miraculist"
           },
           {
             "name": "Death Cult Assassin",
             "min": 1,
             "max": 1,
-            "statline": "Death Cult Assassin"
+            "statline": "Miraculist"
           },
           {
             "name": "Missionaries",
             "min": 2,
             "max": 2,
-            "statline": "Missionary"
+            "statline": "Miraculist"
           },
           {
             "name": "Sanctifiers",
             "min": 4,
             "max": 4,
-            "statline": "Sanctifier"
+            "statline": "Miraculist"
           }
         ],
         "loadouts": [
@@ -11828,15 +11794,6 @@
             ]
           },
           {
-            "model": 3,
-            "role": null,
-            "wargear": [
-              "Plasma gun",
-              "Ministorum flamer",
-              "Sanctifier melee weapon"
-            ]
-          },
-          {
             "model": 4,
             "role": null,
             "wargear": [
@@ -11850,73 +11807,25 @@
             "wargear": [
               "Death Cult blades"
             ]
+          },
+          {
+            "model": 3,
+            "role": null,
+            "wargear": [
+              "Plasma gun",
+              "Sanctifier melee weapon"
+            ]
+          },
+          {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Ministorum flamer",
+              "Sanctifier melee weapon"
+            ]
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Meltagun",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 3,
-            "loadout": 2,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Meltagun",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Plasma gun"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Holy fire",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": 3,
-            "loadout": 2,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Holy fire",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -11931,7 +11840,7 @@
             ],
             "source": 7,
             "model": 4,
-            "loadout": 3,
+            "loadout": 2,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -11972,7 +11881,7 @@
             ],
             "source": 8,
             "model": 4,
-            "loadout": 3,
+            "loadout": 2,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -11997,6 +11906,70 @@
             "replaces": [
               "Sanctifier melee weapon"
             ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Meltagun",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 3,
+            "loadout": 4,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Meltagun",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Plasma gun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Holy fire",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 3,
+            "loadout": 4,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Holy fire",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
             "replaces_options": []
           }
         ]
@@ -12038,6 +12011,10 @@
           "instruction": "",
           "options": [
             {
+              "name": "Bolt pistol",
+              "cost": 0
+            },
+            {
               "name": "Chainsword",
               "cost": 0
             },
@@ -12047,10 +12024,6 @@
             },
             {
               "name": "Power weapon",
-              "cost": 0
-            },
-            {
-              "name": "Bolt pistol",
               "cost": 0
             }
           ],
@@ -12458,6 +12431,10 @@
             "instruction": "",
             "options": [
               {
+                "name": "Bolt pistol",
+                "cost": 0
+              },
+              {
                 "name": "Chainsword",
                 "cost": 0
               },
@@ -12467,10 +12444,6 @@
               },
               {
                 "name": "Power weapon",
-                "cost": 0
-              },
-              {
-                "name": "Bolt pistol",
                 "cost": 0
               }
             ],
@@ -13067,7 +13040,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Novitiate Superior: 32mm\nSister Novitiate: 28.5mm",
+        "base_size": "NOVITIATE SUPERIOR: 32mm, SISTER NOVITIATE: 28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -13506,7 +13479,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -13756,7 +13729,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -14188,7 +14161,7 @@
   "rules": {
     "faction": "adeptasororitas",
     "name": "Adepta Sororitas",
-    "data_version": "2026-10-16T18:38:15.856Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Acts of Faith",
@@ -14260,6 +14233,12 @@
             ],
             "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "kind": "keyword",
+                "keyword": "Penitent"
+              }
+            ],
             "attaches": [
               {
                 "type": "leader",
@@ -14268,12 +14247,6 @@
                 "requires_keyword": null,
                 "excludes_detachment": null,
                 "name_only": true
-              }
-            ],
-            "modifiers": [
-              {
-                "kind": "keyword",
-                "keyword": "Penitent"
               }
             ]
           }
@@ -14768,7 +14741,7 @@
             "targets": [
               "adepta sororitas character"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [
               "Penitent"
             ]
@@ -14838,18 +14811,18 @@
             "modifiers": [
               {
                 "who": "leading",
+                "only": "Torrent",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "only": "Torrent"
+                "change": 1
               },
               {
                 "who": "leading",
+                "unless": "Torrent",
                 "kind": "weapon_keyword",
                 "weapons": "ranged",
-                "keyword": "Sustained Hits 1",
-                "unless": "Torrent"
+                "keyword": "Sustained Hits 1"
               }
             ]
           },
