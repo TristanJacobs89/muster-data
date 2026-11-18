@@ -57,7 +57,7 @@
             "name": "Foehammer",
             "profiles": [
               {
-                "name": "Foehammer",
+                "name": "Foehammer – Ranged",
                 "range": "9\"",
                 "a": "1",
                 "skill": "2+",
@@ -77,7 +77,7 @@
             "name": "Foehammer",
             "profiles": [
               {
-                "name": "Foehammer",
+                "name": "Foehammer – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -85,8 +85,8 @@
                 "ap": "-2",
                 "d": "3",
                 "keywords": [
-                  "PRECISION",
-                  "ANTI-MONSTER/VEHICLE 3+"
+                  "ANTI-MONSTER/VEHICLE 3+",
+                  "Precision"
                 ]
               }
             ]
@@ -385,7 +385,7 @@
                 "name": "Assault Cannon",
                 "range": "24\"",
                 "a": "6",
-                "skill": "3+",
+                "skill": "2+",
                 "s": "6",
                 "ap": "-2",
                 "d": "1",
@@ -1407,8 +1407,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Bolt Pistol",
               "Bolt Carbine",
+              "Bolt Pistol",
               "Chainsword"
             ]
           }
@@ -1979,9 +1979,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Tyrnak and Fenrir",
+              "Axe Morkai",
               "Storm Bolter",
-              "Axe Morkai"
+              "Tyrnak and Fenrir"
             ]
           }
         ],
@@ -2203,8 +2203,8 @@
             "role": null,
             "wargear": [
               "Heavy Flamer",
-              "Storm Bolter",
-              "Murderclaws"
+              "Murderclaws",
+              "Storm Bolter"
             ]
           }
         ],
@@ -3375,8 +3375,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Plasma Pistol",
-              "Artificer Crozius Arcanum"
+              "Artificer Crozius Arcanum",
+              "Plasma Pistol"
             ]
           }
         ],
@@ -4340,12 +4340,12 @@
         },
         {
           "models": 6,
-          "cost": 170,
+          "cost": 115,
           "label": "6 models"
         },
         {
           "models": 6,
-          "cost": 115,
+          "cost": 170,
           "label": "6 models"
         },
         {
@@ -4539,7 +4539,7 @@
           }
         ],
         "transport": "",
-        "base_size": "40mm, 60x35.5mm Oval Base",
+        "base_size": "Wolf Guard Headtaker: 40mm, Hunting Wolf: 60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Imperium",
@@ -4583,14 +4583,14 @@
           },
           {
             "models": 6,
-            "cost": 170,
+            "cost": 115,
             "keyword": null,
             "faction": null,
             "detachment": null
           },
           {
             "models": 6,
-            "cost": 115,
+            "cost": 170,
             "keyword": null,
             "faction": null,
             "detachment": null
@@ -4607,6 +4607,36 @@
           "cost": 10,
           "after": 2
         },
+        "mixes": [
+          {
+            "models": {
+              "Hunting Wolf": 0,
+              "Wolf Guard Headtaker": 3
+            },
+            "cost": 85
+          },
+          {
+            "models": {
+              "Hunting Wolf": 3,
+              "Wolf Guard Headtaker": 3
+            },
+            "cost": 115
+          },
+          {
+            "models": {
+              "Hunting Wolf": 0,
+              "Wolf Guard Headtaker": 6
+            },
+            "cost": 170
+          },
+          {
+            "models": {
+              "Hunting Wolf": 6,
+              "Wolf Guard Headtaker": 6
+            },
+            "cost": 230
+          }
+        ],
         "loadout": [
           "Teeth and Claws",
           "Heavy Bolt Pistol",
@@ -4685,36 +4715,6 @@
             ],
             "replaces_options": []
           }
-        ],
-        "mixes": [
-          {
-            "models": {
-              "Hunting Wolf": 0,
-              "Wolf Guard Headtaker": 3
-            },
-            "cost": 85
-          },
-          {
-            "models": {
-              "Hunting Wolf": 3,
-              "Wolf Guard Headtaker": 3
-            },
-            "cost": 115
-          },
-          {
-            "models": {
-              "Hunting Wolf": 0,
-              "Wolf Guard Headtaker": 6
-            },
-            "cost": 170
-          },
-          {
-            "models": {
-              "Hunting Wolf": 6,
-              "Wolf Guard Headtaker": 6
-            },
-            "cost": 230
-          }
         ]
       }
     },
@@ -4789,8 +4789,8 @@
             }
           ],
           "replaces": [
-            "Storm Bolter",
-            "Master-crafted Power Weapon"
+            "Master-crafted Power Weapon",
+            "Storm Bolter"
           ],
           "replaces_options": []
         },
@@ -4865,8 +4865,8 @@
             }
           ],
           "replaces": [
-            "Storm Bolter",
-            "Master-crafted Power Weapon"
+            "Master-crafted Power Weapon",
+            "Storm Bolter"
           ],
           "replaces_options": []
         }
@@ -5099,8 +5099,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Storm Bolter",
-              "Master-crafted Power Weapon"
+              "Master-crafted Power Weapon",
+              "Storm Bolter"
             ]
           }
         ],
@@ -5147,8 +5147,8 @@
               }
             ],
             "replaces": [
-              "Storm Bolter",
-              "Master-crafted Power Weapon"
+              "Master-crafted Power Weapon",
+              "Storm Bolter"
             ],
             "replaces_options": []
           },
@@ -5223,8 +5223,8 @@
               }
             ],
             "replaces": [
-              "Storm Bolter",
-              "Master-crafted Power Weapon"
+              "Master-crafted Power Weapon",
+              "Storm Bolter"
             ],
             "replaces_options": []
           }
@@ -5502,86 +5502,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Haywire Mine (Once per battle, per unit)",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": null,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Haywire Mine (Once per battle, per unit)",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Bolt Pistol",
-              "cost": 0
-            },
-            {
-              "name": "Thunderclap",
-              "cost": 0
-            },
-            {
-              "name": "Runic Stave",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": 2,
-          "loadout": 2,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Bolt Pistol",
-                  "count": 1
-                },
-                {
-                  "option": "Thunderclap",
-                  "count": 1
-                },
-                {
-                  "option": "Runic Stave",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Plasma Pistol"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Instigator Bolt Carbine",
               "cost": 0
             }
@@ -5644,6 +5564,97 @@
             "Plasma Pistol"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Bolt Pistol",
+              "cost": 0
+            },
+            {
+              "name": "Runic Stave",
+              "cost": 0
+            },
+            {
+              "name": "Thunderclap",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": 2,
+          "loadout": 2,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bolt Pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Runic Stave",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Thunderclap",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Combat Knife",
+            "Plasma Pistol"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Haywire Mine",
+              "cost": 0
+            }
+          ],
+          "source": 8,
+          "model": null,
+          "loadout": null,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Haywire Mine",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
         }
       ],
       "composition": [
@@ -5654,15 +5665,6 @@
       "data": {
         "stats": [
           {
-            "name": "Wolf Scout",
-            "m": "8\"",
-            "t": "4",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Hunting Wolf",
             "m": "10\"",
             "t": "4",
@@ -5670,6 +5672,15 @@
             "w": "1",
             "ld": "8+",
             "oc": "0"
+          },
+          {
+            "name": "Wolf Scout",
+            "m": "8\"",
+            "t": "4",
+            "sv": "3+",
+            "w": "2",
+            "ld": "6+",
+            "oc": "1"
           }
         ],
         "invul": null,
@@ -5899,7 +5910,7 @@
           }
         ],
         "transport": "",
-        "base_size": "32mm, 60x35.5mm Oval Base",
+        "base_size": "Hunting Wolf: 60 x 35.5mm, Wolf Scout: 32mm, Wolf Scout Pack Leader: 32mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -5961,7 +5972,7 @@
             "name": "Wolf Scout Pack Leader",
             "min": 1,
             "max": 1,
-            "statline": "Wolf Scout",
+            "statline": "Hunting Wolf",
             "statline_assumed": true
           },
           {
@@ -5997,92 +6008,12 @@
             "model": 2,
             "role": null,
             "wargear": [
-              "Plasma Pistol",
-              "Combat Knife"
+              "Combat Knife",
+              "Plasma Pistol"
             ]
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Haywire Mine (Once per battle, per unit)",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": null,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Haywire Mine (Once per battle, per unit)",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Bolt Pistol",
-                "cost": 0
-              },
-              {
-                "name": "Thunderclap",
-                "cost": 0
-              },
-              {
-                "name": "Runic Stave",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": 2,
-            "loadout": 2,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Bolt Pistol",
-                    "count": 1
-                  },
-                  {
-                    "option": "Thunderclap",
-                    "count": 1
-                  },
-                  {
-                    "option": "Runic Stave",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Plasma Pistol"
-            ],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -6148,6 +6079,97 @@
             "replaces": [
               "Plasma Pistol"
             ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Bolt Pistol",
+                "cost": 0
+              },
+              {
+                "name": "Runic Stave",
+                "cost": 0
+              },
+              {
+                "name": "Thunderclap",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": 2,
+            "loadout": 2,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bolt Pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Runic Stave",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Thunderclap",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Combat Knife",
+              "Plasma Pistol"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Haywire Mine",
+                "cost": 0
+              }
+            ],
+            "source": 8,
+            "model": null,
+            "loadout": null,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Haywire Mine",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
             "replaces_options": []
           }
         ]
@@ -6714,9 +6736,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Storm Bolter",
               "Fenrisian Great Axe",
-              "Great Wolf Claw"
+              "Great Wolf Claw",
+              "Storm Bolter"
             ]
           }
         ],
@@ -7024,8 +7046,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Thunder Hammer",
-              "Stormfrag Auto-launcher"
+              "Stormfrag Auto-launcher",
+              "Thunder Hammer"
             ]
           }
         ],
@@ -7070,7 +7092,7 @@
   "rules": {
     "faction": "spacewolves",
     "name": "Space Wolves",
-    "data_version": "2026-10-16T18:38:13.383Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Combat Doctrines",
@@ -7137,6 +7159,19 @@
             ],
             "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Wulfen"
+              },
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "m",
+                "change": 2
+              }
+            ],
             "attaches": [
               {
                 "type": "leader",
@@ -8311,32 +8346,32 @@
             "excludes": [],
             "modifiers": [
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "s",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "ap",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               }
             ]
           },
