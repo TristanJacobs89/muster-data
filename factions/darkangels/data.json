@@ -5727,8 +5727,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -7433,9 +7433,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
@@ -7455,9 +7455,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
