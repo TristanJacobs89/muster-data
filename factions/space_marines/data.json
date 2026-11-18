@@ -8161,10 +8161,19 @@
         "leads": [
           "Victrix Honour Guard"
         ],
-        "supports": [],
+        "supports": [
+          "Victrix Honour Guard"
+        ],
         "attaches": [
           {
             "type": "leader",
+            "target": "Victrix Honour Guard",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "support",
             "target": "Victrix Honour Guard",
             "requires_detachment": null,
             "requires_keyword": null,
@@ -19944,6 +19953,68 @@
           "instruction": "",
           "options": [
             {
+              "name": "Autocannon",
+              "cost": 0
+            },
+            {
+              "name": "Lascannon",
+              "cost": 0
+            },
+            {
+              "name": "Volkite Caliver",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Autocannon",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Lascannon",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Volkite Caliver",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Heavy Bolter"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Heavy Bolter": 2
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Melta Blast-gun",
               "cost": 0
             },
@@ -19985,6 +20056,68 @@
             "Kratos Battle Cannon"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Heavy Flamer",
+              "cost": 0
+            },
+            {
+              "name": "Lascannon",
+              "cost": 0
+            },
+            {
+              "name": "Volkite Culverin",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy Flamer",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Lascannon",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Volkite Culverin",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Heavy Bolter"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Heavy Bolter": 2
+          }
         },
         {
           "instruction": "",
@@ -20112,130 +20245,6 @@
           ],
           "replaces": [],
           "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Autocannon",
-              "cost": 0
-            },
-            {
-              "name": "Lascannonss",
-              "cost": 0
-            },
-            {
-              "name": "Volkite Caliver",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Autocannon",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Lascannonss",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Volkite Caliver",
-                  "count": 2
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Bolter"
-          ],
-          "replaces_options": [],
-          "replaces_counts": {
-            "Heavy Bolter": 2
-          }
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Heavy Flamer",
-              "cost": 0
-            },
-            {
-              "name": "Lascannonss",
-              "cost": 0
-            },
-            {
-              "name": "Volkite Culverin",
-              "cost": 0
-            }
-          ],
-          "source": 7,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Heavy Flamer",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Lascannonss",
-                  "count": 2
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Volkite Culverin",
-                  "count": 2
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Bolter"
-          ],
-          "replaces_options": [],
-          "replaces_counts": {
-            "Heavy Bolter": 2
-          }
         }
       ],
       "composition": [
@@ -20650,6 +20659,68 @@
             "instruction": "",
             "options": [
               {
+                "name": "Autocannon",
+                "cost": 0
+              },
+              {
+                "name": "Lascannon",
+                "cost": 0
+              },
+              {
+                "name": "Volkite Caliver",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Autocannon",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Lascannon",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Volkite Caliver",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Heavy Bolter"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Heavy Bolter": 2
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
                 "name": "Melta Blast-gun",
                 "cost": 0
               },
@@ -20691,6 +20762,68 @@
               "Kratos Battle Cannon"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Heavy Flamer",
+                "cost": 0
+              },
+              {
+                "name": "Lascannon",
+                "cost": 0
+              },
+              {
+                "name": "Volkite Culverin",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy Flamer",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Lascannon",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Volkite Culverin",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Heavy Bolter"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Heavy Bolter": 2
+            }
           },
           {
             "instruction": "",
@@ -20818,130 +20951,6 @@
             ],
             "replaces": [],
             "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Autocannon",
-                "cost": 0
-              },
-              {
-                "name": "Lascannonss",
-                "cost": 0
-              },
-              {
-                "name": "Volkite Caliver",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Autocannon",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Lascannonss",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Volkite Caliver",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Bolter"
-            ],
-            "replaces_options": [],
-            "replaces_counts": {
-              "Heavy Bolter": 2
-            }
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Heavy Flamer",
-                "cost": 0
-              },
-              {
-                "name": "Lascannonss",
-                "cost": 0
-              },
-              {
-                "name": "Volkite Culverin",
-                "cost": 0
-              }
-            ],
-            "source": 7,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Heavy Flamer",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Lascannonss",
-                    "count": 2
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Volkite Culverin",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Bolter"
-            ],
-            "replaces_options": [],
-            "replaces_counts": {
-              "Heavy Bolter": 2
-            }
           }
         ]
       }
@@ -42741,8 +42750,8 @@
         "name": "Blade of Ultramar",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -43087,8 +43096,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -45617,9 +45626,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
@@ -45639,9 +45648,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
