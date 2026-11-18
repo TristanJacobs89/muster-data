@@ -260,7 +260,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -627,7 +627,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2456,11 +2456,11 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shearing Claws",
               "Hades battle cannon",
               "Excruciator cannon",
               "Heavy missile launcher",
-              "Heavy baleflamer"
+              "Heavy baleflamer",
+              "Shearing Claws"
             ],
             "counts": {
               "Excruciator cannon": 2
@@ -3265,7 +3265,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5023,7 +5023,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6433,7 +6433,7 @@
   "rules": {
     "faction": "emperors_children",
     "name": "Emperor’s Children",
-    "data_version": "2026-10-16T18:38:18.658Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Thrill Seekers",
@@ -6883,8 +6883,8 @@
         "name": "Carnival of Excess",
         "dp": 3,
         "dispositions": [
-          "Disruption",
-          "Priority Assets"
+          "Priority Assets",
+          "Disruption"
         ],
         "unique": [],
         "rules": [
@@ -7025,7 +7025,15 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "slaanesh beasts",
+                "slaanesh infantry",
+                "slaanesh mounted"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Dark Apparitions",
@@ -7485,21 +7493,6 @@
             }
           },
           {
-            "name": "On to the Next",
-            "cp": 1,
-            "type": "Strategic Ploy",
-            "turn": "either",
-            "phases": [
-              "fight"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null
-          },
-          {
             "name": "Advance and Claim",
             "cp": 1,
             "type": "Strategic Ploy",
@@ -7561,6 +7554,21 @@
             "cp": 1,
             "type": "Strategic Ploy",
             "turn": "opponents",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null
+          },
+          {
+            "name": "Onto the Next",
+            "cp": 1,
+            "type": "Strategic Ploy",
+            "turn": "either",
             "phases": [
               "fight"
             ],
@@ -7825,6 +7833,13 @@
             ],
             "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "m",
+                "change": 1
+              }
+            ],
             "attaches": [
               {
                 "type": "leader",
@@ -7833,13 +7848,6 @@
                 "requires_keyword": null,
                 "excludes_detachment": null,
                 "name_only": true
-              }
-            ],
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "m",
-                "change": 1
               }
             ]
           },
@@ -7885,7 +7893,7 @@
           {
             "name": "Contemptuous Disregard",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "either",
             "phases": [
               "fight",
@@ -7907,7 +7915,7 @@
           {
             "name": "Close-quarters Excruciation",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "your",
             "phases": [
               "shooting"
@@ -7928,7 +7936,7 @@
           {
             "name": "Euphoric Inspiration",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "your",
             "phases": [
               "charge"
@@ -7949,7 +7957,7 @@
           {
             "name": "Prideful Superiority",
             "cp": 2,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "either",
             "phases": [
               "fight"
@@ -7970,7 +7978,7 @@
           {
             "name": "Sinuous Breach",
             "cp": 1,
-            "type": "Strategic Ploy",
+            "type": "",
             "turn": "your",
             "phases": [
               "charge",
@@ -7992,7 +8000,7 @@
           {
             "name": "Catalytic Stimulus",
             "cp": 1,
-            "type": "Strategic Ploy",
+            "type": "",
             "turn": "opponents",
             "phases": [
               "shooting"
