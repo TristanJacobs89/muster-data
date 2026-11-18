@@ -3365,6 +3365,23 @@
         },
         "ranged": [
           {
+            "name": "Chronomancer’s stave",
+            "profiles": [
+              {
+                "name": "Chronomancer’s stave – Ranged",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
             "name": "Aeonstave",
             "profiles": [
               {
@@ -3383,6 +3400,21 @@
           }
         ],
         "melee": [
+          {
+            "name": "Chronomancer’s stave",
+            "profiles": [
+              {
+                "name": "Chronomancer’s stave – Melee",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
           {
             "name": "Aeonstave",
             "profiles": [
