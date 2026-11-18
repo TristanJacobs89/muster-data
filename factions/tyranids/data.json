@@ -3958,10 +3958,10 @@
         "Infantry",
         "Great Devourer",
         "Vanguard Invader",
+        "Burrower",
         "Hyperadapted Raveners",
         "Character",
-        "Synapse",
-        "Burrowers"
+        "Synapse"
       ],
       "points": [
         {
@@ -4124,10 +4124,10 @@
           "Infantry",
           "Great Devourer",
           "Vanguard Invader",
+          "Burrower",
           "Hyperadapted Raveners",
           "Character",
-          "Synapse",
-          "Burrowers"
+          "Synapse"
         ],
         "factions": [
           "Tyranids"
@@ -6672,8 +6672,8 @@
         "Infantry",
         "Great Devourer",
         "Vanguard Invader",
-        "Raveners",
-        "Burrowers"
+        "Burrower",
+        "Raveners"
       ],
       "points": [
         {
@@ -6753,8 +6753,8 @@
           "Infantry",
           "Great Devourer",
           "Vanguard Invader",
-          "Raveners",
-          "Burrowers"
+          "Burrower",
+          "Raveners"
         ],
         "factions": [
           "Tyranids"
@@ -8798,7 +8798,7 @@
         ],
         "model_types": [
           {
-            "name": "Swarmlord",
+            "name": "The Swarmlord",
             "min": 1,
             "max": 1,
             "statline": "The Swarmlord"
@@ -12260,8 +12260,8 @@
         "name": "Subterranean Assault",
         "dp": 3,
         "dispositions": [
-          "Reconnaissance",
-          "Disruption"
+          "Disruption",
+          "Reconnaissance"
         ],
         "unique": [],
         "rules": [
@@ -13293,7 +13293,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tyranid warriors"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Parasitic Payload",
@@ -13308,7 +13314,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tyranid warriors"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Synaptic Micronodes",
@@ -13323,7 +13335,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tyranid warriors"
+              ],
+              "excludes": []
+            }
           }
         ]
       },
@@ -13332,8 +13350,8 @@
         "name": "Invasion Fleet",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
