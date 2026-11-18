@@ -167,7 +167,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -518,7 +518,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -1890,23 +1890,6 @@
         },
         "ranged": [
           {
-            "name": "Chainbreaker multi-laser",
-            "profiles": [
-              {
-                "name": "Chainbreaker multi-laser",
-                "range": "36\"",
-                "a": "4",
-                "skill": "2+",
-                "s": "6",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Sustained Hits 1"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Las-impulsor",
             "profiles": [
               {
@@ -1933,6 +1916,23 @@
                 "keywords": [
                   "Sustained Hits 1",
                   "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Questoris multi-laser",
+            "profiles": [
+              {
+                "name": "Questoris multi-laser",
+                "range": "36\"",
+                "a": "4",
+                "skill": "2+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Sustained Hits 1"
                 ]
               }
             ]
@@ -2012,12 +2012,6 @@
             }
           },
           {
-            "name": "Using Sir Hekhtur",
-            "text": "",
-            "kind": "special",
-            "timing": null
-          },
-          {
             "name": "Damaged: 1-9 WOUNDS REMAINING",
             "text": "",
             "kind": "damaged",
@@ -2025,7 +2019,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2263,7 +2257,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -2514,7 +2508,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -2725,7 +2719,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -2929,7 +2923,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -3041,7 +3035,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 2,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -3071,8 +3065,7 @@
           ],
           "replaces_options": [],
           "replaces_counts": {
-            "Shieldbreaker missile launcher": 2,
-            "Twin siegebreaker cannon": 2
+            "Shieldbreaker missile launcher": 2
           }
         }
       ],
@@ -3255,7 +3248,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3344,7 +3337,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 2,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -3374,8 +3367,7 @@
             ],
             "replaces_options": [],
             "replaces_counts": {
-              "Shieldbreaker missile launcher": 2,
-              "Twin siegebreaker cannon": 2
+              "Shieldbreaker missile launcher": 2
             }
           }
         ]
@@ -3452,47 +3444,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Rapid-fire battle cannon",
-              "cost": 15
-            },
-            {
-              "name": "Questoris heavy stubber",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Rapid-fire battle cannon",
-                  "count": 1
-                },
-                {
-                  "option": "Questoris heavy stubber",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Thermal cannon"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Ironstorm missile pod",
               "cost": 0
             },
@@ -3544,6 +3495,52 @@
             }
           ],
           "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Rapid-fire battle cannon",
+              "cost": 15
+            },
+            {
+              "name": "Questoris heavy stubber",
+              "cost": 0
+            }
+          ],
+          "source": 4,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Rapid-fire battle cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Questoris heavy stubber",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Thermal cannon"
+          ],
           "replaces_options": []
         }
       ],
@@ -3787,7 +3784,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3895,47 +3892,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Rapid-fire battle cannon",
-                "cost": 15
-              },
-              {
-                "name": "Questoris heavy stubber",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Rapid-fire battle cannon",
-                    "count": 1
-                  },
-                  {
-                    "option": "Questoris heavy stubber",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Thermal cannon"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Ironstorm missile pod",
                 "cost": 0
               },
@@ -3987,6 +3943,52 @@
               }
             ],
             "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Rapid-fire battle cannon",
+                "cost": 15
+              },
+              {
+                "name": "Questoris heavy stubber",
+                "cost": 0
+              }
+            ],
+            "source": 4,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Rapid-fire battle cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Questoris heavy stubber",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Thermal cannon"
+            ],
             "replaces_options": []
           }
         ]
@@ -4189,7 +4191,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4580,7 +4582,7 @@
           }
         ],
         "transport": "",
-        "base_size": "150mm Oval Base",
+        "base_size": "150 x 95mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5116,7 +5118,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5638,7 +5640,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5827,8 +5829,8 @@
       "loadout": [
         "Meltagun",
         "Questoris heavy stubber",
-        "Rapid-fire battle cannon",
-        "Reaper chainsword"
+        "Reaper chainsword",
+        "Rapid-fire battlecannon"
       ],
       "wargear_options": [
         {
@@ -5839,7 +5841,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -5872,7 +5874,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 5,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -5913,7 +5915,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 6,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -6171,7 +6173,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6216,8 +6218,8 @@
         "loadout": [
           "Meltagun",
           "Questoris heavy stubber",
-          "Rapid-fire battle cannon",
-          "Reaper chainsword"
+          "Reaper chainsword",
+          "Rapid-fire battlecannon"
         ],
         "model_types": [
           {
@@ -6234,7 +6236,7 @@
             "wargear": [
               "Meltagun",
               "Questoris heavy stubber",
-              "Rapid-fire battle cannon",
+              "Rapid-fire battlecannon",
               "Reaper chainsword"
             ]
           }
@@ -6248,7 +6250,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -6281,7 +6283,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 5,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -6322,7 +6324,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 6,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -6777,7 +6779,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7030,7 +7032,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 2,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -7060,8 +7062,7 @@
           ],
           "replaces_options": [],
           "replaces_counts": {
-            "Shieldbreaker missile launcher": 2,
-            "Twin siegebreaker cannon": 2
+            "Shieldbreaker missile launcher": 2
           }
         }
       ],
@@ -7241,7 +7242,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7330,7 +7331,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 2,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -7360,8 +7361,7 @@
             ],
             "replaces_options": [],
             "replaces_counts": {
-              "Shieldbreaker missile launcher": 2,
-              "Twin siegebreaker cannon": 2
+              "Shieldbreaker missile launcher": 2
             }
           }
         ]
@@ -7755,7 +7755,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8198,7 +8198,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -8558,7 +8558,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -8808,7 +8808,7 @@
   "rules": {
     "faction": "imperialknights",
     "name": "Imperial Knights",
-    "data_version": "2026-10-16T18:38:15.418Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Code Chivalric",
@@ -9331,7 +9331,18 @@
         "rules": [
           {
             "name": "Knightly Teachings",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Armiger"
+                  ]
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -9377,7 +9388,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Armiger"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
