@@ -707,6 +707,10 @@
           "instruction": "",
           "options": [
             {
+              "name": "Combi-weapon",
+              "cost": 0
+            },
+            {
               "name": "Flamer",
               "cost": 0
             },
@@ -719,7 +723,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 5,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -729,6 +733,15 @@
           },
           "each": 1,
           "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Combi-weapon",
+                  "count": 1
+                }
+              ]
+            },
             {
               "text": "",
               "items": [
@@ -1229,6 +1242,10 @@
             "instruction": "",
             "options": [
               {
+                "name": "Combi-weapon",
+                "cost": 0
+              },
+              {
                 "name": "Flamer",
                 "cost": 0
               },
@@ -1241,7 +1258,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 5,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -1251,6 +1268,15 @@
             },
             "each": 1,
             "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Combi-weapon",
+                    "count": 1
+                  }
+                ]
+              },
               {
                 "text": "",
                 "items": [
@@ -1858,6 +1884,21 @@
                 "keywords": [
                   "Devastating Wounds"
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Astartes chainsword",
+            "profiles": [
+              {
+                "name": "Astartes chainsword",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": []
               }
             ]
           },
@@ -18946,10 +18987,10 @@
       "keywords": [
         "Infantry",
         "Fly",
+        "Jump Pack",
         "Grenades",
         "Chaos",
-        "Raptors",
-        "Jump Packs"
+        "Raptors"
       ],
       "points": [
         {
@@ -19557,10 +19598,10 @@
         "keywords": [
           "Infantry",
           "Fly",
+          "Jump Pack",
           "Grenades",
           "Chaos",
-          "Raptors",
-          "Jump Packs"
+          "Raptors"
         ],
         "factions": [
           "Heretic Astartes"
@@ -23095,11 +23136,11 @@
       "keywords": [
         "Infantry",
         "Fly",
+        "Jump Pack",
         "Grenades",
         "Chaos",
         "Daemon",
-        "Warp Talons",
-        "Jump Packs"
+        "Warp Talons"
       ],
       "points": [
         {
@@ -23195,11 +23236,11 @@
         "keywords": [
           "Infantry",
           "Fly",
+          "Jump Pack",
           "Grenades",
           "Chaos",
           "Daemon",
-          "Warp Talons",
-          "Jump Packs"
+          "Warp Talons"
         ],
         "factions": [
           "Heretic Astartes"
@@ -24126,6 +24167,28 @@
             }
           },
           {
+            "name": "Reaver’s Haste",
+            "cp": 1,
+            "type": "Strategic Ploy",
+            "turn": "your",
+            "phases": [
+              "charge"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "heretic astartes infantry",
+                "heretic astartes mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
             "name": "Warpcharged Engines",
             "cp": 1,
             "type": "Wargear",
@@ -24142,28 +24205,6 @@
             "units": {
               "targets": [
                 "heretic astartes transport",
-                "heretic astartes mounted"
-              ],
-              "excludes": []
-            }
-          },
-          {
-            "name": "Reavers’ Haste",
-            "cp": 1,
-            "type": "Strategic Ploy",
-            "turn": "your",
-            "phases": [
-              "charge"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null,
-            "units": {
-              "targets": [
-                "heretic astartes infantry",
                 "heretic astartes mounted"
               ],
               "excludes": []
@@ -24401,8 +24442,8 @@
             ],
             "non_character": false,
             "excludes": [
-              "Terminator",
-              "Jump Pack"
+              "Jump Pack",
+              "Terminator"
             ]
           },
           {
@@ -25324,7 +25365,7 @@
             "excludes": []
           },
           {
-            "name": "Warp-fuelled Thrusters",
+            "name": "Warp-Fuelled Thrusters",
             "points": 20,
             "text": "",
             "targets": [
@@ -25943,7 +25984,7 @@
           {
             "name": "Talons Sunk Deep",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "either",
             "phases": [
               "fight",
@@ -25965,7 +26006,7 @@
           {
             "name": "Prey on the Weak",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "either",
             "phases": [
               "fight",
@@ -25987,7 +26028,7 @@
           {
             "name": "Sadistic Display",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "either",
             "phases": [
               "fight"
@@ -26008,7 +26049,7 @@
           {
             "name": "Malicious Surge",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "charge"
@@ -26029,7 +26070,7 @@
           {
             "name": "Relentless Terror",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "movement"
@@ -26050,7 +26091,7 @@
           {
             "name": "Horrific Incursion",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "movement"
@@ -26661,6 +26702,22 @@
             "secondary_effect": null
           },
           {
+            "name": "Soul-Tally Offerings",
+            "cp": 2,
+            "type": "Battle Tactic",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null
+          },
+          {
             "name": "Biomechanoid Regeneration",
             "cp": 1,
             "type": "Epic Deed",
@@ -26710,22 +26767,6 @@
             "type": "Strategic Ploy",
             "turn": "opponents",
             "phases": [
-              "shooting"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null
-          },
-          {
-            "name": "Soul-tally Offering",
-            "cp": 2,
-            "type": "Battle Tactic",
-            "turn": "either",
-            "phases": [
-              "fight",
               "shooting"
             ],
             "when": "",
