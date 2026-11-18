@@ -305,7 +305,7 @@
         ],
         "model_types": [
           {
-            "name": "Tiger Shark",
+            "name": "AX-1-0 Tiger Shark",
             "min": 1,
             "max": 1,
             "statline": "AX-1-0 Tiger Shark"
@@ -423,8 +423,7 @@
       "loadout": [
         "Pulse blaster",
         "Pulse pistol",
-        "Close combat weapon",
-        "Support turret"
+        "Close combat weapon"
       ],
       "wargear_options": [
         {
@@ -568,25 +567,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -632,44 +612,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Guardian Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -712,8 +654,7 @@
         "loadout": [
           "Pulse blaster",
           "Pulse pistol",
-          "Close combat weapon",
-          "Support turret"
+          "Close combat weapon"
         ],
         "model_types": [
           {
@@ -737,13 +678,6 @@
               "Pulse blaster",
               "Pulse pistol",
               "Close combat weapon"
-            ]
-          },
-          {
-            "model": 0,
-            "role": "Support turret",
-            "wargear": [
-              "Support turret"
             ]
           }
         ],
@@ -895,84 +829,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Seeker missile",
-              "cost": 0
-            },
-            {
-              "name": "Twin plasma rifle",
-              "cost": 0
-            },
-            {
-              "name": "Twin smart missile system",
-              "cost": 0
-            },
-            {
-              "name": "Weapon Support System",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": true
-          },
-          "each": 2,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Seeker missile",
-                  "count": 1
-                }
-              ],
-              "once": "model"
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Twin plasma rifle",
-                  "count": 1
-                }
-              ],
-              "once": "model"
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Twin smart missile system",
-                  "count": 1
-                }
-              ],
-              "once": "model"
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Weapon Support System",
-                  "count": 1
-                }
-              ],
-              "once": "model"
-            }
-          ],
-          "replaces": [],
-          "replaces_options": [],
-          "apart": [
-            "Twin plasma rifle",
-            "Twin smart missile system"
-          ]
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Gun Drone",
               "cost": 0
             },
@@ -1034,6 +890,80 @@
                   "count": 1
                 }
               ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Seeker missile",
+              "cost": 0
+            },
+            {
+              "name": "Twin plasma rifle",
+              "cost": 0
+            },
+            {
+              "name": "Twin smart missile system",
+              "cost": 0
+            },
+            {
+              "name": "Weapon Support System",
+              "cost": 0
+            }
+          ],
+          "source": 4,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 2,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Seeker missile",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin plasma rifle",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin smart missile system",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Weapon Support System",
+                  "count": 1
+                }
+              ],
+              "once": "model"
             }
           ],
           "replaces": [],
@@ -1144,41 +1074,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Missile pod",
-            "profiles": [
-              {
-                "name": "Missile pod",
-                "range": "30\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "7",
-                "ap": "-1",
-                "d": "2",
-                "keywords": []
-              }
-            ],
-            "given_by": "Missile Drone"
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -1216,44 +1111,6 @@
             "text": "",
             "kind": "wargear",
             "timing": null
-          },
-          {
-            "name": "Missile Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -1383,84 +1240,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Seeker missile",
-                "cost": 0
-              },
-              {
-                "name": "Twin plasma rifle",
-                "cost": 0
-              },
-              {
-                "name": "Twin smart missile system",
-                "cost": 0
-              },
-              {
-                "name": "Weapon Support System",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": true
-            },
-            "each": 2,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Seeker missile",
-                    "count": 1
-                  }
-                ],
-                "once": "model"
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Twin plasma rifle",
-                    "count": 1
-                  }
-                ],
-                "once": "model"
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Twin smart missile system",
-                    "count": 1
-                  }
-                ],
-                "once": "model"
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Weapon Support System",
-                    "count": 1
-                  }
-                ],
-                "once": "model"
-              }
-            ],
-            "replaces": [],
-            "replaces_options": [],
-            "apart": [
-              "Twin plasma rifle",
-              "Twin smart missile system"
-            ]
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Gun Drone",
                 "cost": 0
               },
@@ -1522,6 +1301,80 @@
                     "count": 1
                   }
                 ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Seeker missile",
+                "cost": 0
+              },
+              {
+                "name": "Twin plasma rifle",
+                "cost": 0
+              },
+              {
+                "name": "Twin smart missile system",
+                "cost": 0
+              },
+              {
+                "name": "Weapon Support System",
+                "cost": 0
+              }
+            ],
+            "source": 4,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 2,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Seeker missile",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin plasma rifle",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin smart missile system",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Weapon Support System",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
               }
             ],
             "replaces": [],
@@ -1647,25 +1500,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -1718,38 +1552,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -1914,7 +1716,7 @@
       ],
       "epic_hero": true,
       "forbids": {
-        "keyword": "ETHEREAL",
+        "keyword": "Ethereal",
         "except": []
       },
       "loadout": [
@@ -2666,25 +2468,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -2759,38 +2542,6 @@
                 "kind": "stat",
                 "stat": "invul",
                 "change": "4+"
-              }
-            ]
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
               }
             ]
           },
@@ -3487,6 +3238,10 @@
           "instruction": "",
           "options": [
             {
+              "name": "Airbursting fragmentation projector",
+              "cost": 0
+            },
+            {
               "name": "Battlesuit Support System",
               "cost": 0
             },
@@ -3523,7 +3278,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -3533,6 +3288,16 @@
           },
           "each": 3,
           "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Airbursting fragmentation projector",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            },
             {
               "text": "",
               "items": [
@@ -3764,25 +3529,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -3843,38 +3589,6 @@
                 "kind": "stat",
                 "stat": "invul",
                 "change": "4+"
-              }
-            ]
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
               }
             ]
           },
@@ -4174,6 +3888,10 @@
             "instruction": "",
             "options": [
               {
+                "name": "Airbursting fragmentation projector",
+                "cost": 0
+              },
+              {
                 "name": "Battlesuit Support System",
                 "cost": 0
               },
@@ -4210,7 +3928,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4220,6 +3938,16 @@
             },
             "each": 3,
             "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Airbursting fragmentation projector",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              },
               {
                 "text": "",
                 "items": [
@@ -4782,25 +4510,6 @@
                 "keywords": []
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -4840,42 +4549,10 @@
             "timing": null
           },
           {
-            "name": "Weapon Support Systems",
+            "name": "Weapon Support System",
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -5285,25 +4962,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -5343,42 +5001,10 @@
             "timing": null
           },
           {
-            "name": "Battlesuit Support Systems",
+            "name": "Battlesuit Support System",
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -5708,25 +5334,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -5764,38 +5371,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -6350,7 +5925,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6620,27 +6195,7 @@
           "value": "5+",
           "condition": ""
         },
-        "ranged": [
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
-          }
-        ],
+        "ranged": [],
         "melee": [
           {
             "name": "Honour stave",
@@ -6697,38 +6252,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           },
           {
             "name": "Hover Drone",
@@ -7434,7 +6957,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7934,7 +7457,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8151,39 +7674,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Kroot carbine",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": 0,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Kroot carbine",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Kroot rifle"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Tanglebomb launcher",
               "cost": 0
             }
@@ -8204,6 +7694,39 @@
               "items": [
                 {
                   "option": "Tanglebomb launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Kroot rifle"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Kroot carbine",
+              "cost": 0
+            }
+          ],
+          "source": 4,
+          "model": 0,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Kroot carbine",
                   "count": 1
                 }
               ]
@@ -8418,7 +7941,7 @@
         ],
         "loadouts": [
           {
-            "model": 0,
+            "model": 1,
             "role": null,
             "wargear": [
               "Kroot pistol",
@@ -8427,7 +7950,7 @@
             ]
           },
           {
-            "model": 1,
+            "model": 0,
             "role": null,
             "wargear": [
               "Kroot rifle",
@@ -8436,39 +7959,6 @@
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Kroot carbine",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": 0,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Kroot carbine",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Kroot rifle"
-            ],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -8493,6 +7983,39 @@
                 "items": [
                   {
                     "option": "Tanglebomb launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Kroot rifle"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Kroot carbine",
+                "cost": 0
+              }
+            ],
+            "source": 4,
+            "model": 0,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Kroot carbine",
                     "count": 1
                   }
                 ]
@@ -8844,7 +8367,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Kroot Kill-broker: 32mm\nOther models: 28.5mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -8901,7 +8424,8 @@
             "name": "Kroot Farstalkers",
             "min": 9,
             "max": 9,
-            "statline": "Kroot Farstalker"
+            "statline": "Kroot Farstalker",
+            "statline_assumed": true
           },
           {
             "name": "Kroot Hounds",
@@ -9643,7 +9167,7 @@
           }
         ],
         "transport": "",
-        "base_size": "90 x 52.5mm Oval Base",
+        "base_size": "90 x 52mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -10222,8 +9746,8 @@
             "role": null,
             "wargear": [
               "Dart-bow and tri-blade",
-              "Shaper’s blade",
-              "Kroot pistol"
+              "Kroot pistol",
+              "Shaper’s blade"
             ]
           }
         ],
@@ -10333,10 +9857,10 @@
         ],
         "melee": [
           {
-            "name": "Hunting blades",
+            "name": "Close combat weapon",
             "profiles": [
               {
-                "name": "Hunting blades",
+                "name": "Close combat weapon",
                 "range": "Melee",
                 "a": "3",
                 "skill": "3+",
@@ -10350,10 +9874,10 @@
             ]
           },
           {
-            "name": "Rampager fists",
+            "name": "Krootox fists",
             "profiles": [
               {
-                "name": "Rampager fists",
+                "name": "Krootox fists",
                 "range": "Melee",
                 "a": "4",
                 "skill": "3+",
@@ -10361,8 +9885,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "Sustained Hits 1",
-                  "Extra Attacks"
+                  "EXTRA ATTACKS",
+                  "Sustained Hits 1"
                 ]
               }
             ]
@@ -10714,8 +10238,8 @@
             "role": null,
             "wargear": [
               "Repeater cannon",
-              "Krootox fists",
-              "Close combat weapon"
+              "Close combat weapon",
+              "Krootox fists"
             ]
           }
         ],
@@ -11027,12 +10551,12 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Armoured hull",
               "Heavy rail cannon",
               "Ion cannon",
               "Long-barrelled burst cannon array",
               "Missile pod",
-              "Seeker missile"
+              "Seeker missile",
+              "Armoured hull"
             ],
             "counts": {
               "Heavy rail cannon": 2,
@@ -11391,23 +10915,19 @@
             ]
           },
           {
-            "name": "Twin pulse carbine",
+            "name": "Drone burst cannon",
             "profiles": [
               {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
+                "name": "Drone burst cannon",
+                "range": "18\"",
+                "a": "4",
                 "skill": "5+",
                 "s": "5",
                 "ap": "0",
                 "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
+                "keywords": []
               }
-            ],
-            "given_by": "Gun Drone"
+            ]
           }
         ],
         "melee": [
@@ -11447,19 +10967,6 @@
             "timing": null
           },
           {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
             "name": "Pulse Accelerator Drone",
             "text": "",
             "kind": "wargear",
@@ -11477,29 +10984,10 @@
             ]
           },
           {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
             "name": "Grav-inhibitor Drone",
             "text": "",
             "kind": "wargear",
             "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           },
           {
             "name": "Recon Drone",
@@ -12017,7 +11505,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -12179,7 +11667,8 @@
         "Vehicle",
         "Aircraft",
         "Fly",
-        "Razorshark Strike Fighter"
+        "Razorshark Strike Fighter",
+        "Frame"
       ],
       "points": [
         {
@@ -12372,13 +11861,14 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
           "Aircraft",
           "Fly",
-          "Razorshark Strike Fighter"
+          "Razorshark Strike Fighter",
+          "Frame"
         ],
         "factions": [
           "T’au Empire"
@@ -12660,7 +12150,7 @@
                 "keywords": []
               },
               {
-                "name": "Ion accelerator – Overcharge",
+                "name": "Ion accelerator – supercharge",
                 "range": "72\"",
                 "a": "6",
                 "skill": "4+",
@@ -12725,22 +12215,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Missile pod",
-            "profiles": [
-              {
-                "name": "Missile pod",
-                "range": "30\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "7",
-                "ap": "-1",
-                "d": "2",
-                "keywords": []
-              }
-            ],
-            "given_by": "Missile Drone"
           }
         ],
         "melee": [
@@ -12795,12 +12269,6 @@
             "timing": null
           },
           {
-            "name": "Missile Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
             "name": "Damaged: 1-4 WOUNDS REMAINING",
             "text": "",
             "kind": "damaged",
@@ -12808,7 +12276,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -13197,7 +12665,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -13563,25 +13031,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -13634,25 +13083,6 @@
               "once_per": "battle",
               "when": []
             }
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
           }
         ],
         "transport": "",
@@ -14231,7 +13661,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -14411,8 +13841,7 @@
       "loadout": [
         "Pulse pistol",
         "Pulse rifle",
-        "Close combat weapon",
-        "Support turret"
+        "Close combat weapon"
       ],
       "wargear_options": [
         {
@@ -14604,25 +14033,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Twin pulse carbine",
-            "profiles": [
-              {
-                "name": "Twin pulse carbine",
-                "range": "20\"",
-                "a": "2",
-                "skill": "5+",
-                "s": "5",
-                "ap": "0",
-                "d": "1",
-                "keywords": [
-                  "Assault",
-                  "Twin-linked"
-                ]
-              }
-            ],
-            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -14676,44 +14086,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Marker Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "keyword",
-                "keyword": "Markerlight"
-              }
-            ]
-          },
-          {
-            "name": "Guardian Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Gun Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null
-          },
-          {
-            "name": "Shield Drone",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "stat",
-                "stat": "w",
-                "change": 1
-              }
-            ]
           }
         ],
         "transport": "",
@@ -14756,8 +14128,7 @@
         "loadout": [
           "Pulse pistol",
           "Pulse rifle",
-          "Close combat weapon",
-          "Support turret"
+          "Close combat weapon"
         ],
         "model_types": [
           {
@@ -14781,13 +14152,6 @@
               "Pulse pistol",
               "Pulse rifle",
               "Close combat weapon"
-            ]
-          },
-          {
-            "model": 0,
-            "role": "Support turret",
-            "wargear": [
-              "Support turret"
             ]
           }
         ],
@@ -14906,7 +14270,8 @@
         "Vehicle",
         "Aircraft",
         "Fly",
-        "Sun Shark Bomber"
+        "Sun Shark Bomber",
+        "Frame"
       ],
       "points": [
         {
@@ -15109,13 +14474,14 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
           "Aircraft",
           "Fly",
-          "Sun Shark Bomber"
+          "Sun Shark Bomber",
+          "Frame"
         ],
         "factions": [
           "T’au Empire"
@@ -15645,11 +15011,11 @@
             "role": null,
             "wargear": [
               "Burst cannon",
-              "Crushing feet",
               "Fusion eradicator",
               "Pulse ordnance driver",
               "Smart missile system",
-              "Tri-axis ion cannon"
+              "Tri-axis ion cannon",
+              "Crushing feet"
             ],
             "counts": {
               "Burst cannon": 4,
@@ -15919,6 +15285,24 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse blaster",
+            "profiles": [
+              {
+                "name": "Twin pulse blaster",
+                "range": "10\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ]
           }
         ],
         "melee": [
@@ -15943,7 +15327,7 @@
             "name": "Ion scattercannon",
             "profiles": [
               {
-                "name": "Ion scattercannon – Melee",
+                "name": "Ion scattercannon",
                 "range": "Melee",
                 "a": "3",
                 "skill": "4+",
@@ -16033,7 +15417,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Ri’Lantar / Ri’Locai: 60mm\nMV15 gun drone: 32mm",
+        "base_size": "60mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -16213,7 +15597,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -16363,7 +15747,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -16451,7 +15835,39 @@
       ],
       "epic_hero": false,
       "loadout": [],
-      "wargear_options": [],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Tidewall Defence Platform",
+              "cost": 0
+            }
+          ],
+          "source": 0,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Tidewall Defence Platform",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
       "composition": [
         ""
       ],
@@ -16506,7 +15922,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -16569,7 +15985,39 @@
             "wargear": []
           }
         ],
-        "wargear_options": []
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Tidewall Defence Platform",
+                "cost": 0
+              }
+            ],
+            "source": 0,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Tidewall Defence Platform",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
       }
     },
     {
@@ -17741,12 +17189,8 @@
   "rules": {
     "faction": "tau",
     "name": "T’au Empire",
-    "data_version": "2026-10-16T18:38:17.473Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
-      {
-        "name": "Drones",
-        "text": ""
-      },
       {
         "name": "For the Greater Good",
         "text": ""
@@ -17950,8 +17394,8 @@
         "name": "Mont’ka",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -17970,7 +17414,7 @@
             ],
             "non_character": false,
             "excludes": [
-              "Shaper"
+              "Kroot Shaper"
             ]
           },
           {
@@ -18002,7 +17446,7 @@
             ],
             "non_character": false,
             "excludes": [
-              "Shaper"
+              "Kroot Shaper"
             ]
           }
         ],
@@ -18353,9 +17797,7 @@
             "name": "Borthrod Gland",
             "points": 15,
             "text": "",
-            "targets": [
-              "kroot flesh shaper"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           }
@@ -18718,7 +18160,7 @@
             ],
             "non_character": false,
             "excludes": [
-              "Shaper"
+              "Kroot Shaper"
             ]
           },
           {
@@ -18750,7 +18192,7 @@
             ],
             "non_character": false,
             "excludes": [
-              "Shaper"
+              "Kroot Shaper"
             ]
           }
         ],
