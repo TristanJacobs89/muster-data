@@ -1219,6 +1219,23 @@
         ],
         "melee": [
           {
+            "name": "Servo-arm",
+            "profiles": [
+              {
+                "name": "Servo-arm",
+                "range": "Melee",
+                "a": "1",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
             "name": "Omnissian power axe",
             "profiles": [
               {
@@ -2711,6 +2728,78 @@
           "instruction": "",
           "options": [
             {
+              "name": "Nemesis daemon greathammer",
+              "cost": 0
+            },
+            {
+              "name": "Nemesis flail",
+              "cost": 0
+            },
+            {
+              "name": "Nemesis greatsword",
+              "cost": 0
+            },
+            {
+              "name": "Nemesis mace",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nemesis daemon greathammer",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nemesis flail",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nemesis greatsword",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nemesis mace",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Dreadfists"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Gatling psilencer",
               "cost": 0
             },
@@ -2810,65 +2899,6 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Nemesis daemon greathammer",
-              "cost": 0
-            },
-            {
-              "name": "Nemesis flail",
-              "cost": 0
-            },
-            {
-              "name": "Nemesis greatsword 1 Nemesis mace",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Nemesis daemon greathammer",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Nemesis flail",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Nemesis greatsword 1 Nemesis mace",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Dreadfists"
-          ],
           "replaces_options": []
         }
       ],
@@ -3189,6 +3219,78 @@
             "instruction": "",
             "options": [
               {
+                "name": "Nemesis daemon greathammer",
+                "cost": 0
+              },
+              {
+                "name": "Nemesis flail",
+                "cost": 0
+              },
+              {
+                "name": "Nemesis greatsword",
+                "cost": 0
+              },
+              {
+                "name": "Nemesis mace",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nemesis daemon greathammer",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nemesis flail",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nemesis greatsword",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nemesis mace",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Dreadfists"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
                 "name": "Gatling psilencer",
                 "cost": 0
               },
@@ -3288,65 +3390,6 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Nemesis daemon greathammer",
-                "cost": 0
-              },
-              {
-                "name": "Nemesis flail",
-                "cost": 0
-              },
-              {
-                "name": "Nemesis greatsword 1 Nemesis mace",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Nemesis daemon greathammer",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Nemesis flail",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Nemesis greatsword 1 Nemesis mace",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Dreadfists"
-            ],
             "replaces_options": []
           }
         ]
@@ -10964,17 +11007,7 @@
             "excludes": []
           },
           {
-            "name": "Pyresoul (Psychic)",
-            "points": 20,
-            "text": "",
-            "targets": [
-              "grey knights"
-            ],
-            "non_character": false,
-            "excludes": []
-          },
-          {
-            "name": "The Ephemeral Tome",
+            "name": "Ephemeral Tome",
             "points": 15,
             "text": "",
             "targets": [
@@ -10984,7 +11017,7 @@
             "excludes": []
           },
           {
-            "name": "The Sixty-sixth Seal",
+            "name": "Sixty-sixth Seal",
             "points": 25,
             "text": "",
             "targets": [
@@ -11001,6 +11034,16 @@
                 "change": 1
               }
             ]
+          },
+          {
+            "name": "Pyresoul (Psychic)",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "grey knights"
+            ],
+            "non_character": false,
+            "excludes": []
           }
         ],
         "required_enhancements": [],
