@@ -7666,6 +7666,19 @@
                 },
                 "kind": "keyword",
                 "keyword": "Battleline"
+              },
+              {
+                "who": {
+                  "with": [
+                    "War Dog"
+                  ]
+                },
+                "kind": "keyword",
+                "keyword": "Character",
+                "pick": {
+                  "min": 3,
+                  "max": 3
+                }
               }
             ]
           }
@@ -7732,6 +7745,16 @@
               "War Dog"
             ],
             "keyword": "Battleline"
+          },
+          {
+            "targets": [
+              "War Dog"
+            ],
+            "keyword": "Character",
+            "pick": {
+              "min": 3,
+              "max": 3
+            }
           }
         ],
         "excludes": [],
