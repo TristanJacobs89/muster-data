@@ -680,6 +680,9 @@
           "Armoured hull",
           "Flare launcher"
         ],
+        "wargear_costs": {
+          "Heavy mining laser": 10
+        },
         "model_types": [
           {
             "name": "Achilles Ridgerunners",

@@ -30533,6 +30533,9 @@
           "Heavy Onslaught Gatling Cannon",
           "Twin Heavy Bolter"
         ],
+        "wargear_costs": {
+          "Heavy Laser Destroyer": 10
+        },
         "model_types": [
           {
             "name": "Repulsor Executioner",
@@ -41272,6 +41275,9 @@
           "Master-crafted Power Weapon",
           "Blades of Honour"
         ],
+        "wargear_costs": {
+          "Banner of Macragge": 15
+        },
         "model_types": [
           {
             "name": "Chapter Ancient",

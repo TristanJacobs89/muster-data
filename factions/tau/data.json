@@ -4935,6 +4935,9 @@
           "Missile pod",
           "Battlesuit fists"
         ],
+        "wargear_costs": {
+          "Missile pod": 5
+        },
         "model_types": [
           {
             "name": "Crisis Fireknife Shas’vre",
@@ -5438,6 +5441,9 @@
           "T’au flamer",
           "Battlesuit fists"
         ],
+        "wargear_costs": {
+          "T’au flamer": 5
+        },
         "model_types": [
           {
             "name": "Crisis Starscythe Shas’vre",
