@@ -1748,6 +1748,21 @@
             ]
           },
           {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "1",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
             "name": "Close-combat weapon",
             "profiles": [
               {
@@ -1959,6 +1974,21 @@
                 "skill": "4+",
                 "s": "5",
                 "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "1",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
                 "d": "1",
                 "keywords": []
               }
@@ -11305,7 +11335,9 @@
             "name": "TL-4ø9",
             "points": 30,
             "text": "",
-            "targets": [],
+            "targets": [
+              "tech-priest"
+            ],
             "non_character": false,
             "excludes": [],
             "weapons": [
