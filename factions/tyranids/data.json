@@ -12279,6 +12279,19 @@
                 "weapons": "all",
                 "roll": "hit",
                 "ones": true
+              },
+              {
+                "who": {
+                  "with": [
+                    "Trygon"
+                  ]
+                },
+                "kind": "keyword",
+                "keyword": "Character",
+                "pick": {
+                  "min": 0,
+                  "max": 2
+                }
               }
             ]
           }
@@ -12344,7 +12357,18 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Trygon"
+            ],
+            "keyword": "Character",
+            "pick": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {

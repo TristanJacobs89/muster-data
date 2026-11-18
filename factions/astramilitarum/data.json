@@ -36390,7 +36390,22 @@
         "rules": [
           {
             "name": "Ceaseless Cannonade",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Astra Militarum+Titanic"
+                  ]
+                },
+                "kind": "keyword",
+                "keyword": "Character",
+                "pick": {
+                  "min": 0,
+                  "max": null
+                }
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -36451,7 +36466,11 @@
             "targets": [
               "Astra Militarum+Titanic"
             ],
-            "keyword": "Character"
+            "keyword": "Character",
+            "pick": {
+              "min": 0,
+              "max": null
+            }
           }
         ],
         "excludes": [],
