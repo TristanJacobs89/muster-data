@@ -309,11 +309,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Scorpion chainsword",
+              "name": "Banshee blade",
               "cost": 0
             },
             {
-              "name": "Banshee blade",
+              "name": "Scorpion chainsword",
               "cost": 0
             }
           ],
@@ -331,7 +331,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Scorpion chainsword",
+                  "option": "Banshee blade",
                   "count": 1
                 }
               ]
@@ -340,7 +340,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Banshee blade",
+                  "option": "Scorpion chainsword",
                   "count": 1
                 }
               ]
@@ -574,7 +574,8 @@
           "Autarch"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [
           "Dark Reapers",
@@ -756,11 +757,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Scorpion chainsword",
+                "name": "Banshee blade",
                 "cost": 0
               },
               {
-                "name": "Banshee blade",
+                "name": "Scorpion chainsword",
                 "cost": 0
               }
             ],
@@ -778,7 +779,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Scorpion chainsword",
+                    "option": "Banshee blade",
                     "count": 1
                   }
                 ]
@@ -787,7 +788,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Banshee blade",
+                    "option": "Scorpion chainsword",
                     "count": 1
                   }
                 ]
@@ -1173,7 +1174,8 @@
           "Autarch Wayleaper"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [
           "Swooping Hawks",
@@ -1411,7 +1413,7 @@
             "name": "The Wailing Doom",
             "profiles": [
               {
-                "name": "The Wailing Doom – Ranged",
+                "name": "The Wailing Doom",
                 "range": "12\"",
                 "a": "1",
                 "skill": "2+",
@@ -1877,7 +1879,7 @@
           }
         ],
         "transport": "",
-        "base_size": "",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Aeldari",
@@ -1887,7 +1889,8 @@
           "Mounted"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [
           "Dragon Knights"
@@ -2036,6 +2039,10 @@
               "cost": 0
             },
             {
+              "name": "Close combat weapon",
+              "cost": 0
+            },
+            {
               "name": "Flamer",
               "cost": 0
             },
@@ -2045,10 +2052,6 @@
             },
             {
               "name": "Shredder",
-              "cost": 0
-            },
-            {
-              "name": "Close combat weapon",
               "cost": 0
             }
           ],
@@ -2348,7 +2351,8 @@
           "Corsair Skyreavers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -2467,6 +2471,10 @@
                 "cost": 0
               },
               {
+                "name": "Close combat weapon",
+                "cost": 0
+              },
+              {
                 "name": "Flamer",
                 "cost": 0
               },
@@ -2476,10 +2484,6 @@
               },
               {
                 "name": "Shredder",
-                "cost": 0
-              },
-              {
-                "name": "Close combat weapon",
                 "cost": 0
               }
             ],
@@ -3019,7 +3023,8 @@
           "Corsair Voidreavers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -3313,29 +3318,14 @@
       ],
       "points": [
         {
-          "models": 8,
-          "cost": 140,
-          "label": "8 models"
-        },
-        {
-          "models": 7,
-          "cost": 140,
-          "label": "7 models"
-        },
-        {
-          "models": 6,
-          "cost": 140,
-          "label": "6 models"
-        },
-        {
-          "models": 13,
-          "cost": 140,
-          "label": "13 models"
-        },
-        {
           "models": 5,
           "cost": 70,
           "label": "5 models"
+        },
+        {
+          "models": 10,
+          "cost": 140,
+          "label": "10 models"
         }
       ],
       "unit_types": [
@@ -3357,6 +3347,39 @@
           "instruction": "",
           "options": [
             {
+              "name": "Shuriken rifle",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 0,
+          "loadout": 3,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken rifle",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Shuriken pistol"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Neuro disruptor",
               "cost": 0
             },
@@ -3365,8 +3388,8 @@
               "cost": 0
             }
           ],
-          "source": 1,
-          "model": null,
+          "source": 11,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -3407,8 +3430,8 @@
               "cost": 0
             }
           ],
-          "source": 2,
-          "model": null,
+          "source": 12,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -3434,40 +3457,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Shuriken rifle",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": true
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Shuriken rifle",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Shuriken pistol",
-            "Power sword"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Blaster",
               "cost": 0
             },
@@ -3476,9 +3465,9 @@
               "cost": 0
             }
           ],
-          "source": 5,
-          "model": null,
-          "loadout": 0,
+          "source": 13,
+          "model": 0,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -3523,9 +3512,9 @@
               "cost": 0
             }
           ],
-          "source": 6,
-          "model": null,
-          "loadout": 0,
+          "source": 14,
+          "model": 0,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "if_models",
@@ -3570,9 +3559,9 @@
               "cost": 0
             }
           ],
-          "source": 7,
-          "model": null,
-          "loadout": 0,
+          "source": 15,
+          "model": 0,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "if_models",
@@ -3608,9 +3597,9 @@
               "cost": 0
             }
           ],
-          "source": 8,
-          "model": null,
-          "loadout": 0,
+          "source": 16,
+          "model": 0,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "if_models",
@@ -3633,9 +3622,7 @@
               ]
             }
           ],
-          "replaces": [
-            "Power sword"
-          ],
+          "replaces": [],
           "replaces_options": []
         },
         {
@@ -3646,9 +3633,9 @@
               "cost": 0
             }
           ],
-          "source": 9,
-          "model": null,
-          "loadout": 0,
+          "source": 17,
+          "model": 0,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -3671,6 +3658,11 @@
         }
       ],
       "composition": [
+        "",
+        "",
+        "",
+        "",
+        "",
         ""
       ],
       "data": {
@@ -4000,7 +3992,8 @@
           "Psyker"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -4016,54 +4009,21 @@
             "cost": 70
           },
           {
-            "models": 6,
-            "cost": 140
-          },
-          {
-            "models": 7,
-            "cost": 140
-          },
-          {
-            "models": 8,
-            "cost": 140
-          },
-          {
-            "models": 13,
+            "models": 10,
             "cost": 140
           }
         ],
         "prices": [
           {
-            "models": 8,
-            "cost": 140,
-            "keyword": null,
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 7,
-            "cost": 140,
-            "keyword": null,
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 6,
-            "cost": 140,
-            "keyword": null,
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 13,
-            "cost": 140,
-            "keyword": null,
-            "faction": null,
-            "detachment": null
-          },
-          {
             "models": 5,
             "cost": 70,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 140,
             "keyword": null,
             "faction": null,
             "detachment": null
@@ -4081,27 +4041,109 @@
         "model_types": [
           {
             "name": "Corsair Voidscarred",
-            "min": 5,
-            "max": 13,
+            "min": 4,
+            "max": 9,
+            "statline": "Corsair Voidscarred"
+          },
+          {
+            "name": "Voidscarred Felarch",
+            "min": 1,
+            "max": 1,
+            "statline": "Corsair Voidscarred"
+          },
+          {
+            "name": "Shade Runner",
+            "min": 0,
+            "max": 1,
+            "statline": "Corsair Voidscarred"
+          },
+          {
+            "name": "Soul Weaver",
+            "min": 0,
+            "max": 1,
+            "statline": "Corsair Voidscarred"
+          },
+          {
+            "name": "Way Seeker",
+            "min": 0,
+            "max": 1,
             "statline": "Corsair Voidscarred"
           }
         ],
         "loadouts": [
           {
-            "model": null,
+            "model": 1,
+            "role": null,
+            "wargear": [
+              "Shuriken pistol",
+              "Power sword",
+              "Close combat weapon"
+            ]
+          },
+          {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Shuriken pistol",
+              "Close combat weapon",
+              "Paired Hekatarii blades"
+            ]
+          },
+          {
+            "model": 3,
             "role": null,
             "wargear": [
               "Shuriken pistol",
               "Power sword",
               "Close combat weapon",
-              "Paired Hekatarii blades",
-              "Channeller Stones",
+              "Channeller Stones"
+            ]
+          },
+          {
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Shuriken pistol",
               "Executioner",
+              "Close combat weapon",
               "Witch staff"
             ]
           }
         ],
         "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Shuriken rifle",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 0,
+            "loadout": 3,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken rifle",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Shuriken pistol"
+            ],
+            "replaces_options": []
+          },
           {
             "instruction": "",
             "options": [
@@ -4114,8 +4156,8 @@
                 "cost": 0
               }
             ],
-            "source": 1,
-            "model": null,
+            "source": 11,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -4156,8 +4198,8 @@
                 "cost": 0
               }
             ],
-            "source": 2,
-            "model": null,
+            "source": 12,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -4183,40 +4225,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Shuriken rifle",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": true
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Shuriken rifle",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Shuriken pistol",
-              "Power sword"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Blaster",
                 "cost": 0
               },
@@ -4225,9 +4233,9 @@
                 "cost": 0
               }
             ],
-            "source": 5,
-            "model": null,
-            "loadout": 0,
+            "source": 13,
+            "model": 0,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -4272,9 +4280,9 @@
                 "cost": 0
               }
             ],
-            "source": 6,
-            "model": null,
-            "loadout": 0,
+            "source": 14,
+            "model": 0,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "if_models",
@@ -4319,9 +4327,9 @@
                 "cost": 0
               }
             ],
-            "source": 7,
-            "model": null,
-            "loadout": 0,
+            "source": 15,
+            "model": 0,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "if_models",
@@ -4357,9 +4365,9 @@
                 "cost": 0
               }
             ],
-            "source": 8,
-            "model": null,
-            "loadout": 0,
+            "source": 16,
+            "model": 0,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "if_models",
@@ -4382,9 +4390,7 @@
                 ]
               }
             ],
-            "replaces": [
-              "Power sword"
-            ],
+            "replaces": [],
             "replaces_options": []
           },
           {
@@ -4395,9 +4401,9 @@
                 "cost": 0
               }
             ],
-            "source": 9,
-            "model": null,
-            "loadout": 0,
+            "source": 17,
+            "model": 0,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -4584,7 +4590,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4595,7 +4601,8 @@
           "Crimson Hunter"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -4816,7 +4823,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -5001,20 +5009,20 @@
       "data": {
         "stats": [
           {
-            "name": "Dark Reaper Exarch",
-            "m": "6\"",
-            "t": "3",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Dark Reaper",
             "m": "6\"",
             "t": "3",
             "sv": "3+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Dark Reaper Exarch",
+            "m": "6\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -5170,7 +5178,8 @@
           "Dark Reapers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -5522,9 +5531,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Flip Belt",
               "Shrieker cannon",
-              "Jester’s blade"
+              "Jester’s blade",
+              "Flip Belt"
             ]
           }
         ],
@@ -5730,20 +5739,20 @@
       "data": {
         "stats": [
           {
-            "name": "Dire Avenger Exarch",
-            "m": "7\"",
-            "t": "3",
-            "sv": "4+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Dire Avenger",
             "m": "7\"",
             "t": "3",
             "sv": "4+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Dire Avenger Exarch",
+            "m": "7\"",
+            "t": "3",
+            "sv": "4+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -5883,7 +5892,8 @@
           "Dire Avengers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -6146,11 +6156,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Drakolithe (Once per battle, per token)",
+              "name": "Drakolithe",
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -6165,8 +6175,8 @@
               "text": "",
               "items": [
                 {
-                  "option": "Drakolithe (Once per battle, per token)",
-                  "count": 1
+                  "option": "Drakolithe",
+                  "count": 2
                 }
               ]
             }
@@ -6176,21 +6186,13 @@
         }
       ],
       "composition": [
+        "",
         ""
       ],
       "data": {
         "stats": [
           {
             "name": "Dragon Knight",
-            "m": "10\"",
-            "t": "5",
-            "sv": "4+",
-            "w": "4",
-            "ld": "7+",
-            "oc": "2"
-          },
-          {
-            "name": "Dragon Knight Leader",
             "m": "10\"",
             "t": "5",
             "sv": "4+",
@@ -6205,7 +6207,7 @@
             "name": "Laser Lance",
             "profiles": [
               {
-                "name": "Laser Lance",
+                "name": "Laser lance – Ranged",
                 "range": "6\"",
                 "a": "1",
                 "skill": "3+",
@@ -6213,7 +6215,7 @@
                 "ap": "-2",
                 "d": "3",
                 "keywords": [
-                  "ASSAULT"
+                  "Assault"
                 ]
               }
             ]
@@ -6241,7 +6243,7 @@
             "name": "Laser Lance",
             "profiles": [
               {
-                "name": "Laser Lance",
+                "name": "Laser lance – Melee",
                 "range": "Melee",
                 "a": "3",
                 "skill": "3+",
@@ -6249,7 +6251,7 @@
                 "ap": "-2",
                 "d": "3",
                 "keywords": [
-                  "LANCE"
+                  "Lance"
                 ]
               }
             ]
@@ -6294,7 +6296,7 @@
           {
             "name": "Drakolithe (Once per battle, per token)",
             "text": "",
-            "kind": "wargear",
+            "kind": "other",
             "timing": {
               "once_per": "battle",
               "when": []
@@ -6302,7 +6304,7 @@
           }
         ],
         "transport": "",
-        "base_size": "",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Aeldari",
@@ -6311,7 +6313,8 @@
           "Mounted"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -6361,7 +6364,7 @@
             "name": "Dragon Knight Leader",
             "min": 1,
             "max": 1,
-            "statline": "Dragon Knight Leader"
+            "statline": "Dragon Knight"
           },
           {
             "name": "Dragon Knight",
@@ -6386,11 +6389,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Drakolithe (Once per battle, per token)",
+                "name": "Drakolithe",
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -6405,8 +6408,8 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Drakolithe (Once per battle, per token)",
-                    "count": 1
+                    "option": "Drakolithe",
+                    "count": 2
                   }
                 ]
               }
@@ -6445,7 +6448,7 @@
       "loadout": [
         "Shuriken pistol",
         "Mind War",
-        "The Staff of Ulthamar and witchblade"
+        "Staff of Ulthamar and witchblade"
       ],
       "wargear_options": [],
       "composition": [
@@ -6508,10 +6511,10 @@
         ],
         "melee": [
           {
-            "name": "The Staff of Ulthamar and witchblade",
+            "name": "Staff of Ulthamar and witchblade",
             "profiles": [
               {
-                "name": "The Staff of Ulthamar and witchblade",
+                "name": "Staff of Ulthamar and witchblade",
                 "range": "Melee",
                 "a": "3",
                 "skill": "2+",
@@ -6519,8 +6522,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "Psychic",
-                  "Anti-infantry 2+"
+                  "Anti-infantry 2+",
+                  "Psychic"
                 ]
               }
             ]
@@ -6627,7 +6630,7 @@
         "loadout": [
           "Shuriken pistol",
           "Mind War",
-          "The Staff of Ulthamar and witchblade"
+          "Staff of Ulthamar and witchblade"
         ],
         "model_types": [
           {
@@ -6642,9 +6645,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shuriken pistol",
               "Mind War",
-              "The Staff of Ulthamar and witchblade"
+              "Shuriken pistol",
+              "Staff of Ulthamar and witchblade"
             ]
           }
         ],
@@ -6986,7 +6989,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6997,7 +7000,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -7380,7 +7384,8 @@
           "Farseer"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [
           "Guardian Defenders",
@@ -7441,8 +7446,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shuriken pistol",
               "Eldritch Storm",
+              "Shuriken pistol",
               "Witchblade"
             ]
           }
@@ -7718,7 +7723,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -7730,21 +7735,14 @@
           "Farseer Skyrunner"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [
-          "Warlock Skyrunners",
           "Windriders"
         ],
         "supports": [],
         "attaches": [
-          {
-            "type": "leader",
-            "target": "Warlock Skyrunners",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
           {
             "type": "leader",
             "target": "Windriders",
@@ -7792,9 +7790,9 @@
             "model": null,
             "role": null,
             "wargear": [
+              "Eldritch Storm",
               "Shuriken pistol",
               "Twin shuriken catapult",
-              "Eldritch Storm",
               "Witchblade"
             ]
           }
@@ -7975,20 +7973,20 @@
       "data": {
         "stats": [
           {
-            "name": "Fire Dragon Exarch",
-            "m": "7\"",
-            "t": "3",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Fire Dragon",
             "m": "7\"",
             "t": "3",
             "sv": "3+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Fire Dragon Exarch",
+            "m": "7\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -8165,7 +8163,8 @@
           "Fire Dragons"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -8532,7 +8531,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8542,7 +8541,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -8713,10 +8713,10 @@
         ],
         "melee": [
           {
-            "name": "The Fire Axe",
+            "name": "Fire Axe",
             "profiles": [
               {
-                "name": "The Fire Axe",
+                "name": "Fire Axe",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -8749,11 +8749,11 @@
             "modifiers": [
               {
                 "who": "leading",
+                "only": "Melta",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "range",
-                "change": 6,
-                "only": "Melta"
+                "change": 6
               }
             ]
           },
@@ -9113,7 +9113,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Guardian Defenders: 28.5mm\nHeavy Weapon Platform: 40mm",
+        "base_size": "GUARDIAN DEFENDER: 28.5mm, HEAVY WEAPON PLATFORM: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -9124,7 +9124,8 @@
           "Guardian Defenders"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -9351,14 +9352,14 @@
             "timing": null
           },
           {
-            "name": "Damaged: 1:-4 WOUNDS REMAINING",
+            "name": "Damaged: 1-4 WOUNDS REMAINING",
             "text": "",
             "kind": "damaged",
             "timing": null
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -9370,7 +9371,8 @@
           "Hemlock Wraithfighter"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -9573,20 +9575,20 @@
       "data": {
         "stats": [
           {
-            "name": "Howling Banshee Exarch",
-            "m": "8\"",
-            "t": "3",
-            "sv": "4+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Howling Banshee",
             "m": "8\"",
             "t": "3",
             "sv": "4+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Howling Banshee Exarch",
+            "m": "8\"",
+            "t": "3",
+            "sv": "4+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -9742,7 +9744,8 @@
           "Howling Banshees"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -9991,10 +9994,10 @@
         ],
         "melee": [
           {
-            "name": "strike",
+            "name": "Blade of Destruction",
             "profiles": [
               {
-                "name": "strike",
+                "name": "Blade of Destruction",
                 "range": "Melee",
                 "a": "8",
                 "skill": "2+",
@@ -10349,10 +10352,10 @@
       ],
       "epic_hero": false,
       "loadout": [
-        "Drakolithe (Once per battle, per token)",
         "Drakesteed Fangs and Talons",
         "Long Rifle",
-        "Hunting Blades"
+        "Hunting Blades",
+        "Drakolithe"
       ],
       "wargear_options": [],
       "composition": [
@@ -10467,7 +10470,7 @@
           {
             "name": "Drakolithe (Once per battle, per token)",
             "text": "",
-            "kind": "wargear",
+            "kind": "other",
             "timing": {
               "once_per": "battle",
               "when": []
@@ -10475,7 +10478,7 @@
           }
         ],
         "transport": "",
-        "base_size": "",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Aeldari",
@@ -10485,7 +10488,8 @@
           "Mounted"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -10511,10 +10515,10 @@
           }
         ],
         "loadout": [
-          "Drakolithe (Once per battle, per token)",
           "Drakesteed Fangs and Talons",
           "Long Rifle",
-          "Hunting Blades"
+          "Hunting Blades",
+          "Drakolithe"
         ],
         "model_types": [
           {
@@ -10529,11 +10533,14 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Drakolithe (Once per battle, per token)",
+              "Drakolithe",
               "Drakesteed Fangs and Talons",
               "Long Rifle",
               "Hunting Blades"
-            ]
+            ],
+            "counts": {
+              "Drakolithe": 2
+            }
           }
         ],
         "wargear_options": []
@@ -11147,7 +11154,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -11157,7 +11164,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -11287,11 +11295,11 @@
               "cost": 0
             },
             {
-              "name": "Pulse laser",
+              "name": "Wraith glaive",
               "cost": 0
             },
             {
-              "name": "Wraith glaive",
+              "name": "Pulse laser",
               "cost": 0
             },
             {
@@ -11379,11 +11387,11 @@
               "cost": 0
             },
             {
-              "name": "Pulse laser",
+              "name": "Wraith glaive",
               "cost": 0
             },
             {
-              "name": "Wraith glaive",
+              "name": "Pulse laser",
               "cost": 0
             }
           ],
@@ -11670,7 +11678,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Monster",
@@ -11682,7 +11690,8 @@
           "Phantom Titan"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -11744,11 +11753,11 @@
                 "cost": 0
               },
               {
-                "name": "Pulse laser",
+                "name": "Wraith glaive",
                 "cost": 0
               },
               {
-                "name": "Wraith glaive",
+                "name": "Pulse laser",
                 "cost": 0
               },
               {
@@ -11836,11 +11845,11 @@
                 "cost": 0
               },
               {
-                "name": "Pulse laser",
+                "name": "Wraith glaive",
                 "cost": 0
               },
               {
-                "name": "Wraith glaive",
+                "name": "Pulse laser",
                 "cost": 0
               }
             ],
@@ -12330,7 +12339,8 @@
           "Rangers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -12624,7 +12634,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Monster",
@@ -12637,7 +12647,8 @@
           "Revenant Titan"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -12682,9 +12693,9 @@
             "role": null,
             "wargear": [
               "Cloudburst missile launcher",
-              "Revenant feet",
               "Revenant pulsar",
-              "Sonic lance"
+              "Sonic lance",
+              "Revenant feet"
             ]
           }
         ],
@@ -12894,7 +12905,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -13394,20 +13406,20 @@
       "data": {
         "stats": [
           {
-            "name": "Shining Spear Exarch",
-            "m": "14\"",
-            "t": "4",
-            "sv": "3+",
-            "w": "3",
-            "ld": "6+",
-            "oc": "2"
-          },
-          {
             "name": "Shining Spear",
             "m": "14\"",
             "t": "4",
             "sv": "3+",
             "w": "2",
+            "ld": "6+",
+            "oc": "2"
+          },
+          {
+            "name": "Shining Spear Exarch",
+            "m": "14\"",
+            "t": "4",
+            "sv": "3+",
+            "w": "3",
             "ld": "6+",
             "oc": "2"
           }
@@ -13570,7 +13582,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -13580,7 +13592,8 @@
           "Shining Spears"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -13916,7 +13929,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -13925,7 +13938,8 @@
           "Shroud Runners"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -14213,7 +14227,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -14537,8 +14551,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Flip Belt",
-              "Solitaire weapons"
+              "Solitaire weapons",
+              "Flip Belt"
             ]
           }
         ],
@@ -14691,7 +14705,8 @@
           "Spiritseer"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -14880,7 +14895,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105x70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -14892,7 +14907,8 @@
           "Starfang"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -15080,7 +15096,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -15326,7 +15342,7 @@
           }
         ],
         "transport": "",
-        "base_size": "",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Aeldari",
@@ -15337,7 +15353,8 @@
           "Psyker"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [
@@ -15689,7 +15706,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Storm Guardians: 28.5mm\nSerpent Scale Platform: 40mm",
+        "base_size": "STORM GUARDIAN: 28.5mm, SERPENT’S SCALE PLATFORM: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -15700,7 +15717,8 @@
           "Storm Guardians"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -15900,15 +15918,15 @@
           "instruction": "",
           "options": [
             {
+              "name": "Biting blade",
+              "cost": 0
+            },
+            {
               "name": "Shuriken pistol",
               "cost": 0
             },
             {
               "name": "Chainsabres",
-              "cost": 0
-            },
-            {
-              "name": "Biting blade",
               "cost": 0
             }
           ],
@@ -15946,9 +15964,9 @@
             }
           ],
           "replaces": [
-            "Scorpion’s claw",
             "Shuriken pistol",
-            "Scorpion chainsword"
+            "Scorpion chainsword",
+            "Scorpion’s claw"
           ],
           "replaces_options": []
         },
@@ -15992,20 +16010,20 @@
       "data": {
         "stats": [
           {
-            "name": "Striking Scorpion Exarch",
-            "m": "7\"",
-            "t": "3",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Striking Scorpion",
             "m": "7\"",
             "t": "3",
             "sv": "3+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Striking Scorpion Exarch",
+            "m": "7\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -16089,21 +16107,6 @@
             ]
           },
           {
-            "name": "Melee",
-            "profiles": [
-              {
-                "name": "Melee",
-                "range": "Melee",
-                "a": "3",
-                "skill": "3+",
-                "s": "8",
-                "ap": "-2",
-                "d": "2",
-                "keywords": []
-              }
-            ]
-          },
-          {
             "name": "Chainsabres",
             "profiles": [
               {
@@ -16118,6 +16121,21 @@
                   "Twin-linked",
                   "Sustained Hits 1"
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Scorpion’s claw",
+            "profiles": [
+              {
+                "name": "Scorpion’s claw",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
               }
             ]
           }
@@ -16173,7 +16191,8 @@
           "Striking Scorpions"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -16233,9 +16252,9 @@
             "model": 0,
             "role": null,
             "wargear": [
-              "Scorpion’s claw",
               "Shuriken pistol",
-              "Scorpion chainsword"
+              "Scorpion chainsword",
+              "Scorpion’s claw"
             ]
           },
           {
@@ -16252,15 +16271,15 @@
             "instruction": "",
             "options": [
               {
+                "name": "Biting blade",
+                "cost": 0
+              },
+              {
                 "name": "Shuriken pistol",
                 "cost": 0
               },
               {
                 "name": "Chainsabres",
-                "cost": 0
-              },
-              {
-                "name": "Biting blade",
                 "cost": 0
               }
             ],
@@ -16298,9 +16317,9 @@
               }
             ],
             "replaces": [
-              "Scorpion’s claw",
               "Shuriken pistol",
-              "Scorpion chainsword"
+              "Scorpion chainsword",
+              "Scorpion’s claw"
             ],
             "replaces_options": []
           },
@@ -16480,20 +16499,20 @@
       "data": {
         "stats": [
           {
-            "name": "Swooping Hawk Exarch",
-            "m": "14\"",
-            "t": "3",
-            "sv": "4+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Swooping Hawk",
             "m": "14\"",
             "t": "3",
             "sv": "4+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Swooping Hawk Exarch",
+            "m": "14\"",
+            "t": "3",
+            "sv": "4+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -16675,7 +16694,8 @@
           "Swooping Hawks"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -16878,9 +16898,9 @@
       ],
       "epic_hero": true,
       "forbids": {
-        "keyword": "EPIC HERO",
+        "keyword": "Epic Hero",
         "except": [
-          "YNNARI"
+          "Ynnari"
         ]
       },
       "loadout": [
@@ -16975,14 +16995,7 @@
             "name": "Way of the Blade",
             "text": "",
             "kind": "other",
-            "timing": null,
-            "modifiers": [
-              {
-                "who": "leading",
-                "kind": "ability",
-                "name": "Fights First"
-              }
-            ]
+            "timing": null
           },
           {
             "name": "Yvraine’s Champion",
@@ -17139,9 +17152,9 @@
       ],
       "epic_hero": true,
       "forbids": {
-        "keyword": "EPIC HERO",
+        "keyword": "Epic Hero",
         "except": [
-          "YNNARI"
+          "Ynnari"
         ]
       },
       "loadout": [
@@ -17773,9 +17786,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Flip Belt",
               "Shuriken pistol",
-              "Harlequin’s blade"
+              "Harlequin’s blade",
+              "Flip Belt"
             ]
           }
         ],
@@ -18484,7 +18497,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -18730,7 +18744,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -19095,7 +19109,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105x70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -19104,7 +19118,8 @@
           "Vypers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -19518,7 +19533,8 @@
           "War Walkers"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -19873,7 +19889,8 @@
           "Warlock"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [
@@ -20199,7 +20216,8 @@
           "Warlock Conclave"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [
@@ -20323,7 +20341,7 @@
         "Fly",
         "Psyker",
         "Warlocks",
-        "Warlock Skyrunner Conclave"
+        "Warlock Skyrunners"
       ],
       "points": [
         {
@@ -20554,7 +20572,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -20562,10 +20580,11 @@
           "Fly",
           "Psyker",
           "Warlocks",
-          "Warlock Skyrunner Conclave"
+          "Warlock Skyrunners"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [
@@ -20711,19 +20730,19 @@
           "instruction": "",
           "options": [
             {
-              "name": "Powerblades",
-              "cost": 0
-            },
-            {
-              "name": "Powerblade array",
-              "cost": 0
-            },
-            {
               "name": "Spinneret rifle",
               "cost": 0
             },
             {
               "name": "Death weavers",
+              "cost": 0
+            },
+            {
+              "name": "Powerblades",
+              "cost": 0
+            },
+            {
+              "name": "Powerblade array",
               "cost": 0
             }
           ],
@@ -20818,20 +20837,20 @@
       "data": {
         "stats": [
           {
-            "name": "Warp Spider Exarch",
-            "m": "12\"",
-            "t": "3",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Warp Spider",
             "m": "12\"",
             "t": "3",
             "sv": "3+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Warp Spider Exarch",
+            "m": "12\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -21017,7 +21036,8 @@
           "Warp Spiders"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -21099,19 +21119,19 @@
             "instruction": "",
             "options": [
               {
-                "name": "Powerblades",
-                "cost": 0
-              },
-              {
-                "name": "Powerblade array",
-                "cost": 0
-              },
-              {
                 "name": "Spinneret rifle",
                 "cost": 0
               },
               {
                 "name": "Death weavers",
+                "cost": 0
+              },
+              {
+                "name": "Powerblades",
+                "cost": 0
+              },
+              {
+                "name": "Powerblade array",
                 "cost": 0
               }
             ],
@@ -21536,7 +21556,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -21548,7 +21568,8 @@
           "Frame"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -21892,7 +21913,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -21901,7 +21922,8 @@
           "Windriders"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -22161,7 +22183,8 @@
           "Wraithblades"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -22401,7 +22424,8 @@
           "Wraithguard"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -22803,7 +22827,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -22815,7 +22839,8 @@
           "Wraithknight"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -23266,7 +23291,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -23278,7 +23303,8 @@
           "Wraithknight with Ghostglaive"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -23816,7 +23842,8 @@
           "Wraithlord"
         ],
         "factions": [
-          "Asuryani"
+          "Asuryani",
+          "Ynnari"
         ],
         "leads": [],
         "supports": [],
@@ -24266,9 +24293,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shadow Field",
               "Splinter pistol",
-              "Huskblade"
+              "Huskblade",
+              "Shadow Field"
             ]
           }
         ],
@@ -24378,20 +24405,20 @@
       "data": {
         "stats": [
           {
-            "name": "Klaivex",
-            "m": "7\"",
-            "t": "3",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Incubi",
             "m": "7\"",
             "t": "3",
             "sv": "3+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Klaivex",
+            "m": "7\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -25553,7 +25580,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -25976,7 +26003,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -26677,7 +26704,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -27060,9 +27087,9 @@
       ],
       "epic_hero": true,
       "forbids": {
-        "keyword": "EPIC HERO",
+        "keyword": "Epic Hero",
         "except": [
-          "YNNARI"
+          "Ynnari"
         ]
       },
       "loadout": [
@@ -27112,10 +27139,10 @@
         ],
         "melee": [
           {
-            "name": "Kha-vir, the Sword of Sorrows",
+            "name": "Kha-vir",
             "profiles": [
               {
-                "name": "Kha-vir, the Sword of Sorrows",
+                "name": "Kha-vir",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -27166,7 +27193,15 @@
             "name": "Herald of Ynnead",
             "text": "",
             "kind": "other",
-            "timing": null
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
           },
           {
             "name": "Servant of The Whispering God",
@@ -27176,7 +27211,7 @@
           }
         ],
         "transport": "",
-        "base_size": "74 x 42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -27299,7 +27334,7 @@
   "rules": {
     "faction": "aeldari",
     "name": "Asuryani",
-    "data_version": "2026-10-16T18:38:18.146Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Battle Focus",
@@ -27322,7 +27357,29 @@
         "rules": [
           {
             "name": "Acrobatic Onslaught",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Troupe"
+                  ]
+                },
+                "kind": "stat",
+                "stat": "oc",
+                "change": "2"
+              },
+              {
+                "who": {
+                  "with": [
+                    "Troupe"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -27375,7 +27432,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Troupe"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -27518,7 +27582,19 @@
         "rules": [
           {
             "name": "Ride the Wind",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Windriders"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -27560,16 +27636,16 @@
             "excludes": [],
             "modifiers": [
               {
+                "only": "Psychic",
                 "kind": "weapon_keyword",
                 "weapons": "all",
-                "keyword": "Anti-Monster 2+",
-                "only": "Psychic"
+                "keyword": "Anti-Monster 2+"
               },
               {
+                "only": "Psychic",
                 "kind": "weapon_keyword",
                 "weapons": "all",
-                "keyword": "Anti-Vehicle 2+",
-                "only": "Psychic"
+                "keyword": "Anti-Vehicle 2+"
               }
             ]
           },
@@ -27585,7 +27661,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Windriders"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -27746,6 +27829,26 @@
                 "kind": "weapon_keyword",
                 "weapons": "all",
                 "keyword": "Sustained Hits 1"
+              },
+              {
+                "who": {
+                  "with": [
+                    "Troupe"
+                  ]
+                },
+                "kind": "stat",
+                "stat": "oc",
+                "change": "2"
+              },
+              {
+                "who": {
+                  "with": [
+                    "Troupe"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
               }
             ]
           }
@@ -27816,7 +27919,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Troupe"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -28081,6 +28191,17 @@
                 },
                 "kind": "ability",
                 "name": "Spirit Guides (Aura)"
+              },
+              {
+                "who": {
+                  "with": [
+                    "Wraithblades",
+                    "Wraithguard"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
               }
             ]
           }
@@ -28128,7 +28249,15 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Wraithblades",
+              "Wraithguard"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -28746,7 +28875,14 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "dire avengers",
+                "guardians"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Time to Strike",
@@ -28859,7 +28995,7 @@
             "targets": [
               "anhrathe character"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [],
             "epic_hero": true
           },
@@ -29529,11 +29665,11 @@
             "excludes": [],
             "modifiers": [
               {
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "range",
-                "change": 12,
-                "only": "Psychic"
+                "change": 12
               }
             ]
           },
@@ -29744,11 +29880,11 @@
             "excludes": [],
             "modifiers": [
               {
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "only": "Psychic"
+                "change": 1
               }
             ]
           }
