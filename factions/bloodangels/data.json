@@ -528,7 +528,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -584,8 +584,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Twin Assault Cannon",
-              "Armoured Tracks"
+              "Armoured Tracks",
+              "Twin Assault Cannon"
             ]
           }
         ],
@@ -1436,8 +1436,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Plasma Pistol",
               "Fury of the Ancients",
+              "Plasma Pistol",
               "Vitarus"
             ]
           }
@@ -2128,141 +2128,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Thunder Hammer",
-              "cost": 0
-            },
-            {
-              "name": "Relic Shield",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Thunder Hammer",
-                  "count": 1
-                },
-                {
-                  "option": "Relic Shield",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Bolt Pistol",
-            "Chainsword"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Power Fist",
-              "cost": 0
-            },
-            {
-              "name": "Relic Weapon",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Power Fist",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Relic Weapon",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Chainsword"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Chainsword",
-              "cost": 0
-            },
-            {
-              "name": "Relic Shield",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Chainsword",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Relic Shield",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Bolt Pistol",
-            "Chainsword"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Hand Flamer",
               "cost": 0
             },
@@ -2301,6 +2166,140 @@
             }
           ],
           "replaces": [
+            "Heavy Bolt Pistol"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Thunder Hammer",
+              "cost": 0
+            },
+            {
+              "name": "Relic Shield",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Thunder Hammer",
+                  "count": 1
+                },
+                {
+                  "option": "Relic Shield",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Chainsword",
+            "Heavy Bolt Pistol"
+          ],
+          "replaces_options": [
+            "Astartes Chainsword"
+          ]
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Power Fist",
+              "cost": 0
+            },
+            {
+              "name": "Relic Weapon",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Power Fist",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Relic Weapon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Chainsword"
+          ],
+          "replaces_options": [
+            "Astartes Chainsword"
+          ]
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Astartes Chainsword",
+              "cost": 0
+            },
+            {
+              "name": "Relic Shield",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Astartes Chainsword",
+                  "count": 1
+                },
+                {
+                  "option": "Relic Shield",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Chainsword",
             "Heavy Bolt Pistol"
           ],
           "replaces_options": []
@@ -2520,6 +2519,12 @@
                 "change": 1
               }
             ]
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
           }
         ],
         "transport": "",
@@ -2589,147 +2594,12 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ]
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Thunder Hammer",
-                "cost": 0
-              },
-              {
-                "name": "Relic Shield",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Thunder Hammer",
-                    "count": 1
-                  },
-                  {
-                    "option": "Relic Shield",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Power Fist",
-                "cost": 0
-              },
-              {
-                "name": "Relic Weapon",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Power Fist",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Relic Weapon",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Chainsword"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Chainsword",
-                "cost": 0
-              },
-              {
-                "name": "Relic Shield",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Chainsword",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Relic Shield",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
-            ],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -2772,6 +2642,140 @@
               }
             ],
             "replaces": [
+              "Heavy Bolt Pistol"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Thunder Hammer",
+                "cost": 0
+              },
+              {
+                "name": "Relic Shield",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Thunder Hammer",
+                    "count": 1
+                  },
+                  {
+                    "option": "Relic Shield",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Chainsword",
+              "Heavy Bolt Pistol"
+            ],
+            "replaces_options": [
+              "Astartes Chainsword"
+            ]
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Power Fist",
+                "cost": 0
+              },
+              {
+                "name": "Relic Weapon",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Power Fist",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Relic Weapon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Chainsword"
+            ],
+            "replaces_options": [
+              "Astartes Chainsword"
+            ]
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Astartes Chainsword",
+                "cost": 0
+              },
+              {
+                "name": "Relic Shield",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Astartes Chainsword",
+                    "count": 1
+                  },
+                  {
+                    "option": "Relic Shield",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Chainsword",
               "Heavy Bolt Pistol"
             ],
             "replaces_options": []
@@ -3110,10 +3114,10 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Twin Icarus Ironhail Heavy Stubber",
-              "Twin Heavy Bolter",
               "Blood Fist Bolt Rifles",
-              "Blood Fists"
+              "Blood Fists",
+              "Twin Heavy Bolter",
+              "Twin Icarus Ironhail Heavy Stubber"
             ]
           }
         ],
@@ -3219,52 +3223,6 @@
         "Chainsword"
       ],
       "wargear_options": [
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Bolt Rifle",
-              "cost": 0
-            },
-            {
-              "name": "Combat Blade",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": true
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Bolt Rifle",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Combat Blade",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Chainsword"
-          ],
-          "replaces_options": []
-        },
         {
           "instruction": "",
           "options": [
@@ -3439,6 +3397,47 @@
               "items": [
                 {
                   "option": "Thunder Hammer",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Chainsword"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Bolt Rifle Fire",
+              "cost": 0
+            },
+            {
+              "name": "Combat Blade",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bolt Rifle Fire",
+                  "count": 1
+                },
+                {
+                  "option": "Combat Blade",
                   "count": 1
                 }
               ]
@@ -3802,58 +3801,12 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ]
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Bolt Rifle",
-                "cost": 0
-              },
-              {
-                "name": "Combat Blade",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": true
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Bolt Rifle",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Combat Blade",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Chainsword"
-            ],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -4028,6 +3981,47 @@
                 "items": [
                   {
                     "option": "Thunder Hammer",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Chainsword"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Bolt Rifle Fire",
+                "cost": 0
+              },
+              {
+                "name": "Combat Blade",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bolt Rifle Fire",
+                    "count": 1
+                  },
+                  {
+                    "option": "Combat Blade",
                     "count": 1
                   }
                 ]
@@ -4547,8 +4541,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ]
           }
         ],
@@ -5689,7 +5683,7 @@
   "rules": {
     "faction": "bloodangels",
     "name": "Blood Angels",
-    "data_version": "2026-10-16T18:38:13.054Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Combat Doctrines",
@@ -6274,8 +6268,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -6876,32 +6870,32 @@
             "excludes": [],
             "modifiers": [
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "s",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "ap",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               }
             ]
           },
@@ -7716,9 +7710,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
@@ -7738,9 +7732,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
