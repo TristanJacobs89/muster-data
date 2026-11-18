@@ -6883,8 +6883,8 @@
         "name": "Carnival of Excess",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Disruption"
+          "Disruption",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -7493,6 +7493,21 @@
             }
           },
           {
+            "name": "On to the Next",
+            "cp": 1,
+            "type": "Strategic Ploy",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null
+          },
+          {
             "name": "Advance and Claim",
             "cp": 1,
             "type": "Strategic Ploy",
@@ -7554,21 +7569,6 @@
             "cp": 1,
             "type": "Strategic Ploy",
             "turn": "opponents",
-            "phases": [
-              "fight"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null
-          },
-          {
-            "name": "Onto the Next",
-            "cp": 1,
-            "type": "Strategic Ploy",
-            "turn": "either",
             "phases": [
               "fight"
             ],
@@ -7893,7 +7893,7 @@
           {
             "name": "Contemptuous Disregard",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "either",
             "phases": [
               "fight",
@@ -7915,7 +7915,7 @@
           {
             "name": "Close-quarters Excruciation",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "your",
             "phases": [
               "shooting"
@@ -7936,7 +7936,7 @@
           {
             "name": "Euphoric Inspiration",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "your",
             "phases": [
               "charge"
@@ -7957,7 +7957,7 @@
           {
             "name": "Prideful Superiority",
             "cp": 2,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "either",
             "phases": [
               "fight"
@@ -7978,7 +7978,7 @@
           {
             "name": "Sinuous Breach",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "charge",
@@ -8000,7 +8000,7 @@
           {
             "name": "Catalytic Stimulus",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "opponents",
             "phases": [
               "shooting"
