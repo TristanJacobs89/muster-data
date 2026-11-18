@@ -1,5 +1,5 @@
 {
-  "schema": 35,
+  "schema": 36,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "faction": {
           "type": "object",
@@ -1245,6 +1245,33 @@
                                   "lose": {
                                     "type": "boolean",
                                     "const": true
+                                  },
+                                  "pick": {
+                                    "type": "object",
+                                    "properties": {
+                                      "min": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "max": {
+                                        "anyOf": [
+                                          {
+                                            "type": "integer",
+                                            "minimum": 1,
+                                            "maximum": 9007199254740991
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "min",
+                                      "max"
+                                    ],
+                                    "additionalProperties": false
                                   }
                                 },
                                 "required": [
@@ -2767,6 +2794,33 @@
                             "lose": {
                               "type": "boolean",
                               "const": true
+                            },
+                            "pick": {
+                              "type": "object",
+                              "properties": {
+                                "min": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 9007199254740991
+                                },
+                                "max": {
+                                  "anyOf": [
+                                    {
+                                      "type": "integer",
+                                      "minimum": 1,
+                                      "maximum": 9007199254740991
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "min",
+                                "max"
+                              ],
+                              "additionalProperties": false
                             }
                           },
                           "required": [
@@ -3770,6 +3824,33 @@
                                   "lose": {
                                     "type": "boolean",
                                     "const": true
+                                  },
+                                  "pick": {
+                                    "type": "object",
+                                    "properties": {
+                                      "min": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "max": {
+                                        "anyOf": [
+                                          {
+                                            "type": "integer",
+                                            "minimum": 1,
+                                            "maximum": 9007199254740991
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "min",
+                                      "max"
+                                    ],
+                                    "additionalProperties": false
                                   }
                                 },
                                 "required": [
@@ -4816,6 +4897,33 @@
                                   "lose": {
                                     "type": "boolean",
                                     "const": true
+                                  },
+                                  "pick": {
+                                    "type": "object",
+                                    "properties": {
+                                      "min": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 9007199254740991
+                                      },
+                                      "max": {
+                                        "anyOf": [
+                                          {
+                                            "type": "integer",
+                                            "minimum": 1,
+                                            "maximum": 9007199254740991
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "min",
+                                      "max"
+                                    ],
+                                    "additionalProperties": false
                                   }
                                 },
                                 "required": [
@@ -5360,6 +5468,33 @@
                         },
                         "keyword": {
                           "type": "string"
+                        },
+                        "pick": {
+                          "type": "object",
+                          "properties": {
+                            "min": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 9007199254740991
+                            },
+                            "max": {
+                              "anyOf": [
+                                {
+                                  "type": "integer",
+                                  "minimum": 1,
+                                  "maximum": 9007199254740991
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "min",
+                            "max"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -5958,7 +6093,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "stratagems": {
           "type": "array",
@@ -6142,7 +6277,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "source": {
           "type": "string"
@@ -6415,7 +6550,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "source": {
           "type": "string"
@@ -6737,7 +6872,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "sizes": {
           "minItems": 1,
@@ -6796,7 +6931,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 35
+          "const": 36
         },
         "text": {
           "type": "object",
