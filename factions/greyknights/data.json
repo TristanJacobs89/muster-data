@@ -1082,8 +1082,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Vortex of Doom",
-              "Nemesis force weapon"
+              "Nemesis force weapon",
+              "Vortex of Doom"
             ]
           }
         ],
@@ -1219,10 +1219,27 @@
         ],
         "melee": [
           {
-            "name": "Omnissiah power axe",
+            "name": "Servo-arm",
             "profiles": [
               {
-                "name": "Omnissiah power axe",
+                "name": "Servo-arm",
+                "range": "Melee",
+                "a": "1",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Omnissian power axe",
+            "profiles": [
+              {
+                "name": "Omnissian power axe",
                 "range": "Melee",
                 "a": "4",
                 "skill": "3+",
@@ -1234,10 +1251,10 @@
             ]
           },
           {
-            "name": "Servo-arm",
+            "name": "Servo-arms",
             "profiles": [
               {
-                "name": "Servo-arm",
+                "name": "Servo-arms",
                 "range": "Melee",
                 "a": "1",
                 "skill": "3+",
@@ -1534,6 +1551,10 @@
               "cost": 0
             },
             {
+              "name": "Ancient’s Banner",
+              "cost": 0
+            },
+            {
               "name": "Psilencer",
               "cost": 0
             },
@@ -1544,13 +1565,9 @@
             {
               "name": "Storm Bolter",
               "cost": 0
-            },
-            {
-              "name": "Ancient’s Banner",
-              "cost": 0
             }
           ],
-          "source": 5,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -1566,6 +1583,10 @@
                 {
                   "option": "Incinerator",
                   "count": 1
+                },
+                {
+                  "option": "Ancient’s Banner",
+                  "count": 1
                 }
               ]
             },
@@ -1574,6 +1595,10 @@
               "items": [
                 {
                   "option": "Psilencer",
+                  "count": 1
+                },
+                {
+                  "option": "Ancient’s Banner",
                   "count": 1
                 }
               ]
@@ -1584,6 +1609,10 @@
                 {
                   "option": "Psycannon",
                   "count": 1
+                },
+                {
+                  "option": "Ancient’s Banner",
+                  "count": 1
                 }
               ]
             },
@@ -1593,12 +1622,7 @@
                 {
                   "option": "Storm Bolter",
                   "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
+                },
                 {
                   "option": "Ancient’s Banner",
                   "count": 1
@@ -1973,6 +1997,10 @@
                 "cost": 0
               },
               {
+                "name": "Ancient’s Banner",
+                "cost": 0
+              },
+              {
                 "name": "Psilencer",
                 "cost": 0
               },
@@ -1983,13 +2011,9 @@
               {
                 "name": "Storm Bolter",
                 "cost": 0
-              },
-              {
-                "name": "Ancient’s Banner",
-                "cost": 0
               }
             ],
-            "source": 5,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -2005,6 +2029,10 @@
                   {
                     "option": "Incinerator",
                     "count": 1
+                  },
+                  {
+                    "option": "Ancient’s Banner",
+                    "count": 1
                   }
                 ]
               },
@@ -2013,6 +2041,10 @@
                 "items": [
                   {
                     "option": "Psilencer",
+                    "count": 1
+                  },
+                  {
+                    "option": "Ancient’s Banner",
                     "count": 1
                   }
                 ]
@@ -2023,6 +2055,10 @@
                   {
                     "option": "Psycannon",
                     "count": 1
+                  },
+                  {
+                    "option": "Ancient’s Banner",
+                    "count": 1
                   }
                 ]
               },
@@ -2032,12 +2068,7 @@
                   {
                     "option": "Storm Bolter",
                     "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
+                  },
                   {
                     "option": "Ancient’s Banner",
                     "count": 1
@@ -2198,7 +2229,7 @@
             ]
           },
           {
-            "name": "Foesight",
+            "name": "Foresight (Psychic)",
             "text": "",
             "kind": "other",
             "timing": null
@@ -2697,19 +2728,19 @@
           "instruction": "",
           "options": [
             {
-              "name": "Nemesis flail",
-              "cost": 0
-            },
-            {
-              "name": "Nemesis mace",
-              "cost": 0
-            },
-            {
               "name": "Nemesis daemon greathammer",
               "cost": 0
             },
             {
+              "name": "Nemesis flail",
+              "cost": 0
+            },
+            {
               "name": "Nemesis greatsword",
+              "cost": 0
+            },
+            {
+              "name": "Nemesis mace",
               "cost": 0
             }
           ],
@@ -2727,24 +2758,6 @@
               "text": "",
               "items": [
                 {
-                  "option": "Nemesis flail",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Nemesis mace",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
                   "option": "Nemesis daemon greathammer",
                   "count": 1
                 }
@@ -2754,7 +2767,25 @@
               "text": "",
               "items": [
                 {
+                  "option": "Nemesis flail",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
                   "option": "Nemesis greatsword",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nemesis mace",
                   "count": 1
                 }
               ]
@@ -2769,10 +2800,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Sublimator",
-              "cost": 15
-            },
-            {
               "name": "Gatling psilencer",
               "cost": 0
             },
@@ -2782,6 +2809,10 @@
             },
             {
               "name": "Heavy psycannon",
+              "cost": 15
+            },
+            {
+              "name": "Sublimator",
               "cost": 15
             }
           ],
@@ -2795,16 +2826,6 @@
           },
           "each": 2,
           "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Sublimator",
-                  "count": 1
-                }
-              ],
-              "once": "model"
-            },
             {
               "text": "",
               "items": [
@@ -2830,6 +2851,16 @@
               "items": [
                 {
                   "option": "Heavy psycannon",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Sublimator",
                   "count": 1
                 }
               ],
@@ -3123,7 +3154,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3188,19 +3219,19 @@
             "instruction": "",
             "options": [
               {
-                "name": "Nemesis flail",
-                "cost": 0
-              },
-              {
-                "name": "Nemesis mace",
-                "cost": 0
-              },
-              {
                 "name": "Nemesis daemon greathammer",
                 "cost": 0
               },
               {
+                "name": "Nemesis flail",
+                "cost": 0
+              },
+              {
                 "name": "Nemesis greatsword",
+                "cost": 0
+              },
+              {
+                "name": "Nemesis mace",
                 "cost": 0
               }
             ],
@@ -3218,24 +3249,6 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Nemesis flail",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Nemesis mace",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
                     "option": "Nemesis daemon greathammer",
                     "count": 1
                   }
@@ -3245,7 +3258,25 @@
                 "text": "",
                 "items": [
                   {
+                    "option": "Nemesis flail",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
                     "option": "Nemesis greatsword",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nemesis mace",
                     "count": 1
                   }
                 ]
@@ -3260,10 +3291,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Sublimator",
-                "cost": 15
-              },
-              {
                 "name": "Gatling psilencer",
                 "cost": 0
               },
@@ -3273,6 +3300,10 @@
               },
               {
                 "name": "Heavy psycannon",
+                "cost": 15
+              },
+              {
+                "name": "Sublimator",
                 "cost": 15
               }
             ],
@@ -3286,16 +3317,6 @@
             },
             "each": 2,
             "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Sublimator",
-                    "count": 1
-                  }
-                ],
-                "once": "model"
-              },
               {
                 "text": "",
                 "items": [
@@ -3321,6 +3342,16 @@
                 "items": [
                   {
                     "option": "Heavy psycannon",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Sublimator",
                     "count": 1
                   }
                 ],
@@ -3601,7 +3632,8 @@
         "Fly",
         "Transport",
         "Imperium",
-        "Thunderhawk Gunship"
+        "Thunderhawk Gunship",
+        "Frame"
       ],
       "points": [
         {
@@ -3849,7 +3881,8 @@
           "Fly",
           "Transport",
           "Imperium",
-          "Thunderhawk Gunship"
+          "Thunderhawk Gunship",
+          "Frame"
         ],
         "factions": [
           "Grey Knights"
@@ -4024,15 +4057,15 @@
               "cost": 0
             },
             {
+              "name": "Close Combat Weapon",
+              "cost": 0
+            },
+            {
               "name": "Psilencer",
               "cost": 0
             },
             {
               "name": "Psycannon",
-              "cost": 0
-            },
-            {
-              "name": "Close Combat Weapon",
               "cost": 0
             }
           ],
@@ -4335,15 +4368,15 @@
                 "cost": 0
               },
               {
+                "name": "Close Combat Weapon",
+                "cost": 0
+              },
+              {
                 "name": "Psilencer",
                 "cost": 0
               },
               {
                 "name": "Psycannon",
-                "cost": 0
-              },
-              {
-                "name": "Close Combat Weapon",
                 "cost": 0
               }
             ],
@@ -4669,7 +4702,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5100,7 +5133,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5533,7 +5566,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6004,7 +6037,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6313,15 +6346,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Storm Bolter",
+              "name": "Incinerator",
               "cost": 0
             },
             {
               "name": "Ancient’s Banner",
-              "cost": 0
-            },
-            {
-              "name": "Incinerator",
               "cost": 0
             },
             {
@@ -6331,6 +6360,10 @@
             {
               "name": "Psycannon",
               "cost": 5
+            },
+            {
+              "name": "Storm Bolter",
+              "cost": 0
             }
           ],
           "source": 5,
@@ -6649,7 +6682,7 @@
           },
           {
             "name": "Paladins",
-            "min": 4,
+            "min": 3,
             "max": 9,
             "statline": "Paladin"
           }
@@ -6762,15 +6795,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Storm Bolter",
+                "name": "Incinerator",
                 "cost": 0
               },
               {
                 "name": "Ancient’s Banner",
-                "cost": 0
-              },
-              {
-                "name": "Incinerator",
                 "cost": 0
               },
               {
@@ -6780,6 +6809,10 @@
               {
                 "name": "Psycannon",
                 "cost": 5
+              },
+              {
+                "name": "Storm Bolter",
+                "cost": 0
               }
             ],
             "source": 5,
@@ -6893,16 +6926,16 @@
               "cost": 0
             },
             {
+              "name": "Close Combat Weapon",
+              "cost": 0
+            },
+            {
               "name": "Psilencer",
               "cost": 0
             },
             {
               "name": "Psycannon",
               "cost": 5
-            },
-            {
-              "name": "Close Combat Weapon",
-              "cost": 0
             }
           ],
           "source": 2,
@@ -7041,7 +7074,7 @@
                 "name": "Storm Bolter",
                 "range": "24\"",
                 "a": "2",
-                "skill": "3+",
+                "skill": "2+",
                 "s": "5",
                 "ap": "-1",
                 "d": "1",
@@ -7202,16 +7235,16 @@
                 "cost": 0
               },
               {
+                "name": "Close Combat Weapon",
+                "cost": 0
+              },
+              {
                 "name": "Psilencer",
                 "cost": 0
               },
               {
                 "name": "Psycannon",
                 "cost": 5
-              },
-              {
-                "name": "Close Combat Weapon",
-                "cost": 0
               }
             ],
             "source": 2,
@@ -7314,15 +7347,15 @@
               "cost": 0
             },
             {
+              "name": "Close Combat Weapon",
+              "cost": 0
+            },
+            {
               "name": "Psilencer",
               "cost": 0
             },
             {
               "name": "Psycannon",
-              "cost": 0
-            },
-            {
-              "name": "Close Combat Weapon",
               "cost": 0
             }
           ],
@@ -7502,7 +7535,7 @@
                 "range": "Melee",
                 "a": "3",
                 "skill": "3+",
-                "s": "5",
+                "s": "4",
                 "ap": "0",
                 "d": "1",
                 "keywords": []
@@ -7637,15 +7670,15 @@
                 "cost": 0
               },
               {
+                "name": "Close Combat Weapon",
+                "cost": 0
+              },
+              {
                 "name": "Psilencer",
                 "cost": 0
               },
               {
                 "name": "Psycannon",
-                "cost": 0
-              },
-              {
-                "name": "Close Combat Weapon",
                 "cost": 0
               }
             ],
@@ -7960,7 +7993,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8303,7 +8336,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8703,7 +8736,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -9225,7 +9258,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -9654,7 +9687,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -9817,15 +9850,15 @@
               "cost": 0
             },
             {
+              "name": "Close Combat Weapon",
+              "cost": 0
+            },
+            {
               "name": "Psilencer",
               "cost": 0
             },
             {
               "name": "Psycannon",
-              "cost": 0
-            },
-            {
-              "name": "Close Combat Weapon",
               "cost": 0
             }
           ],
@@ -9986,7 +10019,7 @@
                 "range": "Melee",
                 "a": "3",
                 "skill": "3+",
-                "s": "5",
+                "s": "4",
                 "ap": "0",
                 "d": "1",
                 "keywords": []
@@ -10130,15 +10163,15 @@
                 "cost": 0
               },
               {
+                "name": "Close Combat Weapon",
+                "cost": 0
+              },
+              {
                 "name": "Psilencer",
                 "cost": 0
               },
               {
                 "name": "Psycannon",
-                "cost": 0
-              },
-              {
-                "name": "Close Combat Weapon",
                 "cost": 0
               }
             ],
@@ -10397,10 +10430,10 @@
             ]
           },
           {
-            "name": "Assault Cannon",
+            "name": "Assault cannon",
             "profiles": [
               {
-                "name": "Assault Cannon",
+                "name": "Assault cannon",
                 "range": "24\"",
                 "a": "6",
                 "skill": "3+",
@@ -10635,7 +10668,7 @@
   "rules": {
     "faction": "greyknights",
     "name": "Grey Knights",
-    "data_version": "2026-10-16T18:38:15.609Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Gate of Infinity",
@@ -10991,7 +11024,16 @@
               "grey knights"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "weapon",
+                "weapons": "ranged",
+                "stat": "ap",
+                "change": 1
+              }
+            ]
           },
           {
             "name": "Pyresoul (Psychic)",
