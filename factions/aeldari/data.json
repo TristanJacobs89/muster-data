@@ -3316,7 +3316,18 @@
         "Corsair Voidscarred",
         "Psyker"
       ],
-      "points": [],
+      "points": [
+        {
+          "models": 5,
+          "cost": 70,
+          "label": "5 models"
+        },
+        {
+          "models": 10,
+          "cost": 140,
+          "label": "10 models"
+        }
+      ],
       "unit_types": [
         "Infantry",
         "Psyker"
@@ -3992,8 +4003,32 @@
           "id": "e9ea6d32-6a27-5001-b786-4eed3a007a31",
           "data_version": "995"
         },
-        "sizes": [],
-        "prices": [],
+        "sizes": [
+          {
+            "models": 5,
+            "cost": 70
+          },
+          {
+            "models": 10,
+            "cost": 140
+          }
+        ],
+        "prices": [
+          {
+            "models": 5,
+            "cost": 70,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 140,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
         "loadout": [
           "Shuriken pistol",
           "Power sword",
@@ -6332,7 +6367,7 @@
             "statline": "Dragon Knight"
           },
           {
-            "name": "Dragon Knights",
+            "name": "Dragon Knight",
             "min": 2,
             "max": 5,
             "statline": "Dragon Knight"
@@ -14731,7 +14766,7 @@
         "Fly",
         "Smoke",
         "Grenades",
-        "Starfangs"
+        "Starfang"
       ],
       "points": [
         {
@@ -14869,7 +14904,7 @@
           "Fly",
           "Smoke",
           "Grenades",
-          "Starfangs"
+          "Starfang"
         ],
         "factions": [
           "Asuryani",
@@ -19127,7 +19162,7 @@
         ],
         "model_types": [
           {
-            "name": "Vyper",
+            "name": "Vypers",
             "min": 1,
             "max": 2,
             "statline": "Vyper"
@@ -24333,11 +24368,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Demilklaives",
+              "name": "Demiklaives",
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 1,
           "model": 0,
           "loadout": 0,
           "heading": "",
@@ -24351,7 +24386,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Demilklaives",
+                  "option": "Demiklaives",
                   "count": 1
                 }
               ]
@@ -24545,11 +24580,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Demilklaives",
+                "name": "Demiklaives",
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 1,
             "model": 0,
             "loadout": 0,
             "heading": "",
@@ -24563,7 +24598,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Demilklaives",
+                    "option": "Demiklaives",
                     "count": 1
                   }
                 ]
@@ -27653,7 +27688,8 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "asuryani mounted"
+                "asuryani mounted",
+                "vyper"
               ],
               "excludes": []
             }
@@ -27674,7 +27710,8 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "asuryani mounted"
+                "asuryani mounted",
+                "vyper"
               ],
               "excludes": []
             }
@@ -27695,7 +27732,8 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "asuryani mounted"
+                "asuryani mounted",
+                "vyper"
               ],
               "excludes": []
             }
@@ -27738,7 +27776,8 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "asuryani mounted"
+                "asuryani mounted",
+                "vyper"
               ],
               "excludes": []
             }
@@ -27759,7 +27798,8 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "asuryani mounted"
+                "asuryani mounted",
+                "vyper"
               ],
               "excludes": []
             }
@@ -27892,7 +27932,7 @@
           {
             "name": "Fangs of the Brood",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "either",
             "phases": [
               "fight"
@@ -27913,7 +27953,7 @@
           {
             "name": "Venomous Wrath",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "shooting"
@@ -27934,7 +27974,7 @@
           {
             "name": "Striking Stride",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "charge"
@@ -27953,9 +27993,30 @@
             }
           },
           {
+            "name": "Weaver’s Coils",
+            "cp": 1,
+            "type": "Strategic Ploy",
+            "turn": "your",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "harlequins mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
             "name": "Weaving Stride",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "opponents",
             "phases": [
               "movement"
@@ -27976,7 +28037,7 @@
           {
             "name": "Skyward Lunge",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "opponents",
             "phases": [
               "fight"
@@ -27990,27 +28051,6 @@
             "units": {
               "targets": [
                 "harlequins vehicle",
-                "harlequins mounted"
-              ],
-              "excludes": []
-            }
-          },
-          {
-            "name": "Weavers’ Coils",
-            "cp": 1,
-            "type": "",
-            "turn": "your",
-            "phases": [
-              "fight"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null,
-            "units": {
-              "targets": [
                 "harlequins mounted"
               ],
               "excludes": []
@@ -28273,7 +28313,15 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "wraith construct"
+              ],
+              "excludes": [
+                "titanic"
+              ]
+            }
           },
           {
             "name": "Blades From Beyond",
@@ -29249,6 +29297,27 @@
             }
           },
           {
+            "name": "Raider’s Spoils",
+            "cp": 1,
+            "type": "Strategic Ploy",
+            "turn": "either",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "anhrathe"
+              ],
+              "excludes": []
+            }
+          },
+          {
             "name": "Ruthless Killers",
             "cp": 1,
             "type": "Strategic Ploy",
@@ -29308,28 +29377,8 @@
             "units": {
               "targets": [
                 "rangers",
-                "shroud runners"
-              ],
-              "excludes": []
-            }
-          },
-          {
-            "name": "Raiders’ Spoils",
-            "cp": 1,
-            "type": "Strategic Ploy",
-            "turn": "either",
-            "phases": [
-              "command"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null,
-            "units": {
-              "targets": [
-                "anhrathe"
+                "shroud runners",
+                "starfang"
               ],
               "excludes": []
             }
