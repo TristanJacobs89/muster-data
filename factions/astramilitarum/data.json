@@ -20137,6 +20137,36 @@
             ]
           },
           {
+            "name": "Plasma cannon",
+            "profiles": [
+              {
+                "name": "Plasma cannon – Standard",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "7",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Plasma cannon – Supercharge",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Hazardous",
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
             "name": "Vanquisher battle cannon",
             "profiles": [
               {
@@ -36978,7 +37008,14 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "scout sentinel",
+                "astra militarum infantry"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Triggered Alerts",
@@ -37008,8 +37045,8 @@
         "name": "Grizzled Company",
         "dp": 3,
         "dispositions": [
-          "Purge the Foe",
-          "Priority Assets"
+          "Priority Assets",
+          "Purge the Foe"
         ],
         "unique": [
           "Abhuman"
@@ -37087,7 +37124,7 @@
           {
             "name": "Veteran Sharpshooters",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "your",
             "phases": [
               "shooting"
@@ -37108,7 +37145,7 @@
           {
             "name": "Purging Fire",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "your",
             "phases": [
               "shooting"
@@ -37129,7 +37166,7 @@
           {
             "name": "Mordian Minute",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "your",
             "phases": [
               "shooting"
@@ -37150,7 +37187,7 @@
           {
             "name": "Additional Armour",
             "cp": 1,
-            "type": "",
+            "type": "Battle Tactic",
             "turn": "opponents",
             "phases": [
               "shooting"
@@ -37171,7 +37208,7 @@
           {
             "name": "Snap To It",
             "cp": 1,
-            "type": "",
+            "type": "Epic Deed",
             "turn": "either",
             "phases": [
               "any"
@@ -37192,7 +37229,7 @@
           {
             "name": "No Retreat!",
             "cp": 1,
-            "type": "",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "command"
