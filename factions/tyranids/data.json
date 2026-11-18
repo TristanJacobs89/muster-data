@@ -503,7 +503,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75 x 42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -1020,7 +1020,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -1587,7 +1587,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -1763,7 +1763,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -1862,7 +1862,7 @@
       ],
       "epic_hero": false,
       "loadout": [
-        "Genestealers claws and talons"
+        "Genestealer claws and talons"
       ],
       "wargear_options": [],
       "composition": [
@@ -1887,10 +1887,10 @@
         "ranged": [],
         "melee": [
           {
-            "name": "Genestealers claws and talons",
+            "name": "Genestealer claws and talons",
             "profiles": [
               {
-                "name": "Genestealers claws and talons",
+                "name": "Genestealer claws and talons",
                 "range": "Melee",
                 "a": "4",
                 "skill": "2+",
@@ -1973,7 +1973,7 @@
           "after": 2
         },
         "loadout": [
-          "Genestealers claws and talons"
+          "Genestealer claws and talons"
         ],
         "model_types": [
           {
@@ -1988,7 +1988,7 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Genestealers claws and talons"
+              "Genestealer claws and talons"
             ]
           }
         ],
@@ -2178,7 +2178,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -2577,7 +2577,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -2795,7 +2795,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Monster",
@@ -3028,7 +3028,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -4193,8 +4193,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Ravener heavy claws and talons",
-              "Venom bolt"
+              "Venom bolt",
+              "Ravener heavy claws and talons"
             ]
           },
           {
@@ -4202,6 +4202,13 @@
             "role": null,
             "wargear": [
               "Prime claws and talons"
+            ]
+          },
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Ravener heavy claws and talons"
             ]
           }
         ],
@@ -4499,7 +4506,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -4570,7 +4577,8 @@
         "Monster",
         "Great Devourer",
         "Vanguard Invader",
-        "Mawloc"
+        "Mawloc",
+        "Burrower"
       ],
       "points": [
         {
@@ -4668,13 +4676,14 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
           "Great Devourer",
           "Vanguard Invader",
-          "Mawloc"
+          "Mawloc",
+          "Burrower"
         ],
         "factions": [
           "Tyranids"
@@ -4752,7 +4761,9 @@
         "Beast"
       ],
       "epic_hero": false,
-      "loadout": [],
+      "loadout": [
+        "Nothing"
+      ],
       "wargear_options": [],
       "composition": [
         ""
@@ -4844,7 +4855,9 @@
             "detachment": null
           }
         ],
-        "loadout": [],
+        "loadout": [
+          "Nothing"
+        ],
         "model_types": [
           {
             "name": "Mucolid Spores",
@@ -4857,7 +4870,9 @@
           {
             "model": null,
             "role": null,
-            "wargear": []
+            "wargear": [
+              "Nothing"
+            ]
           }
         ],
         "wargear_options": []
@@ -4947,7 +4962,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Neurogaunts: 25mm\nNodebeast: 28.5mm",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -5495,7 +5510,7 @@
             "name": "Toxinjector Harpoon",
             "profiles": [
               {
-                "name": "Toxinjector Harpoon",
+                "name": "Toxinjector Harpoon – Ranged",
                 "range": "12\"",
                 "a": "2",
                 "skill": "2+",
@@ -5529,7 +5544,7 @@
             "name": "Toxinjector Harpoon",
             "profiles": [
               {
-                "name": "Toxinjector Harpoon – Toxinjector harpoon",
+                "name": "Toxinjector harpoon – Melee",
                 "range": "Melee",
                 "a": "4",
                 "skill": "2+",
@@ -6000,7 +6015,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -6387,7 +6402,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -7108,10 +7123,10 @@
         ],
         "melee": [
           {
-            "name": "Scream-Killer talons",
+            "name": "Screamer-Killer talons",
             "profiles": [
               {
-                "name": "Scream-Killer talons",
+                "name": "Screamer-Killer talons",
                 "range": "Melee",
                 "a": "10",
                 "skill": "3+",
@@ -7239,7 +7254,9 @@
         "Beast"
       ],
       "epic_hero": false,
-      "loadout": [],
+      "loadout": [
+        "Nothing"
+      ],
       "wargear_options": [],
       "composition": [
         ""
@@ -7331,7 +7348,9 @@
             "detachment": null
           }
         ],
-        "loadout": [],
+        "loadout": [
+          "Nothing"
+        ],
         "model_types": [
           {
             "name": "Spore Mines",
@@ -7344,7 +7363,9 @@
           {
             "model": null,
             "role": null,
-            "wargear": []
+            "wargear": [
+              "Nothing"
+            ]
           }
         ],
         "wargear_options": []
@@ -7459,7 +7480,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -7622,7 +7643,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 6,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -7643,7 +7664,9 @@
               ]
             }
           ],
-          "replaces": [],
+          "replaces": [
+            "Fleshborer"
+          ],
           "replaces_options": []
         },
         {
@@ -7654,7 +7677,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 7,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -7675,7 +7698,9 @@
               ]
             }
           ],
-          "replaces": [],
+          "replaces": [
+            "Fleshborer"
+          ],
           "replaces_options": []
         },
         {
@@ -7686,7 +7711,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 8,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -7707,7 +7732,9 @@
               ]
             }
           ],
-          "replaces": [],
+          "replaces": [
+            "Fleshborer"
+          ],
           "replaces_options": []
         }
       ],
@@ -8017,7 +8044,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 6,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -8038,7 +8065,9 @@
                 ]
               }
             ],
-            "replaces": [],
+            "replaces": [
+              "Fleshborer"
+            ],
             "replaces_options": []
           },
           {
@@ -8049,7 +8078,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 7,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -8070,7 +8099,9 @@
                 ]
               }
             ],
-            "replaces": [],
+            "replaces": [
+              "Fleshborer"
+            ],
             "replaces_options": []
           },
           {
@@ -8081,7 +8112,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 8,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -8102,7 +8133,9 @@
                 ]
               }
             ],
-            "replaces": [],
+            "replaces": [
+              "Fleshborer"
+            ],
             "replaces_options": []
           }
         ]
@@ -8293,7 +8326,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -8561,8 +8594,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Gaping maw",
-              "Scything talons"
+              "Scything talons",
+              "Gaping maw"
             ]
           }
         ],
@@ -8701,10 +8734,7 @@
             "name": "Malign Presence",
             "text": "",
             "kind": "other",
-            "timing": {
-              "once_per": "turn",
-              "when": []
-            }
+            "timing": null
           },
           {
             "name": "Domination of the Hive Mind",
@@ -8900,7 +8930,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -8964,7 +8994,8 @@
         "Monster",
         "Great Devourer",
         "Vanguard Invader",
-        "Trygon"
+        "Trygon",
+        "Burrower"
       ],
       "points": [
         {
@@ -9069,13 +9100,14 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
           "Great Devourer",
           "Vanguard Invader",
-          "Trygon"
+          "Trygon",
+          "Burrower"
         ],
         "factions": [
           "Tyranids"
@@ -10391,7 +10423,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -11882,7 +11914,7 @@
   "rules": {
     "faction": "tyranids",
     "name": "Tyranids",
-    "data_version": "2026-10-16T18:38:12.008Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Synapse",
@@ -11920,18 +11952,18 @@
             "excludes": [],
             "modifiers": [
               {
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "all",
                 "stat": "s",
-                "change": 1,
-                "only": "Psychic"
+                "change": 1
               },
               {
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "all",
                 "stat": "ap",
-                "change": 1,
-                "only": "Psychic"
+                "change": 1
               }
             ]
           },
@@ -12979,22 +13011,6 @@
           {
             "name": "Questing Tendrils",
             "text": ""
-          },
-          {
-            "name": "Vanguard Prime",
-            "text": "",
-            "modifiers": [
-              {
-                "who": {
-                  "with": [
-                    "Deathleaper"
-                  ]
-                },
-                "kind": "ability",
-                "name": "Hunter Organism",
-                "lose": true
-              }
-            ]
           }
         ],
         "enhancements": [
@@ -13245,7 +13261,22 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Tyranid Warriors with Ranged Bio-weapons",
+              "Tyranid Warriors with Melee Bio-weapons"
+            ],
+            "keyword": "Tyranid Warriors"
+          },
+          {
+            "targets": [
+              "Tyranid Warriors with Ranged Bio-weapons",
+              "Tyranid Warriors with Melee Bio-weapons"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
