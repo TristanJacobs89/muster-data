@@ -5658,7 +5658,7 @@
             }
           },
           {
-            "name": "Ground Attack Craft",
+            "name": "Ground-attack Craft",
             "text": "",
             "kind": "other",
             "timing": null
@@ -7921,6 +7921,21 @@
             ]
           },
           {
+            "name": "Chain flails",
+            "profiles": [
+              {
+                "name": "Chain flails",
+                "range": "Melee",
+                "a": "8",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
             "name": "Talos gauntlet",
             "profiles": [
               {
@@ -9290,6 +9305,23 @@
             ]
           },
           {
+            "name": "Torturer’s tool",
+            "profiles": [
+              {
+                "name": "Torturer’s tool",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Anti-infantry 4+"
+                ]
+              }
+            ]
+          },
+          {
             "name": "Torturer’s tools",
             "profiles": [
               {
@@ -10075,7 +10107,7 @@
     "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
-        "name": "Power from Pain",
+        "name": "Power From Pain",
         "text": ""
       },
       {
@@ -10832,8 +10864,8 @@
         "name": "Reaper’s Wager",
         "dp": 3,
         "dispositions": [
-          "Purge the Foe",
-          "Priority Assets"
+          "Priority Assets",
+          "Purge the Foe"
         ],
         "unique": [],
         "rules": [
