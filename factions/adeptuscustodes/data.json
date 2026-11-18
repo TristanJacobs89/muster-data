@@ -6271,6 +6271,9 @@
           "Praesidium Shield",
           "Pyrithite Spear"
         ],
+        "wargear_costs": {
+          "Praesidium Shield": 25
+        },
         "model_types": [
           {
             "name": "Shield-Captain",

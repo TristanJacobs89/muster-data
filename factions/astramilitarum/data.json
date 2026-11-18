@@ -19401,6 +19401,9 @@
           "Leman Russ battle cannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Battle Tank",
@@ -20345,6 +20348,9 @@
           "Leman Russ battle cannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Commander",
@@ -21143,6 +21149,9 @@
           "Lascannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Demolisher",
@@ -21844,6 +21853,9 @@
           "Lascannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Eradicator",
@@ -22557,6 +22569,9 @@
           "Lascannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Executioner",
@@ -23266,6 +23281,9 @@
           "Lascannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Exterminator",
@@ -23964,6 +23982,9 @@
           "Punisher gatling cannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Punisher",
@@ -24664,6 +24685,9 @@
           "Vanquisher battle cannon",
           "Armoured tracks"
         ],
+        "wargear_costs": {
+          "Lascannon": 5
+        },
         "model_types": [
           {
             "name": "Leman Russ Vanquisher",

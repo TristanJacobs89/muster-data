@@ -5320,6 +5320,9 @@
           "Dark lance",
           "Bladevanes"
         ],
+        "wargear_costs": {
+          "Dark lance": 5
+        },
         "model_types": [
           {
             "name": "Ravager",

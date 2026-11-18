@@ -3079,6 +3079,9 @@
           "Multi-melta",
           "Twin Las-talon"
         ],
+        "wargear_costs": {
+          "Multi-melta": 10
+        },
         "model_types": [
           {
             "name": "Gladiator Valiant",
