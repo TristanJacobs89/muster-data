@@ -316,7 +316,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -371,10 +371,10 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Blackstar Rocket Launcher",
-              "Twin Assault Cannon",
               "Armoured Hull",
-              "Auspex Array"
+              "Auspex Array",
+              "Blackstar Rocket Launcher",
+              "Twin Assault Cannon"
             ],
             "counts": {
               "Blackstar Rocket Launcher": 2
@@ -519,6 +519,10 @@
           "instruction": "",
           "options": [
             {
+              "name": "Storm Bolter",
+              "cost": 0
+            },
+            {
               "name": "Chainfist",
               "cost": 0
             },
@@ -527,20 +531,16 @@
               "cost": 0
             },
             {
-              "name": "Storm Bolter",
-              "cost": 0
-            },
-            {
               "name": "Thunder Hammer",
-              "cost": 0
-            },
-            {
-              "name": "Twin Lightning Claws",
               "cost": 0
             },
             {
               "name": "Storm Shield",
               "cost": 5
+            },
+            {
+              "name": "Twin Lightning Claws",
+              "cost": 0
             }
           ],
           "source": 1,
@@ -603,8 +603,8 @@
             }
           ],
           "replaces": [
-            "Storm Bolter",
-            "Power Fist"
+            "Power Fist",
+            "Storm Bolter"
           ],
           "replaces_options": []
         },
@@ -685,103 +685,6 @@
           ],
           "replaces": [
             "Storm Bolter"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Chainfist",
-              "cost": 0
-            },
-            {
-              "name": "Power Fist",
-              "cost": 0
-            },
-            {
-              "name": "Power Weapon",
-              "cost": 0
-            },
-            {
-              "name": "Storm Bolter",
-              "cost": 0
-            },
-            {
-              "name": "Thunder Hammer",
-              "cost": 0
-            },
-            {
-              "name": "Twin Lightning Claws",
-              "cost": 0
-            },
-            {
-              "name": "Storm Shield",
-              "cost": 5
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": true
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Storm Bolter",
-                  "count": 1
-                },
-                {
-                  "option": "Chainfist",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Storm Bolter",
-                  "count": 1
-                },
-                {
-                  "option": "Power Weapon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Thunder Hammer",
-                  "count": 1
-                },
-                {
-                  "option": "Storm Shield",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Twin Lightning Claws",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Storm Bolter",
-            "Power Fist"
           ],
           "replaces_options": []
         }
@@ -1121,8 +1024,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Storm Bolter",
-              "Power Fist"
+              "Power Fist",
+              "Storm Bolter"
             ]
           }
         ],
@@ -1130,6 +1033,10 @@
           {
             "instruction": "",
             "options": [
+              {
+                "name": "Storm Bolter",
+                "cost": 0
+              },
               {
                 "name": "Chainfist",
                 "cost": 0
@@ -1139,20 +1046,16 @@
                 "cost": 0
               },
               {
-                "name": "Storm Bolter",
-                "cost": 0
-              },
-              {
                 "name": "Thunder Hammer",
-                "cost": 0
-              },
-              {
-                "name": "Twin Lightning Claws",
                 "cost": 0
               },
               {
                 "name": "Storm Shield",
                 "cost": 5
+              },
+              {
+                "name": "Twin Lightning Claws",
+                "cost": 0
               }
             ],
             "source": 1,
@@ -1215,8 +1118,8 @@
               }
             ],
             "replaces": [
-              "Storm Bolter",
-              "Power Fist"
+              "Power Fist",
+              "Storm Bolter"
             ],
             "replaces_options": []
           },
@@ -1297,103 +1200,6 @@
             ],
             "replaces": [
               "Storm Bolter"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Chainfist",
-                "cost": 0
-              },
-              {
-                "name": "Power Fist",
-                "cost": 0
-              },
-              {
-                "name": "Power Weapon",
-                "cost": 0
-              },
-              {
-                "name": "Storm Bolter",
-                "cost": 0
-              },
-              {
-                "name": "Thunder Hammer",
-                "cost": 0
-              },
-              {
-                "name": "Twin Lightning Claws",
-                "cost": 0
-              },
-              {
-                "name": "Storm Shield",
-                "cost": 5
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": true
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Storm Bolter",
-                    "count": 1
-                  },
-                  {
-                    "option": "Chainfist",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Storm Bolter",
-                    "count": 1
-                  },
-                  {
-                    "option": "Power Weapon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Thunder Hammer",
-                    "count": 1
-                  },
-                  {
-                    "option": "Storm Shield",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Twin Lightning Claws",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Storm Bolter",
-              "Power Fist"
             ],
             "replaces_options": []
           }
@@ -1766,11 +1572,11 @@
               "cost": 0
             },
             {
-              "name": "Power Weapon",
+              "name": "Storm Shield",
               "cost": 0
             },
             {
-              "name": "Storm Shield",
+              "name": "Power Weapon",
               "cost": 0
             }
           ],
@@ -1825,15 +1631,6 @@
       ],
       "data": {
         "stats": [
-          {
-            "name": "Watch Sergeant",
-            "m": "6\"",
-            "t": "5",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "2"
-          },
           {
             "name": "Deathwatch Veteran",
             "m": "6\"",
@@ -2158,7 +1955,7 @@
             "name": "Watch Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Watch Sergeant"
+            "statline": "Deathwatch Veteran"
           },
           {
             "name": "Deathwatch Veteran",
@@ -2513,11 +2310,11 @@
                 "cost": 0
               },
               {
-                "name": "Power Weapon",
+                "name": "Storm Shield",
                 "cost": 0
               },
               {
-                "name": "Storm Shield",
+                "name": "Power Weapon",
                 "cost": 0
               }
             ],
@@ -2627,7 +2424,7 @@
           ],
           "source": 2,
           "model": 5,
-          "loadout": 1,
+          "loadout": 0,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -2678,7 +2475,7 @@
           ],
           "source": 5,
           "model": 3,
-          "loadout": 3,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -2721,7 +2518,7 @@
           ],
           "source": 8,
           "model": 4,
-          "loadout": 5,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -3109,7 +2906,7 @@
           }
         ],
         "transport": "",
-        "base_size": "32mm, 40mm",
+        "base_size": "Gravis Veteran: 40mm, Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists: 32mm, Kill Team Sergeant: 32mm, Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol: 32mm, Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and Fists: 32mm, Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol: 32mm",
         "imperial_armour": false,
         "keywords": [
           "Battleline",
@@ -3175,7 +2972,8 @@
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "min": 1,
             "max": 1,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
+            "statline": "Gravis Veteran",
+            "statline_assumed": true
           },
           {
             "name": "Kill Team Sergeant",
@@ -3202,8 +3000,7 @@
             "name": "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists",
             "min": 1,
             "max": 2,
-            "statline": "Gravis Veteran",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Gravis Veteran",
@@ -3214,36 +3011,20 @@
         ],
         "loadouts": [
           {
-            "model": 0,
-            "role": null,
-            "wargear": [
-              "Plasma Pistol",
-              "Power Weapon"
-            ]
-          },
-          {
             "model": 5,
             "role": null,
             "wargear": [
-              "Infernus Heavy Bolter",
               "Bolt Pistol",
+              "Infernus Heavy Bolter",
               "Knives and Fists"
-            ]
-          },
-          {
-            "model": 1,
-            "role": null,
-            "wargear": [
-              "Special-issue Bolt Pistol",
-              "Xenophase Blade"
             ]
           },
           {
             "model": 3,
             "role": null,
             "wargear": [
-              "Heavy Thunder Hammer",
-              "Bolt Pistol"
+              "Bolt Pistol",
+              "Heavy Thunder Hammer"
             ]
           },
           {
@@ -3251,17 +3032,33 @@
             "role": null,
             "wargear": [
               "Deathwatch Marksman Bolt Carbine",
-              "Special-issue Bolt Pistol",
-              "Knives and Fists"
+              "Knives and Fists",
+              "Special-issue Bolt Pistol"
             ]
           },
           {
             "model": 4,
             "role": null,
             "wargear": [
-              "Stalker Bolt Rifle",
               "Bolt Pistol",
-              "Knives and Fists"
+              "Knives and Fists",
+              "Stalker Bolt Rifle"
+            ]
+          },
+          {
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Special-issue Bolt Pistol",
+              "Xenophase Blade"
+            ]
+          },
+          {
+            "model": 1,
+            "role": null,
+            "wargear": [
+              "Plasma Pistol",
+              "Power Weapon"
             ]
           }
         ],
@@ -3284,7 +3081,7 @@
             ],
             "source": 2,
             "model": 5,
-            "loadout": 1,
+            "loadout": 0,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -3335,7 +3132,7 @@
             ],
             "source": 5,
             "model": 3,
-            "loadout": 3,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -3378,7 +3175,7 @@
             ],
             "source": 8,
             "model": 4,
-            "loadout": 5,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -3514,38 +3311,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Grenade Launcher",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": null,
-          "loadout": null,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Grenade Launcher",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Chainsword",
               "cost": 0
             },
@@ -3618,46 +3383,13 @@
           "instruction": "",
           "options": [
             {
-              "name": "Plasma Pistol",
-              "cost": 0
-            }
-          ],
-          "source": 8,
-          "model": 2,
-          "loadout": 2,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Plasma Pistol",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Bolt Pistol"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Superkrak Rocket Launcher",
               "cost": 0
             }
           ],
           "source": 10,
           "model": 0,
-          "loadout": 3,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -3690,7 +3422,7 @@
           ],
           "source": 11,
           "model": 0,
-          "loadout": 3,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -3712,6 +3444,71 @@
             "Superfrag Rocket Launcher"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Astartes Grenade Launcher",
+              "cost": 0
+            }
+          ],
+          "source": 12,
+          "model": null,
+          "loadout": null,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Astartes Grenade Launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Plasma Pistol",
+              "cost": 0
+            }
+          ],
+          "source": 13,
+          "model": 2,
+          "loadout": 4,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma Pistol",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Bolt Pistol"
+          ],
+          "replaces_options": []
         }
       ],
       "composition": [
@@ -3724,15 +3521,6 @@
       ],
       "data": {
         "stats": [
-          {
-            "name": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists",
-            "m": "6\"",
-            "t": "5",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "2"
-          },
           {
             "name": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists",
             "m": "6\"",
@@ -4147,35 +3935,31 @@
             "name": "Kill Team Intercessor with Castellan Launcher, Superfrag Rocket Launcher and Knives and Fists",
             "min": 1,
             "max": 1,
-            "statline": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists",
-            "statline_assumed": true
+            "statline": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists"
           },
           {
             "name": "Kill Team Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists",
-            "statline_assumed": true
+            "statline": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists"
           },
           {
             "name": "Deathwatch Intercessor with Plasma Incinerator, Bolt Pistol and Knives and Fists",
             "min": 2,
             "max": 2,
-            "statline": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists",
-            "statline_assumed": true
+            "statline": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists"
           },
           {
             "name": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists",
             "min": 2,
             "max": 2,
-            "statline": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists"
+            "statline": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists"
           },
           {
             "name": "Kill Team Intercessor with Heavy Bolt Pistol and Chainsword",
             "min": 2,
             "max": 2,
-            "statline": "Kill Team Intercessor with Deathwatch Bolt Rifle, Bolt Pistol and Knives and Fists",
-            "statline_assumed": true
+            "statline": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists"
           },
           {
             "name": "Kill Team Intercessor with Pyreblaster, Bolt Pistol and Knives and Fists",
@@ -4195,12 +3979,29 @@
             ]
           },
           {
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Castellan Launcher",
+              "Knives and Fists",
+              "Superfrag Rocket Launcher"
+            ]
+          },
+          {
+            "model": 4,
+            "role": null,
+            "wargear": [
+              "Chainsword",
+              "Heavy Bolt Pistol"
+            ]
+          },
+          {
             "model": 3,
             "role": null,
             "wargear": [
-              "Pyreblaster",
               "Bolt Pistol",
-              "Knives and Fists"
+              "Knives and Fists",
+              "Plasma Incinerator"
             ]
           },
           {
@@ -4208,25 +4009,8 @@
             "role": null,
             "wargear": [
               "Bolt Pistol",
-              "Plasma Incinerator",
-              "Knives and Fists"
-            ]
-          },
-          {
-            "model": 0,
-            "role": null,
-            "wargear": [
-              "Castellan Launcher",
-              "Superfrag Rocket Launcher",
-              "Knives and Fists"
-            ]
-          },
-          {
-            "model": 4,
-            "role": null,
-            "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Knives and Fists",
+              "Pyreblaster"
             ]
           }
         ],
@@ -4307,38 +4091,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Grenade Launcher",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": null,
-            "loadout": null,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Grenade Launcher",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Chainsword",
                 "cost": 0
               },
@@ -4411,46 +4163,13 @@
             "instruction": "",
             "options": [
               {
-                "name": "Plasma Pistol",
-                "cost": 0
-              }
-            ],
-            "source": 8,
-            "model": 2,
-            "loadout": 2,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Plasma Pistol",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Bolt Pistol"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Superkrak Rocket Launcher",
                 "cost": 0
               }
             ],
             "source": 10,
             "model": 0,
-            "loadout": 3,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -4483,7 +4202,7 @@
             ],
             "source": 11,
             "model": 0,
-            "loadout": 3,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -4503,6 +4222,71 @@
             ],
             "replaces": [
               "Superfrag Rocket Launcher"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Astartes Grenade Launcher",
+                "cost": 0
+              }
+            ],
+            "source": 12,
+            "model": null,
+            "loadout": null,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Astartes Grenade Launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Plasma Pistol",
+                "cost": 0
+              }
+            ],
+            "source": 13,
+            "model": 2,
+            "loadout": 4,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma Pistol",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Bolt Pistol"
             ],
             "replaces_options": []
           }
@@ -4764,7 +4548,7 @@
                 ]
               },
               {
-                "name": "Flamestorm Gauntlets – Ranged",
+                "name": "Flamestorm Gauntlets",
                 "range": "12\"",
                 "a": "3",
                 "skill": "-",
@@ -4772,9 +4556,9 @@
                 "ap": "-1",
                 "d": "1",
                 "keywords": [
-                  "TWIN-LINKED",
-                  "TORRENT",
-                  "BLAST 2"
+                  "BLAST 2",
+                  "Torrent",
+                  "Twin-linked"
                 ]
               }
             ]
@@ -4985,17 +4769,17 @@
             "model": 1,
             "role": null,
             "wargear": [
-              "Melta Rifle",
+              "Bolt Pistol",
               "Ceramite Fists",
-              "Bolt Pistol"
+              "Melta Rifle"
             ]
           },
           {
             "model": 2,
             "role": null,
             "wargear": [
-              "Deathwatch Heavy Bolt Rifle",
-              "Ceramite Fists"
+              "Ceramite Fists",
+              "Deathwatch Heavy Bolt Rifle"
             ]
           }
         ],
@@ -5674,8 +5458,8 @@
             "model": 2,
             "role": null,
             "wargear": [
-              "Special-issue Bolt Pistol",
-              "Combat Knife"
+              "Combat Knife",
+              "Special-issue Bolt Pistol"
             ]
           },
           {
@@ -5683,8 +5467,8 @@
             "role": null,
             "wargear": [
               "Bolt Pistol",
-              "Deathwatch Marksman Bolt Carbine",
-              "Ceramite Fists"
+              "Ceramite Fists",
+              "Deathwatch Marksman Bolt Carbine"
             ]
           }
         ],
@@ -5998,11 +5782,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Plasma Exterminators",
+              "name": "Plasma Exterminator",
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 7,
           "model": 1,
           "loadout": 2,
           "heading": "",
@@ -6016,7 +5800,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Plasma Exterminators",
+                  "option": "Plasma Exterminator",
                   "count": 1
                 }
               ]
@@ -6259,7 +6043,7 @@
           }
         ],
         "transport": "",
-        "base_size": "32mm, 40mm",
+        "base_size": "Kill Team Intercessor with Jump Pack: 32mm, Kill Team Sergeant with Jump Pack: 32mm, Kill Team Heavy Intercessor with Jump Pack: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -6334,16 +6118,16 @@
             "model": 0,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ]
           },
           {
             "model": 2,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Chainsword"
+              "Chainsword",
+              "Heavy Bolt Pistol"
             ]
           },
           {
@@ -6486,11 +6270,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Plasma Exterminators",
+                "name": "Plasma Exterminator",
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 7,
             "model": 1,
             "loadout": 2,
             "heading": "",
@@ -6504,7 +6288,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Plasma Exterminators",
+                    "option": "Plasma Exterminator",
                     "count": 1
                   }
                 ]
@@ -6795,7 +6579,7 @@
             "name": "Vigil Spear",
             "profiles": [
               {
-                "name": "Vigil Spear",
+                "name": "Vigil Spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -6812,7 +6596,7 @@
             "name": "Vigil Spear",
             "profiles": [
               {
-                "name": "Vigil Spear",
+                "name": "Vigil Spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -6820,7 +6604,7 @@
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
-                  "LANCE"
+                  "Lance"
                 ]
               }
             ]
@@ -6963,7 +6747,7 @@
   "rules": {
     "faction": "deathwatch",
     "name": "Deathwatch",
-    "data_version": "2026-10-16T18:38:13.515Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Combat Doctrines",
@@ -6996,8 +6780,8 @@
         "name": "Black Spear Task Force",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Purge the Foe"
+          "Purge the Foe",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -7323,8 +7107,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -7925,32 +7709,32 @@
             "excludes": [],
             "modifiers": [
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "s",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "ap",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               }
             ]
           },
@@ -8640,9 +8424,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
@@ -8662,9 +8446,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
