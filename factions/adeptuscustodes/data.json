@@ -10835,7 +10835,24 @@
               "adeptus custodes"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "weapons": [
+              {
+                "name": "Auriferous Orb",
+                "range": "12\"",
+                "a": "3",
+                "skill": "2+",
+                "s": "1",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "ANTI-non-MONSTER/VEHICLE 2+",
+                  "BLINDING LIGHT",
+                  "DEVASTATING WOUNDS"
+                ],
+                "kind": "ranged"
+              }
+            ]
           }
         ],
         "required_enhancements": [],
@@ -10931,7 +10948,22 @@
               "adeptus custodes"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "weapons": [
+              {
+                "name": "Emperor’s Light",
+                "range": "Melee",
+                "a": "3",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "EXTRA ATTACKS"
+                ],
+                "kind": "melee"
+              }
+            ]
           },
           {
             "name": "Bane of Abominations",
