@@ -305,7 +305,7 @@
         ],
         "model_types": [
           {
-            "name": "AX-1-0 Tiger Shark",
+            "name": "Tiger Shark",
             "min": 1,
             "max": 1,
             "statline": "AX-1-0 Tiger Shark"
@@ -567,6 +567,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -612,6 +631,44 @@
                 }
               ]
             }
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Guardian Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -1074,6 +1131,41 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Missile pod",
+            "profiles": [
+              {
+                "name": "Missile pod",
+                "range": "30\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "7",
+                "ap": "-1",
+                "d": "2",
+                "keywords": []
+              }
+            ],
+            "given_by": "Missile Drone"
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -1111,6 +1203,44 @@
             "text": "",
             "kind": "wargear",
             "timing": null
+          },
+          {
+            "name": "Missile Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -1500,6 +1630,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -1552,6 +1701,38 @@
             "text": "",
             "kind": "other",
             "timing": null
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -2468,6 +2649,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -2542,6 +2742,38 @@
                 "kind": "stat",
                 "stat": "invul",
                 "change": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
               }
             ]
           },
@@ -3529,6 +3761,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -3589,6 +3840,38 @@
                 "kind": "stat",
                 "stat": "invul",
                 "change": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
               }
             ]
           },
@@ -4510,6 +4793,25 @@
                 "keywords": []
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -4549,10 +4851,42 @@
             "timing": null
           },
           {
-            "name": "Weapon Support System",
+            "name": "Weapon Support Systems",
             "text": "",
             "kind": "other",
             "timing": null
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -4962,6 +5296,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -5001,10 +5354,42 @@
             "timing": null
           },
           {
-            "name": "Battlesuit Support System",
+            "name": "Battlesuit Support Systems",
             "text": "",
             "kind": "other",
             "timing": null
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -5334,6 +5719,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -5371,6 +5775,38 @@
             "text": "",
             "kind": "other",
             "timing": null
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -6195,7 +6631,27 @@
           "value": "5+",
           "condition": ""
         },
-        "ranged": [],
+        "ranged": [
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
+          }
+        ],
         "melee": [
           {
             "name": "Honour stave",
@@ -6252,6 +6708,38 @@
                 }
               ]
             }
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           },
           {
             "name": "Hover Drone",
@@ -9857,6 +10345,41 @@
         ],
         "melee": [
           {
+            "name": "Hunting blades",
+            "profiles": [
+              {
+                "name": "Hunting blades",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lance"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rampager fists",
+            "profiles": [
+              {
+                "name": "Rampager fists",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1",
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
             "name": "Close combat weapon",
             "profiles": [
               {
@@ -10915,6 +11438,25 @@
             ]
           },
           {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
+          },
+          {
             "name": "Drone burst cannon",
             "profiles": [
               {
@@ -10967,6 +11509,19 @@
             "timing": null
           },
           {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
             "name": "Pulse Accelerator Drone",
             "text": "",
             "kind": "wargear",
@@ -10984,10 +11539,29 @@
             ]
           },
           {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
             "name": "Grav-inhibitor Drone",
             "text": "",
             "kind": "wargear",
             "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           },
           {
             "name": "Recon Drone",
@@ -12215,6 +12789,22 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Missile pod",
+            "profiles": [
+              {
+                "name": "Missile pod",
+                "range": "30\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "7",
+                "ap": "-1",
+                "d": "2",
+                "keywords": []
+              }
+            ],
+            "given_by": "Missile Drone"
           }
         ],
         "melee": [
@@ -12266,6 +12856,12 @@
             "name": "Weapon Support System",
             "text": "",
             "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Missile Drone",
+            "text": "",
+            "kind": "wargear",
             "timing": null
           },
           {
@@ -13031,6 +13627,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -13083,6 +13698,25 @@
               "once_per": "battle",
               "when": []
             }
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
           }
         ],
         "transport": "",
@@ -14033,6 +14667,25 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Twin pulse carbine",
+            "profiles": [
+              {
+                "name": "Twin pulse carbine",
+                "range": "20\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ],
+            "given_by": "Gun Drone"
           }
         ],
         "melee": [
@@ -14086,6 +14739,44 @@
                 }
               ]
             }
+          },
+          {
+            "name": "Marker Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "keyword",
+                "keyword": "Markerlight"
+              }
+            ]
+          },
+          {
+            "name": "Guardian Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Gun Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Shield Drone",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "w",
+                "change": 1
+              }
+            ]
           }
         ],
         "transport": "",
@@ -17192,6 +17883,10 @@
     "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
+        "name": "Drones",
+        "text": ""
+      },
+      {
         "name": "For the Greater Good",
         "text": ""
       }
@@ -17394,8 +18089,8 @@
         "name": "Mont’ka",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -17797,7 +18492,9 @@
             "name": "Borthrod Gland",
             "points": 15,
             "text": "",
-            "targets": [],
+            "targets": [
+              "kroot flesh shaper"
+            ],
             "non_character": false,
             "excludes": []
           }
