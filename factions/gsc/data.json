@@ -3903,6 +3903,21 @@
             ]
           },
           {
+            "name": "Leader’s cult weapons",
+            "profiles": [
+              {
+                "name": "Leader’s cult weapons",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
             "name": "Leader’s bio-weapons",
             "profiles": [
               {
@@ -4793,6 +4808,23 @@
           }
         ],
         "melee": [
+          {
+            "name": "Force stave",
+            "profiles": [
+              {
+                "name": "Force stave",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "D3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          },
           {
             "name": "Magus stave",
             "profiles": [
@@ -7199,7 +7231,7 @@
             ]
           },
           {
-            "name": "Firepoint Commander",
+            "name": "Fire-point Commander",
             "points": 10,
             "text": "",
             "targets": [
