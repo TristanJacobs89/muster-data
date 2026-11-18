@@ -170,7 +170,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -458,7 +458,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -738,7 +738,7 @@
           }
         ],
         "transport": "",
-        "base_size": "170 x 109mm Oval Base",
+        "base_size": "170 x 109mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -1034,7 +1034,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -1761,6 +1761,21 @@
                 "keywords": []
               }
             ]
+          },
+          {
+            "name": "Close-combat weapon",
+            "profiles": [
+              {
+                "name": "Close-combat weapon",
+                "range": "Melee",
+                "a": "1",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
           }
         ],
         "abilities": [
@@ -1969,6 +1984,21 @@
             "profiles": [
               {
                 "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "1",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Close-combat weapon",
+            "profiles": [
+              {
+                "name": "Close-combat weapon",
                 "range": "Melee",
                 "a": "1",
                 "skill": "4+",
@@ -2256,7 +2286,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4794,7 +4824,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60 x 35.5mm Oval Base",
+        "base_size": "60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -5137,7 +5167,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60 x 35.5mm Oval Base",
+        "base_size": "60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -5316,7 +5346,7 @@
           ],
           "source": 3,
           "model": 2,
-          "loadout": 2,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -5349,7 +5379,7 @@
           ],
           "source": 4,
           "model": 2,
-          "loadout": 2,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "up_to",
@@ -5565,7 +5595,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Servitor Underseer, Gun Servitors: 32mm\nCombat Servitors: 25mm",
+        "base_size": "Servitor Underseer: 32mm, Combat Servitors and Gun Servitors: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -5630,7 +5660,8 @@
             "name": "Combat Servitors",
             "min": 6,
             "max": 6,
-            "statline": "Combat Servitor"
+            "statline": "Servitor Underseer",
+            "statline_assumed": true
           }
         ],
         "loadouts": [
@@ -5643,19 +5674,26 @@
             ]
           },
           {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Phosphor blaster",
+              "Servo-claw"
+            ]
+          },
+          {
             "model": 1,
             "role": null,
             "wargear": [
               "Heavy arc rifle",
-              "Heavy bolter",
               "Servo-claw"
             ]
           },
           {
             "model": 2,
-            "role": null,
+            "role": "Heavy bolter",
             "wargear": [
-              "Phosphor blaster",
+              "Heavy bolter",
               "Servo-claw"
             ]
           }
@@ -5671,7 +5709,7 @@
             ],
             "source": 3,
             "model": 2,
-            "loadout": 2,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -5704,7 +5742,7 @@
             ],
             "source": 4,
             "model": 2,
-            "loadout": 2,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "up_to",
@@ -7061,7 +7099,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Skitarii Rangers: 25mm\nTransuranic Arquebus: 60 x 35.5mm Oval Base",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -7757,7 +7795,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Skitarii Vanguards: 25mm\nTransuranic Arquebus: 60 x 35.5mm Oval Base",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -8230,7 +8268,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8456,7 +8494,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8671,7 +8709,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8889,7 +8927,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105 x 70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8965,8 +9003,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Taser lance",
-              "Phosphor serpenta"
+              "Phosphor serpenta",
+              "Taser lance"
             ]
           }
         ],
@@ -9905,7 +9943,10 @@
           "Kataphron Breachers",
           "Kataphron Destroyers",
           "Skitarii Rangers",
-          "Skitarii Vanguard"
+          "Skitarii Vanguard",
+          "Servitor Battleclade",
+          "Hastarii Exterminators",
+          "Hastarii Fusiliers"
         ],
         "supports": [],
         "attaches": [
@@ -9947,6 +9988,27 @@
           {
             "type": "leader",
             "target": "Skitarii Vanguard",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Servitor Battleclade",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Hastarii Exterminators",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Hastarii Fusiliers",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -10852,7 +10914,7 @@
   "rules": {
     "faction": "adeptusmechanicus",
     "name": "Adeptus Mechanicus",
-    "data_version": "2026-10-16T18:38:16.076Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Doctrina Imperatives",
@@ -11001,7 +11063,7 @@
           {
             "name": "Guided Retreat",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "Strategic Ploy",
             "turn": "your",
             "phases": [
               "movement"
@@ -11306,10 +11368,7 @@
             "type": "",
             "turn": "either",
             "phases": [
-              "charge",
-              "command",
               "fight",
-              "movement",
               "shooting"
             ],
             "when": "",
@@ -11329,13 +11388,9 @@
             "name": "Overloaded Safeguards",
             "cp": 1,
             "type": "",
-            "turn": "either",
+            "turn": "your",
             "phases": [
-              "charge",
-              "command",
-              "fight",
-              "movement",
-              "shooting"
+              "movement"
             ],
             "when": "",
             "target": "",
@@ -11356,7 +11411,7 @@
             "type": "",
             "turn": "your",
             "phases": [
-              "command"
+              "shooting"
             ],
             "when": "",
             "target": "",
@@ -12658,7 +12713,7 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "skitarii"
+                "skitarii infantry"
               ],
               "excludes": []
             }
@@ -12697,7 +12752,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "skitarii"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Threat-Cogitation Targeters",
