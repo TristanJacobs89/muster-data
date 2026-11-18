@@ -450,7 +450,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Mutant: 25mm\nTorment: 40mm",
+        "base_size": "MUTANT: 25mm, TORMENT: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -717,13 +717,9 @@
             {
               "name": "Plasma gun",
               "cost": 0
-            },
-            {
-              "name": "Combi-weapon",
-              "cost": 0
             }
           ],
-          "source": 5,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -756,15 +752,6 @@
               "items": [
                 {
                   "option": "Plasma gun",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Combi-weapon",
                   "count": 1
                 }
               ]
@@ -1026,7 +1013,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -1252,13 +1239,9 @@
               {
                 "name": "Plasma gun",
                 "cost": 0
-              },
-              {
-                "name": "Combi-weapon",
-                "cost": 0
               }
             ],
-            "source": 5,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -1291,15 +1274,6 @@
                 "items": [
                   {
                     "option": "Plasma gun",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Combi-weapon",
                     "count": 1
                   }
                 ]
@@ -1565,7 +1539,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -1888,21 +1862,6 @@
             ]
           },
           {
-            "name": "Astartes chainsword",
-            "profiles": [
-              {
-                "name": "Astartes chainsword",
-                "range": "Melee",
-                "a": "7",
-                "skill": "2+",
-                "s": "5",
-                "ap": "-1",
-                "d": "1",
-                "keywords": []
-              }
-            ]
-          },
-          {
             "name": "Accursed weapon",
             "profiles": [
               {
@@ -1928,6 +1887,21 @@
                 "s": "8",
                 "ap": "-2",
                 "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Astartes chainblade",
+            "profiles": [
+              {
+                "name": "Astartes chainblade",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
                 "keywords": []
               }
             ]
@@ -3607,7 +3581,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4101,7 +4075,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4512,7 +4486,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5681,7 +5655,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7377,7 +7351,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Dark Apostle: 40mm\nDark Disciple: 25mm",
+        "base_size": "DARK APOSTLE: 40mm, DARK DISCIPLE: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -7922,7 +7896,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Cult Demagogue, Mindwhich, Iconarch: 32mm\nBlessed Blade: 28.5mm",
+        "base_size": "CULT DEMAGOGUE: 32mm, OTHER MODELS: 28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -8085,7 +8059,8 @@
             "name": "Blessed Blades",
             "min": 2,
             "max": 2,
-            "statline": "Blessed Blade"
+            "statline": "Cult Demagogue",
+            "statline_assumed": true
           }
         ],
         "loadouts": [
@@ -8642,11 +8617,11 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shearing claws",
               "Hades battle cannon",
               "Excruciator cannon",
               "Heavy missile launcher",
-              "Heavy baleflamer"
+              "Heavy baleflamer",
+              "Shearing claws"
             ],
             "counts": {
               "Excruciator cannon": 2
@@ -9025,7 +9000,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Fabius Bile: 40mm\nSurgeon Acolyte: 32mm",
+        "base_size": "FABIUS BILE: 40mm, SURGEON ACOLYTE: 32mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -10021,7 +9996,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -10617,9 +10592,9 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 5,
           "model": 1,
-          "loadout": 1,
+          "loadout": 2,
           "heading": "",
           "cap": {
             "kind": "per_model",
@@ -10674,7 +10649,6 @@
             }
           ],
           "replaces": [
-            "Havoc autocannon",
             "Havoc lascannon"
           ],
           "replaces_options": []
@@ -11044,9 +11018,16 @@
           },
           {
             "model": 1,
-            "role": null,
+            "role": "Havoc autocannon",
             "wargear": [
               "Havoc autocannon",
+              "Close Combat Weapon"
+            ]
+          },
+          {
+            "model": 1,
+            "role": null,
+            "wargear": [
               "Havoc lascannon",
               "Close Combat Weapon"
             ]
@@ -11221,9 +11202,9 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 5,
             "model": 1,
-            "loadout": 1,
+            "loadout": 2,
             "heading": "",
             "cap": {
               "kind": "per_model",
@@ -11278,7 +11259,6 @@
               }
             ],
             "replaces": [
-              "Havoc autocannon",
               "Havoc lascannon"
             ],
             "replaces_options": []
@@ -12175,7 +12155,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -12391,9 +12371,33 @@
             "timing": null
           },
           {
-            "name": "Daemonic Allegiance",
+            "name": "Lord of Chaos: Daemonic Allegiance",
             "text": "",
-            "kind": "special",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Lord of Chaos: Khorne",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Lord of Chaos: Tzeentch",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Lord of Chaos: Nurgle",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Lord of Chaos: Slaanesh",
+            "text": "",
+            "kind": "primarch",
             "timing": null
           }
         ],
@@ -12581,9 +12585,33 @@
             "timing": null
           },
           {
-            "name": "Daemonic Allegiance",
+            "name": "Daemonic Destruction: Daemonic Allegiance",
             "text": "",
-            "kind": "special",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Destruction: Khorne",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Destruction: Tzeentch",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Destruction: Nurgle",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Destruction: Slaanesh",
+            "text": "",
+            "kind": "primarch",
             "timing": null
           }
         ],
@@ -12673,8 +12701,8 @@
       ],
       "epic_hero": true,
       "loadout": [
-        "Tyrant’s Claw and exalted power weapon",
-        "Tyrant’s Claw heavy flamer"
+        "Tyrant’s Claw",
+        "Exalted weapon"
       ],
       "wargear_options": [],
       "composition": [
@@ -12698,10 +12726,10 @@
         },
         "ranged": [
           {
-            "name": "Ranged",
+            "name": "Tyrant’s Claw heavy flamer",
             "profiles": [
               {
-                "name": "Ranged",
+                "name": "Tyrant’s Claw heavy flamer",
                 "range": "12\"",
                 "a": "D6+2",
                 "skill": "-",
@@ -12709,9 +12737,9 @@
                 "ap": "-1",
                 "d": "1",
                 "keywords": [
-                  "Torrent",
+                  "Ignores Cover",
                   "Pistol",
-                  "Ignores Cover"
+                  "Torrent"
                 ]
               }
             ]
@@ -12987,8 +13015,8 @@
           }
         ],
         "loadout": [
-          "Tyrant’s Claw and exalted power weapon",
-          "Tyrant’s Claw heavy flamer"
+          "Tyrant’s Claw",
+          "Exalted weapon"
         ],
         "model_types": [
           {
@@ -13003,8 +13031,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Tyrant’s Claw and exalted power weapon",
-              "Tyrant’s Claw heavy flamer"
+              "Tyrant’s Claw",
+              "Exalted weapon"
             ]
           }
         ],
@@ -13287,7 +13315,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -13782,8 +13810,8 @@
             "wargear": [
               "Baleflamer",
               "Combi-bolter",
-              "Last Argument and power fist",
-              "Servo-harness"
+              "Servo-harness",
+              "Last Argument and power fist"
             ]
           }
         ],
@@ -15380,7 +15408,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -16580,7 +16608,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Garlon Souleater, Garreon the Corpsemaster, Katar Garrix, Captain Sargotta: 40mm\nThe Enforcer: 32mm",
+        "base_size": "40mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -16779,7 +16807,8 @@
             "name": "Katar Garrix",
             "min": 1,
             "max": 1,
-            "statline": "Katar Garrix"
+            "statline": "Katar Garrix",
+            "statline_assumed": true
           },
           {
             "name": "Captain Sargotta",
@@ -16792,7 +16821,8 @@
             "name": "The Enforcer",
             "min": 1,
             "max": 1,
-            "statline": "The Enforcer"
+            "statline": "Katar Garrix",
+            "statline_assumed": true
           }
         ],
         "loadouts": [
@@ -17000,7 +17030,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -18424,7 +18454,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -18606,7 +18636,7 @@
               "once_per": "battle",
               "when": [
                 {
-                  "turn": "either",
+                  "turn": "your",
                   "phase": "shooting"
                 }
               ]
@@ -18916,10 +18946,10 @@
       "keywords": [
         "Infantry",
         "Fly",
-        "Jump Pack",
         "Grenades",
         "Chaos",
-        "Raptors"
+        "Raptors",
+        "Jump Packs"
       ],
       "points": [
         {
@@ -19059,40 +19089,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Heavy melee weapon",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 1,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Heavy melee weapon",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Astartes chainsword"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Mutations",
               "cost": 0
             }
@@ -19127,7 +19123,45 @@
           "instruction": "",
           "options": [
             {
+              "name": "Heavy melee weapon",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 2
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy melee weapon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Astartes chainsword"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Flamer",
+              "cost": 0
+            },
+            {
+              "name": "Close Combat Weapon",
               "cost": 0
             },
             {
@@ -19137,13 +19171,9 @@
             {
               "name": "Plasma gun",
               "cost": 0
-            },
-            {
-              "name": "Close Combat Weapon",
-              "cost": 0
             }
           ],
-          "source": 7,
+          "source": 10,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -19159,6 +19189,10 @@
                 {
                   "option": "Flamer",
                   "count": 1
+                },
+                {
+                  "option": "Close Combat Weapon",
+                  "count": 1
                 }
               ]
             },
@@ -19167,6 +19201,10 @@
               "items": [
                 {
                   "option": "Meltagun",
+                  "count": 1
+                },
+                {
+                  "option": "Close Combat Weapon",
                   "count": 1
                 }
               ]
@@ -19177,12 +19215,7 @@
                 {
                   "option": "Plasma gun",
                   "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
+                },
                 {
                   "option": "Close Combat Weapon",
                   "count": 1
@@ -19203,19 +19236,19 @@
               "cost": 0
             },
             {
+              "name": "Close Combat Weapon",
+              "cost": 0
+            },
+            {
               "name": "Meltagun",
               "cost": 0
             },
             {
               "name": "Plasma gun",
               "cost": 0
-            },
-            {
-              "name": "Close Combat Weapon",
-              "cost": 0
             }
           ],
-          "source": 8,
+          "source": 11,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -19236,6 +19269,10 @@
                 {
                   "option": "Flamer",
                   "count": 1
+                },
+                {
+                  "option": "Close Combat Weapon",
+                  "count": 1
                 }
               ]
             },
@@ -19244,6 +19281,10 @@
               "items": [
                 {
                   "option": "Meltagun",
+                  "count": 1
+                },
+                {
+                  "option": "Close Combat Weapon",
                   "count": 1
                 }
               ]
@@ -19254,12 +19295,7 @@
                 {
                   "option": "Plasma gun",
                   "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
+                },
                 {
                   "option": "Close Combat Weapon",
                   "count": 1
@@ -19521,10 +19557,10 @@
         "keywords": [
           "Infantry",
           "Fly",
-          "Jump Pack",
           "Grenades",
           "Chaos",
-          "Raptors"
+          "Raptors",
+          "Jump Packs"
         ],
         "factions": [
           "Heretic Astartes"
@@ -19713,40 +19749,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Heavy melee weapon",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 1,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Heavy melee weapon",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Astartes chainsword"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Mutations",
                 "cost": 0
               }
@@ -19781,7 +19783,45 @@
             "instruction": "",
             "options": [
               {
+                "name": "Heavy melee weapon",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 2
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy melee weapon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Astartes chainsword"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
                 "name": "Flamer",
+                "cost": 0
+              },
+              {
+                "name": "Close Combat Weapon",
                 "cost": 0
               },
               {
@@ -19791,13 +19831,9 @@
               {
                 "name": "Plasma gun",
                 "cost": 0
-              },
-              {
-                "name": "Close Combat Weapon",
-                "cost": 0
               }
             ],
-            "source": 7,
+            "source": 10,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -19813,6 +19849,10 @@
                   {
                     "option": "Flamer",
                     "count": 1
+                  },
+                  {
+                    "option": "Close Combat Weapon",
+                    "count": 1
                   }
                 ]
               },
@@ -19821,6 +19861,10 @@
                 "items": [
                   {
                     "option": "Meltagun",
+                    "count": 1
+                  },
+                  {
+                    "option": "Close Combat Weapon",
                     "count": 1
                   }
                 ]
@@ -19831,12 +19875,7 @@
                   {
                     "option": "Plasma gun",
                     "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
+                  },
                   {
                     "option": "Close Combat Weapon",
                     "count": 1
@@ -19857,19 +19896,19 @@
                 "cost": 0
               },
               {
+                "name": "Close Combat Weapon",
+                "cost": 0
+              },
+              {
                 "name": "Meltagun",
                 "cost": 0
               },
               {
                 "name": "Plasma gun",
                 "cost": 0
-              },
-              {
-                "name": "Close Combat Weapon",
-                "cost": 0
               }
             ],
-            "source": 8,
+            "source": 11,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -19890,6 +19929,10 @@
                   {
                     "option": "Flamer",
                     "count": 1
+                  },
+                  {
+                    "option": "Close Combat Weapon",
+                    "count": 1
                   }
                 ]
               },
@@ -19898,6 +19941,10 @@
                 "items": [
                   {
                     "option": "Meltagun",
+                    "count": 1
+                  },
+                  {
+                    "option": "Close Combat Weapon",
                     "count": 1
                   }
                 ]
@@ -19908,12 +19955,7 @@
                   {
                     "option": "Plasma gun",
                     "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
+                  },
                   {
                     "option": "Close Combat Weapon",
                     "count": 1
@@ -21859,7 +21901,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Traitor Enforcer: 32mm\nTraitor Ogryn: 40mm",
+        "base_size": "TRAITOR ENFORCER: 32mm, TRAITOR OGRYN: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -23053,11 +23095,11 @@
       "keywords": [
         "Infantry",
         "Fly",
-        "Jump Pack",
         "Grenades",
         "Chaos",
         "Daemon",
-        "Warp Talons"
+        "Warp Talons",
+        "Jump Packs"
       ],
       "points": [
         {
@@ -23153,11 +23195,11 @@
         "keywords": [
           "Infantry",
           "Fly",
-          "Jump Pack",
           "Grenades",
           "Chaos",
           "Daemon",
-          "Warp Talons"
+          "Warp Talons",
+          "Jump Packs"
         ],
         "factions": [
           "Heretic Astartes"
@@ -23411,7 +23453,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60x35.5mm Oval Base",
+        "base_size": "60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -23696,7 +23738,7 @@
   "rules": {
     "faction": "chaos_spacemarines",
     "name": "Heretic Astartes",
-    "data_version": "2026-10-16T18:38:14.279Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Dark Pacts",
@@ -24084,28 +24126,6 @@
             }
           },
           {
-            "name": "Reaver’s Haste",
-            "cp": 1,
-            "type": "Strategic Ploy",
-            "turn": "your",
-            "phases": [
-              "charge"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null,
-            "units": {
-              "targets": [
-                "heretic astartes infantry",
-                "heretic astartes mounted"
-              ],
-              "excludes": []
-            }
-          },
-          {
             "name": "Warpcharged Engines",
             "cp": 1,
             "type": "Wargear",
@@ -24122,6 +24142,28 @@
             "units": {
               "targets": [
                 "heretic astartes transport",
+                "heretic astartes mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Reavers’ Haste",
+            "cp": 1,
+            "type": "Strategic Ploy",
+            "turn": "your",
+            "phases": [
+              "charge"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "heretic astartes infantry",
                 "heretic astartes mounted"
               ],
               "excludes": []
@@ -24359,8 +24401,8 @@
             ],
             "non_character": false,
             "excludes": [
-              "Jump Pack",
-              "Terminator"
+              "Terminator",
+              "Jump Pack"
             ]
           },
           {
@@ -24594,16 +24636,6 @@
             ],
             "non_character": false,
             "excludes": [],
-            "attaches": [
-              {
-                "type": "leader",
-                "target": "Warp Talons",
-                "requires_detachment": null,
-                "requires_keyword": null,
-                "excludes_detachment": null,
-                "name_only": true
-              }
-            ],
             "modifiers": [
               {
                 "kind": "keyword",
@@ -24614,6 +24646,16 @@
                 "weapons": "melee",
                 "stat": "a",
                 "change": 1
+              }
+            ],
+            "attaches": [
+              {
+                "type": "leader",
+                "target": "Warp Talons",
+                "requires_detachment": null,
+                "requires_keyword": null,
+                "excludes_detachment": null,
+                "name_only": true
               }
             ]
           }
@@ -24960,7 +25002,7 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "heretic astartes vehicle",
+                "heretic astartes daemon vehicle",
                 "vashtorr the arkifane"
               ],
               "excludes": []
@@ -24982,7 +25024,7 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "heretic astartes vehicle",
+                "heretic astartes daemon vehicle",
                 "vashtorr the arkifane"
               ],
               "excludes": []
@@ -25046,6 +25088,14 @@
                 "keyword": "Assault"
               }
             ]
+          },
+          {
+            "name": "Vendetta",
+            "text": ""
+          },
+          {
+            "name": "Twisted Doctrine",
+            "text": ""
           }
         ],
         "enhancements": [
@@ -25274,7 +25324,7 @@
             "excludes": []
           },
           {
-            "name": "Warp-Fuelled Thrusters",
+            "name": "Warp-fuelled Thrusters",
             "points": 20,
             "text": "",
             "targets": [
@@ -25867,6 +25917,13 @@
             ],
             "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "ability",
+                "name": "Scouts 6\""
+              }
+            ],
             "attaches": [
               {
                 "type": "leader",
@@ -25875,13 +25932,6 @@
                 "requires_keyword": null,
                 "excludes_detachment": null,
                 "name_only": true
-              }
-            ],
-            "modifiers": [
-              {
-                "who": "unit",
-                "kind": "ability",
-                "name": "Scouts 6\""
               }
             ]
           }
@@ -25893,7 +25943,7 @@
           {
             "name": "Talons Sunk Deep",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "either",
             "phases": [
               "fight",
@@ -25915,7 +25965,7 @@
           {
             "name": "Prey on the Weak",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "either",
             "phases": [
               "fight",
@@ -25937,7 +25987,7 @@
           {
             "name": "Sadistic Display",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "either",
             "phases": [
               "fight"
@@ -25958,7 +26008,7 @@
           {
             "name": "Malicious Surge",
             "cp": 1,
-            "type": "Strategic Ploy",
+            "type": "",
             "turn": "your",
             "phases": [
               "charge"
@@ -25979,7 +26029,7 @@
           {
             "name": "Relentless Terror",
             "cp": 1,
-            "type": "Strategic Ploy",
+            "type": "",
             "turn": "your",
             "phases": [
               "movement"
@@ -26000,7 +26050,7 @@
           {
             "name": "Horrific Incursion",
             "cp": 1,
-            "type": "Strategic Ploy",
+            "type": "",
             "turn": "your",
             "phases": [
               "movement"
@@ -26553,7 +26603,22 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Heretic Astartes+Vehicle"
+            ],
+            "keyword": "Daemon"
+          },
+          {
+            "targets": [
+              "Heretic Astartes+Vehicle",
+              "Lord Discordant",
+              "Vashtorr the Arkifane"
+            ],
+            "keyword": "Soul Forge"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -26582,22 +26647,6 @@
           {
             "name": "Balefire Boon",
             "cp": 1,
-            "type": "Battle Tactic",
-            "turn": "either",
-            "phases": [
-              "fight",
-              "shooting"
-            ],
-            "when": "",
-            "target": "",
-            "effect": "",
-            "restrictions": "",
-            "once_per": null,
-            "secondary_effect": null
-          },
-          {
-            "name": "Soul-Tally Offerings",
-            "cp": 2,
             "type": "Battle Tactic",
             "turn": "either",
             "phases": [
@@ -26661,6 +26710,22 @@
             "type": "Strategic Ploy",
             "turn": "opponents",
             "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null
+          },
+          {
+            "name": "Soul-tally Offering",
+            "cp": 2,
+            "type": "Battle Tactic",
+            "turn": "either",
+            "phases": [
+              "fight",
               "shooting"
             ],
             "when": "",
