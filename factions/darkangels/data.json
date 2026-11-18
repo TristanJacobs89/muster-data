@@ -261,8 +261,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Crozius Arcanum and Power Weapon"
+              "Crozius Arcanum and Power Weapon",
+              "Heavy Bolt Pistol"
             ]
           }
         ],
@@ -560,8 +560,8 @@
             "role": null,
             "wargear": [
               "Lion's Wrath",
-              "The Sword of Secrets",
-              "The Lion Helm"
+              "The Lion Helm",
+              "The Sword of Secrets"
             ]
           }
         ],
@@ -1383,12 +1383,12 @@
               "cost": 0
             },
             {
-              "name": "Cyclone Missile Launcher",
-              "cost": 10
-            },
-            {
               "name": "Storm Bolter",
               "cost": 0
+            },
+            {
+              "name": "Cyclone Missile Launcher",
+              "cost": 10
             }
           ],
           "source": 5,
@@ -1615,7 +1615,7 @@
             "name": "Chainfist",
             "profiles": [
               {
-                "name": "Chainfist",
+                "name": "Chainfist – Standard",
                 "range": "Melee",
                 "a": "2",
                 "skill": "4+",
@@ -1625,7 +1625,7 @@
                 "keywords": []
               },
               {
-                "name": "Chainfist",
+                "name": "Chainfist – Hunter",
                 "range": "Melee",
                 "a": "3",
                 "skill": "3+",
@@ -1745,8 +1745,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Storm Bolter",
-              "Power Fist"
+              "Power Fist",
+              "Storm Bolter"
             ]
           }
         ],
@@ -1877,12 +1877,12 @@
                 "cost": 0
               },
               {
-                "name": "Cyclone Missile Launcher",
-                "cost": 10
-              },
-              {
                 "name": "Storm Bolter",
                 "cost": 0
+              },
+              {
+                "name": "Cyclone Missile Launcher",
+                "cost": 10
               }
             ],
             "source": 5,
@@ -2259,8 +2259,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "The Deliverer",
               "Mind Wipe",
+              "The Deliverer",
               "Traitor's Bane"
             ]
           }
@@ -2452,8 +2452,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolt Pistol",
-              "Calibanite Greatsword"
+              "Calibanite Greatsword",
+              "Heavy Bolt Pistol"
             ]
           }
         ],
@@ -2662,7 +2662,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -2721,9 +2721,9 @@
             "model": null,
             "role": null,
             "wargear": [
+              "Armoured Hull",
               "Heavy Bolter",
-              "Plasma Storm Battery",
-              "Armoured Hull"
+              "Plasma Storm Battery"
             ]
           }
         ],
@@ -3494,7 +3494,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Aircraft",
@@ -3549,10 +3549,10 @@
             "model": null,
             "role": null,
             "wargear": [
+              "Armoured Hull",
               "Avenger Mega Bolter",
               "Blacksword Missiles",
-              "Twin Heavy Bolter",
-              "Armoured Hull"
+              "Twin Heavy Bolter"
             ]
           }
         ],
@@ -3791,7 +3791,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -3866,8 +3866,8 @@
             "role": null,
             "wargear": [
               "Bolt Pistol",
-              "Plasma Talon",
-              "Corvus Hammers"
+              "Corvus Hammers",
+              "Plasma Talon"
             ]
           }
         ],
@@ -4161,7 +4161,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Explosives",
@@ -4251,8 +4251,8 @@
             "role": null,
             "wargear": [
               "Bolt Pistol",
-              "Plasma Talon",
-              "Master-crafted Power Weapon"
+              "Corvus Hammers",
+              "Plasma Talon"
             ]
           },
           {
@@ -4260,8 +4260,8 @@
             "role": null,
             "wargear": [
               "Bolt Pistol",
-              "Plasma Talon",
-              "Corvus Hammers"
+              "Master-crafted Power Weapon",
+              "Plasma Talon"
             ]
           }
         ],
@@ -4439,7 +4439,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Aircraft",
@@ -4493,9 +4493,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Rift Cannon",
+              "Armoured Hull",
               "Hurricane Bolter",
-              "Armoured Hull"
+              "Rift Cannon"
             ],
             "counts": {
               "Hurricane Bolter": 2
@@ -4672,7 +4672,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -4726,8 +4726,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Heavy Bolter",
-              "Armoured Hull"
+              "Armoured Hull",
+              "Heavy Bolter"
             ]
           }
         ],
@@ -4933,7 +4933,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Captain",
@@ -5012,8 +5012,8 @@
             "wargear": [
               "Bolt Pistol",
               "Master-crafted Plasma Cannon",
-              "Twin Storm Bolter",
-              "The Raven Sword"
+              "The Raven Sword",
+              "Twin Storm Bolter"
             ]
           }
         ],
@@ -5024,7 +5024,7 @@
   "rules": {
     "faction": "darkangels",
     "name": "Dark Angels",
-    "data_version": "2026-10-16T18:38:11.490Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Combat Doctrines",
@@ -5440,6 +5440,16 @@
                 "kind": "weapon_keyword",
                 "weapons": "ranged",
                 "keyword": "Ignores Cover"
+              },
+              {
+                "who": {
+                  "with": [
+                    "Outrider Squad"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
               }
             ]
           }
@@ -5450,7 +5460,7 @@
             "points": 10,
             "text": "",
             "targets": [
-              "Land Speeder Vengeance"
+              "land speeder vengeance"
             ],
             "non_character": true,
             "excludes": []
@@ -5461,7 +5471,7 @@
             "text": "",
             "targets": [
               "ravenwing fly",
-              "mounted"
+              "ravenwing mounted"
             ],
             "non_character": true,
             "excludes": []
@@ -5469,12 +5479,6 @@
         ],
         "required_enhancements": [],
         "grants": [
-          {
-            "targets": [
-              "Outrider squad"
-            ],
-            "keyword": "Battleline"
-          },
           {
             "targets": [
               "Terminator",
@@ -5497,6 +5501,12 @@
               "Vehicle+Fly"
             ],
             "keyword": "Ravenwing"
+          },
+          {
+            "targets": [
+              "Outrider Squad"
+            ],
+            "keyword": "Battleline"
           }
         ],
         "excludes": [],
@@ -5717,8 +5727,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -6415,32 +6425,32 @@
             "excludes": [],
             "modifiers": [
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "s",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "ap",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               },
               {
+                "unless": "Psychic",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "d",
-                "change": 1,
-                "unless": "Psychic"
+                "change": 1
               }
             ]
           },
@@ -7423,9 +7433,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
@@ -7445,9 +7455,9 @@
             ],
             "non_character": true,
             "excludes": [
+              "Dedicated Transport",
               "Fly",
-              "Walker",
-              "Dedicated Transport"
+              "Walker"
             ],
             "modifiers": [
               {
