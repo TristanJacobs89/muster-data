@@ -1240,7 +1240,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -1708,7 +1708,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -1924,11 +1924,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Lascannon",
+              "name": "Heavy bolter",
               "cost": 0
             },
             {
-              "name": "Heavy bolter",
+              "name": "Lascannon",
               "cost": 0
             }
           ],
@@ -1946,7 +1946,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Lascannon",
+                  "option": "Heavy bolter",
                   "count": 2
                 }
               ]
@@ -1955,7 +1955,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Heavy bolter",
+                  "option": "Lascannon",
                   "count": 2
                 }
               ]
@@ -2215,7 +2215,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2282,11 +2282,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Lascannon",
+                "name": "Heavy bolter",
                 "cost": 0
               },
               {
-                "name": "Heavy bolter",
+                "name": "Lascannon",
                 "cost": 0
               }
             ],
@@ -2304,7 +2304,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Lascannon",
+                    "option": "Heavy bolter",
                     "count": 2
                   }
                 ]
@@ -2313,7 +2313,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Heavy bolter",
+                    "option": "Lascannon",
                     "count": 2
                   }
                 ]
@@ -2629,7 +2629,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4210,11 +4210,11 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shearing claws",
               "Hades battle cannon",
               "Excruciator cannon",
               "Heavy missile launcher",
-              "Heavy baleflamer"
+              "Heavy baleflamer",
+              "Shearing claws"
             ],
             "counts": {
               "Excruciator cannon": 2
@@ -4411,7 +4411,7 @@
     },
     {
       "id": "7ff0a385-997d-578b-bbd1-25d6ca6b0bdd",
-      "name": "Foetid Bloat-Drone",
+      "name": "Foetid Bloat-drone",
       "keywords": [
         "Vehicle",
         "Fly",
@@ -6943,10 +6943,16 @@
             "text": "",
             "kind": "other",
             "timing": null
+          },
+          {
+            "name": "Deployment",
+            "text": "",
+            "kind": "special",
+            "timing": null
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -7287,8 +7293,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Rotwind",
               "Lantern",
+              "Rotwind",
               "Silence"
             ]
           }
@@ -7516,7 +7522,7 @@
         ],
         "model_types": [
           {
-            "name": "Myphitic Blight-haulers",
+            "name": "Myphitic Blight-hulers",
             "min": 1,
             "max": 2,
             "statline": "Myphitic Blight-haulers"
@@ -9301,7 +9307,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -10014,7 +10020,7 @@
   "rules": {
     "faction": "deathguard",
     "name": "Death Guard",
-    "data_version": "2026-10-16T18:38:11.708Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Nurgle’s Gift (Aura)",
@@ -10072,7 +10078,7 @@
             "name": "Territorial Infection",
             "cp": 1,
             "type": "",
-            "turn": "your",
+            "turn": "either",
             "phases": [
               "command"
             ],
@@ -10138,8 +10144,8 @@
         "name": "Virulent Vectorium",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Purge the Foe"
+          "Purge the Foe",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -10275,7 +10281,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "death guard"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Putrid Detonation",
@@ -10390,9 +10402,7 @@
             "name": "Entropic Knell",
             "points": 15,
             "text": "",
-            "targets": [
-              "great unclean one"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           },
@@ -10400,9 +10410,7 @@
             "name": "Tome of Bounteous Blessings",
             "points": 20,
             "text": "",
-            "targets": [
-              "malignant plaguecaster"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           }
@@ -10444,7 +10452,7 @@
             "target": "",
             "effect": "",
             "restrictions": "",
-            "once_per": null,
+            "once_per": "battle",
             "secondary_effect": null,
             "units": {
               "targets": [
@@ -10529,6 +10537,19 @@
             "name": "Warped and Rusted Animus",
             "text": "",
             "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Foetid Bloat-Drone",
+                    "Foetid Bloat-Drone with Heavy Blight Launcher",
+                    "Helbrute",
+                    "Myphitic Blight-Hauler"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Contagion Engine"
+              },
               {
                 "who": {
                   "with": [
@@ -10746,9 +10767,7 @@
             "name": "Final Ingredient",
             "points": 20,
             "text": "",
-            "targets": [
-              "biologus putrifier"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           },
@@ -10756,9 +10775,7 @@
             "name": "Visions of Virulence",
             "points": 15,
             "text": "",
-            "targets": [
-              "malignant plaguecaster"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           },
@@ -10766,9 +10783,7 @@
             "name": "Needle of Nurgle",
             "points": 25,
             "text": "",
-            "targets": [
-              "plague surgeon"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           },
@@ -10776,9 +10791,7 @@
             "name": "Cornucophagus",
             "points": 35,
             "text": "",
-            "targets": [
-              "lord of poxes"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           }
@@ -10947,9 +10960,7 @@
             "name": "Bilemaw Blight",
             "points": 10,
             "text": "",
-            "targets": [
-              "malignant plaguecaster"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           },
@@ -10967,9 +10978,7 @@
             "name": "Tendrilous Emissions",
             "points": 30,
             "text": "",
-            "targets": [
-              "lord of virulence"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": []
           }
@@ -11054,7 +11063,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "death guard vehicle"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Relentless Grind",
@@ -11112,7 +11127,19 @@
         "rules": [
           {
             "name": "Numberless Horde",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Poxwalkers"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -11120,9 +11147,7 @@
             "name": "Witherbone Pipes",
             "points": 25,
             "text": "",
-            "targets": [
-              "noxious blightbringer"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": [],
             "modifiers": [
@@ -11150,9 +11175,7 @@
             "name": "Sorrowsyphon",
             "points": 10,
             "text": "",
-            "targets": [
-              "malignant plaguecaster"
-            ],
+            "targets": [],
             "non_character": false,
             "excludes": [],
             "modifiers": [
@@ -11192,7 +11215,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Poxwalkers"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
