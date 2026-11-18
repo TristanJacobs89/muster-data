@@ -11,7 +11,6 @@
       "id": "2973a1e7-49ab-5c6f-a61f-0abefe87bfe5",
       "name": "Aleya",
       "keywords": [
-        "Anathema Psykana",
         "Character",
         "Epic Hero",
         "Imperium",
@@ -122,14 +121,14 @@
         "base_size": "32mm",
         "imperial_armour": false,
         "keywords": [
-          "Anathema Psykana",
           "Character",
           "Epic Hero",
           "Imperium",
           "Infantry"
         ],
         "factions": [
-          "Adeptus Custodes"
+          "Adeptus Custodes",
+          "Anathema Psykana"
         ],
         "leads": [
           "Prosecutor Squad",
@@ -321,7 +320,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -329,8 +328,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -339,7 +338,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -347,8 +346,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -377,7 +376,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Melee",
                 "range": "Melee",
                 "a": "3",
                 "skill": "2+",
@@ -392,7 +391,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -587,7 +586,6 @@
       "id": "2e5ba22b-8a92-5e30-aa84-5610a5081445",
       "name": "Anathema Psykana Rhino",
       "keywords": [
-        "Anathema Psykana",
         "Dedicated Transport",
         "Frame",
         "Imperium",
@@ -747,10 +745,9 @@
           }
         ],
         "transport": "",
-        "base_size": "",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
-          "Anathema Psykana",
           "Dedicated Transport",
           "Frame",
           "Imperium",
@@ -759,7 +756,8 @@
           "Vehicle"
         ],
         "factions": [
-          "Anathema Psykana"
+          "Anathema Psykana",
+          "Adeptus Custodes"
         ],
         "leads": [],
         "supports": [],
@@ -1604,7 +1602,9 @@
         "leads": [
           "Custodian Guard Sodality",
           "Custodian Wardens",
-          "Sentinel Guard Sodality"
+          "Sentinel Guard Sodality",
+          "Custodian Guard Sodality with Adrasite Spears",
+          "Custodian Guard Sodality with Pyrithite Spears"
         ],
         "supports": [],
         "attaches": [
@@ -1625,6 +1625,20 @@
           {
             "type": "leader",
             "target": "Sentinel Guard Sodality",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Custodian Guard Sodality with Adrasite Spears",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Custodian Guard Sodality with Pyrithite Spears",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -1864,7 +1878,7 @@
           }
         ],
         "transport": "",
-        "base_size": "150x95mm Oval Base",
+        "base_size": "150 x 95mm",
         "imperial_armour": false,
         "keywords": [
           "Caladius",
@@ -2153,7 +2167,7 @@
           }
         ],
         "transport": "",
-        "base_size": "150x95mm Oval Base",
+        "base_size": "150 x 95mm",
         "imperial_armour": false,
         "keywords": [
           "Caladius",
@@ -2256,7 +2270,7 @@
     },
     {
       "id": "17d5c835-cfa7-5ae8-9d5c-a093ffdfc4bf",
-      "name": "Contemptor‑Achillus Dreadnought",
+      "name": "Contemptor-Achillus Dreadnought",
       "keywords": [
         "Dreadnought",
         "Imperium",
@@ -2284,11 +2298,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Twin Infernus Incinerator",
+              "name": "Adrathic Combi-destructor",
               "cost": 0
             },
             {
-              "name": "Adrathic Combi-destructor",
+              "name": "Twin Infernus Incinerator",
               "cost": 0
             }
           ],
@@ -2373,7 +2387,7 @@
             "name": "Dreadspear",
             "profiles": [
               {
-                "name": "Dreadspear",
+                "name": "Dreadspear – Ranged",
                 "range": "18\"",
                 "a": "2",
                 "skill": "2+",
@@ -2422,7 +2436,7 @@
             "name": "Dreadspear",
             "profiles": [
               {
-                "name": "Dreadspear",
+                "name": "Dreadspear – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -2430,7 +2444,7 @@
                 "ap": "-3",
                 "d": "D3+3",
                 "keywords": [
-                  "LANCE"
+                  "Lance"
                 ]
               }
             ]
@@ -2537,11 +2551,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Twin Infernus Incinerator",
+                "name": "Adrathic Combi-destructor",
                 "cost": 0
               },
               {
-                "name": "Adrathic Combi-destructor",
+                "name": "Twin Infernus Incinerator",
                 "cost": 0
               }
             ],
@@ -2587,7 +2601,7 @@
     },
     {
       "id": "b117cccf-98db-5c85-b72b-ee2fcab274c9",
-      "name": "Contemptor‑Galatus Dreadnought",
+      "name": "Contemptor-Galatus Dreadnought",
       "keywords": [
         "Dreadnought",
         "Imperium",
@@ -2634,7 +2648,7 @@
             "name": "Warblade",
             "profiles": [
               {
-                "name": "Warblade",
+                "name": "Warblade – Ranged",
                 "range": "12\"",
                 "a": "4",
                 "skill": "-",
@@ -2642,9 +2656,9 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "TWIN-LINKED",
-                  "TORRENT",
-                  "BLAST 2"
+                  "BLAST 2",
+                  "Torrent",
+                  "Twin-linked"
                 ]
               }
             ]
@@ -2655,7 +2669,7 @@
             "name": "Warblade",
             "profiles": [
               {
-                "name": "Warblade",
+                "name": "Warblade – Melee",
                 "range": "Melee",
                 "a": "8",
                 "skill": "2+",
@@ -2663,8 +2677,8 @@
                 "ap": "-2",
                 "d": "3",
                 "keywords": [
-                  "SUSTAINED HITS 1: non-MONSTER/VEHICLE",
-                  "CLEAVE 1"
+                  "CLEAVE 1",
+                  "SUSTAINED HITS 1: Non-MONSTER/VEHICLE"
                 ]
               }
             ]
@@ -2979,7 +2993,7 @@
           }
         ],
         "transport": "",
-        "base_size": "150x95mm Oval Base",
+        "base_size": "150 x 95mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -3160,7 +3174,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -3168,8 +3182,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -3180,7 +3194,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -3373,7 +3387,7 @@
             "name": "Adrasite Spear",
             "profiles": [
               {
-                "name": "Adrasite Spear",
+                "name": "Adrasite Spear – Ranged",
                 "range": "18\"",
                 "a": "2",
                 "skill": "2+",
@@ -3390,7 +3404,7 @@
             "name": "Adrasite Spear",
             "profiles": [
               {
-                "name": "Adrasite Spear",
+                "name": "Adrasite Spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -3532,7 +3546,7 @@
             "name": "Pyrithite Spear",
             "profiles": [
               {
-                "name": "Pyrithite Spear",
+                "name": "Pyrithite Spear – Ranged",
                 "range": "12\"",
                 "a": "1",
                 "skill": "2+",
@@ -3540,7 +3554,7 @@
                 "ap": "-3",
                 "d": "D3+2",
                 "keywords": [
-                  "MELTA 2"
+                  "Melta 2"
                 ]
               }
             ]
@@ -3551,7 +3565,7 @@
             "name": "Pyrithite Spear",
             "profiles": [
               {
-                "name": "Pyrithite Spear",
+                "name": "Pyrithite Spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -3766,7 +3780,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -3774,8 +3788,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -3784,7 +3798,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -3792,8 +3806,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -3804,7 +3818,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Melee",
                 "range": "Melee",
                 "a": "3",
                 "skill": "2+",
@@ -3819,7 +3833,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -4226,7 +4240,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -4350,9 +4364,8 @@
     },
     {
       "id": "80dcd657-6376-5a0a-9896-acaea82564b4",
-      "name": "Knight‑Centura",
+      "name": "Knight-Centura",
       "keywords": [
-        "Anathema Psykana",
         "Character",
         "Imperium",
         "Infantry"
@@ -4377,11 +4390,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Gun Stock",
+              "name": "Master-crafted Boltgun",
               "cost": 0
             },
             {
-              "name": "Master-crafted Boltgun",
+              "name": "Gun Stock",
               "cost": 0
             },
             {
@@ -4578,13 +4591,13 @@
         "base_size": "32mm",
         "imperial_armour": false,
         "keywords": [
-          "Anathema Psykana",
           "Character",
           "Imperium",
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana"
+          "Anathema Psykana",
+          "Adeptus Custodes"
         ],
         "leads": [],
         "supports": [
@@ -4660,11 +4673,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Gun Stock",
+                "name": "Master-crafted Boltgun",
                 "cost": 0
               },
               {
-                "name": "Master-crafted Boltgun",
+                "name": "Gun Stock",
                 "cost": 0
               },
               {
@@ -5113,7 +5126,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105x70mm Oval Base",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -5211,7 +5224,6 @@
       "id": "41f3dd81-a9a7-596a-80e3-4029e3078d3a",
       "name": "Prosecutor Squad",
       "keywords": [
-        "Anathema Psykana",
         "Imperium",
         "Infantry"
       ],
@@ -5326,12 +5338,12 @@
         "base_size": "32mm",
         "imperial_armour": false,
         "keywords": [
-          "Anathema Psykana",
           "Imperium",
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana"
+          "Anathema Psykana",
+          "Adeptus Custodes"
         ],
         "leads": [],
         "supports": [],
@@ -5681,7 +5693,7 @@
             "name": "Sentinel Blade",
             "profiles": [
               {
-                "name": "Sentinel Blade",
+                "name": "Sentinel Blade – Ranged",
                 "range": "12\"",
                 "a": "4",
                 "skill": "2+",
@@ -5689,8 +5701,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "CLOSE-QUARTERS",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "CLOSE-QUARTERS"
                 ]
               }
             ]
@@ -5701,7 +5713,7 @@
             "name": "Sentinel Blade",
             "profiles": [
               {
-                "name": "Sentinel Blade",
+                "name": "Sentinel Blade – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -5857,7 +5869,7 @@
     },
     {
       "id": "659324e6-b75a-5ffb-9003-64a1ce102430",
-      "name": "Shield‑Captain",
+      "name": "Shield-Captain",
       "keywords": [
         "Character",
         "Imperium",
@@ -5986,7 +5998,7 @@
             "name": "Pyrithite Spear",
             "profiles": [
               {
-                "name": "Pyrithite Spear",
+                "name": "Pyrithite Spear – Ranged",
                 "range": "12\"",
                 "a": "1",
                 "skill": "2+",
@@ -5994,8 +6006,8 @@
                 "ap": "-3",
                 "d": "D3+2",
                 "keywords": [
-                  "MELTA 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Melta 2"
                 ]
               }
             ]
@@ -6004,7 +6016,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -6012,8 +6024,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -6022,7 +6034,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -6030,8 +6042,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -6042,7 +6054,7 @@
             "name": "Pyrithite Spear",
             "profiles": [
               {
-                "name": "Pyrithite Spear",
+                "name": "Pyrithite Spear – Melee",
                 "range": "Melee",
                 "a": "8",
                 "skill": "2+",
@@ -6059,7 +6071,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Melee",
                 "range": "Melee",
                 "a": "8",
                 "skill": "2+",
@@ -6076,7 +6088,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -6363,7 +6375,7 @@
     },
     {
       "id": "02a20cdd-eb8a-5361-9a79-cf7b8e27c18b",
-      "name": "Shield‑Captain in Allarus Terminator Armour",
+      "name": "Shield-Captain in Allarus Terminator Armour",
       "keywords": [
         "Character",
         "Imperium",
@@ -6446,7 +6458,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -6454,8 +6466,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -6464,7 +6476,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -6472,8 +6484,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -6502,7 +6514,7 @@
             "name": "Castellan Axe",
             "profiles": [
               {
-                "name": "Castellan Axe",
+                "name": "Castellan Axe – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -6517,7 +6529,7 @@
             "name": "Guardian Spear",
             "profiles": [
               {
-                "name": "Guardian Spear",
+                "name": "Guardian Spear – Melee",
                 "range": "Melee",
                 "a": "8",
                 "skill": "2+",
@@ -6713,7 +6725,7 @@
     },
     {
       "id": "00f852bb-cf01-50bc-b28b-c585985bd722",
-      "name": "Shield‑Captain on Dawneagle Jetbike",
+      "name": "Shield-Captain on Dawneagle Jetbike",
       "keywords": [
         "Character",
         "Fly",
@@ -6901,7 +6913,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Character",
@@ -7811,7 +7823,7 @@
             "name": "Gnosis",
             "profiles": [
               {
-                "name": "Gnosis",
+                "name": "Gnosis – Ranged",
                 "range": "24\"",
                 "a": "3",
                 "skill": "2+",
@@ -7819,8 +7831,8 @@
                 "ap": "-1",
                 "d": "2",
                 "keywords": [
-                  "RAPID FIRE 2",
-                  "ASSAULT"
+                  "ASSAULT",
+                  "Rapid Fire 2"
                 ]
               }
             ]
@@ -7831,7 +7843,7 @@
             "name": "Gnosis",
             "profiles": [
               {
-                "name": "Gnosis",
+                "name": "Gnosis – Melee",
                 "range": "Melee",
                 "a": "7",
                 "skill": "2+",
@@ -8266,7 +8278,7 @@
             "name": "Verutum Lance",
             "profiles": [
               {
-                "name": "Verutum Lance",
+                "name": "Verutum Lance – Ranged",
                 "range": "18\"",
                 "a": "1",
                 "skill": "2+",
@@ -8285,7 +8297,7 @@
             "name": "Verutum Lance",
             "profiles": [
               {
-                "name": "Verutum Lance",
+                "name": "Verutum Lance – Melee",
                 "range": "Melee",
                 "a": "5",
                 "skill": "2+",
@@ -8293,8 +8305,8 @@
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
-                  "PRECISION",
-                  "LANCE"
+                  "Lance",
+                  "Precision"
                 ]
               }
             ]
@@ -8927,7 +8939,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Frame",
@@ -9218,7 +9230,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75x42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -9329,7 +9341,6 @@
       "id": "fd74be42-13b5-51d2-8344-7fc2b331be06",
       "name": "Vigilator Squad",
       "keywords": [
-        "Anathema Psykana",
         "Imperium",
         "Infantry"
       ],
@@ -9418,12 +9429,12 @@
         "base_size": "32mm",
         "imperial_armour": false,
         "keywords": [
-          "Anathema Psykana",
           "Imperium",
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana"
+          "Anathema Psykana",
+          "Adeptus Custodes"
         ],
         "leads": [],
         "supports": [],
@@ -9508,7 +9519,6 @@
       "id": "670bc3ec-e0db-5e6c-b9ca-d46a5f167cda",
       "name": "Witchseeker Squad",
       "keywords": [
-        "Anathema Psykana",
         "Imperium",
         "Infantry"
       ],
@@ -9630,12 +9640,12 @@
         "base_size": "32mm",
         "imperial_armour": false,
         "keywords": [
-          "Anathema Psykana",
           "Imperium",
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana"
+          "Anathema Psykana",
+          "Adeptus Custodes"
         ],
         "leads": [],
         "supports": [],
@@ -9722,7 +9732,7 @@
   "rules": {
     "faction": "adeptuscustodes",
     "name": "Adeptus Custodes",
-    "data_version": "2026-10-16T18:38:16.307Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Martial Ka’tah",
@@ -11270,7 +11280,7 @@
         "grants": [
           {
             "targets": [
-              "Prosecutor SQUAD"
+              "Prosecutor Squad"
             ],
             "keyword": "Battleline"
           }
