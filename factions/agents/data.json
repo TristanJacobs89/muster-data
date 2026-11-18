@@ -238,6 +238,35 @@
             ]
           },
           {
+            "name": "Grenade Launcher",
+            "profiles": [
+              {
+                "name": "Grenade Launcher – Frag",
+                "range": "24\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "BLAST 1"
+                ]
+              },
+              {
+                "name": "Grenade Launcher – Krak",
+                "range": "24\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "RAPID FIRE 1"
+                ]
+              }
+            ]
+          },
+          {
             "name": "Plasma Incinerator",
             "profiles": [
               {
@@ -1365,6 +1394,19 @@
             "text": "",
             "kind": "other",
             "timing": null
+          },
+          {
+            "name": "Auspex Array",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "weapon_keyword",
+                "weapons": "ranged",
+                "keyword": "Ignores Cover"
+              }
+            ]
           }
         ],
         "transport": "",
@@ -2947,6 +2989,11 @@
         },
         {
           "models": 1,
+          "cost": 110,
+          "label": "1 model · Imperium"
+        },
+        {
+          "models": 1,
           "cost": 115,
           "label": "1 model · Veiled Blade Elimination Force"
         }
@@ -3108,17 +3155,24 @@
         "prices": [
           {
             "models": 1,
+            "cost": 100,
+            "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 110,
+            "keyword": "Imperium",
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 1,
             "cost": 115,
             "keyword": null,
             "faction": null,
             "detachment": "Veiled Blade Elimination Force"
-          },
-          {
-            "models": 1,
-            "cost": 100,
-            "keyword": null,
-            "faction": null,
-            "detachment": null
           }
         ],
         "loadout": [
@@ -3162,6 +3216,11 @@
           "models": 11,
           "cost": 90,
           "label": "11 models"
+        },
+        {
+          "models": 11,
+          "cost": 85,
+          "label": "11 models · Imperium"
         }
       ],
       "unit_types": [
@@ -3647,6 +3706,13 @@
             "models": 11,
             "cost": 90,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 11,
+            "cost": 85,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -3926,6 +3992,11 @@
           "models": 5,
           "cost": 175,
           "label": "5 models"
+        },
+        {
+          "models": 5,
+          "cost": 190,
+          "label": "5 models · Imperium"
         }
       ],
       "unit_types": [
@@ -4264,6 +4335,13 @@
             "models": 5,
             "cost": 175,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 5,
+            "cost": 190,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -4280,7 +4358,7 @@
             "statline": "Grey Knights Terminators"
           },
           {
-            "name": "Grey Knights Terminators",
+            "name": "Grey Knight Terminators",
             "min": 4,
             "max": 4,
             "statline": "Grey Knights Terminators"
@@ -5553,6 +5631,11 @@
           "models": 1,
           "cost": 55,
           "label": "1 model"
+        },
+        {
+          "models": 1,
+          "cost": 65,
+          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -5977,6 +6060,13 @@
             "models": 1,
             "cost": 55,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 65,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -6140,6 +6230,11 @@
           "models": 1,
           "cost": 75,
           "label": "1 model"
+        },
+        {
+          "models": 1,
+          "cost": 95,
+          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -6416,6 +6511,13 @@
             "models": 1,
             "cost": 75,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 95,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -6468,6 +6570,11 @@
           "models": 1,
           "cost": 75,
           "label": "1 model"
+        },
+        {
+          "models": 1,
+          "cost": 110,
+          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -6720,6 +6827,13 @@
             "models": 1,
             "cost": 75,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 110,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -7330,6 +7444,21 @@
           "models": 6,
           "cost": 50,
           "label": "6 models"
+        },
+        {
+          "models": 12,
+          "cost": 120,
+          "label": "12 models · Imperium"
+        },
+        {
+          "models": 11,
+          "cost": 120,
+          "label": "11 models · Imperium"
+        },
+        {
+          "models": 6,
+          "cost": 60,
+          "label": "6 models · Imperium"
         }
       ],
       "unit_types": [
@@ -7774,23 +7903,44 @@
         ],
         "prices": [
           {
-            "models": 6,
-            "cost": 50,
+            "models": 12,
+            "cost": 100,
             "keyword": null,
-            "faction": null,
+            "faction": "Agents of the Imperium",
             "detachment": null
           },
           {
             "models": 11,
             "cost": 100,
             "keyword": null,
-            "faction": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 50,
+            "keyword": null,
+            "faction": "Agents of the Imperium",
             "detachment": null
           },
           {
             "models": 12,
-            "cost": 100,
-            "keyword": null,
+            "cost": 120,
+            "keyword": "Imperium",
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 11,
+            "cost": 120,
+            "keyword": "Imperium",
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 60,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -8979,6 +9129,11 @@
           "models": 1,
           "cost": 60,
           "label": "1 model"
+        },
+        {
+          "models": 1,
+          "cost": 75,
+          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -9134,6 +9289,13 @@
             "models": 1,
             "cost": 60,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 75,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -9179,6 +9341,11 @@
           "models": 4,
           "cost": 75,
           "label": "4 models"
+        },
+        {
+          "models": 4,
+          "cost": 105,
+          "label": "4 models · Imperium"
         }
       ],
       "unit_types": [
@@ -9442,6 +9609,13 @@
             "models": 4,
             "cost": 75,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 4,
+            "cost": 105,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -10256,6 +10430,11 @@
           "models": 1,
           "cost": 90,
           "label": "1 model"
+        },
+        {
+          "models": 1,
+          "cost": 105,
+          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -10527,6 +10706,13 @@
             "models": 1,
             "cost": 90,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 105,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -10656,6 +10842,11 @@
           "models": 10,
           "cost": 100,
           "label": "10 models"
+        },
+        {
+          "models": 10,
+          "cost": 110,
+          "label": "10 models · Imperium"
         }
       ],
       "unit_types": [
@@ -11392,6 +11583,13 @@
             "models": 10,
             "cost": 100,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 110,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -11776,6 +11974,11 @@
           "models": 11,
           "cost": 85,
           "label": "11 models"
+        },
+        {
+          "models": 11,
+          "cost": 100,
+          "label": "11 models · Imperium"
         }
       ],
       "unit_types": [
@@ -11953,6 +12156,13 @@
             "models": 11,
             "cost": 85,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 11,
+            "cost": 100,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -12597,6 +12807,11 @@
         },
         {
           "models": 1,
+          "cost": 125,
+          "label": "1 model · Imperium"
+        },
+        {
+          "models": 1,
           "cost": 130,
           "label": "1 model · Veiled Blade Elimination Force"
         }
@@ -12770,17 +12985,24 @@
         "prices": [
           {
             "models": 1,
+            "cost": 110,
+            "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 1,
+            "cost": 125,
+            "keyword": "Imperium",
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 1,
             "cost": 130,
             "keyword": null,
             "faction": null,
             "detachment": "Veiled Blade Elimination Force"
-          },
-          {
-            "models": 1,
-            "cost": 110,
-            "keyword": null,
-            "faction": null,
-            "detachment": null
           }
         ],
         "loadout": [
@@ -12826,6 +13048,11 @@
           "models": 6,
           "cost": 50,
           "label": "6 models"
+        },
+        {
+          "models": 6,
+          "cost": 70,
+          "label": "6 models · Imperium"
         }
       ],
       "unit_types": [
@@ -13015,6 +13242,13 @@
             "models": 6,
             "cost": 50,
             "keyword": null,
+            "faction": "Agents of the Imperium",
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 70,
+            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -13593,7 +13827,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "voidfarers character"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Selfless Bodyguard",
