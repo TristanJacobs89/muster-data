@@ -31,16 +31,6 @@
           "models": 5,
           "cost": 110,
           "label": "5 models"
-        },
-        {
-          "models": 10,
-          "cost": 210,
-          "label": "10 models · Imperium"
-        },
-        {
-          "models": 5,
-          "cost": 110,
-          "label": "5 models · Imperium"
         }
       ],
       "unit_types": [
@@ -70,7 +60,7 @@
           ],
           "source": 6,
           "model": 4,
-          "loadout": 3,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -102,17 +92,17 @@
               "cost": 0
             },
             {
-              "name": "Grenade Launcher",
+              "name": "Hellstorm Bolt Rifle",
               "cost": 0
             },
             {
-              "name": "Hellstorm Bolt Rifle",
+              "name": "Grenade Launcher",
               "cost": 0
             }
           ],
           "source": 7,
           "model": 5,
-          "loadout": 1,
+          "loadout": 0,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -163,7 +153,7 @@
           ],
           "source": 8,
           "model": 3,
-          "loadout": 4,
+          "loadout": 2,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -208,20 +198,20 @@
       "data": {
         "stats": [
           {
-            "name": "Gravis Veteran",
-            "m": "5\"",
-            "t": "6",
-            "sv": "3+",
-            "w": "3",
-            "ld": "6+",
-            "oc": "2"
-          },
-          {
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "m": "6\"",
             "t": "5",
             "sv": "3+",
             "w": "2",
+            "ld": "6+",
+            "oc": "2"
+          },
+          {
+            "name": "Gravis Veteran",
+            "m": "5\"",
+            "t": "6",
+            "sv": "3+",
+            "w": "3",
             "ld": "6+",
             "oc": "2"
           }
@@ -243,35 +233,6 @@
                   "PRECISION",
                   "LETHAL HITS",
                   "HEAVY"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Grenade Launcher",
-            "profiles": [
-              {
-                "name": "Grenade Launcher – Frag",
-                "range": "24\"",
-                "a": "4",
-                "skill": "3+",
-                "s": "4",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "BLAST 1"
-                ]
-              },
-              {
-                "name": "Grenade Launcher – Krak",
-                "range": "24\"",
-                "a": "1",
-                "skill": "3+",
-                "s": "10",
-                "ap": "-2",
-                "d": "3",
-                "keywords": [
-                  "RAPID FIRE 1"
                 ]
               }
             ]
@@ -342,7 +303,7 @@
                   "RAPID FIRE 1",
                   "LETHAL HITS",
                   "HEAVY",
-                  "BLAST 1"
+                  "Blast"
                 ]
               }
             ]
@@ -462,6 +423,35 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Astartes Grenade Launcher",
+            "profiles": [
+              {
+                "name": "Astartes Grenade Launcher – frag",
+                "range": "24\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast 1"
+                ]
+              },
+              {
+                "name": "Astartes Grenade Launcher – krak",
+                "range": "24\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Rapid Fire 1"
+                ]
+              }
+            ]
           }
         ],
         "melee": [
@@ -546,7 +536,7 @@
             "timing": null
           },
           {
-            "name": "Storm Shield",
+            "name": "Astartes Shield",
             "text": "",
             "kind": "wargear",
             "timing": null,
@@ -557,10 +547,16 @@
                 "change": "4+"
               }
             ]
+          },
+          {
+            "name": "Attached Unit",
+            "text": "",
+            "kind": "special",
+            "timing": null
           }
         ],
         "transport": "",
-        "base_size": "32mm, 40mm",
+        "base_size": "KILL TEAM SERGEANT, DEATHWATCH VETERAN: 32mm, GRAVIS VETERAN: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Imperium",
@@ -596,30 +592,16 @@
         ],
         "prices": [
           {
-            "models": 10,
-            "cost": 210,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
             "models": 5,
             "cost": 110,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 10,
-            "cost": 210,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           },
           {
-            "models": 5,
-            "cost": 110,
-            "keyword": "Imperium",
+            "models": 10,
+            "cost": 210,
+            "keyword": null,
             "faction": null,
             "detachment": null
           }
@@ -641,34 +623,35 @@
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "min": 1,
             "max": 1,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
+            "statline_assumed": true
           },
           {
             "name": "Kill Team Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Gravis Veteran",
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "statline_assumed": true
           },
           {
             "name": "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …",
             "min": 1,
             "max": 2,
-            "statline": "Gravis Veteran",
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "statline_assumed": true
           },
           {
             "name": "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol",
             "min": 1,
             "max": 2,
-            "statline": "Gravis Veteran",
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "statline_assumed": true
           },
           {
             "name": "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists",
             "min": 1,
             "max": 2,
-            "statline": "Gravis Veteran",
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "statline_assumed": true
           },
           {
@@ -680,28 +663,12 @@
         ],
         "loadouts": [
           {
-            "model": 0,
-            "role": null,
-            "wargear": [
-              "Plasma Pistol",
-              "Power Weapon"
-            ]
-          },
-          {
             "model": 5,
             "role": null,
             "wargear": [
               "Bolt Pistol",
               "Infernus Heavy Bolter",
               "Knives and Fists"
-            ]
-          },
-          {
-            "model": 1,
-            "role": null,
-            "wargear": [
-              "Special-issue Bolt Pistol",
-              "Xenophase Blade"
             ]
           },
           {
@@ -729,6 +696,22 @@
               "Knives and Fists",
               "Special-issue Bolt Pistol"
             ]
+          },
+          {
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Special-issue Bolt Pistol",
+              "Xenophase Blade"
+            ]
+          },
+          {
+            "model": 1,
+            "role": null,
+            "wargear": [
+              "Plasma Pistol",
+              "Power Weapon"
+            ]
           }
         ],
         "wargear_options": [
@@ -742,7 +725,7 @@
             ],
             "source": 6,
             "model": 4,
-            "loadout": 3,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -774,17 +757,17 @@
                 "cost": 0
               },
               {
-                "name": "Grenade Launcher",
+                "name": "Hellstorm Bolt Rifle",
                 "cost": 0
               },
               {
-                "name": "Hellstorm Bolt Rifle",
+                "name": "Grenade Launcher",
                 "cost": 0
               }
             ],
             "source": 7,
             "model": 5,
-            "loadout": 1,
+            "loadout": 0,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -835,7 +818,7 @@
             ],
             "source": 8,
             "model": 3,
-            "loadout": 4,
+            "loadout": 2,
             "heading": "",
             "cap": {
               "kind": "per",
@@ -887,11 +870,6 @@
           "models": 1,
           "cost": 100,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 100,
-          "label": "1 model · Imperium"
         },
         {
           "models": 1,
@@ -1005,15 +983,7 @@
             "name": "Acrobatic Escape",
             "text": "",
             "kind": "other",
-            "timing": {
-              "once_per": null,
-              "when": [
-                {
-                  "turn": "either",
-                  "phase": "fight"
-                }
-              ]
-            }
+            "timing": null
           },
           {
             "name": "Reign of Confusion",
@@ -1062,24 +1032,17 @@
         "prices": [
           {
             "models": 1,
-            "cost": 100,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 100,
-            "keyword": "Imperium",
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 1,
             "cost": 115,
             "keyword": null,
             "faction": null,
             "detachment": "Veiled Blade Elimination Force"
+          },
+          {
+            "models": 1,
+            "cost": 100,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
           }
         ],
         "loadout": [
@@ -1124,11 +1087,6 @@
           "models": 1,
           "cost": 180,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 180,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -1407,23 +1365,10 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Auspex Array",
-            "text": "",
-            "kind": "wargear",
-            "timing": null,
-            "modifiers": [
-              {
-                "kind": "weapon_keyword",
-                "weapons": "ranged",
-                "keyword": "Ignores Cover"
-              }
-            ]
           }
         ],
         "transport": "",
-        "base_size": "120x92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Fly",
@@ -1456,13 +1401,6 @@
             "models": 1,
             "cost": 180,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 180,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -1617,11 +1555,6 @@
           "models": 1,
           "cost": 85,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 85,
-          "label": "1 model · Imperium"
         },
         {
           "models": 1,
@@ -1800,24 +1733,17 @@
         "prices": [
           {
             "models": 1,
-            "cost": 85,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 85,
-            "keyword": "Imperium",
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 1,
             "cost": 95,
             "keyword": null,
             "faction": null,
             "detachment": "Veiled Blade Elimination Force"
+          },
+          {
+            "models": 1,
+            "cost": 85,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
           }
         ],
         "loadout": [
@@ -1867,16 +1793,6 @@
           "models": 5,
           "cost": 115,
           "label": "5 models"
-        },
-        {
-          "models": 10,
-          "cost": 220,
-          "label": "10 models · Imperium"
-        },
-        {
-          "models": 5,
-          "cost": 115,
-          "label": "5 models · Imperium"
         }
       ],
       "unit_types": [
@@ -2027,11 +1943,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Knives and Fists",
+              "name": "Stalker-pattern Boltgun",
               "cost": 0
             },
             {
-              "name": "Stalker-pattern Boltgun",
+              "name": "Knives and Fists",
               "cost": 0
             }
           ],
@@ -2050,7 +1966,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Knives and Fists",
+                  "option": "Stalker-pattern Boltgun",
                   "count": 1
                 }
               ]
@@ -2059,7 +1975,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Stalker-pattern Boltgun",
+                  "option": "Knives and Fists",
                   "count": 1
                 }
               ]
@@ -2127,11 +2043,11 @@
               "cost": 0
             },
             {
-              "name": "Power Weapon",
+              "name": "Storm Shield",
               "cost": 0
             },
             {
-              "name": "Storm Shield",
+              "name": "Power Weapon",
               "cost": 0
             }
           ],
@@ -2284,15 +2200,6 @@
         "stats": [
           {
             "name": "Watch Sergeant",
-            "m": "6\"",
-            "t": "5",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "2"
-          },
-          {
-            "name": "Deathwatch Veteran",
             "m": "6\"",
             "t": "5",
             "sv": "3+",
@@ -2539,7 +2446,7 @@
             "timing": null
           },
           {
-            "name": "Storm Shield",
+            "name": "Astartes Shield",
             "text": "",
             "kind": "wargear",
             "timing": null,
@@ -2587,30 +2494,16 @@
         ],
         "prices": [
           {
-            "models": 10,
-            "cost": 220,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
             "models": 5,
             "cost": 115,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 10,
-            "cost": 220,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           },
           {
-            "models": 5,
-            "cost": 115,
-            "keyword": "Imperium",
+            "models": 10,
+            "cost": 220,
+            "keyword": null,
             "faction": null,
             "detachment": null
           }
@@ -2630,7 +2523,7 @@
             "name": "Deathwatch Veteran",
             "min": 4,
             "max": 9,
-            "statline": "Deathwatch Veteran"
+            "statline": "Watch Sergeant"
           }
         ],
         "loadouts": [
@@ -2783,11 +2676,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Knives and Fists",
+                "name": "Stalker-pattern Boltgun",
                 "cost": 0
               },
               {
-                "name": "Stalker-pattern Boltgun",
+                "name": "Knives and Fists",
                 "cost": 0
               }
             ],
@@ -2806,7 +2699,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Knives and Fists",
+                    "option": "Stalker-pattern Boltgun",
                     "count": 1
                   }
                 ]
@@ -2815,7 +2708,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Stalker-pattern Boltgun",
+                    "option": "Knives and Fists",
                     "count": 1
                   }
                 ]
@@ -2883,11 +2776,11 @@
                 "cost": 0
               },
               {
-                "name": "Power Weapon",
+                "name": "Storm Shield",
                 "cost": 0
               },
               {
-                "name": "Storm Shield",
+                "name": "Power Weapon",
                 "cost": 0
               }
             ],
@@ -3054,11 +2947,6 @@
         },
         {
           "models": 1,
-          "cost": 110,
-          "label": "1 model · Imperium"
-        },
-        {
-          "models": 1,
           "cost": 115,
           "label": "1 model · Veiled Blade Elimination Force"
         }
@@ -3220,24 +3108,17 @@
         "prices": [
           {
             "models": 1,
-            "cost": 100,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 110,
-            "keyword": "Imperium",
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 1,
             "cost": 115,
             "keyword": null,
             "faction": null,
             "detachment": "Veiled Blade Elimination Force"
+          },
+          {
+            "models": 1,
+            "cost": 100,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
           }
         ],
         "loadout": [
@@ -3281,11 +3162,6 @@
           "models": 11,
           "cost": 90,
           "label": "11 models"
-        },
-        {
-          "models": 11,
-          "cost": 85,
-          "label": "11 models · Imperium"
         }
       ],
       "unit_types": [
@@ -3299,37 +3175,6 @@
         "Mechanical bite"
       ],
       "wargear_options": [
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Nuncio-acquila",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": 0,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Nuncio-acquila",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
         {
           "instruction": "",
           "options": [
@@ -3491,6 +3336,37 @@
               "items": [
                 {
                   "option": "Soulguilt Scanner",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Nuncio Aquila",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": 0,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nuncio Aquila",
                   "count": 1
                 }
               ]
@@ -3696,20 +3572,6 @@
             "timing": null
           },
           {
-            "name": "Nuncio-acquila",
-            "text": "",
-            "kind": "wargear",
-            "timing": {
-              "once_per": "battle",
-              "when": [
-                {
-                  "turn": "either",
-                  "phase": "command"
-                }
-              ]
-            }
-          },
-          {
             "name": "Arbites Medi-kit",
             "text": "",
             "kind": "wargear",
@@ -3736,10 +3598,24 @@
                 "keyword": "Ignores Cover"
               }
             ]
+          },
+          {
+            "name": "Nuncio Aquila",
+            "text": "",
+            "kind": "wargear",
+            "timing": {
+              "once_per": "battle",
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "command"
+                }
+              ]
+            }
           }
         ],
         "transport": "",
-        "base_size": "Proctor-Exactant, Exaction Vigilants: 28.5mm\nCyber-mastiff: 25mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -3771,13 +3647,6 @@
             "models": 11,
             "cost": 90,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 11,
-            "cost": 85,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -3836,37 +3705,6 @@
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Nuncio-acquila",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": 0,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Nuncio-acquila",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -4035,6 +3873,37 @@
             ],
             "replaces": [],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Nuncio Aquila",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": 0,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nuncio Aquila",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
           }
         ]
       }
@@ -4057,11 +3926,6 @@
           "models": 5,
           "cost": 175,
           "label": "5 models"
-        },
-        {
-          "models": 5,
-          "cost": 190,
-          "label": "5 models · Imperium"
         }
       ],
       "unit_types": [
@@ -4090,13 +3954,14 @@
               "cost": 5
             }
           ],
-          "source": 2,
-          "model": null,
+          "source": 5,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
-            "kind": "fixed",
-            "n": 1
+            "kind": "per",
+            "every": 5,
+            "up": 1
           },
           "each": 1,
           "choices": [
@@ -4141,8 +4006,8 @@
               "cost": 0
             }
           ],
-          "source": 3,
-          "model": null,
+          "source": 6,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -4172,8 +4037,8 @@
               "cost": 0
             }
           ],
-          "source": 4,
-          "model": null,
+          "source": 7,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -4399,13 +4264,6 @@
             "models": 5,
             "cost": 175,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 5,
-            "cost": 190,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -4422,7 +4280,7 @@
             "statline": "Grey Knights Terminators"
           },
           {
-            "name": "Grey Knight Terminators",
+            "name": "Grey Knights Terminators",
             "min": 4,
             "max": 4,
             "statline": "Grey Knights Terminators"
@@ -4455,13 +4313,14 @@
                 "cost": 5
               }
             ],
-            "source": 2,
-            "model": null,
+            "source": 5,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
-              "kind": "fixed",
-              "n": 1
+              "kind": "per",
+              "every": 5,
+              "up": 1
             },
             "each": 1,
             "choices": [
@@ -4506,8 +4365,8 @@
                 "cost": 0
               }
             ],
-            "source": 3,
-            "model": null,
+            "source": 6,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -4537,8 +4396,8 @@
                 "cost": 0
               }
             ],
-            "source": 4,
-            "model": null,
+            "source": 7,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -4583,11 +4442,6 @@
           "models": 10,
           "cost": 90,
           "label": "10 models"
-        },
-        {
-          "models": 10,
-          "cost": 90,
-          "label": "10 models · Imperium"
         }
       ],
       "unit_types": [
@@ -5103,7 +4957,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Imperial Navy Breachers: 25mm\nNavis las-volley, endurant shield: 28.5mm",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -5137,13 +4991,6 @@
             "models": 10,
             "cost": 90,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 10,
-            "cost": 90,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -5446,11 +5293,6 @@
           "models": 1,
           "cost": 65,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 65,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -5598,7 +5440,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5631,13 +5473,6 @@
             "models": 1,
             "cost": 65,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 65,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -5718,11 +5553,6 @@
           "models": 1,
           "cost": 55,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 65,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -6027,17 +5857,15 @@
         ],
         "leads": [
           "Aquila Kill Team",
-          "Battleline",
           "Exaction Squad",
           "Grey Knights Terminator Squad",
           "Imperial Navy Breachers",
-          "Imperium",
-          "Infantry",
           "Inquisitorial Agents",
           "Sanctifiers",
           "Sisters of Battle Squad",
           "Subductor Squad",
-          "Vigilant Squad"
+          "Vigilant Squad",
+          "Deathwatch Kill Team"
         ],
         "supports": [],
         "attaches": [
@@ -6124,6 +5952,13 @@
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Deathwatch Kill Team",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
           }
         ],
         "source": {
@@ -6142,13 +5977,6 @@
             "models": 1,
             "cost": 55,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 65,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -6312,11 +6140,6 @@
           "models": 1,
           "cost": 75,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 95,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -6480,15 +6303,15 @@
           "Agents of the Imperium"
         ],
         "leads": [
-          "Battleline",
           "Exaction Squad",
           "Grey Knights Terminator Squad",
           "Imperial Navy Breachers",
-          "Imperium",
-          "Infantry",
           "Inquisitorial Agents",
           "Subductor Squad",
-          "Vigilant Squad"
+          "Vigilant Squad",
+          "Deathwatch Kill Team",
+          "Aquila Kill Team",
+          "Sanctifiers"
         ],
         "supports": [],
         "attaches": [
@@ -6554,6 +6377,27 @@
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Deathwatch Kill Team",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Aquila Kill Team",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Sanctifiers",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
           }
         ],
         "source": {
@@ -6572,13 +6416,6 @@
             "models": 1,
             "cost": 75,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 95,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -6631,11 +6468,6 @@
           "models": 1,
           "cost": 75,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 110,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -6784,14 +6616,13 @@
         ],
         "leads": [
           "Aquila Kill Team",
-          "Battleline",
           "Exaction Squad",
           "Imperial Navy Breachers",
-          "Imperium",
-          "Infantry",
           "Inquisitorial Agents",
           "Subductor Squad",
-          "Vigilant Squad"
+          "Vigilant Squad",
+          "Sanctifiers",
+          "Deathwatch Kill Team"
         ],
         "supports": [],
         "attaches": [
@@ -6857,6 +6688,20 @@
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Sanctifiers",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Deathwatch Kill Team",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
           }
         ],
         "source": {
@@ -6875,13 +6720,6 @@
             "models": 1,
             "cost": 75,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 110,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -6932,11 +6770,6 @@
           "models": 1,
           "cost": 65,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 65,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -6948,7 +6781,7 @@
       "loadout": [
         "Castigation",
         "Condemnor stake",
-        "Master-crafted power sword"
+        "Master-crafter power sword"
       ],
       "wargear_options": [],
       "composition": [
@@ -7087,16 +6920,15 @@
           "Agents of the Imperium"
         ],
         "leads": [
-          "Battleline",
           "Exaction Squad",
           "Imperial Navy Breachers",
-          "Imperium",
-          "Infantry",
           "Inquisitorial Agents",
           "Sanctifiers",
           "Sisters of Battle Squad",
           "Subductor Squad",
-          "Vigilant Squad"
+          "Vigilant Squad",
+          "Aquila Kill Team",
+          "Deathwatch Kill Team"
         ],
         "supports": [],
         "attaches": [
@@ -7169,6 +7001,20 @@
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Aquila Kill Team",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Deathwatch Kill Team",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
           }
         ],
         "source": {
@@ -7187,13 +7033,6 @@
             "models": 1,
             "cost": 65,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 65,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -7201,7 +7040,7 @@
         "loadout": [
           "Castigation",
           "Condemnor stake",
-          "Master-crafted power sword"
+          "Master-crafter power sword"
         ],
         "model_types": [
           {
@@ -7218,7 +7057,7 @@
             "wargear": [
               "Castigation",
               "Condemnor stake",
-              "Master-crafted power sword"
+              "Master-crafter power sword"
             ]
           }
         ],
@@ -7243,11 +7082,6 @@
           "models": 1,
           "cost": 100,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 100,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -7409,9 +7243,19 @@
         "factions": [
           "Agents of the Imperium"
         ],
-        "leads": [],
+        "leads": [
+          "Sanctifiers"
+        ],
         "supports": [],
-        "attaches": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Sanctifiers",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
         "source": {
           "faction": "agents",
           "id": "a2e60945-f476-5506-add2-c58e48d3ae64",
@@ -7428,13 +7272,6 @@
             "models": 1,
             "cost": 100,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 100,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -7493,21 +7330,6 @@
           "models": 6,
           "cost": 50,
           "label": "6 models"
-        },
-        {
-          "models": 12,
-          "cost": 120,
-          "label": "12 models · Imperium"
-        },
-        {
-          "models": 11,
-          "cost": 120,
-          "label": "11 models · Imperium"
-        },
-        {
-          "models": 6,
-          "cost": 60,
-          "label": "6 models · Imperium"
         }
       ],
       "unit_types": [
@@ -7916,7 +7738,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Inquisitorial Agents: 25mm\nGun Servitors: 32mm",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -7952,44 +7774,23 @@
         ],
         "prices": [
           {
-            "models": 12,
-            "cost": 100,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 11,
-            "cost": 100,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
             "models": 6,
             "cost": 50,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 12,
-            "cost": 120,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           },
           {
             "models": 11,
-            "cost": 120,
-            "keyword": "Imperium",
+            "cost": 100,
+            "keyword": null,
             "faction": null,
             "detachment": null
           },
           {
-            "models": 6,
-            "cost": 60,
-            "keyword": "Imperium",
+            "models": 12,
+            "cost": 100,
+            "keyword": null,
             "faction": null,
             "detachment": null
           }
@@ -8226,11 +8027,6 @@
           "models": 1,
           "cost": 60,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 60,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -8579,7 +8375,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8612,13 +8408,6 @@
             "models": 1,
             "cost": 60,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 60,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -8826,11 +8615,6 @@
           "models": 1,
           "cost": 40,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 40,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -9012,6 +8796,12 @@
             "text": "",
             "kind": "special",
             "timing": null
+          },
+          {
+            "name": "Assigned Agents",
+            "text": "",
+            "kind": "faction",
+            "timing": null
           }
         ],
         "transport": "",
@@ -9104,13 +8894,6 @@
             "models": 1,
             "cost": 40,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 40,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -9196,11 +8979,6 @@
           "models": 1,
           "cost": 60,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 75,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -9254,10 +9032,10 @@
         ],
         "melee": [
           {
-            "name": "Force‐orb cane",
+            "name": "Force-orb cane",
             "profiles": [
               {
-                "name": "Force‐orb cane",
+                "name": "Force-orb cane",
                 "range": "Melee",
                 "a": "3",
                 "skill": "4+",
@@ -9356,13 +9134,6 @@
             "models": 1,
             "cost": 60,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 75,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -9408,11 +9179,6 @@
           "models": 4,
           "cost": 75,
           "label": "4 models"
-        },
-        {
-          "models": 4,
-          "cost": 105,
-          "label": "4 models · Imperium"
         }
       ],
       "unit_types": [
@@ -9676,13 +9442,6 @@
             "models": 4,
             "cost": 75,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 4,
-            "cost": 105,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -9722,7 +9481,8 @@
             "name": "Rejuvenat Adept",
             "min": 1,
             "max": 1,
-            "statline": "Rejuvenat Adept"
+            "statline": "Rogue Trader",
+            "statline_assumed": true
           }
         ],
         "loadouts": [
@@ -9778,11 +9538,6 @@
           "models": 9,
           "cost": 100,
           "label": "9 models"
-        },
-        {
-          "models": 9,
-          "cost": 100,
-          "label": "9 models · Imperium"
         }
       ],
       "unit_types": [
@@ -9805,70 +9560,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Meltagun",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 3,
-          "loadout": 2,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Meltagun",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Plasma gun"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Holy fire",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": 3,
-          "loadout": 2,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Holy fire",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Ministorum hand flamer",
               "cost": 0
             },
@@ -9879,7 +9570,7 @@
           ],
           "source": 7,
           "model": 4,
-          "loadout": 3,
+          "loadout": 2,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -9920,7 +9611,7 @@
           ],
           "source": 8,
           "model": 4,
-          "loadout": 3,
+          "loadout": 2,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -9946,6 +9637,70 @@
             "Sanctifier melee weapon"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Meltagun",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 3,
+          "loadout": 4,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Meltagun",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Plasma gun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Holy fire",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 3,
+          "loadout": 4,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Holy fire",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
         }
       ],
       "composition": [
@@ -9959,42 +9714,6 @@
         "stats": [
           {
             "name": "Miraculist",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Salvationist",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Death Cult Assassin",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Missionary",
-            "m": "6\"",
-            "t": "3",
-            "sv": "6+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Sanctifier",
             "m": "6\"",
             "t": "3",
             "sv": "6+",
@@ -10235,7 +9954,7 @@
             }
           },
           {
-            "name": "Atttached Unit",
+            "name": "Attached Unit",
             "text": "",
             "kind": "special",
             "timing": null
@@ -10273,13 +9992,6 @@
             "models": 9,
             "cost": 100,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 9,
-            "cost": 100,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -10306,25 +10018,25 @@
             "name": "Salvationist",
             "min": 1,
             "max": 1,
-            "statline": "Salvationist"
+            "statline": "Miraculist"
           },
           {
             "name": "Death Cult Assassin",
             "min": 1,
             "max": 1,
-            "statline": "Death Cult Assassin"
+            "statline": "Miraculist"
           },
           {
             "name": "Missionaries",
             "min": 2,
             "max": 2,
-            "statline": "Missionary"
+            "statline": "Miraculist"
           },
           {
             "name": "Sanctifiers",
             "min": 4,
             "max": 4,
-            "statline": "Sanctifier"
+            "statline": "Miraculist"
           }
         ],
         "loadouts": [
@@ -10345,15 +10057,6 @@
             ]
           },
           {
-            "model": 3,
-            "role": null,
-            "wargear": [
-              "Plasma gun",
-              "Ministorum flamer",
-              "Sanctifier melee weapon"
-            ]
-          },
-          {
             "model": 4,
             "role": null,
             "wargear": [
@@ -10367,73 +10070,25 @@
             "wargear": [
               "Death Cult blades"
             ]
+          },
+          {
+            "model": 3,
+            "role": null,
+            "wargear": [
+              "Plasma gun",
+              "Sanctifier melee weapon"
+            ]
+          },
+          {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Ministorum flamer",
+              "Sanctifier melee weapon"
+            ]
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Meltagun",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 3,
-            "loadout": 2,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Meltagun",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Plasma gun"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Holy fire",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": 3,
-            "loadout": 2,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Holy fire",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -10448,7 +10103,7 @@
             ],
             "source": 7,
             "model": 4,
-            "loadout": 3,
+            "loadout": 2,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -10489,7 +10144,7 @@
             ],
             "source": 8,
             "model": 4,
-            "loadout": 3,
+            "loadout": 2,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -10515,6 +10170,70 @@
               "Sanctifier melee weapon"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Meltagun",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 3,
+            "loadout": 4,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Meltagun",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Plasma gun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Holy fire",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 3,
+            "loadout": 4,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Holy fire",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
           }
         ]
       }
@@ -10537,11 +10256,6 @@
           "models": 1,
           "cost": 90,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 105,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -10779,7 +10493,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -10813,13 +10527,6 @@
             "models": 1,
             "cost": 90,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 105,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -10949,11 +10656,6 @@
           "models": 10,
           "cost": 100,
           "label": "10 models"
-        },
-        {
-          "models": 10,
-          "cost": 110,
-          "label": "10 models · Imperium"
         }
       ],
       "unit_types": [
@@ -11643,7 +11345,7 @@
             }
           },
           {
-            "name": "Simulacrum Imperialis",
+            "name": "Simulacrum Imperials",
             "text": "",
             "kind": "wargear",
             "timing": null,
@@ -11690,13 +11392,6 @@
             "models": 10,
             "cost": 100,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 10,
-            "cost": 110,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -12081,11 +11776,6 @@
           "models": 11,
           "cost": 85,
           "label": "11 models"
-        },
-        {
-          "models": 11,
-          "cost": 100,
-          "label": "11 models · Imperium"
         }
       ],
       "unit_types": [
@@ -12102,11 +11792,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Nuncio-acquila",
+              "name": "Nuncio Aquila",
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 2,
           "model": 0,
           "loadout": 0,
           "heading": "",
@@ -12120,7 +11810,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Nuncio-acquila",
+                  "option": "Nuncio Aquila",
                   "count": 1
                 }
               ]
@@ -12216,7 +11906,7 @@
             "timing": null
           },
           {
-            "name": "Nuncio-acquila",
+            "name": "Nuncio Aquila",
             "text": "",
             "kind": "wargear",
             "timing": {
@@ -12231,7 +11921,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Proctor-Subductor, Subductors: 28.5mm\nCyber-mastiff: 25mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -12263,13 +11953,6 @@
             "models": 11,
             "cost": 85,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 11,
-            "cost": 100,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -12329,11 +12012,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Nuncio-acquila",
+                "name": "Nuncio Aquila",
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 2,
             "model": 0,
             "loadout": 0,
             "heading": "",
@@ -12347,7 +12030,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Nuncio-acquila",
+                    "option": "Nuncio Aquila",
                     "count": 1
                   }
                 ]
@@ -12376,11 +12059,6 @@
           "models": 11,
           "cost": 85,
           "label": "11 models"
-        },
-        {
-          "models": 11,
-          "cost": 85,
-          "label": "11 models · Imperium"
         }
       ],
       "unit_types": [
@@ -12394,37 +12072,6 @@
         "Mechanical bite"
       ],
       "wargear_options": [
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Nuncio-acquila",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": 0,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Nuncio-acquila",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
         {
           "instruction": "",
           "options": [
@@ -12499,6 +12146,37 @@
           "replaces": [
             "Arbites combat shotgun"
           ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Nuncio Aquila (Aura)",
+              "cost": 0
+            }
+          ],
+          "source": 4,
+          "model": 0,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Nuncio Aquila (Aura)",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
           "replaces_options": []
         }
       ],
@@ -12683,7 +12361,7 @@
             "timing": null
           },
           {
-            "name": "Nuncio-acquila",
+            "name": "Nuncio Aquila (Aura)",
             "text": "",
             "kind": "wargear",
             "timing": {
@@ -12698,7 +12376,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Proctor-Vigilant, Vigilants: 28.5mm\nCyber-mastiff: 25mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -12731,13 +12409,6 @@
             "models": 11,
             "cost": 85,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 11,
-            "cost": 85,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -12796,37 +12467,6 @@
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Nuncio-acquila",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": 0,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Nuncio-acquila",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -12902,6 +12542,37 @@
               "Arbites combat shotgun"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Nuncio Aquila (Aura)",
+                "cost": 0
+              }
+            ],
+            "source": 4,
+            "model": 0,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Nuncio Aquila (Aura)",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
           }
         ]
       }
@@ -12923,11 +12594,6 @@
           "models": 1,
           "cost": 110,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 125,
-          "label": "1 model · Imperium"
         },
         {
           "models": 1,
@@ -13104,24 +12770,17 @@
         "prices": [
           {
             "models": 1,
-            "cost": 110,
-            "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 125,
-            "keyword": "Imperium",
-            "faction": null,
-            "detachment": null
-          },
-          {
-            "models": 1,
             "cost": 130,
             "keyword": null,
             "faction": null,
             "detachment": "Veiled Blade Elimination Force"
+          },
+          {
+            "models": 1,
+            "cost": 110,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
           }
         ],
         "loadout": [
@@ -13167,11 +12826,6 @@
           "models": 6,
           "cost": 50,
           "label": "6 models"
-        },
-        {
-          "models": 6,
-          "cost": 70,
-          "label": "6 models · Imperium"
         }
       ],
       "unit_types": [
@@ -13361,13 +13015,6 @@
             "models": 6,
             "cost": 50,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 6,
-            "cost": 70,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -13412,19 +13059,10 @@
           },
           {
             "model": 1,
-            "role": "Voidsman rotor cannon",
+            "role": null,
             "wargear": [
               "Laspistol",
               "Voidsman rotor cannon",
-              "Close combat weapon"
-            ]
-          },
-          {
-            "model": 1,
-            "role": null,
-            "wargear": [
-              "Lasgun",
-              "Laspistol",
               "Close combat weapon"
             ]
           },
@@ -13433,6 +13071,15 @@
             "role": null,
             "wargear": [
               "Vicious bite"
+            ]
+          },
+          {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Lasgun",
+              "Laspistol",
+              "Close combat weapon"
             ]
           }
         ],
@@ -13456,11 +13103,6 @@
           "models": 1,
           "cost": 75,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 75,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -13620,13 +13262,6 @@
             "models": 1,
             "cost": 75,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 75,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -13671,11 +13306,6 @@
           "models": 1,
           "cost": 105,
           "label": "1 model"
-        },
-        {
-          "models": 1,
-          "cost": 105,
-          "label": "1 model · Imperium"
         }
       ],
       "unit_types": [
@@ -13711,7 +13341,7 @@
             "name": "Vigil Spear",
             "profiles": [
               {
-                "name": "Vigil Spear",
+                "name": "Vigil spear – Ranged",
                 "range": "24\"",
                 "a": "2",
                 "skill": "2+",
@@ -13728,7 +13358,7 @@
             "name": "Vigil Spear",
             "profiles": [
               {
-                "name": "Vigil Spear",
+                "name": "Vigil spear – Melee",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",
@@ -13736,7 +13366,7 @@
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
-                  "LANCE"
+                  "Lance"
                 ]
               }
             ]
@@ -13826,13 +13456,6 @@
             "models": 1,
             "cost": 105,
             "keyword": null,
-            "faction": "Agents of the Imperium",
-            "detachment": null
-          },
-          {
-            "models": 1,
-            "cost": 105,
-            "keyword": "Imperium",
             "faction": null,
             "detachment": null
           }
@@ -13864,7 +13487,7 @@
   "rules": {
     "faction": "agents",
     "name": "Agents of the Imperium",
-    "data_version": "2026-10-16T18:38:16.587Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Assigned Agents",
@@ -13928,7 +13551,7 @@
             "targets": [
               "voidfarers"
             ],
-            "non_character": false,
+            "non_character": true,
             "excludes": []
           }
         ],
@@ -13970,13 +13593,7 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null,
-            "units": {
-              "targets": [
-                "voidfarers character"
-              ],
-              "excludes": []
-            }
+            "secondary_effect": null
           },
           {
             "name": "Selfless Bodyguard",
@@ -14723,7 +14340,14 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "inquisitor",
+                "deathwatch infantry"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Hellfire Rounds",
