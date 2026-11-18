@@ -4603,6 +4603,10 @@
             "detachment": null
           }
         ],
+        "extra_cost": {
+          "cost": 10,
+          "after": 2
+        },
         "mixes": [
           {
             "models": {
@@ -7740,8 +7744,8 @@
         "name": "Gladius Task Force",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Take and Hold"
+          "Take and Hold",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
@@ -9182,9 +9186,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
@@ -9204,9 +9208,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
