@@ -3657,6 +3657,20 @@
             "timing": null
           },
           {
+            "name": "Luck Has. Need Keeps. Toil Earns.",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "command"
+                }
+              ]
+            }
+          },
+          {
             "name": "Panspectral Scanning",
             "text": "",
             "kind": "other",
@@ -3675,20 +3689,6 @@
                 "change": "5+"
               }
             ]
-          },
-          {
-            "name": "Luck Has. Need Keeps. Toil Earns",
-            "text": "",
-            "kind": "other",
-            "timing": {
-              "once_per": null,
-              "when": [
-                {
-                  "turn": "your",
-                  "phase": "command"
-                }
-              ]
-            }
           }
         ],
         "transport": "",
@@ -8691,6 +8691,16 @@
         ],
         "enhancements": [
           {
+            "name": "Dêlvewerke Navigator",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "leagues of votann"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
             "name": "Multiwave System Jammer",
             "points": 10,
             "text": "",
@@ -8713,16 +8723,6 @@
           {
             "name": "Piledriver",
             "points": 15,
-            "text": "",
-            "targets": [
-              "leagues of votann"
-            ],
-            "non_character": false,
-            "excludes": []
-          },
-          {
-            "name": "Dêlvwerke Navigator",
-            "points": 25,
             "text": "",
             "targets": [
               "leagues of votann"
@@ -8982,8 +8982,8 @@
         "name": "Hearthband",
         "dp": 3,
         "dispositions": [
-          "Reconnaissance",
-          "Priority Assets"
+          "Priority Assets",
+          "Reconnaissance"
         ],
         "unique": [
           "Hearthband"
