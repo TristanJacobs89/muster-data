@@ -443,7 +443,6 @@
       "composition": [
         "",
         "",
-        "",
         ""
       ],
       "data": {
@@ -454,15 +453,6 @@
             "t": "5",
             "sv": "4+",
             "w": "4",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Ironkin Assistant",
-            "m": "5\"",
-            "t": "5",
-            "sv": "4+",
-            "w": "1",
             "ld": "7+",
             "oc": "1"
           },
@@ -633,7 +623,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Brôkhyr Iron-master: 32mm\nIronkin Assistant: 28.5mm\nE-COG: 25mm",
+        "base_size": "BRÔKHYR IRON-MASTER: 32mm, IRONKIN ASSISTANT: 28.5mm, E-COG: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Character",
@@ -705,7 +695,8 @@
             "name": "Ironkin Assistant",
             "min": 1,
             "max": 1,
-            "statline": "Ironkin Assistant"
+            "statline": "Brôkhyr Iron-master",
+            "statline_assumed": true
           },
           {
             "name": "E-COGs",
@@ -1552,7 +1543,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Cthonian Beserks: 28.5mm\nMole grenade launcher: 50mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -2450,9 +2441,9 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": 0,
-          "loadout": 0,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -2470,9 +2461,7 @@
               ]
             }
           ],
-          "replaces": [
-            "Concussion gauntlet"
-          ],
+          "replaces": [],
           "replaces_options": [
             "Plasma blade gauntlet"
           ]
@@ -2485,9 +2474,9 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 6,
           "model": 0,
-          "loadout": 0,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -2743,22 +2732,19 @@
         ],
         "loadouts": [
           {
-            "model": 0,
-            "role": null,
-            "wargear": [
-              "EtaCarn plasma gun",
-              "Exoarmour grenade launcher",
-              "Concussion gauntlet",
-              "Weavefield crest"
-            ]
-          },
-          {
             "model": 1,
             "role": null,
             "wargear": [
               "EtaCarn plasma gun",
               "Exoarmour grenade launcher",
               "Concussion gauntlet"
+            ]
+          },
+          {
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Weavefield crest"
             ]
           }
         ],
@@ -2837,9 +2823,9 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": 0,
-            "loadout": 0,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -2857,9 +2843,7 @@
                 ]
               }
             ],
-            "replaces": [
-              "Concussion gauntlet"
-            ],
+            "replaces": [],
             "replaces_options": [
               "Plasma blade gauntlet"
             ]
@@ -2872,9 +2856,9 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 6,
             "model": 0,
-            "loadout": 0,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -2930,7 +2914,6 @@
       ],
       "wargear_options": [],
       "composition": [
-        "",
         "",
         ""
       ],
@@ -3082,7 +3065,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Grimnyr: 40mm\nCORV: 25mm",
+        "base_size": "GRIMNYR: 40mm, CORV: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -3674,20 +3657,6 @@
             "timing": null
           },
           {
-            "name": "Luck Has. Need Keeps. Toil Earns.",
-            "text": "",
-            "kind": "other",
-            "timing": {
-              "once_per": null,
-              "when": [
-                {
-                  "turn": "your",
-                  "phase": "command"
-                }
-              ]
-            }
-          },
-          {
             "name": "Panspectral Scanning",
             "text": "",
             "kind": "other",
@@ -3706,6 +3675,20 @@
                 "change": "5+"
               }
             ]
+          },
+          {
+            "name": "Luck Has. Need Keeps. Toil Earns",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "command"
+                }
+              ]
+            }
           }
         ],
         "transport": "",
@@ -4050,7 +4033,7 @@
         "MATR autocannon",
         "Twin bolt cannon",
         "Armoured wheels",
-        "Panspectral Scanner"
+        "Pan spectral scanner"
       ],
       "wargear_options": [
         {
@@ -4065,7 +4048,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4118,7 +4101,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 5,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4160,7 +4143,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 6,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4181,7 +4164,7 @@
             }
           ],
           "replaces": [
-            "Panspectral Scanner"
+            "Pan spectral scanner"
           ],
           "replaces_options": []
         }
@@ -4379,7 +4362,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4422,7 +4405,7 @@
           "MATR autocannon",
           "Twin bolt cannon",
           "Armoured wheels",
-          "Panspectral Scanner"
+          "Pan spectral scanner"
         ],
         "model_types": [
           {
@@ -4441,7 +4424,7 @@
               "MATR autocannon",
               "Twin bolt cannon",
               "Armoured wheels",
-              "Panspectral Scanner"
+              "Pan spectral scanner"
             ],
             "counts": {
               "Twin bolt cannon": 2
@@ -4461,7 +4444,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4514,7 +4497,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 5,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4556,7 +4539,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 6,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4577,7 +4560,7 @@
               }
             ],
             "replaces": [
-              "Panspectral Scanner"
+              "Pan spectral scanner"
             ],
             "replaces_options": []
           }
@@ -4668,23 +4651,15 @@
             {
               "name": "Multiwave Comms Array",
               "cost": 0
-            },
-            {
-              "name": "Panspectral Scanner",
-              "cost": 0
-            },
-            {
-              "name": "Rollbar Searchlight",
-              "cost": 0
             }
           ],
-          "source": 2,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
           "cap": {
             "kind": "fixed",
-            "n": 3
+            "n": 1
           },
           "each": 1,
           "choices": [
@@ -4695,14 +4670,30 @@
                   "option": "Multiwave Comms Array",
                   "count": 1
                 }
-              ],
-              "caps": [
-                {
-                  "kind": "fixed",
-                  "n": 1
-                }
               ]
-            },
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Panspectral Scanner",
+              "cost": 0
+            }
+          ],
+          "source": 4,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
             {
               "text": "",
               "items": [
@@ -4710,26 +4701,36 @@
                   "option": "Panspectral Scanner",
                   "count": 1
                 }
-              ],
-              "caps": [
-                {
-                  "kind": "fixed",
-                  "n": 1
-                }
               ]
-            },
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Rollbar Searchlight",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
             {
               "text": "",
               "items": [
                 {
                   "option": "Rollbar Searchlight",
                   "count": 1
-                }
-              ],
-              "caps": [
-                {
-                  "kind": "fixed",
-                  "n": 1
                 }
               ]
             }
@@ -4895,7 +4896,7 @@
           }
         ],
         "transport": "",
-        "base_size": "90 x 52.5mm Oval Base",
+        "base_size": "90 x 52mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -5023,23 +5024,15 @@
               {
                 "name": "Multiwave Comms Array",
                 "cost": 0
-              },
-              {
-                "name": "Panspectral Scanner",
-                "cost": 0
-              },
-              {
-                "name": "Rollbar Searchlight",
-                "cost": 0
               }
             ],
-            "source": 2,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
             "cap": {
               "kind": "fixed",
-              "n": 3
+              "n": 1
             },
             "each": 1,
             "choices": [
@@ -5050,14 +5043,30 @@
                     "option": "Multiwave Comms Array",
                     "count": 1
                   }
-                ],
-                "caps": [
-                  {
-                    "kind": "fixed",
-                    "n": 1
-                  }
                 ]
-              },
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Panspectral Scanner",
+                "cost": 0
+              }
+            ],
+            "source": 4,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
               {
                 "text": "",
                 "items": [
@@ -5065,26 +5074,36 @@
                     "option": "Panspectral Scanner",
                     "count": 1
                   }
-                ],
-                "caps": [
-                  {
-                    "kind": "fixed",
-                    "n": 1
-                  }
                 ]
-              },
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Rollbar Searchlight",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
               {
                 "text": "",
                 "items": [
                   {
                     "option": "Rollbar Searchlight",
                     "count": 1
-                  }
-                ],
-                "caps": [
-                  {
-                    "kind": "fixed",
-                    "n": 1
                   }
                 ]
               }
@@ -6791,7 +6810,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105x70mm",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7122,7 +7141,7 @@
           }
         ],
         "transport": "",
-        "base_size": "105x70mm",
+        "base_size": "105 x 70mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -7686,7 +7705,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8023,7 +8042,7 @@
   "rules": {
     "faction": "votann",
     "name": "Leagues of Votann",
-    "data_version": "2026-10-16T18:38:17.209Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Prioritised Efficiency",
@@ -8656,21 +8675,21 @@
                 },
                 "kind": "ability",
                 "name": "Deep Strike"
+              },
+              {
+                "who": {
+                  "with": [
+                    "Cthonian Beserks"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
               }
             ]
           }
         ],
         "enhancements": [
-          {
-            "name": "Dêlvewerke Navigator",
-            "points": 25,
-            "text": "",
-            "targets": [
-              "leagues of votann"
-            ],
-            "non_character": false,
-            "excludes": []
-          },
           {
             "name": "Multiwave System Jammer",
             "points": 10,
@@ -8700,10 +8719,27 @@
             ],
             "non_character": false,
             "excludes": []
+          },
+          {
+            "name": "Dêlvwerke Navigator",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "leagues of votann"
+            ],
+            "non_character": false,
+            "excludes": []
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Cthonian Beserks"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -8946,8 +8982,8 @@
         "name": "Hearthband",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Reconnaissance"
+          "Reconnaissance",
+          "Priority Assets"
         ],
         "unique": [
           "Hearthband"
@@ -9664,13 +9700,9 @@
             "name": "Secure Positions",
             "cp": 1,
             "type": "Strategic Ploy",
-            "turn": "your",
+            "turn": "either",
             "phases": [
-              "charge",
-              "command",
-              "fight",
-              "movement",
-              "shooting"
+              "any"
             ],
             "when": "",
             "target": "",
