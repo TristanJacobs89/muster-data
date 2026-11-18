@@ -226,8 +226,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Transmogrifying Blast",
               "Inferno bolt pistol",
+              "Transmogrifying Blast",
               "Black Staff of Ahriman"
             ]
           }
@@ -482,7 +482,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -934,7 +934,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -1424,7 +1424,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -1831,7 +1831,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2346,7 +2346,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2515,7 +2515,7 @@
       "loadout": [
         "Dark Blessing",
         "Infernal cannon",
-        "Hellforged weapons"
+        "Heliforged weapons"
       ],
       "wargear_options": [],
       "composition": [
@@ -2679,7 +2679,7 @@
         "loadout": [
           "Dark Blessing",
           "Infernal cannon",
-          "Hellforged weapons"
+          "Heliforged weapons"
         ],
         "model_types": [
           {
@@ -2696,7 +2696,7 @@
             "wargear": [
               "Dark Blessing",
               "Infernal cannon",
-              "Hellforged weapons"
+              "Heliforged weapons"
             ]
           }
         ],
@@ -2732,7 +2732,7 @@
       "loadout": [
         "Dark Blessing",
         "Infernal cannon",
-        "Hellforged weapons"
+        "Heliforged weapons"
       ],
       "wargear_options": [],
       "composition": [
@@ -2909,7 +2909,7 @@
         "loadout": [
           "Dark Blessing",
           "Infernal cannon",
-          "Hellforged weapons"
+          "Heliforged weapons"
         ],
         "model_types": [
           {
@@ -2926,7 +2926,7 @@
             "wargear": [
               "Dark Blessing",
               "Infernal cannon",
-              "Hellforged weapons"
+              "Heliforged weapons"
             ]
           }
         ],
@@ -3034,16 +3034,16 @@
           "instruction": "",
           "options": [
             {
+              "name": "Hades lascannon",
+              "cost": 15
+            },
+            {
               "name": "Heavy reaper autocannon",
               "cost": 15
             },
             {
               "name": "Electroscourge",
               "cost": 0
-            },
-            {
-              "name": "Hades lascannon",
-              "cost": 15
             }
           ],
           "source": 3,
@@ -3449,11 +3449,11 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shearing claws",
               "Hades battle cannon",
               "Excruciator cannon",
               "Heavy missile launcher",
-              "Heavy baleflamer"
+              "Heavy baleflamer",
+              "Shearing claws"
             ],
             "counts": {
               "Excruciator cannon": 2
@@ -3531,16 +3531,16 @@
             "instruction": "",
             "options": [
               {
+                "name": "Hades lascannon",
+                "cost": 15
+              },
+              {
                 "name": "Heavy reaper autocannon",
                 "cost": 15
               },
               {
                 "name": "Electroscourge",
                 "cost": 0
-              },
-              {
-                "name": "Hades lascannon",
-                "cost": 15
               }
             ],
             "source": 3,
@@ -4487,7 +4487,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5519,10 +5519,16 @@
             "text": "",
             "kind": "damaged",
             "timing": null
+          },
+          {
+            "name": "Hover",
+            "text": "",
+            "kind": "core",
+            "timing": null
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6267,7 +6273,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6529,7 +6535,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -6770,21 +6776,21 @@
       "data": {
         "stats": [
           {
-            "name": "Aspiring Sorcerer",
-            "m": "6\"",
-            "t": "5",
-            "sv": "3+",
-            "w": "3",
-            "ld": "6+",
-            "oc": "2"
-          },
-          {
             "name": "Rubric Marine",
             "m": "6\"",
             "t": "5",
             "sv": "3+",
             "w": "2",
             "ld": "7+",
+            "oc": "2"
+          },
+          {
+            "name": "Aspiring Sorcerer",
+            "m": "6\"",
+            "t": "5",
+            "sv": "3+",
+            "w": "3",
+            "ld": "6+",
             "oc": "2"
           }
         ],
@@ -7345,21 +7351,21 @@
       "data": {
         "stats": [
           {
-            "name": "Scarab Occult Sorcerer",
-            "m": "5\"",
-            "t": "6",
-            "sv": "2+",
-            "w": "4",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Scarab Occult Terminator",
             "m": "5\"",
             "t": "6",
             "sv": "2+",
             "w": "3",
             "ld": "7+",
+            "oc": "1"
+          },
+          {
+            "name": "Scarab Occult Sorcerer",
+            "m": "5\"",
+            "t": "6",
+            "sv": "2+",
+            "w": "4",
+            "ld": "6+",
             "oc": "1"
           }
         ],
@@ -8328,8 +8334,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Pandaemonic Delusion",
               "Inferno bolt pistol",
+              "Pandaemonic Delusion",
               "Force weapon"
             ]
           }
@@ -9799,7 +9805,7 @@
   "rules": {
     "faction": "thousandsons",
     "name": "Thousand Sons",
-    "data_version": "2026-10-16T18:38:13.702Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Cabal of Sorcerers",
@@ -10386,16 +10392,6 @@
             "excludes": []
           },
           {
-            "name": "Perplexing Cloak",
-            "points": 20,
-            "text": "",
-            "targets": [
-              "thousand sons infantry"
-            ],
-            "non_character": false,
-            "excludes": []
-          },
-          {
             "name": "Biomechanical Mutation",
             "points": 15,
             "text": "",
@@ -10411,6 +10407,16 @@
             "text": "",
             "targets": [
               "thousand sons"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "The Perplexing Cloak",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "thousand sons infantry"
             ],
             "non_character": false,
             "excludes": []
@@ -10571,11 +10577,11 @@
             "modifiers": [
               {
                 "who": "unit",
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "all",
                 "stat": "s",
-                "change": 1,
-                "only": "Psychic"
+                "change": 1
               }
             ]
           },
@@ -10748,8 +10754,8 @@
         "name": "Grand Coven",
         "dp": 3,
         "dispositions": [
-          "Disruption",
-          "Priority Assets"
+          "Priority Assets",
+          "Disruption"
         ],
         "unique": [],
         "rules": [
@@ -10800,18 +10806,18 @@
             "excludes": [],
             "modifiers": [
               {
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "all",
                 "stat": "s",
-                "change": 1,
-                "only": "Psychic"
+                "change": 1
               },
               {
+                "only": "Psychic",
                 "kind": "weapon",
                 "weapons": "all",
                 "stat": "d",
-                "change": 1,
-                "only": "Psychic"
+                "change": 1
               }
             ]
           }
@@ -10961,7 +10967,19 @@
         "rules": [
           {
             "name": "Warpmeld Sacrifice",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Tzaangors"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Battleline"
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -10995,6 +11013,12 @@
             ],
             "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "kind": "ability",
+                "name": "Scouts 6\""
+              }
+            ],
             "attaches": [
               {
                 "type": "leader",
@@ -11003,12 +11027,6 @@
                 "requires_keyword": null,
                 "excludes_detachment": null,
                 "name_only": true
-              }
-            ],
-            "modifiers": [
-              {
-                "kind": "ability",
-                "name": "Scouts 6\""
               }
             ]
           },
@@ -11035,7 +11053,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Tzaangors"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -11168,8 +11193,8 @@
         "name": "Rubricae Phalanx",
         "dp": 3,
         "dispositions": [
-          "Take and Hold",
-          "Priority Assets"
+          "Priority Assets",
+          "Take and Hold"
         ],
         "unique": [],
         "rules": [
@@ -11210,7 +11235,7 @@
             "excludes": []
           },
           {
-            "name": "Stave Abominus",
+            "name": "The Stave Abominus",
             "points": 20,
             "text": "",
             "targets": [
