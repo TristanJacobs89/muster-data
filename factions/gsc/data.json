@@ -164,7 +164,7 @@
         ],
         "loadouts": [
           {
-            "model": null,
+            "model": 1,
             "role": null,
             "wargear": [
               "Aberrant weapons"
@@ -626,7 +626,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -968,21 +968,6 @@
         ],
         "melee": [
           {
-            "name": "Leader’s cult weapons",
-            "profiles": [
-              {
-                "name": "Leader’s cult weapons",
-                "range": "Melee",
-                "a": "5",
-                "skill": "3+",
-                "s": "5",
-                "ap": "-2",
-                "d": "1",
-                "keywords": []
-              }
-            ]
-          },
-          {
             "name": "Heavy mining tool",
             "profiles": [
               {
@@ -1009,6 +994,21 @@
                 "skill": "3+",
                 "s": "4",
                 "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Leader’s bio-weapons",
+            "profiles": [
+              {
+                "name": "Leader’s bio-weapons",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
                 "d": "1",
                 "keywords": []
               }
@@ -1431,21 +1431,6 @@
         ],
         "melee": [
           {
-            "name": "Leader’s cult weapons",
-            "profiles": [
-              {
-                "name": "Leader’s cult weapons",
-                "range": "Melee",
-                "a": "5",
-                "skill": "3+",
-                "s": "5",
-                "ap": "-2",
-                "d": "1",
-                "keywords": []
-              }
-            ]
-          },
-          {
             "name": "Cult claws and knife",
             "profiles": [
               {
@@ -1455,6 +1440,21 @@
                 "skill": "3+",
                 "s": "4",
                 "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Leader’s bio-weapons",
+            "profiles": [
+              {
+                "name": "Leader’s bio-weapons",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
                 "d": "1",
                 "keywords": []
               }
@@ -2054,7 +2054,6 @@
       ],
       "composition": [
         "",
-        "",
         ""
       ],
       "data": {
@@ -2249,7 +2248,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Atalan Jackal: 60 x 35.5mm Oval Base\nWolfquad: 60mm",
+        "base_size": "ATALAN JACKAL: 60 x 35.5mm, ATALAN WOLFQUAD: 60mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -3394,7 +3393,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3655,7 +3654,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3904,10 +3903,10 @@
             ]
           },
           {
-            "name": "Leader’s cult weapons",
+            "name": "Leader’s bio-weapons",
             "profiles": [
               {
-                "name": "Leader’s cult weapons",
+                "name": "Leader’s bio-weapons",
                 "range": "Melee",
                 "a": "5",
                 "skill": "3+",
@@ -4277,7 +4276,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60 x 35.5mm Oval Base",
+        "base_size": "60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -4795,10 +4794,10 @@
         ],
         "melee": [
           {
-            "name": "Force stave",
+            "name": "Magus stave",
             "profiles": [
               {
-                "name": "Force stave",
+                "name": "Magus stave",
                 "range": "Melee",
                 "a": "3",
                 "skill": "3+",
@@ -5481,7 +5480,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Neophyte Hybrids: 25mm\nHeavy Stubber, Mining Laser, Seismic Cannon: 32mm",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -7116,7 +7115,7 @@
   "rules": {
     "faction": "gsc",
     "name": "Genestealer Cults",
-    "data_version": "2026-10-16T18:38:18.522Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Cult Ambush",
@@ -7200,7 +7199,7 @@
             ]
           },
           {
-            "name": "Fire-point Commander",
+            "name": "Firepoint Commander",
             "points": 10,
             "text": "",
             "targets": [
