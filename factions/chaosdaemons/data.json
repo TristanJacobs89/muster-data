@@ -7585,7 +7585,7 @@
             "timing": null
           },
           {
-            "name": "Horrors Are Pink. Horrors Are Blue. Whereonce There Was One, Now There Are Two.",
+            "name": "HORRORS ARE PINK. HORRORS ARE BLUE. WHERE ONCE THERE WAS ONE, NOW THERE ARE TWO.",
             "text": "",
             "kind": "special",
             "timing": null
@@ -12853,7 +12853,7 @@
             "secondary_effect": null
           },
           {
-            "name": "Fools’ Flight",
+            "name": "Fool’s Flight",
             "cp": 2,
             "type": "Strategic Ploy",
             "turn": "opponents",
@@ -13109,6 +13109,16 @@
         ],
         "enhancements": [
           {
+            "name": "Cankerblight (Aura)",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "legiones daemonica nurgle"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
             "name": "Maggot Maws",
             "points": 15,
             "text": "",
@@ -13134,16 +13144,6 @@
             "text": "",
             "targets": [
               "legiones daemonica nurgle monster"
-            ],
-            "non_character": false,
-            "excludes": []
-          },
-          {
-            "name": "Cankerblight",
-            "points": 15,
-            "text": "",
-            "targets": [
-              "legiones daemonica nurgle"
             ],
             "non_character": false,
             "excludes": []
