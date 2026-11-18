@@ -1,5 +1,5 @@
 {
-  "schema": 36,
+  "schema": 37,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "faction": {
           "type": "object",
@@ -1946,6 +1946,17 @@
                     "type": "array",
                     "items": {
                       "type": "string"
+                    }
+                  },
+                  "wargear_costs": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string"
+                    },
+                    "additionalProperties": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 9007199254740991
                     }
                   },
                   "model_types": {
@@ -6093,7 +6104,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "stratagems": {
           "type": "array",
@@ -6277,7 +6288,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "source": {
           "type": "string"
@@ -6550,7 +6561,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "source": {
           "type": "string"
@@ -6872,7 +6883,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "sizes": {
           "minItems": 1,
@@ -6931,7 +6942,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 36
+          "const": 37
         },
         "text": {
           "type": "object",
