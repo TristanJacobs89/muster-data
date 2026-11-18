@@ -7683,9 +7683,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
@@ -7705,9 +7705,9 @@
             ],
             "non_character": true,
             "excludes": [
-              "Dedicated Transport",
               "Fly",
-              "Walker"
+              "Walker",
+              "Dedicated Transport"
             ],
             "modifiers": [
               {
