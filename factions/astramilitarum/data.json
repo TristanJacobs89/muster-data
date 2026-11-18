@@ -80,7 +80,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Fortification",
@@ -1340,7 +1340,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60 x 35mm Oval Base",
+        "base_size": "60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -1632,7 +1632,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -1999,7 +1999,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2436,7 +2436,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -2854,7 +2854,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -3250,7 +3250,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -4023,7 +4023,7 @@
                 "name": "Close combat weapon",
                 "range": "Melee",
                 "a": "3",
-                "skill": "3+",
+                "skill": "4+",
                 "s": "3",
                 "ap": "0",
                 "d": "1",
@@ -4313,7 +4313,8 @@
         "Master Vox",
         "Close combat weapon",
         "Medi-pack",
-        "Regimental Standard"
+        "Regimental Standard",
+        "Las pistol"
       ],
       "wargear_options": [
         {
@@ -4426,9 +4427,126 @@
             {
               "name": "Plasma gun",
               "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 1,
+          "loadout": 3,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Flamer",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Grenade launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Meltagun",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma gun",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Lasgun",
+            "Regimental Standard"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Bolt pistol",
+              "cost": 0
+            },
+            {
+              "name": "Plasma pistol",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 1,
+          "loadout": 3,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bolt pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma pistol",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Flamer",
+              "cost": 0
             },
             {
               "name": "Close combat weapon",
+              "cost": 0
+            },
+            {
+              "name": "Grenade launcher",
+              "cost": 0
+            },
+            {
+              "name": "Meltagun",
+              "cost": 0
+            },
+            {
+              "name": "Plasma gun",
               "cost": 0
             },
             {
@@ -4440,9 +4558,9 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 11,
           "model": 1,
-          "loadout": 1,
+          "loadout": 4,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -4523,125 +4641,6 @@
           ],
           "replaces": [
             "Chainsword"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Bolt pistol",
-              "cost": 0
-            },
-            {
-              "name": "Plasma pistol",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Bolt pistol",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Plasma pistol",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Laspistol"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Flamer",
-              "cost": 0
-            },
-            {
-              "name": "Grenade launcher",
-              "cost": 0
-            },
-            {
-              "name": "Meltagun",
-              "cost": 0
-            },
-            {
-              "name": "Plasma gun",
-              "cost": 0
-            }
-          ],
-          "source": 9,
-          "model": 1,
-          "loadout": 4,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Flamer",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Grenade launcher",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Meltagun",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Plasma gun",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Lasgun",
-            "Regimental Standard"
           ],
           "replaces_options": []
         }
@@ -5025,7 +5024,8 @@
           "Master Vox",
           "Close combat weapon",
           "Medi-pack",
-          "Regimental Standard"
+          "Regimental Standard",
+          "Las pistol"
         ],
         "model_types": [
           {
@@ -5052,14 +5052,6 @@
           },
           {
             "model": 1,
-            "role": null,
-            "wargear": [
-              "Laspistol",
-              "Chainsword"
-            ]
-          },
-          {
-            "model": 1,
             "role": "Master Vox",
             "wargear": [
               "Lasgun",
@@ -5078,11 +5070,19 @@
           },
           {
             "model": 1,
-            "role": "Regimental Standard",
+            "role": null,
             "wargear": [
               "Lasgun",
               "Regimental Standard",
               "Close combat weapon"
+            ]
+          },
+          {
+            "model": 1,
+            "role": "Las pistol",
+            "wargear": [
+              "Las pistol",
+              "Chainsword"
             ]
           }
         ],
@@ -5197,9 +5197,126 @@
               {
                 "name": "Plasma gun",
                 "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 1,
+            "loadout": 3,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Flamer",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Grenade launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Meltagun",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma gun",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Lasgun",
+              "Regimental Standard"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Bolt pistol",
+                "cost": 0
+              },
+              {
+                "name": "Plasma pistol",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 1,
+            "loadout": 3,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bolt pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma pistol",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Flamer",
+                "cost": 0
               },
               {
                 "name": "Close combat weapon",
+                "cost": 0
+              },
+              {
+                "name": "Grenade launcher",
+                "cost": 0
+              },
+              {
+                "name": "Meltagun",
+                "cost": 0
+              },
+              {
+                "name": "Plasma gun",
                 "cost": 0
               },
               {
@@ -5211,9 +5328,9 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 11,
             "model": 1,
-            "loadout": 1,
+            "loadout": 4,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -5294,125 +5411,6 @@
             ],
             "replaces": [
               "Chainsword"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Bolt pistol",
-                "cost": 0
-              },
-              {
-                "name": "Plasma pistol",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Bolt pistol",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Plasma pistol",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Laspistol"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Flamer",
-                "cost": 0
-              },
-              {
-                "name": "Grenade launcher",
-                "cost": 0
-              },
-              {
-                "name": "Meltagun",
-                "cost": 0
-              },
-              {
-                "name": "Plasma gun",
-                "cost": 0
-              }
-            ],
-            "source": 9,
-            "model": 1,
-            "loadout": 4,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Flamer",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Grenade launcher",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Meltagun",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Plasma gun",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Lasgun",
-              "Regimental Standard"
             ],
             "replaces_options": []
           }
@@ -6276,7 +6274,7 @@
           }
         ],
         "transport": "",
-        "base_size": "28mm",
+        "base_size": "28.5mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -6335,8 +6333,8 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Close combat weapon",
-              "Lasgun"
+              "Lasgun",
+              "Close combat weapon"
             ]
           }
         ],
@@ -9205,7 +9203,6 @@
       ],
       "wargear_options": [],
       "composition": [
-        "",
         ""
       ],
       "data": {
@@ -9278,7 +9275,7 @@
           }
         ],
         "transport": "",
-        "base_size": "",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -9713,7 +9710,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -10546,7 +10543,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -11199,7 +11196,9 @@
         "Vehicle"
       ],
       "epic_hero": false,
-      "loadout": [],
+      "loadout": [
+        "Nothing"
+      ],
       "wargear_options": [],
       "composition": [
         ""
@@ -11246,7 +11245,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": true,
         "keywords": [
           "Vehicle",
@@ -11283,7 +11282,9 @@
           "cost": 5,
           "after": 2
         },
-        "loadout": [],
+        "loadout": [
+          "Nothing"
+        ],
         "model_types": [
           {
             "name": "Cyclops Demolition Vehicle",
@@ -11296,7 +11297,9 @@
           {
             "model": null,
             "role": null,
-            "wargear": []
+            "wargear": [
+              "Nothing"
+            ]
           }
         ],
         "wargear_options": []
@@ -11462,14 +11465,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Meltagun",
-              "cost": 0
-            },
-            {
-              "name": "Plasma gun",
-              "cost": 0
-            },
-            {
               "name": "Flamer",
               "cost": 0
             },
@@ -11479,6 +11474,14 @@
             },
             {
               "name": "Long-las",
+              "cost": 0
+            },
+            {
+              "name": "Meltagun",
+              "cost": 0
+            },
+            {
+              "name": "Plasma gun",
               "cost": 0
             }
           ],
@@ -12125,14 +12128,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Meltagun",
-                "cost": 0
-              },
-              {
-                "name": "Plasma gun",
-                "cost": 0
-              },
-              {
                 "name": "Flamer",
                 "cost": 0
               },
@@ -12142,6 +12137,14 @@
               },
               {
                 "name": "Long-las",
+                "cost": 0
+              },
+              {
+                "name": "Meltagun",
+                "cost": 0
+              },
+              {
+                "name": "Plasma gun",
                 "cost": 0
               }
             ],
@@ -12303,8 +12306,8 @@
       "loadout": [
         "Death Rider lascarbine",
         "Frag lance",
-        "Savage claws",
-        "Power sabre"
+        "Power sabre",
+        "Steed's savage claws"
       ],
       "wargear_options": [],
       "composition": [
@@ -12315,15 +12318,6 @@
         "stats": [
           {
             "name": "Ridemaster",
-            "m": "10\"",
-            "t": "4",
-            "sv": "4+",
-            "w": "2",
-            "ld": "7+",
-            "oc": "1"
-          },
-          {
-            "name": "Death Rider",
             "m": "10\"",
             "t": "4",
             "sv": "4+",
@@ -12353,23 +12347,6 @@
           }
         ],
         "melee": [
-          {
-            "name": "Savage claws",
-            "profiles": [
-              {
-                "name": "Savage claws",
-                "range": "Melee",
-                "a": "2",
-                "skill": "4+",
-                "s": "4",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "Extra Attacks"
-                ]
-              }
-            ]
-          },
           {
             "name": "Frag lance",
             "profiles": [
@@ -12401,6 +12378,23 @@
                 "keywords": []
               }
             ]
+          },
+          {
+            "name": "Steed's savage claws",
+            "profiles": [
+              {
+                "name": "Steed's savage claws",
+                "range": "Melee",
+                "a": "2",
+                "skill": "4+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Extra Attacks"
+                ]
+              }
+            ]
           }
         ],
         "abilities": [
@@ -12420,7 +12414,7 @@
           }
         ],
         "transport": "",
-        "base_size": "60 x 35.5mm Oval Base",
+        "base_size": "60 x 35.5mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -12469,8 +12463,8 @@
         "loadout": [
           "Death Rider lascarbine",
           "Frag lance",
-          "Savage claws",
-          "Power sabre"
+          "Power sabre",
+          "Steed's savage claws"
         ],
         "model_types": [
           {
@@ -12483,7 +12477,7 @@
             "name": "Death Riders",
             "min": 4,
             "max": 9,
-            "statline": "Death Rider"
+            "statline": "Ridemaster"
           }
         ],
         "loadouts": [
@@ -12493,8 +12487,8 @@
             "wargear": [
               "Death Rider lascarbine",
               "Frag lance",
-              "Savage claws",
-              "Power sabre"
+              "Power sabre",
+              "Steed's savage claws"
             ]
           }
         ],
@@ -12730,7 +12724,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -13119,7 +13113,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -13939,8 +13933,7 @@
             "name": "Tanith Ghosts",
             "min": 5,
             "max": 5,
-            "statline": "Ibram Gaunt",
-            "statline_assumed": true
+            "statline": "Oan Mkoll"
           }
         ],
         "loadouts": [
@@ -14297,7 +14290,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -14810,7 +14803,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -15075,11 +15068,11 @@
               "cost": 0
             },
             {
-              "name": "Melta cannon",
+              "name": "Lascannon",
               "cost": 0
             },
             {
-              "name": "Lascannon",
+              "name": "Melta cannon",
               "cost": 0
             }
           ],
@@ -15106,7 +15099,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Melta cannon",
+                  "option": "Lascannon",
                   "count": 1
                 }
               ]
@@ -15115,7 +15108,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Lascannon",
+                  "option": "Melta cannon",
                   "count": 1
                 }
               ]
@@ -15291,7 +15284,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -15404,11 +15397,11 @@
                 "cost": 0
               },
               {
-                "name": "Melta cannon",
+                "name": "Lascannon",
                 "cost": 0
               },
               {
-                "name": "Lascannon",
+                "name": "Melta cannon",
                 "cost": 0
               }
             ],
@@ -15435,7 +15428,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Melta cannon",
+                    "option": "Lascannon",
                     "count": 1
                   }
                 ]
@@ -15444,7 +15437,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Lascannon",
+                    "option": "Melta cannon",
                     "count": 1
                   }
                 ]
@@ -15677,7 +15670,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -16145,7 +16138,7 @@
                 "name": "Bolt pistol",
                 "range": "12\"",
                 "a": "1",
-                "skill": "3+",
+                "skill": "4+",
                 "s": "4",
                 "ap": "0",
                 "d": "1",
@@ -16192,7 +16185,7 @@
                 "name": "Plasma pistol – Standard",
                 "range": "12\"",
                 "a": "1",
-                "skill": "3+",
+                "skill": "4+",
                 "s": "7",
                 "ap": "-2",
                 "d": "1",
@@ -16204,7 +16197,7 @@
                 "name": "Plasma pistol – Supercharge",
                 "range": "12\"",
                 "a": "1",
-                "skill": "3+",
+                "skill": "4+",
                 "s": "8",
                 "ap": "-3",
                 "d": "2",
@@ -17056,15 +17049,6 @@
             "w": "1",
             "ld": "7+",
             "oc": "1"
-          },
-          {
-            "name": "Krieg Combat Engineer",
-            "m": "6\"",
-            "t": "3",
-            "sv": "4+",
-            "w": "1",
-            "ld": "7+",
-            "oc": "1"
           }
         ],
         "invul": null,
@@ -17348,7 +17332,7 @@
             "name": "Krieg Combat Engineers",
             "min": 4,
             "max": 9,
-            "statline": "Krieg Combat Engineer"
+            "statline": "Krieg Engineer Watchmaster"
           }
         ],
         "loadouts": [
@@ -18235,7 +18219,7 @@
           }
         ],
         "transport": "",
-        "base_size": "25mm",
+        "base_size": "LORD COMMISSAR: 32mm, VETERAN GUARDSMAN: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -18808,7 +18792,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Heavy Weapons Squad: 50mm\nFire Coordinator: 25mm",
+        "base_size": "HEAVY WEAPONS GUNNER: 50mm, FIRE COORDINATOR: 25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -19372,7 +19356,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -20153,36 +20137,6 @@
             ]
           },
           {
-            "name": "Plasma cannon",
-            "profiles": [
-              {
-                "name": "Plasma cannon – Standard",
-                "range": "36\"",
-                "a": "D3",
-                "skill": "4+",
-                "s": "7",
-                "ap": "-2",
-                "d": "1",
-                "keywords": [
-                  "Blast"
-                ]
-              },
-              {
-                "name": "Plasma cannon – Supercharge",
-                "range": "36\"",
-                "a": "D3",
-                "skill": "4+",
-                "s": "8",
-                "ap": "-3",
-                "d": "2",
-                "keywords": [
-                  "Hazardous",
-                  "Blast"
-                ]
-              }
-            ]
-          },
-          {
             "name": "Vanquisher battle cannon",
             "profiles": [
               {
@@ -20314,7 +20268,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -21114,7 +21068,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -21815,7 +21769,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -22528,7 +22482,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -23237,7 +23191,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -23935,7 +23889,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -24635,7 +24589,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -25037,7 +24991,7 @@
           }
         ],
         "transport": "",
-        "base_size": "75 x 42mm Oval Base",
+        "base_size": "75 x 42mm",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -25610,7 +25564,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -28380,7 +28334,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Ratlings: 25mm\nRatlings, Tankstopper Rifle: 28.5mm",
+        "base_size": "25mm",
         "imperial_armour": false,
         "keywords": [
           "Infantry",
@@ -28593,52 +28547,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Oppressor cannon",
-              "cost": 0
-            },
-            {
-              "name": "Coaxial autocannon",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Oppressor cannon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Coaxial autocannon",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Twin battle cannon"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Pulveriser cannon",
               "cost": 0
             }
@@ -28754,6 +28662,47 @@
             }
           ],
           "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Oppressor cannon",
+              "cost": 0
+            },
+            {
+              "name": "Coaxial autocannon",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Oppressor cannon",
+                  "count": 1
+                },
+                {
+                  "option": "Coaxial autocannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Twin battle cannon"
+          ],
           "replaces_options": []
         }
       ],
@@ -28966,7 +28915,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -29033,52 +28982,6 @@
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Oppressor cannon",
-                "cost": 0
-              },
-              {
-                "name": "Coaxial autocannon",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Oppressor cannon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Coaxial autocannon",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Twin battle cannon"
-            ],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -29198,6 +29101,47 @@
               }
             ],
             "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Oppressor cannon",
+                "cost": 0
+              },
+              {
+                "name": "Coaxial autocannon",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Oppressor cannon",
+                    "count": 1
+                  },
+                  {
+                    "option": "Coaxial autocannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Twin battle cannon"
+            ],
             "replaces_options": []
           }
         ]
@@ -29622,7 +29566,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -30727,7 +30671,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -31380,7 +31324,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -31560,7 +31504,8 @@
         "Smoke",
         "Titanic",
         "Imperium",
-        "Stormsword"
+        "Stormsword",
+        "Frame"
       ],
       "points": [
         {
@@ -31808,14 +31753,15 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
           "Smoke",
           "Titanic",
           "Imperium",
-          "Stormsword"
+          "Stormsword",
+          "Frame"
         ],
         "factions": [
           "Astra Militarum"
@@ -32119,7 +32065,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -32532,7 +32478,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -33298,7 +33244,7 @@
                 "name": "Bolt pistol",
                 "range": "12\"",
                 "a": "1",
-                "skill": "3+",
+                "skill": "4+",
                 "s": "4",
                 "ap": "0",
                 "d": "1",
@@ -34216,7 +34162,7 @@
                 "name": "Bolt pistol",
                 "range": "12\"",
                 "a": "1",
-                "skill": "3+",
+                "skill": "4+",
                 "s": "4",
                 "ap": "0",
                 "d": "1",
@@ -34999,8 +34945,8 @@
       "epic_hero": false,
       "loadout": [
         "Hellstrike missiles",
-        "Multi-laser",
-        "Armoured hull"
+        "Armoured hull",
+        "Militarum multi-laser"
       ],
       "wargear_options": [
         {
@@ -35011,7 +34957,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -35032,7 +34978,7 @@
             }
           ],
           "replaces": [
-            "Multi-laser"
+            "Militarum multi-laser"
           ],
           "replaces_options": []
         },
@@ -35044,7 +34990,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 5,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -35077,7 +35023,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 6,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -35252,7 +35198,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -35293,8 +35239,8 @@
         },
         "loadout": [
           "Hellstrike missiles",
-          "Multi-laser",
-          "Armoured hull"
+          "Armoured hull",
+          "Militarum multi-laser"
         ],
         "model_types": [
           {
@@ -35310,7 +35256,7 @@
             "role": null,
             "wargear": [
               "Hellstrike missiles",
-              "Multi-laser",
+              "Militarum multi-laser",
               "Armoured hull"
             ]
           }
@@ -35324,7 +35270,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -35345,7 +35291,7 @@
               }
             ],
             "replaces": [
-              "Multi-laser"
+              "Militarum multi-laser"
             ],
             "replaces_options": []
           },
@@ -35357,7 +35303,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 5,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -35390,7 +35336,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 6,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -35645,7 +35591,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Hull",
+        "base_size": "Use model",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -35782,7 +35728,7 @@
   "rules": {
     "faction": "astramilitarum",
     "name": "Astra Militarum",
-    "data_version": "2026-10-16T18:38:15.231Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
         "name": "Voice of Command",
@@ -35801,11 +35747,28 @@
         "rules": [
           {
             "name": "Squadron Command",
-            "text": ""
-          },
-          {
-            "name": "Order",
-            "text": ""
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Armoured Sentinels",
+                    "Centaur RSV",
+                    "Chimera",
+                    "Commissar Graves",
+                    "Hellhound",
+                    "Hippogriff AFV",
+                    "Hydra",
+                    "Scout Sentinels",
+                    "Taurox",
+                    "Taurox Prime"
+                  ],
+                  "units": true
+                },
+                "kind": "keyword",
+                "keyword": "Armoured Skirmisher"
+              }
+            ]
           }
         ],
         "enhancements": [
@@ -35851,7 +35814,23 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Armoured Sentinels",
+              "Centaur RSV",
+              "Chimera",
+              "Commissar Graves",
+              "Hellhound",
+              "Hippogriff AFV",
+              "Hydra",
+              "Scout Sentinels",
+              "Taurox",
+              "Taurox Prime"
+            ],
+            "keyword": "Armoured Skirmisher"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
@@ -35859,7 +35838,9 @@
             "cp": 1,
             "type": "Battle Tactic",
             "turn": "your",
-            "phases": [],
+            "phases": [
+              "movement"
+            ],
             "when": "",
             "target": "",
             "effect": "",
@@ -36069,7 +36050,7 @@
             "type": "Battle Tactic",
             "turn": "opponents",
             "phases": [
-              "fight"
+              "any"
             ],
             "when": "",
             "target": "",
@@ -36390,7 +36371,7 @@
             "targets": [
               "astra militarum titanic character"
             ],
-            "non_character": false,
+            "non_character": true,
             "excludes": [],
             "modifiers": [
               {
@@ -36410,7 +36391,7 @@
             "targets": [
               "astra militarum titanic character"
             ],
-            "non_character": false,
+            "non_character": true,
             "excludes": []
           },
           {
@@ -36430,7 +36411,7 @@
             "targets": [
               "astra militarum titanic character transport"
             ],
-            "non_character": false,
+            "non_character": true,
             "excludes": []
           }
         ],
@@ -36722,8 +36703,7 @@
             "secondary_effect": null,
             "units": {
               "targets": [
-                "infantry",
-                "regiment"
+                "infantry regiment"
               ],
               "excludes": []
             }
@@ -36793,8 +36773,14 @@
             "targets": [
               "commissar"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [],
+            "modifiers": [
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 4+"
+              }
+            ],
             "attaches": [
               {
                 "type": "leader",
@@ -36811,12 +36797,6 @@
                 "requires_keyword": null,
                 "excludes_detachment": null,
                 "name_only": true
-              }
-            ],
-            "modifiers": [
-              {
-                "kind": "ability",
-                "name": "Feel No Pain 4+"
               }
             ]
           }
@@ -36998,14 +36978,7 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null,
-            "units": {
-              "targets": [
-                "scout sentinel",
-                "astra militarum infantry"
-              ],
-              "excludes": []
-            }
+            "secondary_effect": null
           },
           {
             "name": "Triggered Alerts",
@@ -37035,8 +37008,8 @@
         "name": "Grizzled Company",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Purge the Foe"
+          "Purge the Foe",
+          "Priority Assets"
         ],
         "unique": [
           "Abhuman"
@@ -37114,7 +37087,7 @@
           {
             "name": "Veteran Sharpshooters",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "your",
             "phases": [
               "shooting"
@@ -37135,7 +37108,7 @@
           {
             "name": "Purging Fire",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "your",
             "phases": [
               "shooting"
@@ -37156,7 +37129,7 @@
           {
             "name": "Mordian Minute",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "your",
             "phases": [
               "shooting"
@@ -37177,7 +37150,7 @@
           {
             "name": "Additional Armour",
             "cp": 1,
-            "type": "Battle Tactic",
+            "type": "",
             "turn": "opponents",
             "phases": [
               "shooting"
@@ -37198,7 +37171,7 @@
           {
             "name": "Snap To It",
             "cp": 1,
-            "type": "Epic Deed",
+            "type": "",
             "turn": "either",
             "phases": [
               "any"
@@ -37219,7 +37192,7 @@
           {
             "name": "No Retreat!",
             "cp": 1,
-            "type": "Strategic Ploy",
+            "type": "",
             "turn": "your",
             "phases": [
               "command"
@@ -37492,7 +37465,7 @@
             "type": "Strategic Ploy",
             "turn": "opponents",
             "phases": [
-              "fight"
+              "any"
             ],
             "when": "",
             "target": "",
@@ -37585,11 +37558,11 @@
             "excludes": [],
             "modifiers": [
               {
+                "only": "Pistol",
                 "kind": "weapon",
                 "weapons": "ranged",
                 "stat": "a",
-                "change": 2,
-                "only": "Pistol"
+                "change": 2
               }
             ]
           },
