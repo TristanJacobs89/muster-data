@@ -23,6 +23,10 @@
     {
       "version": 1010,
       "commit": "cd2468aa4242a57384d660789f440b6d7501d543"
+    },
+    {
+      "version": 1011,
+      "commit": "0b6a975b3a3a85670e418895fa44e2c88b4a1cba"
     }
   ]
 }
