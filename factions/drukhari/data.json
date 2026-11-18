@@ -39,11 +39,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Soul Trap",
+              "name": "Blast pistol",
               "cost": 0
             },
             {
-              "name": "Blast pistol",
+              "name": "Soul Trap",
               "cost": 0
             }
           ],
@@ -61,7 +61,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Soul Trap",
+                  "option": "Blast pistol",
                   "count": 1
                 }
               ]
@@ -70,7 +70,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Blast pistol",
+                  "option": "Soul Trap",
                   "count": 1
                 }
               ]
@@ -397,9 +397,9 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Shadowfield",
               "Splinter pistol",
-              "Huskblade"
+              "Huskblade",
+              "Shadowfield"
             ]
           }
         ],
@@ -408,11 +408,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Soul Trap",
+                "name": "Blast pistol",
                 "cost": 0
               },
               {
-                "name": "Blast pistol",
+                "name": "Soul Trap",
                 "cost": 0
               }
             ],
@@ -430,7 +430,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Soul Trap",
+                    "option": "Blast pistol",
                     "count": 1
                   }
                 ]
@@ -439,7 +439,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Blast pistol",
+                    "option": "Soul Trap",
                     "count": 1
                   }
                 ]
@@ -683,7 +683,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -850,7 +850,7 @@
                 ]
               },
               {
-                "name": "Executioner’s demiklaives – Dual blade",
+                "name": "Executioner’s demiklaives – dual blades",
                 "range": "Melee",
                 "a": "8",
                 "skill": "2+",
@@ -2448,15 +2448,15 @@
           "instruction": "",
           "options": [
             {
-              "name": "Stunclaw",
-              "cost": 0
-            },
-            {
               "name": "Splinter pistol",
               "cost": 0
             },
             {
               "name": "Power weapon",
+              "cost": 0
+            },
+            {
+              "name": "Stunclaw",
               "cost": 0
             }
           ],
@@ -2719,7 +2719,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -2833,15 +2833,15 @@
             "instruction": "",
             "options": [
               {
-                "name": "Stunclaw",
-                "cost": 0
-              },
-              {
                 "name": "Splinter pistol",
                 "cost": 0
               },
               {
                 "name": "Power weapon",
+                "cost": 0
+              },
+              {
+                "name": "Stunclaw",
                 "cost": 0
               }
             ],
@@ -3029,20 +3029,20 @@
       "data": {
         "stats": [
           {
-            "name": "Klaivex",
-            "m": "7\"",
-            "t": "3",
-            "sv": "3+",
-            "w": "2",
-            "ld": "6+",
-            "oc": "1"
-          },
-          {
             "name": "Incubi",
             "m": "7\"",
             "t": "3",
             "sv": "3+",
             "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "Klaivex",
+            "m": "7\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
             "ld": "6+",
             "oc": "1"
           }
@@ -4272,6 +4272,12 @@
               "once_per": "turn",
               "when": []
             }
+          },
+          {
+            "name": "Power from Pain",
+            "text": "",
+            "kind": "faction",
+            "timing": null
           }
         ],
         "transport": "",
@@ -4998,7 +5004,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5274,7 +5280,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -5518,7 +5524,7 @@
                 ]
               },
               {
-                "name": "Razorwing missiles – Necrotoxin missiles",
+                "name": "Razorwing missiles – neurotoxin missiles",
                 "range": "48\"",
                 "a": "D6+3",
                 "skill": "3+",
@@ -5526,8 +5532,8 @@
                 "ap": "0",
                 "d": "1",
                 "keywords": [
-                  "Blast",
-                  "Anti-infantry 2+"
+                  "Anti-infantry 2+",
+                  "Blast"
                 ]
               }
             ]
@@ -5652,14 +5658,14 @@
             }
           },
           {
-            "name": "Ground-attack Craft",
+            "name": "Ground Attack Craft",
             "text": "",
             "kind": "other",
             "timing": null
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -6088,7 +6094,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Small Flying Base",
+        "base_size": "32mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Mounted",
@@ -6302,11 +6308,11 @@
               "cost": 0
             },
             {
-              "name": "Splinter pistol",
+              "name": "Power weapon",
               "cost": 0
             },
             {
-              "name": "Power weapon",
+              "name": "Splinter pistol",
               "cost": 0
             }
           ],
@@ -6788,11 +6794,11 @@
                 "cost": 0
               },
               {
-                "name": "Splinter pistol",
+                "name": "Power weapon",
                 "cost": 0
               },
               {
-                "name": "Power weapon",
+                "name": "Splinter pistol",
                 "cost": 0
               }
             ],
@@ -6959,11 +6965,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Power weapon",
+              "name": "Blast pistol",
               "cost": 0
             },
             {
-              "name": "Blast pistol",
+              "name": "Power weapon",
               "cost": 0
             },
             {
@@ -7315,11 +7321,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Power weapon",
+                "name": "Blast pistol",
                 "cost": 0
               },
               {
-                "name": "Blast pistol",
+                "name": "Power weapon",
                 "cost": 0
               },
               {
@@ -7636,15 +7642,15 @@
           "instruction": "",
           "options": [
             {
+              "name": "Stinger pod",
+              "cost": 0
+            },
+            {
               "name": "Twin haywire blaster",
               "cost": 5
             },
             {
               "name": "Twin heat lance",
-              "cost": 0
-            },
-            {
-              "name": "Stinger pod",
               "cost": 0
             }
           ],
@@ -7662,6 +7668,15 @@
               "text": "",
               "items": [
                 {
+                  "option": "Stinger pod",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
                   "option": "Twin haywire blaster",
                   "count": 1
                 }
@@ -7672,15 +7687,6 @@
               "items": [
                 {
                   "option": "Twin heat lance",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Stinger pod",
                   "count": 1
                 }
               ]
@@ -7915,25 +7921,25 @@
             ]
           },
           {
-            "name": "Maco-scalpel",
+            "name": "Talos gauntlet",
             "profiles": [
               {
-                "name": "Maco-scalpel",
+                "name": "Talos gauntlet",
                 "range": "Melee",
                 "a": "5",
-                "skill": "3+",
-                "s": "7",
+                "skill": "4+",
+                "s": "9",
                 "ap": "-2",
-                "d": "2",
+                "d": "3",
                 "keywords": []
               }
             ]
           },
           {
-            "name": "Chain flails",
+            "name": "Chain-flails",
             "profiles": [
               {
-                "name": "Chain flails",
+                "name": "Chain-flails",
                 "range": "Melee",
                 "a": "8",
                 "skill": "3+",
@@ -7945,16 +7951,16 @@
             ]
           },
           {
-            "name": "Talos gauntlet",
+            "name": "Macro-scalpel",
             "profiles": [
               {
-                "name": "Talos gauntlet",
+                "name": "Macro-scalpel",
                 "range": "Melee",
                 "a": "5",
-                "skill": "4+",
-                "s": "9",
+                "skill": "3+",
+                "s": "7",
                 "ap": "-2",
-                "d": "3",
+                "d": "2",
                 "keywords": []
               }
             ]
@@ -8007,7 +8013,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Monster",
@@ -8087,15 +8093,15 @@
             "instruction": "",
             "options": [
               {
+                "name": "Stinger pod",
+                "cost": 0
+              },
+              {
                 "name": "Twin haywire blaster",
                 "cost": 5
               },
               {
                 "name": "Twin heat lance",
-                "cost": 0
-              },
-              {
-                "name": "Stinger pod",
                 "cost": 0
               }
             ],
@@ -8113,6 +8119,15 @@
                 "text": "",
                 "items": [
                   {
+                    "option": "Stinger pod",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
                     "option": "Twin haywire blaster",
                     "count": 1
                   }
@@ -8123,15 +8138,6 @@
                 "items": [
                   {
                     "option": "Twin heat lance",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Stinger pod",
                     "count": 1
                   }
                 ]
@@ -8437,7 +8443,7 @@
           }
         ],
         "transport": "",
-        "base_size": "Large Flying Base",
+        "base_size": "60mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8785,7 +8791,7 @@
           }
         ],
         "transport": "",
-        "base_size": "120 x 92mm Oval Base",
+        "base_size": "120 x 92mm flying base",
         "imperial_armour": false,
         "keywords": [
           "Vehicle",
@@ -8955,11 +8961,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Torturer’s tool",
+              "name": "Hexrifle",
               "cost": 0
             },
             {
-              "name": "Hexrifle",
+              "name": "Torturer’s tool",
               "cost": 0
             },
             {
@@ -9284,10 +9290,10 @@
             ]
           },
           {
-            "name": "Torturer’s tool",
+            "name": "Torturer’s tools",
             "profiles": [
               {
-                "name": "Torturer’s tool",
+                "name": "Torturer’s tools",
                 "range": "Melee",
                 "a": "2",
                 "skill": "3+",
@@ -9430,11 +9436,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Torturer’s tool",
+                "name": "Hexrifle",
                 "cost": 0
               },
               {
-                "name": "Hexrifle",
+                "name": "Torturer’s tool",
                 "cost": 0
               },
               {
@@ -9775,7 +9781,7 @@
           }
         ],
         "invul": {
-          "value": "",
+          "value": "6+",
           "condition": ""
         },
         "ranged": [
@@ -10066,10 +10072,10 @@
   "rules": {
     "faction": "drukhari",
     "name": "Drukhari",
-    "data_version": "2026-10-16T18:38:18.357Z",
+    "data_version": "2026-11-12 23:45:38",
     "army_rules": [
       {
-        "name": "Power From Pain",
+        "name": "Power from Pain",
         "text": ""
       },
       {
@@ -10592,7 +10598,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "archon"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Double-cross",
@@ -10820,8 +10832,8 @@
         "name": "Reaper’s Wager",
         "dp": 3,
         "dispositions": [
-          "Priority Assets",
-          "Purge the Foe"
+          "Purge the Foe",
+          "Priority Assets"
         ],
         "unique": [],
         "rules": [
