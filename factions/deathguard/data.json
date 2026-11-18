@@ -7522,7 +7522,7 @@
         ],
         "model_types": [
           {
-            "name": "Myphitic Blight-hulers",
+            "name": "Myphitic Blight-haulers",
             "min": 1,
             "max": 2,
             "statline": "Myphitic Blight-haulers"
@@ -10144,8 +10144,8 @@
         "name": "Virulent Vectorium",
         "dp": 3,
         "dispositions": [
-          "Purge the Foe",
-          "Take and Hold"
+          "Take and Hold",
+          "Purge the Foe"
         ],
         "unique": [],
         "rules": [
@@ -10402,7 +10402,9 @@
             "name": "Entropic Knell",
             "points": 15,
             "text": "",
-            "targets": [],
+            "targets": [
+              "great unclean one"
+            ],
             "non_character": false,
             "excludes": []
           },
@@ -10410,7 +10412,9 @@
             "name": "Tome of Bounteous Blessings",
             "points": 20,
             "text": "",
-            "targets": [],
+            "targets": [
+              "malignant plaguecaster"
+            ],
             "non_character": false,
             "excludes": []
           }
@@ -10767,7 +10771,9 @@
             "name": "Final Ingredient",
             "points": 20,
             "text": "",
-            "targets": [],
+            "targets": [
+              "biologus putrifier"
+            ],
             "non_character": false,
             "excludes": []
           },
@@ -10775,7 +10781,9 @@
             "name": "Visions of Virulence",
             "points": 15,
             "text": "",
-            "targets": [],
+            "targets": [
+              "malignant plaguecaster"
+            ],
             "non_character": false,
             "excludes": []
           },
@@ -10783,7 +10791,9 @@
             "name": "Needle of Nurgle",
             "points": 25,
             "text": "",
-            "targets": [],
+            "targets": [
+              "plague surgeon"
+            ],
             "non_character": false,
             "excludes": []
           },
@@ -10791,7 +10801,9 @@
             "name": "Cornucophagus",
             "points": 35,
             "text": "",
-            "targets": [],
+            "targets": [
+              "lord of poxes"
+            ],
             "non_character": false,
             "excludes": []
           }
@@ -10960,7 +10972,9 @@
             "name": "Bilemaw Blight",
             "points": 10,
             "text": "",
-            "targets": [],
+            "targets": [
+              "malignant plaguecaster"
+            ],
             "non_character": false,
             "excludes": []
           },
@@ -10978,7 +10992,9 @@
             "name": "Tendrilous Emissions",
             "points": 30,
             "text": "",
-            "targets": [],
+            "targets": [
+              "lord of virulence"
+            ],
             "non_character": false,
             "excludes": []
           }
@@ -11147,7 +11163,9 @@
             "name": "Witherbone Pipes",
             "points": 25,
             "text": "",
-            "targets": [],
+            "targets": [
+              "noxious blightbringer"
+            ],
             "non_character": false,
             "excludes": [],
             "modifiers": [
@@ -11175,7 +11193,9 @@
             "name": "Sorrowsyphon",
             "points": 10,
             "text": "",
-            "targets": [],
+            "targets": [
+              "malignant plaguecaster"
+            ],
             "non_character": false,
             "excludes": [],
             "modifiers": [
