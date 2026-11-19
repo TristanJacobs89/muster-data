@@ -1,5 +1,5 @@
 {
-  "dataVersion": 1023,
+  "dataVersion": 1024,
   "date": "2026-11-19",
   "changes": {
     "changed": [],
@@ -7,5 +7,5 @@
     "gone": []
   },
   "revision": "517efd280aa8",
-  "from": 1022
+  "from": 1023
 }
