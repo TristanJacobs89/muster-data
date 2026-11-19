@@ -1,5 +1,5 @@
 {
-  "schema": 39,
+  "schema": 40,
   "faction": {
     "key": "spacewolves",
     "name": "Space Wolves",
@@ -8726,6 +8726,12 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "own_enhancements": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Kill Team"
+          ]
+        },
         "stratagems": [
           {
             "name": "Blackstar Extraction",

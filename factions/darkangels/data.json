@@ -1,5 +1,5 @@
 {
-  "schema": 39,
+  "schema": 40,
   "faction": {
     "key": "darkangels",
     "name": "Dark Angels",
@@ -4260,6 +4260,15 @@
             "role": null,
             "wargear": [
               "Bolt Pistol",
+              "Corvus Hammers",
+              "Plasma Talon"
+            ]
+          },
+          {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Bolt Pistol",
               "Master-crafted Power Weapon",
               "Plasma Talon"
             ]
@@ -6901,6 +6910,12 @@
           }
         ],
         "excludes": [],
+        "own_enhancements": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Kill Team"
+          ]
+        },
         "stratagems": [
           {
             "name": "Blackstar Extraction",
