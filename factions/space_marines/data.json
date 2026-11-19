@@ -1,5 +1,5 @@
 {
-  "schema": 39,
+  "schema": 40,
   "faction": {
     "key": "space_marines",
     "name": "Adeptus Astartes (Space Marines)",
@@ -11114,6 +11114,15 @@
           },
           {
             "model": 2,
+            "role": null,
+            "wargear": [
+              "Combat Knife",
+              "Master-crafted Bolt Pistol",
+              "Master-crafted Bolt Rifle"
+            ]
+          },
+          {
+            "model": 3,
             "role": null,
             "wargear": [
               "Combat Knife",
@@ -42399,11 +42408,19 @@
             "role": null,
             "wargear": [
               "Archeotech Laspistol",
-              "Ultramarian Combat Weapons"
+              "Power Weapon"
             ]
           },
           {
             "model": 4,
+            "role": null,
+            "wargear": [
+              "Archeotech Laspistol",
+              "Ultramarian Combat Weapons"
+            ]
+          },
+          {
+            "model": 5,
             "role": null,
             "wargear": [
               "Heavy Bolt Pistol",
@@ -42872,6 +42889,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Armour of Contempt",
@@ -43057,6 +43085,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Hurtling Targets",
@@ -43226,6 +43265,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Armour of Contempt",
@@ -43435,7 +43485,30 @@
         ],
         "required_enhancements": [],
         "grants": [],
-        "excludes": [],
+        "excludes": [
+          {
+            "rule": "Adaptive Defence",
+            "targets": [
+              "Ultramarines",
+              "Iron Hands",
+              "Raven Guard",
+              "Salamanders",
+              "White Scars"
+            ],
+            "except": []
+          }
+        ],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Unyielding Might",
@@ -43623,6 +43696,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Adamantine Terror",
@@ -43789,6 +43873,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Into Darkness",
@@ -43959,6 +44054,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Armour of Contempt",
@@ -44076,6 +44182,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Annihilating Force",
@@ -44223,6 +44340,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Armour of Contempt",
@@ -44339,6 +44467,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Gunship Extraction",
@@ -44447,6 +44586,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Point-blank Brutality",
@@ -44596,7 +44746,30 @@
         ],
         "required_enhancements": [],
         "grants": [],
-        "excludes": [],
+        "excludes": [
+          {
+            "rule": "Vulkan's Quest",
+            "targets": [
+              "Ultramarines",
+              "Imperial Fists",
+              "Iron Hands",
+              "Raven Guard",
+              "White Scars"
+            ],
+            "except": []
+          }
+        ],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Blazing Earth",
@@ -44765,6 +44938,23 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
+        "own_enhancements": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Kill Team"
+          ]
+        },
         "stratagems": [
           {
             "name": "Blackstar Extraction",
@@ -44893,6 +45083,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Umbral Evasion",
@@ -45058,7 +45259,30 @@
         ],
         "required_enhancements": [],
         "grants": [],
-        "excludes": [],
+        "excludes": [
+          {
+            "rule": "Storm-swift Onslaught",
+            "targets": [
+              "Ultramarines",
+              "Imperial Fists",
+              "Iron Hands",
+              "Raven Guard",
+              "Salamanders"
+            ],
+            "except": []
+          }
+        ],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Evasive Manoeuvers",
@@ -45255,6 +45479,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Gene-wrought Might",
@@ -45394,6 +45629,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Unbowed Conviction",
@@ -45565,6 +45811,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Mortis Snares",
@@ -45699,6 +45956,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Might of the machine Spirit",
@@ -45817,6 +46085,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Purgation Push",
@@ -45923,6 +46202,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Storm and Secure",
@@ -46049,6 +46339,17 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "one_of": {
+          "rule": "Space Marine Chapters",
+          "keywords": [
+            "Ultramarines",
+            "Imperial Fists",
+            "Iron Hands",
+            "Raven Guard",
+            "Salamanders",
+            "White Scars"
+          ]
+        },
         "stratagems": [
           {
             "name": "Transhuman Swiftness",

@@ -1,5 +1,5 @@
 {
-  "schema": 39,
+  "schema": 40,
   "faction": {
     "key": "deathwatch",
     "name": "Deathwatch",
@@ -3485,9 +3485,9 @@
               "cost": 0
             }
           ],
-          "source": 13,
+          "source": 14,
           "model": 2,
-          "loadout": 4,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -3996,7 +3996,7 @@
             ]
           },
           {
-            "model": 3,
+            "model": 2,
             "role": null,
             "wargear": [
               "Bolt Pistol",
@@ -4005,7 +4005,16 @@
             ]
           },
           {
-            "model": 2,
+            "model": 3,
+            "role": null,
+            "wargear": [
+              "Bolt Pistol",
+              "Deathwatch Bolt Rifle",
+              "Knives and Fists"
+            ]
+          },
+          {
+            "model": 5,
             "role": null,
             "wargear": [
               "Bolt Pistol",
@@ -4265,9 +4274,9 @@
                 "cost": 0
               }
             ],
-            "source": 13,
+            "source": 14,
             "model": 2,
-            "loadout": 4,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "fixed",

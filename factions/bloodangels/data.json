@@ -1,5 +1,5 @@
 {
-  "schema": 39,
+  "schema": 40,
   "faction": {
     "key": "bloodangels",
     "name": "Blood Angels",
@@ -7250,6 +7250,12 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "own_enhancements": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Kill Team"
+          ]
+        },
         "stratagems": [
           {
             "name": "Blackstar Extraction",
