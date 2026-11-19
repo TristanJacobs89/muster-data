@@ -8444,6 +8444,7 @@
         "transport": "",
         "base_size": "50mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Centurion",
           "Imperium",
@@ -8837,6 +8838,7 @@
         "transport": "",
         "base_size": "50mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Centurion",
           "Imperium",
@@ -9298,6 +9300,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -12133,6 +12136,7 @@
         "transport": "",
         "base_size": "60mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Imperium",
           "Smoke",
@@ -13775,6 +13779,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -15008,6 +15013,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Fortification",
           "Frame",
@@ -20593,6 +20599,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -22206,6 +22213,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -26163,6 +26171,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -27048,6 +27057,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -27486,6 +27496,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -27893,6 +27904,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Artillery",
           "Frame",
@@ -28271,6 +28283,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Dedicated Transport",
           "Frame",
@@ -29664,6 +29677,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Dedicated Transport",
           "Frame",
@@ -31034,6 +31048,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -31940,6 +31955,7 @@
         "transport": "",
         "base_size": "75 x 25mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Explosives",
           "Imperium",
@@ -33312,6 +33328,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -34979,6 +34996,7 @@
         "transport": "",
         "base_size": "120 x 92mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Aircraft",
           "Fly",
@@ -35508,6 +35526,7 @@
         "transport": "",
         "base_size": "120 x 92mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Fly",
           "Imperium",
@@ -35943,6 +35962,7 @@
         "transport": "",
         "base_size": "120 x 92mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Aircraft",
           "Fly",
@@ -36405,6 +36425,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -36620,6 +36641,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Artillery",
           "Frame",
@@ -38107,6 +38129,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Dedicated Transport",
           "Frame",
@@ -39089,6 +39112,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -39568,6 +39592,7 @@
         "transport": "",
         "base_size": "32mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Explosives",
           "Imperium",
@@ -40833,6 +40858,7 @@
         "transport": "",
         "base_size": "60mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Dreadnought",
           "Imperium",
@@ -41538,6 +41564,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
@@ -42599,6 +42626,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",

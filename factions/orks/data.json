@@ -2954,6 +2954,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Transport",
@@ -4043,6 +4044,7 @@
         "transport": "",
         "base_size": "40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Character",
           "Epic Hero",
@@ -5654,6 +5656,7 @@
         "transport": "",
         "base_size": "32mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Infantry"
         ],
@@ -9036,6 +9039,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Grots",
@@ -9591,6 +9595,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Grots",
@@ -10868,6 +10873,7 @@
         "transport": "",
         "base_size": "40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Character",
           "Epic Hero",
@@ -11736,6 +11742,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Transport",
@@ -13175,6 +13182,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Vehicle",
@@ -13559,6 +13567,7 @@
         "transport": "",
         "base_size": "32mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Infantry"
         ],
@@ -13836,6 +13845,7 @@
         "transport": "",
         "base_size": "32mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Character",
           "Epic Hero",
@@ -15112,6 +15122,7 @@
         "transport": "",
         "base_size": "",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Fortification",
           "Frame",
@@ -20204,6 +20215,7 @@
         "transport": "",
         "base_size": "100 x 40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Character",
           "Explosives",

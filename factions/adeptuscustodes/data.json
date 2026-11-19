@@ -120,6 +120,7 @@
         "transport": "",
         "base_size": "32mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Character",
           "Epic Hero",
@@ -3445,6 +3446,7 @@
         "transport": "",
         "base_size": "40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Imperium",
           "Infantry",
@@ -3609,6 +3611,7 @@
         "transport": "",
         "base_size": "40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Imperium",
           "Infantry",
@@ -5556,6 +5559,7 @@
         "transport": "",
         "base_size": "40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Imperium",
           "Infantry",
@@ -7914,6 +7918,7 @@
         "transport": "",
         "base_size": "40mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Character",
           "Epic Hero",
@@ -8622,6 +8627,7 @@
         "transport": "",
         "base_size": "60mm",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Imperium",
           "Vehicle",
@@ -8944,6 +8950,7 @@
         "transport": "",
         "base_size": "Use model",
         "imperial_armour": false,
+        "legends": true,
         "keywords": [
           "Frame",
           "Imperium",
