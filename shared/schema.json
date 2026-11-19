@@ -1,5 +1,5 @@
 {
-  "schema": 43,
+  "schema": 44,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "faction": {
           "type": "object",
@@ -5631,6 +5631,18 @@
                     ],
                     "additionalProperties": false
                   },
+                  "uncounted_enhancements": {
+                    "type": "object",
+                    "properties": {
+                      "rule": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "rule"
+                    ],
+                    "additionalProperties": false
+                  },
                   "stratagems": {
                     "type": "array",
                     "items": {
@@ -6190,7 +6202,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "stratagems": {
           "type": "array",
@@ -6374,7 +6386,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "source": {
           "type": "string"
@@ -6647,7 +6659,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "source": {
           "type": "string"
@@ -6969,7 +6981,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "sizes": {
           "minItems": 1,
@@ -7028,7 +7040,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 43
+          "const": 44
         },
         "text": {
           "type": "object",
