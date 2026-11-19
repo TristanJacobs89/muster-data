@@ -6044,6 +6044,7 @@
       ],
       "epic_hero": false,
       "warlord": "must",
+      "one_per_army": true,
       "loadout": [
         "Patriarch’s claws"
       ],

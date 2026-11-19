@@ -5359,6 +5359,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Flip Belt",
         "Shrieker cannon",
@@ -12982,6 +12983,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Shuriken pistol",
         "Miststave",
@@ -17968,6 +17970,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Shuriken pistol",
         "Troupe Master’s blade",
