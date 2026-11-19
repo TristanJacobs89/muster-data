@@ -18333,11 +18333,11 @@
               "cost": 0
             },
             {
-              "name": "Pulsa Rokkit",
+              "name": "Pulsa Rokkit (Once per battle, per unit)",
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 3,
           "model": 1,
           "loadout": 1,
           "heading": "",
@@ -18360,7 +18360,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Pulsa Rokkit",
+                  "option": "Pulsa Rokkit (Once per battle, per unit)",
                   "count": 1
                 }
               ]
@@ -18667,11 +18667,11 @@
                 "cost": 0
               },
               {
-                "name": "Pulsa Rokkit",
+                "name": "Pulsa Rokkit (Once per battle, per unit)",
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 3,
             "model": 1,
             "loadout": 1,
             "heading": "",
@@ -18694,7 +18694,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Pulsa Rokkit",
+                    "option": "Pulsa Rokkit (Once per battle, per unit)",
                     "count": 1
                   }
                 ]
