@@ -1,11 +1,11 @@
 {
-  "dataVersion": 1013,
-  "date": "2026-11-18",
+  "dataVersion": 1014,
+  "date": "2026-11-19",
   "changes": {
     "changed": [],
     "new": [],
     "gone": []
   },
   "revision": "1e2a929ebfc4",
-  "from": 1012
+  "from": 1013
 }
