@@ -3341,7 +3341,7 @@
       ],
       "epic_hero": false,
       "loadout": [
-        "Chronomancer’s stave"
+        "Aeonstave"
       ],
       "wargear_options": [],
       "composition": [
@@ -3365,10 +3365,10 @@
         },
         "ranged": [
           {
-            "name": "Chronomancer’s stave",
+            "name": "Aeonstave",
             "profiles": [
               {
-                "name": "Chronomancer’s stave – Ranged",
+                "name": "Aeonstave – Ranged",
                 "range": "18\"",
                 "a": "D6",
                 "skill": "4+",
@@ -3384,10 +3384,10 @@
         ],
         "melee": [
           {
-            "name": "Chronomancer’s stave",
+            "name": "Aeonstave",
             "profiles": [
               {
-                "name": "Chronomancer’s stave – Melee",
+                "name": "Aeonstave – Melee",
                 "range": "Melee",
                 "a": "3",
                 "skill": "4+",
@@ -3504,7 +3504,7 @@
           "after": 1
         },
         "loadout": [
-          "Chronomancer’s stave"
+          "Aeonstave"
         ],
         "model_types": [
           {
@@ -3519,7 +3519,7 @@
             "model": null,
             "role": null,
             "wargear": [
-              "Chronomancer’s stave"
+              "Aeonstave"
             ]
           }
         ],
