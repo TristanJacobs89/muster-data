@@ -4033,7 +4033,7 @@
         "MATR autocannon",
         "Twin bolt cannon",
         "Armoured wheels",
-        "Pan spectral scanner"
+        "Panspectral Scanner"
       ],
       "wargear_options": [
         {
@@ -4048,7 +4048,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 1,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4101,7 +4101,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 2,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4143,7 +4143,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4164,7 +4164,7 @@
             }
           ],
           "replaces": [
-            "Pan spectral scanner"
+            "Panspectral Scanner"
           ],
           "replaces_options": []
         }
@@ -4405,7 +4405,7 @@
           "MATR autocannon",
           "Twin bolt cannon",
           "Armoured wheels",
-          "Pan spectral scanner"
+          "Panspectral Scanner"
         ],
         "model_types": [
           {
@@ -4424,7 +4424,7 @@
               "MATR autocannon",
               "Twin bolt cannon",
               "Armoured wheels",
-              "Pan spectral scanner"
+              "Panspectral Scanner"
             ],
             "counts": {
               "Twin bolt cannon": 2
@@ -4444,7 +4444,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 1,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4497,7 +4497,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 2,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4539,7 +4539,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4560,7 +4560,7 @@
               }
             ],
             "replaces": [
-              "Pan spectral scanner"
+              "Panspectral Scanner"
             ],
             "replaces_options": []
           }

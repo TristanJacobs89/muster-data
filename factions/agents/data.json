@@ -565,7 +565,13 @@
             "timing": null
           },
           {
-            "name": "Astartes Shield",
+            "name": "Attached Unit",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          },
+          {
+            "name": "Storm Shield",
             "text": "",
             "kind": "wargear",
             "timing": null,
@@ -576,12 +582,6 @@
                 "change": "4+"
               }
             ]
-          },
-          {
-            "name": "Attached Unit",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -2488,7 +2488,7 @@
             "timing": null
           },
           {
-            "name": "Astartes Shield",
+            "name": "Storm Shield",
             "text": "",
             "kind": "wargear",
             "timing": null,
