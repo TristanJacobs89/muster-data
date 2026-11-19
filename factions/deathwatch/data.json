@@ -2955,6 +2955,30 @@
             "detachment": null
           }
         ],
+        "mixes": [
+          {
+            "models": {
+              "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol": 0,
+              "Kill Team Sergeant": 1,
+              "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …": 1,
+              "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol": 1,
+              "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists": 1,
+              "Gravis Veteran": 1
+            },
+            "cost": 110
+          },
+          {
+            "models": {
+              "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol": 1,
+              "Kill Team Sergeant": 1,
+              "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …": 2,
+              "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol": 2,
+              "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists": 2,
+              "Gravis Veteran": 2
+            },
+            "cost": 210
+          }
+        ],
         "loadout": [
           "Plasma Pistol",
           "Power Weapon",
@@ -2970,7 +2994,7 @@
         "model_types": [
           {
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "min": 1,
+            "min": 0,
             "max": 1,
             "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
@@ -2984,8 +3008,7 @@
             "name": "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …",
             "min": 1,
             "max": 2,
-            "statline": "Gravis Veteran",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol",
