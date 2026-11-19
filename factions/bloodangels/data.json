@@ -2295,6 +2295,9 @@
                   "option": "Relic Shield",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Astartes Chainsword"
               ]
             }
           ],
@@ -2771,6 +2774,9 @@
                     "option": "Relic Shield",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Astartes Chainsword"
                 ]
               }
             ],

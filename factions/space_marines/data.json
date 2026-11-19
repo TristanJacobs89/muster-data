@@ -4910,6 +4910,9 @@
                   "option": "Relic Shield",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Master-crafted Power Weapon"
               ]
             }
           ],
@@ -5412,6 +5415,9 @@
                     "option": "Relic Shield",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Master-crafted Power Weapon"
                 ]
               }
             ],
@@ -24203,6 +24209,9 @@
                   "option": "Storm Shield",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Neo-volkite Pistol"
               ]
             }
           ],
@@ -24822,6 +24831,9 @@
                     "option": "Storm Shield",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Neo-volkite Pistol"
                 ]
               }
             ],
@@ -37474,6 +37486,9 @@
                   "option": "Storm Bolter",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Storm Bolter"
               ]
             }
           ],
@@ -37887,6 +37902,9 @@
                     "option": "Storm Bolter",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Storm Bolter"
                 ]
               }
             ],

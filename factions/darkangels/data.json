@@ -1440,6 +1440,9 @@
                   "option": "Cyclone Missile Launcher",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Storm Bolter"
               ]
             }
           ],
@@ -1934,6 +1937,9 @@
                     "option": "Cyclone Missile Launcher",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Storm Bolter"
                 ]
               }
             ],

@@ -6883,6 +6883,9 @@
                   "option": "Enhanced data-tether",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Galvanic rifle"
               ]
             },
             {
@@ -6892,6 +6895,9 @@
                   "option": "Omnispex",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Galvanic rifle"
               ]
             }
           ],
@@ -7355,6 +7361,9 @@
                     "option": "Enhanced data-tether",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Galvanic rifle"
                 ]
               },
               {
@@ -7364,6 +7373,9 @@
                     "option": "Omnispex",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Galvanic rifle"
                 ]
               }
             ],
@@ -7591,6 +7603,9 @@
                   "option": "Enhanced data-tether",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Radium carbine"
               ]
             },
             {
@@ -7600,6 +7615,9 @@
                   "option": "Omnispex",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Radium carbine"
               ]
             }
           ],
@@ -8051,6 +8069,9 @@
                     "option": "Enhanced data-tether",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Radium carbine"
                 ]
               },
               {
@@ -8060,6 +8081,9 @@
                     "option": "Omnispex",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Radium carbine"
                 ]
               }
             ],

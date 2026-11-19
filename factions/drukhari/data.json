@@ -1592,6 +1592,9 @@
                   "option": "Stimm-needler",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Splinter rifle"
               ]
             }
           ],
@@ -2373,6 +2376,9 @@
                     "option": "Stimm-needler",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Splinter rifle"
                 ]
               }
             ],
@@ -2527,6 +2533,9 @@
                   "option": "Hellglaive",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Hellglaive"
               ]
             }
           ],
@@ -2912,6 +2921,9 @@
                     "option": "Hellglaive",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Hellglaive"
                 ]
               }
             ],

@@ -8134,6 +8134,9 @@
                   "option": "Icon of Despair (Aura)",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Boltgun"
               ]
             }
           ],
@@ -8840,6 +8843,9 @@
                     "option": "Icon of Despair (Aura)",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Boltgun"
                 ]
               }
             ],

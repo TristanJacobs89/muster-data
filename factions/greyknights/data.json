@@ -1627,6 +1627,9 @@
                   "option": "Ancient’s Banner",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Storm bolter"
               ]
             }
           ],
@@ -2073,6 +2076,9 @@
                     "option": "Ancient’s Banner",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Storm bolter"
                 ]
               }
             ],
@@ -6426,6 +6432,9 @@
                   "option": "Ancient’s Banner",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Storm bolter"
               ]
             }
           ],
@@ -6875,6 +6884,9 @@
                     "option": "Ancient’s Banner",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Storm bolter"
                 ]
               }
             ],

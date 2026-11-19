@@ -3335,6 +3335,9 @@
                   "option": "Excruciator maul",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Arbites combat shotgun"
               ]
             }
           ],
@@ -3366,6 +3369,9 @@
                   "option": "Arbites Medi-kit",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Arbites combat shotgun"
               ]
             }
           ],
@@ -3397,6 +3403,9 @@
                   "option": "Soulguilt Scanner",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Arbites combat shotgun"
               ]
             }
           ],
@@ -3872,6 +3881,9 @@
                     "option": "Excruciator maul",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Arbites combat shotgun"
                 ]
               }
             ],
@@ -3903,6 +3915,9 @@
                     "option": "Arbites Medi-kit",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Arbites combat shotgun"
                 ]
               }
             ],
@@ -3934,6 +3949,9 @@
                     "option": "Soulguilt Scanner",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Arbites combat shotgun"
                 ]
               }
             ],
@@ -8252,6 +8270,9 @@
                   "option": "Heavy bolter",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Heavy bolter"
               ]
             },
             {
@@ -8261,6 +8282,9 @@
                   "option": "Heavy flamer",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Heavy flamer"
               ]
             }
           ],
@@ -8655,6 +8679,9 @@
                     "option": "Heavy bolter",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Heavy bolter"
                 ]
               },
               {
@@ -8664,6 +8691,9 @@
                     "option": "Heavy flamer",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Heavy flamer"
                 ]
               }
             ],
@@ -9870,6 +9900,9 @@
                   "option": "Holy fire",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Plasma gun"
               ]
             }
           ],
@@ -10403,6 +10436,9 @@
                     "option": "Holy fire",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Plasma gun"
                 ]
               }
             ],
@@ -11183,6 +11219,9 @@
                   "option": "Simulacrum Imperialis",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Boltgun"
               ]
             }
           ],
@@ -11949,6 +11988,9 @@
                     "option": "Simulacrum Imperialis",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Boltgun"
                 ]
               }
             ],
