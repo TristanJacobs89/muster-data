@@ -2972,15 +2972,13 @@
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "min": 1,
             "max": 1,
-            "statline": "Gravis Veteran",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Kill Team Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Gravis Veteran",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …",
@@ -2993,8 +2991,7 @@
             "name": "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol",
             "min": 1,
             "max": 2,
-            "statline": "Gravis Veteran",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists",
@@ -6106,8 +6103,7 @@
             "name": "Kill Team Sergeant with Jump Pack",
             "min": 1,
             "max": 1,
-            "statline": "Kill Team Intercessor with Jump Pack",
-            "statline_assumed": true
+            "statline": "Kill Team Intercessor with Jump Pack"
           },
           {
             "name": "Kill Team Heavy Intercessor with Jump Pack",

@@ -468,8 +468,8 @@
       "epic_hero": true,
       "loadout": [
         "Plasma Pistol",
-        "Artificier Crozius",
-        "Servitor Combat Weapon"
+        "Artificer crozius",
+        "Close combat weapon"
       ],
       "wargear_options": [],
       "composition": [
@@ -711,8 +711,8 @@
         ],
         "loadout": [
           "Plasma Pistol",
-          "Artificier Crozius",
-          "Servitor Combat Weapon"
+          "Artificer crozius",
+          "Close combat weapon"
         ],
         "model_types": [
           {
@@ -733,7 +733,7 @@
             "model": 0,
             "role": null,
             "wargear": [
-              "Artificier Crozius",
+              "Artificer crozius",
               "Plasma Pistol"
             ]
           },
@@ -741,7 +741,7 @@
             "model": 1,
             "role": null,
             "wargear": [
-              "Servitor Combat Weapon"
+              "Close combat weapon"
             ]
           }
         ],
@@ -1488,8 +1488,7 @@
             "name": "Sword Brother",
             "min": 1,
             "max": 1,
-            "statline": "Neophyte",
-            "statline_assumed": true
+            "statline": "Initiate"
           },
           {
             "name": "Neophyte",
@@ -1728,6 +1727,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Bolt Pistol",
         "Black Sword"
@@ -6359,7 +6359,7 @@
       {
         "id": "0a2a5520-e6cc-4f3f-ac87-b00addae1023",
         "name": "Stormlance Task Force",
-        "dp": 1,
+        "dp": 2,
         "dispositions": [
           "Reconnaissance"
         ],
@@ -8148,6 +8148,238 @@
             "units": {
               "targets": [
                 "tacticus"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "114dee6f-802a-49f4-a0db-0296eb5434b3",
+        "name": "Gladius Task Force",
+        "dp": 3,
+        "dispositions": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Codex Discipline",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Artificer Armour",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "sv",
+                "change": "2+"
+              },
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 5+"
+              }
+            ]
+          },
+          {
+            "name": "Laurels of Triumph",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "weapon",
+                "weapons": "melee",
+                "stat": "s",
+                "change": 1
+              },
+              {
+                "kind": "weapon",
+                "weapons": "melee",
+                "stat": "ap",
+                "change": 1
+              }
+            ]
+          },
+          {
+            "name": "Adept of the Codex",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "captain"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Standard of the Emperor Ascendant",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "ancient"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "oc",
+                "change": 1
+              },
+              {
+                "kind": "stat",
+                "stat": "ld",
+                "change": 1
+              },
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 5+"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Armour of Contempt",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Adaptive Strategy",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "A Worthy Death",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Responsive Tactics",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes infantry",
+                "mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Storm of devastation",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Might of angels",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
               ],
               "excludes": []
             }

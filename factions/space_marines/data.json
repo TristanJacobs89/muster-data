@@ -42360,8 +42360,7 @@
             "name": "Aemelia Minervas",
             "min": 1,
             "max": 1,
-            "statline": "Gaius Silva",
-            "statline_assumed": true
+            "statline": "Gaius Silva"
           },
           {
             "name": "Ancient Gadriel",
@@ -42386,8 +42385,7 @@
             "name": "Lucia Vestha",
             "min": 1,
             "max": 1,
-            "statline": "Gaius Silva",
-            "statline_assumed": true
+            "statline": "Gaius Silva"
           },
           {
             "name": "Veteran Sergeant Metaurus",
