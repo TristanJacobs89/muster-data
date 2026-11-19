@@ -3446,38 +3446,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Astartes Grenade Launcher",
-              "cost": 0
-            }
-          ],
-          "source": 12,
-          "model": null,
-          "loadout": null,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Astartes Grenade Launcher",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Plasma Pistol",
               "cost": 0
             }
@@ -3505,6 +3473,38 @@
           "replaces": [
             "Bolt Pistol"
           ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Grenade Launcher",
+              "cost": 0
+            }
+          ],
+          "source": 15,
+          "model": null,
+          "loadout": null,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Grenade Launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
           "replaces_options": []
         }
       ],
@@ -4235,38 +4235,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Astartes Grenade Launcher",
-                "cost": 0
-              }
-            ],
-            "source": 12,
-            "model": null,
-            "loadout": null,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Astartes Grenade Launcher",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Plasma Pistol",
                 "cost": 0
               }
@@ -4294,6 +4262,38 @@
             "replaces": [
               "Bolt Pistol"
             ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Grenade Launcher",
+                "cost": 0
+              }
+            ],
+            "source": 15,
+            "model": null,
+            "loadout": null,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Grenade Launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
             "replaces_options": []
           }
         ]
@@ -5788,11 +5788,11 @@
           "instruction": "",
           "options": [
             {
-              "name": "Plasma Exterminator",
+              "name": "Plasma Exterminators",
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 8,
           "model": 1,
           "loadout": 2,
           "heading": "",
@@ -5806,7 +5806,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Plasma Exterminator",
+                  "option": "Plasma Exterminators",
                   "count": 1
                 }
               ]
@@ -6275,11 +6275,11 @@
             "instruction": "",
             "options": [
               {
-                "name": "Plasma Exterminator",
+                "name": "Plasma Exterminators",
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 8,
             "model": 1,
             "loadout": 2,
             "heading": "",
@@ -6293,7 +6293,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Plasma Exterminator",
+                    "option": "Plasma Exterminators",
                     "count": 1
                   }
                 ]
@@ -6850,12 +6850,32 @@
               "adeptus astartes"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": {
+                  "leading": "Kill Team"
+                },
+                "kind": "ability",
+                "name": "Deep Strike"
+              }
+            ]
           }
         ],
         "required_enhancements": [],
         "grants": [],
-        "excludes": [],
+        "excludes": [
+          {
+            "rule": "Mission Tactics",
+            "targets": [
+              "Watch Master+Agents of the Imperium",
+              "Watch Captain Artemis+Agents of the Imperium",
+              "Deathwatch Kill Team+Agents of the Imperium",
+              "Aquila Kill Team+Agents of the Imperium"
+            ],
+            "except": []
+          }
+        ],
         "stratagems": [
           {
             "name": "Kraken Rounds",
@@ -6989,7 +7009,7 @@
       {
         "id": "0a2a5520-e6cc-4f3f-ac87-b00addae1023",
         "name": "Stormlance Task Force",
-        "dp": 1,
+        "dp": 2,
         "dispositions": [
           "Reconnaissance"
         ],
@@ -8879,6 +8899,137 @@
             "units": {
               "targets": [
                 "tacticus"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "4fde4216-b0dd-4665-8556-2d394d293ed6",
+        "name": "Deathwatch Support",
+        "dp": 1,
+        "dispositions": [
+          "Disruption"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Mission Tactics",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Beacon Angelis",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": {
+                  "leading": "Kill Team"
+                },
+                "kind": "ability",
+                "name": "Deep Strike"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "own_enhancements": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Kill Team"
+          ]
+        },
+        "stratagems": [
+          {
+            "name": "Blackstar Extraction",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Kraken Rounds",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Dragonfire Rounds",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Hellfire Rounds",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
               ],
               "excludes": []
             }
