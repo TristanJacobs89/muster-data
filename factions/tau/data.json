@@ -423,7 +423,8 @@
       "loadout": [
         "Pulse blaster",
         "Pulse pistol",
-        "Close combat weapon"
+        "Close combat weapon",
+        "Support turret"
       ],
       "wargear_options": [
         {
@@ -711,7 +712,8 @@
         "loadout": [
           "Pulse blaster",
           "Pulse pistol",
-          "Close combat weapon"
+          "Close combat weapon",
+          "Support turret"
         ],
         "model_types": [
           {
@@ -735,6 +737,13 @@
               "Pulse blaster",
               "Pulse pistol",
               "Close combat weapon"
+            ]
+          },
+          {
+            "model": 0,
+            "role": "Support turret",
+            "wargear": [
+              "Support turret"
             ]
           }
         ],
@@ -14481,7 +14490,8 @@
       "loadout": [
         "Pulse pistol",
         "Pulse rifle",
-        "Close combat weapon"
+        "Close combat weapon",
+        "Support turret"
       ],
       "wargear_options": [
         {
@@ -14825,7 +14835,8 @@
         "loadout": [
           "Pulse pistol",
           "Pulse rifle",
-          "Close combat weapon"
+          "Close combat weapon",
+          "Support turret"
         ],
         "model_types": [
           {
@@ -14849,6 +14860,13 @@
               "Pulse pistol",
               "Pulse rifle",
               "Close combat weapon"
+            ]
+          },
+          {
+            "model": 0,
+            "role": "Support turret",
+            "wargear": [
+              "Support turret"
             ]
           }
         ],
