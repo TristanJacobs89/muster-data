@@ -47,6 +47,10 @@
     {
       "version": 1016,
       "commit": "bcbc25d31310d69d6b6b2947aff1a0913ebe89c2"
+    },
+    {
+      "version": 1017,
+      "commit": "536d4366713dafbb0b152399a631408902aaac72"
     }
   ]
 }
