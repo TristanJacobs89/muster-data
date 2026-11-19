@@ -5255,6 +5255,9 @@
                   "option": "Combi-bolter",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Helbrute fist"
               ]
             },
             {
@@ -5264,6 +5267,9 @@
                   "option": "Heavy flamer",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Helbrute fist"
               ]
             }
           ],
@@ -5785,6 +5791,9 @@
                     "option": "Combi-bolter",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Helbrute fist"
                 ]
               },
               {
@@ -5794,6 +5803,9 @@
                     "option": "Heavy flamer",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Helbrute fist"
                 ]
               }
             ],
@@ -8134,6 +8146,9 @@
                   "option": "Icon of Despair (Aura)",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Boltgun"
               ]
             }
           ],
@@ -8840,6 +8855,9 @@
                     "option": "Icon of Despair (Aura)",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Boltgun"
                 ]
               }
             ],

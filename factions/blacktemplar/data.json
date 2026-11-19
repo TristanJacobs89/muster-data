@@ -2030,6 +2030,9 @@
                   "option": "Master-crafted Power Weapon",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Absolvor Bolt Pistol"
               ]
             }
           ],
@@ -2307,6 +2310,9 @@
                     "option": "Master-crafted Power Weapon",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Absolvor Bolt Pistol"
                 ]
               }
             ],

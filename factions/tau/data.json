@@ -11273,6 +11273,9 @@
                   "option": "Semi-automatic grenade launcher",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Pulse carbine"
               ]
             }
           ],
@@ -11801,6 +11804,9 @@
                     "option": "Semi-automatic grenade launcher",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Pulse carbine"
                 ]
               }
             ],

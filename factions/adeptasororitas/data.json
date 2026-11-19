@@ -787,6 +787,9 @@
                   "option": "Simulacrum Imperialis",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Boltgun"
               ]
             }
           ],
@@ -1545,6 +1548,9 @@
                     "option": "Simulacrum Imperialis",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Boltgun"
                 ]
               }
             ],
@@ -3322,6 +3328,9 @@
                   "option": "Simulacrum Imperialis",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Condemnor bolt pistol"
               ]
             }
           ],
@@ -3765,6 +3774,9 @@
                     "option": "Simulacrum Imperialis",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Condemnor bolt pistol"
                 ]
               }
             ],
@@ -5254,6 +5266,9 @@
                   "option": "Simulacrum Imperialis",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Boltgun"
               ]
             }
           ],
@@ -5879,6 +5894,9 @@
                     "option": "Simulacrum Imperialis",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Boltgun"
                 ]
               }
             ],
@@ -11434,6 +11452,9 @@
                   "option": "Holy fire",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Plasma gun"
               ]
             }
           ],
@@ -11966,6 +11987,9 @@
                     "option": "Holy fire",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Plasma gun"
                 ]
               }
             ],

@@ -5988,6 +5988,9 @@
                   "option": "Vox-caster",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Lasgun"
               ]
             },
             {
@@ -5997,6 +6000,9 @@
                   "option": "Vox‑relay Beacon",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Lasgun"
               ]
             }
           ],
@@ -6480,6 +6486,9 @@
                     "option": "Vox-caster",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Lasgun"
                 ]
               },
               {
@@ -6489,6 +6498,9 @@
                     "option": "Vox‑relay Beacon",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Lasgun"
                 ]
               }
             ],
@@ -6761,6 +6773,9 @@
                   "option": "Vox-caster",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Lasgun"
               ]
             }
           ],
@@ -7262,6 +7277,9 @@
                     "option": "Vox-caster",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Lasgun"
                 ]
               }
             ],
@@ -8901,6 +8919,9 @@
                   "option": "Vox-caster",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Lasgun"
               ]
             }
           ],
@@ -9164,6 +9185,9 @@
                     "option": "Vox-caster",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Lasgun"
                 ]
               }
             ],
@@ -9435,6 +9459,9 @@
                   "option": "Heavy bolter",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Heavy bolter"
               ]
             },
             {
@@ -9444,6 +9471,9 @@
                   "option": "Heavy flamer",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Heavy flamer"
               ]
             }
           ],
@@ -9841,6 +9871,9 @@
                     "option": "Heavy bolter",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Heavy bolter"
                 ]
               },
               {
@@ -9850,6 +9883,9 @@
                     "option": "Heavy flamer",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Heavy flamer"
                 ]
               }
             ],
@@ -11573,6 +11609,9 @@
                   "option": "Death Korps Medi-pack",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Lasgun"
               ]
             }
           ],
@@ -11605,6 +11644,9 @@
                   "option": "Vox-caster",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Lasgun"
               ]
             }
           ],
@@ -12236,6 +12278,9 @@
                     "option": "Death Korps Medi-pack",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Lasgun"
                 ]
               }
             ],
@@ -12268,6 +12313,9 @@
                     "option": "Vox-caster",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Lasgun"
                 ]
               }
             ],
@@ -16089,6 +16137,9 @@
                   "option": "Vox-caster",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Hot-shot lasgun"
               ]
             }
           ],
@@ -16754,6 +16805,9 @@
                     "option": "Vox-caster",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Hot-shot lasgun"
                 ]
               }
             ],
@@ -25938,6 +25992,9 @@
                   "option": "Regimental Standard",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Hot-shot lasgun"
               ]
             }
           ],
@@ -26039,6 +26096,9 @@
                   "option": "Medi-pack",
                   "count": 1
                 }
+              ],
+              "keeps": [
+                "Hot-shot lasgun"
               ]
             }
           ],
@@ -26625,6 +26685,9 @@
                     "option": "Regimental Standard",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Hot-shot lasgun"
                 ]
               }
             ],
@@ -26726,6 +26789,9 @@
                     "option": "Medi-pack",
                     "count": 1
                   }
+                ],
+                "keeps": [
+                  "Hot-shot lasgun"
                 ]
               }
             ],
