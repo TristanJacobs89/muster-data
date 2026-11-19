@@ -3380,23 +3380,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Aeonstave",
-            "profiles": [
-              {
-                "name": "Aeonstave – Ranged",
-                "range": "18\"",
-                "a": "D6",
-                "skill": "4+",
-                "s": "5",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "Blast"
-                ]
-              }
-            ]
           }
         ],
         "melee": [
@@ -3405,21 +3388,6 @@
             "profiles": [
               {
                 "name": "Chronomancer’s stave – Melee",
-                "range": "Melee",
-                "a": "3",
-                "skill": "4+",
-                "s": "5",
-                "ap": "-1",
-                "d": "1",
-                "keywords": []
-              }
-            ]
-          },
-          {
-            "name": "Aeonstave",
-            "profiles": [
-              {
-                "name": "Aeonstave – Melee",
                 "range": "Melee",
                 "a": "3",
                 "skill": "4+",
@@ -11802,6 +11770,7 @@
       ],
       "epic_hero": false,
       "warlord": "cannot",
+      "no_enhancements": true,
       "loadout": [
         "Seismic assault",
         "Crackling tendrils"

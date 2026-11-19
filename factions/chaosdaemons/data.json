@@ -3510,6 +3510,7 @@
       ],
       "epic_hero": false,
       "warlord": "cannot",
+      "no_enhancements": true,
       "loadout": [
         "Fire of Tzeentch",
         "Flamer mouths"

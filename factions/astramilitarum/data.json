@@ -27272,6 +27272,7 @@
       ],
       "epic_hero": false,
       "warlord": "cannot",
+      "no_enhancements": true,
       "loadout": [
         "Ripper gun",
         "Close combat weapon",
