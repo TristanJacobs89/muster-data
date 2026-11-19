@@ -1,5 +1,5 @@
 {
-  "schema": 37,
+  "schema": 38,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "faction": {
           "type": "object",
@@ -1729,6 +1729,10 @@
                   },
                   "imperial_armour": {
                     "type": "boolean"
+                  },
+                  "legends": {
+                    "type": "boolean",
+                    "const": true
                   },
                   "keywords": {
                     "type": "array",
@@ -6104,7 +6108,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "stratagems": {
           "type": "array",
@@ -6288,7 +6292,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "source": {
           "type": "string"
@@ -6561,7 +6565,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "source": {
           "type": "string"
@@ -6883,7 +6887,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "sizes": {
           "minItems": 1,
@@ -6942,7 +6946,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 37
+          "const": 38
         },
         "text": {
           "type": "object",
