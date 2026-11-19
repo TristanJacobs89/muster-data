@@ -2182,7 +2182,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 8,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -2210,9 +2210,7 @@
             "Chainsword",
             "Heavy Bolt Pistol"
           ],
-          "replaces_options": [
-            "Astartes Chainsword"
-          ]
+          "replaces_options": []
         },
         {
           "instruction": "",
@@ -2226,7 +2224,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 9,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -2258,15 +2256,13 @@
           "replaces": [
             "Chainsword"
           ],
-          "replaces_options": [
-            "Astartes Chainsword"
-          ]
+          "replaces_options": []
         },
         {
           "instruction": "",
           "options": [
             {
-              "name": "Astartes Chainsword",
+              "name": "Chainsword",
               "cost": 0
             },
             {
@@ -2274,7 +2270,7 @@
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 10,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -2288,7 +2284,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Astartes Chainsword",
+                  "option": "Chainsword",
                   "count": 1
                 },
                 {
@@ -2297,7 +2293,7 @@
                 }
               ],
               "keeps": [
-                "Astartes Chainsword"
+                "Chainsword"
               ]
             }
           ],
@@ -2661,7 +2657,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 8,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -2689,9 +2685,7 @@
               "Chainsword",
               "Heavy Bolt Pistol"
             ],
-            "replaces_options": [
-              "Astartes Chainsword"
-            ]
+            "replaces_options": []
           },
           {
             "instruction": "",
@@ -2705,7 +2699,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 9,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -2737,15 +2731,13 @@
             "replaces": [
               "Chainsword"
             ],
-            "replaces_options": [
-              "Astartes Chainsword"
-            ]
+            "replaces_options": []
           },
           {
             "instruction": "",
             "options": [
               {
-                "name": "Astartes Chainsword",
+                "name": "Chainsword",
                 "cost": 0
               },
               {
@@ -2753,7 +2745,7 @@
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 10,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -2767,7 +2759,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Astartes Chainsword",
+                    "option": "Chainsword",
                     "count": 1
                   },
                   {
@@ -2776,7 +2768,7 @@
                   }
                 ],
                 "keeps": [
-                  "Astartes Chainsword"
+                  "Chainsword"
                 ]
               }
             ],
@@ -6151,7 +6143,7 @@
       {
         "id": "0a2a5520-e6cc-4f3f-ac87-b00addae1023",
         "name": "Stormlance Task Force",
-        "dp": 1,
+        "dp": 2,
         "dispositions": [
           "Reconnaissance"
         ],
