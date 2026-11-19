@@ -1,5 +1,5 @@
 {
-  "schema": 42,
+  "schema": 43,
   "faction": {
     "key": "deathwatch",
     "name": "Deathwatch",
@@ -8970,6 +8970,12 @@
           "rule": "Mission Tactics",
           "targets": [
             "Kill Team"
+          ]
+        },
+        "no_warlord": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Deathwatch"
           ]
         },
         "stratagems": [

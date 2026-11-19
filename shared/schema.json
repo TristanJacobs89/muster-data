@@ -1,5 +1,5 @@
 {
-  "schema": 42,
+  "schema": 43,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "faction": {
           "type": "object",
@@ -5611,6 +5611,26 @@
                     ],
                     "additionalProperties": false
                   },
+                  "no_warlord": {
+                    "type": "object",
+                    "properties": {
+                      "rule": {
+                        "type": "string"
+                      },
+                      "targets": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "rule",
+                      "targets"
+                    ],
+                    "additionalProperties": false
+                  },
                   "stratagems": {
                     "type": "array",
                     "items": {
@@ -6170,7 +6190,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "stratagems": {
           "type": "array",
@@ -6354,7 +6374,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "source": {
           "type": "string"
@@ -6627,7 +6647,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "source": {
           "type": "string"
@@ -6949,7 +6969,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "sizes": {
           "minItems": 1,
@@ -7008,7 +7028,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 42
+          "const": 43
         },
         "text": {
           "type": "object",
