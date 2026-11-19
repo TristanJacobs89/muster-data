@@ -224,7 +224,7 @@
   "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/composition/1": "9 Battle Sisters",
   "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/abilities/Defenders of the Faith/text": "Timing: end of your Command phase\nCondition: this unit within range of an objective marker you control\nResult: that objective marker stays under your control\nDuration: until the end of a phase at which your opponent's Level of Control over it is greater than yours",
   "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/abilities/Incensor Cherub/text": "Once per battle\nThis unit: Command Re-roll Stratagem targetable for 0CP\nalso if a different unit was already targeted with that Stratagem this phase\nDesigner's Note: Incensor Cherub token placed next to the unit, removed once ability used",
-  "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/abilities/Simulacrum Imperials/text": "Bearer's unit: models' Leadership improved by 1",
+  "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/abilities/Simulacrum Imperialis/text": "Bearer's unit: models' Leadership improved by 1",
   "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/wargear_options/0/choices/0/text": "1 Bolt pistol",
   "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/wargear_options/0/choices/1/text": "1 Combi-weapon",
   "agents/datasheets/5b673664-dbe9-522e-926a-0c2c7e4f8c67/data/wargear_options/0/choices/2/text": "1 Condemnor boltgun",
