@@ -128,7 +128,6 @@
           "Infantry"
         ],
         "factions": [
-          "Adeptus Custodes",
           "Anathema Psykana"
         ],
         "leads": [
@@ -757,8 +756,7 @@
           "Vehicle"
         ],
         "factions": [
-          "Anathema Psykana",
-          "Adeptus Custodes"
+          "Anathema Psykana"
         ],
         "leads": [],
         "supports": [],
@@ -4599,8 +4597,7 @@
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana",
-          "Adeptus Custodes"
+          "Anathema Psykana"
         ],
         "leads": [],
         "supports": [
@@ -5345,8 +5342,7 @@
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana",
-          "Adeptus Custodes"
+          "Anathema Psykana"
         ],
         "leads": [],
         "supports": [],
@@ -9443,8 +9439,7 @@
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana",
-          "Adeptus Custodes"
+          "Anathema Psykana"
         ],
         "leads": [],
         "supports": [],
@@ -9654,8 +9649,7 @@
           "Infantry"
         ],
         "factions": [
-          "Anathema Psykana",
-          "Adeptus Custodes"
+          "Anathema Psykana"
         ],
         "leads": [],
         "supports": [],
