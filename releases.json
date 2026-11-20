@@ -83,6 +83,10 @@
     {
       "version": 1025,
       "commit": "6f5e5a83ada5925db4b46b7fd8f05f58ec520ca8"
+    },
+    {
+      "version": 1026,
+      "commit": "40ecd53eccafe76778aa7e566c075eb13ed2f27b"
     }
   ]
 }
