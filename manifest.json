@@ -1,21 +1,11 @@
 {
-  "dataVersion": 1027,
+  "dataVersion": 1028,
   "date": "2026-11-20",
   "changes": {
-    "changed": [
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/data/wargear_options/2/choices/0/text",
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/data/wargear_options/2/heading",
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/data/wargear_options/2/instruction",
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/wargear_options/2/choices/0/text",
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/wargear_options/2/heading",
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/wargear_options/2/instruction"
-    ],
+    "changed": [],
     "new": [],
-    "gone": [
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/data/wargear_options/2/choices/1/text",
-      "imperialknights/datasheets/33cdcaba-4e1e-5eef-a499-3867747c66ca/wargear_options/2/choices/1/text"
-    ]
+    "gone": []
   },
   "revision": "b3c470b75817",
-  "from": 1026
+  "from": 1027
 }

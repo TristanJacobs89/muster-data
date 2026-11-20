@@ -1,6 +1,6 @@
 {
-  "data_version": 1027,
-  "schema": 45,
+  "data_version": 1028,
+  "schema": 46,
   "sha": "aaad39405193b160be0cb4def679ad93a9f32526",
   "date": "2026-11-20",
   "factions": [
@@ -178,5 +178,5 @@
     "updated": "2026-11-12 23:45:38",
     "sha": "aaad39405193b160be0cb4def679ad93a9f32526"
   },
-  "bundle": "1027-f850b7d642c1"
+  "bundle": "1028-75ec1e14a0c8"
 }

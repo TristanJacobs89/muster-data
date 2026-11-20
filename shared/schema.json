@@ -1,5 +1,5 @@
 {
-  "schema": 45,
+  "schema": 46,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "faction": {
           "type": "object",
@@ -5532,6 +5532,13 @@
                             "max"
                           ],
                           "additionalProperties": false
+                        },
+                        "warlord": {
+                          "minItems": 1,
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
                         }
                       },
                       "required": [
@@ -6242,7 +6249,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "stratagems": {
           "type": "array",
@@ -6426,7 +6433,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "source": {
           "type": "string"
@@ -6699,7 +6706,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "source": {
           "type": "string"
@@ -7021,7 +7028,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "sizes": {
           "minItems": 1,
@@ -7080,7 +7087,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 45
+          "const": 46
         },
         "text": {
           "type": "object",
