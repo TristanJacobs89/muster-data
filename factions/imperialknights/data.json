@@ -3509,7 +3509,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 5,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -3525,12 +3525,7 @@
                 {
                   "option": "Rapid-fire battle cannon",
                   "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
+                },
                 {
                   "option": "Questoris heavy stubber",
                   "count": 1
@@ -3957,7 +3952,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 5,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -3973,12 +3968,7 @@
                   {
                     "option": "Rapid-fire battle cannon",
                     "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
+                  },
                   {
                     "option": "Questoris heavy stubber",
                     "count": 1
