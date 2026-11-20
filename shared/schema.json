@@ -1,5 +1,5 @@
 {
-  "schema": 44,
+  "schema": 45,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "faction": {
           "type": "object",
@@ -5643,6 +5643,46 @@
                     ],
                     "additionalProperties": false
                   },
+                  "warlord_from": {
+                    "type": "object",
+                    "properties": {
+                      "rule": {
+                        "type": "string"
+                      },
+                      "targets": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "rule",
+                      "targets"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "lifts_one_per_army": {
+                    "type": "object",
+                    "properties": {
+                      "rule": {
+                        "type": "string"
+                      },
+                      "targets": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "rule",
+                      "targets"
+                    ],
+                    "additionalProperties": false
+                  },
                   "stratagems": {
                     "type": "array",
                     "items": {
@@ -6202,7 +6242,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "stratagems": {
           "type": "array",
@@ -6386,7 +6426,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "source": {
           "type": "string"
@@ -6659,7 +6699,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "source": {
           "type": "string"
@@ -6981,7 +7021,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "sizes": {
           "minItems": 1,
@@ -7040,7 +7080,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 44
+          "const": 45
         },
         "text": {
           "type": "object",
