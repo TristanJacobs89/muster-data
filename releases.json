@@ -79,6 +79,10 @@
     {
       "version": 1024,
       "commit": "3161d4d364b259a238be8ecafcf720bd5ec0ac0c"
+    },
+    {
+      "version": 1025,
+      "commit": "6f5e5a83ada5925db4b46b7fd8f05f58ec520ca8"
     }
   ]
 }
