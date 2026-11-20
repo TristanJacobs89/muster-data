@@ -2055,7 +2055,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 4,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -2077,6 +2077,25 @@
                   "option": "Close combat weapon",
                   "count": 1
                 }
+              ],
+              "caps": [
+                {
+                  "kind": "if_fewer",
+                  "models": 9,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 1
+                  }
+                },
+                {
+                  "kind": "if_models",
+                  "models": 10,
+                  "only": false,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 2
+                  }
+                }
               ]
             },
             {
@@ -2089,6 +2108,25 @@
                 {
                   "option": "Close combat weapon",
                   "count": 1
+                }
+              ],
+              "caps": [
+                {
+                  "kind": "if_fewer",
+                  "models": 9,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 1
+                  }
+                },
+                {
+                  "kind": "if_models",
+                  "models": 10,
+                  "only": false,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 2
+                  }
                 }
               ]
             },
@@ -2103,6 +2141,25 @@
                   "option": "Close combat weapon",
                   "count": 1
                 }
+              ],
+              "caps": [
+                {
+                  "kind": "if_fewer",
+                  "models": 9,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 1
+                  }
+                },
+                {
+                  "kind": "if_models",
+                  "models": 10,
+                  "only": false,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 2
+                  }
+                }
               ]
             },
             {
@@ -2115,6 +2172,25 @@
                 {
                   "option": "Close combat weapon",
                   "count": 1
+                }
+              ],
+              "caps": [
+                {
+                  "kind": "if_fewer",
+                  "models": 9,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 1
+                  }
+                },
+                {
+                  "kind": "if_models",
+                  "models": 10,
+                  "only": false,
+                  "then": {
+                    "kind": "up_to",
+                    "n": 2
+                  }
                 }
               ]
             }
@@ -2487,7 +2563,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 4,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -2509,6 +2585,25 @@
                     "option": "Close combat weapon",
                     "count": 1
                   }
+                ],
+                "caps": [
+                  {
+                    "kind": "if_fewer",
+                    "models": 9,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 1
+                    }
+                  },
+                  {
+                    "kind": "if_models",
+                    "models": 10,
+                    "only": false,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 2
+                    }
+                  }
                 ]
               },
               {
@@ -2521,6 +2616,25 @@
                   {
                     "option": "Close combat weapon",
                     "count": 1
+                  }
+                ],
+                "caps": [
+                  {
+                    "kind": "if_fewer",
+                    "models": 9,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 1
+                    }
+                  },
+                  {
+                    "kind": "if_models",
+                    "models": 10,
+                    "only": false,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 2
+                    }
                   }
                 ]
               },
@@ -2535,6 +2649,25 @@
                     "option": "Close combat weapon",
                     "count": 1
                   }
+                ],
+                "caps": [
+                  {
+                    "kind": "if_fewer",
+                    "models": 9,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 1
+                    }
+                  },
+                  {
+                    "kind": "if_models",
+                    "models": 10,
+                    "only": false,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 2
+                    }
+                  }
                 ]
               },
               {
@@ -2547,6 +2680,25 @@
                   {
                     "option": "Close combat weapon",
                     "count": 1
+                  }
+                ],
+                "caps": [
+                  {
+                    "kind": "if_fewer",
+                    "models": 9,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 1
+                    }
+                  },
+                  {
+                    "kind": "if_models",
+                    "models": 10,
+                    "only": false,
+                    "then": {
+                      "kind": "up_to",
+                      "n": 2
+                    }
                   }
                 ]
               }
@@ -3347,39 +3499,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Shuriken rifle",
-              "cost": 0
-            }
-          ],
-          "source": 10,
-          "model": 0,
-          "loadout": 3,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": true
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Shuriken rifle",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Shuriken pistol"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Neuro disruptor",
               "cost": 0
             },
@@ -3457,6 +3576,40 @@
           "instruction": "",
           "options": [
             {
+              "name": "Shuriken rifle",
+              "cost": 0
+            }
+          ],
+          "source": 18,
+          "model": 0,
+          "loadout": 3,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken rifle",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Shuriken pistol",
+            "Power sword"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Blaster",
               "cost": 0
             },
@@ -3465,7 +3618,7 @@
               "cost": 0
             }
           ],
-          "source": 13,
+          "source": 19,
           "model": 0,
           "loadout": 3,
           "heading": "",
@@ -3512,7 +3665,7 @@
               "cost": 0
             }
           ],
-          "source": 14,
+          "source": 20,
           "model": 0,
           "loadout": 3,
           "heading": "",
@@ -3559,7 +3712,7 @@
               "cost": 0
             }
           ],
-          "source": 15,
+          "source": 21,
           "model": 0,
           "loadout": 3,
           "heading": "",
@@ -3597,7 +3750,7 @@
               "cost": 0
             }
           ],
-          "source": 16,
+          "source": 22,
           "model": 0,
           "loadout": 3,
           "heading": "",
@@ -3622,7 +3775,9 @@
               ]
             }
           ],
-          "replaces": [],
+          "replaces": [
+            "Power sword"
+          ],
           "replaces_options": []
         },
         {
@@ -3633,7 +3788,7 @@
               "cost": 0
             }
           ],
-          "source": 17,
+          "source": 23,
           "model": 0,
           "loadout": 3,
           "heading": "",
@@ -4104,6 +4259,15 @@
             "role": null,
             "wargear": [
               "Shuriken pistol",
+              "Power sword",
+              "Close combat weapon"
+            ]
+          },
+          {
+            "model": 4,
+            "role": null,
+            "wargear": [
+              "Shuriken pistol",
               "Executioner",
               "Close combat weapon",
               "Witch staff"
@@ -4111,39 +4275,6 @@
           }
         ],
         "wargear_options": [
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Shuriken rifle",
-                "cost": 0
-              }
-            ],
-            "source": 10,
-            "model": 0,
-            "loadout": 3,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": true
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Shuriken rifle",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Shuriken pistol"
-            ],
-            "replaces_options": []
-          },
           {
             "instruction": "",
             "options": [
@@ -4225,6 +4356,40 @@
             "instruction": "",
             "options": [
               {
+                "name": "Shuriken rifle",
+                "cost": 0
+              }
+            ],
+            "source": 18,
+            "model": 0,
+            "loadout": 3,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken rifle",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Shuriken pistol",
+              "Power sword"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
                 "name": "Blaster",
                 "cost": 0
               },
@@ -4233,7 +4398,7 @@
                 "cost": 0
               }
             ],
-            "source": 13,
+            "source": 19,
             "model": 0,
             "loadout": 3,
             "heading": "",
@@ -4280,7 +4445,7 @@
                 "cost": 0
               }
             ],
-            "source": 14,
+            "source": 20,
             "model": 0,
             "loadout": 3,
             "heading": "",
@@ -4327,7 +4492,7 @@
                 "cost": 0
               }
             ],
-            "source": 15,
+            "source": 21,
             "model": 0,
             "loadout": 3,
             "heading": "",
@@ -4365,7 +4530,7 @@
                 "cost": 0
               }
             ],
-            "source": 16,
+            "source": 22,
             "model": 0,
             "loadout": 3,
             "heading": "",
@@ -4390,7 +4555,9 @@
                 ]
               }
             ],
-            "replaces": [],
+            "replaces": [
+              "Power sword"
+            ],
             "replaces_options": []
           },
           {
@@ -4401,7 +4568,7 @@
                 "cost": 0
               }
             ],
-            "source": 17,
+            "source": 23,
             "model": 0,
             "loadout": 3,
             "heading": "",
@@ -5359,6 +5526,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Flip Belt",
         "Shrieker cannon",
@@ -12982,6 +13150,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Shuriken pistol",
         "Miststave",
@@ -17968,6 +18137,7 @@
         "Character"
       ],
       "epic_hero": false,
+      "one_per_army": true,
       "loadout": [
         "Shuriken pistol",
         "Troupe Master’s blade",
@@ -27441,6 +27611,14 @@
           }
         ],
         "excludes": [],
+        "lifts_one_per_army": {
+          "rule": "Travelling Players",
+          "targets": [
+            "Death Jester",
+            "Shadowseer",
+            "Troupe Master"
+          ]
+        },
         "stratagems": [
           {
             "name": "Staged Death",
@@ -27928,6 +28106,14 @@
           }
         ],
         "excludes": [],
+        "lifts_one_per_army": {
+          "rule": "Travelling Players",
+          "targets": [
+            "Death Jester",
+            "Shadowseer",
+            "Troupe Master"
+          ]
+        },
         "stratagems": [
           {
             "name": "Fangs of the Brood",
@@ -28065,7 +28251,9 @@
         "dispositions": [
           "Disruption"
         ],
-        "unique": [],
+        "unique": [
+          "Acrobatic"
+        ],
         "rules": [
           {
             "name": "Acrobatic Onslaught",
@@ -28392,7 +28580,9 @@
         "dispositions": [
           "Take and Hold"
         ],
-        "unique": [],
+        "unique": [
+          "Acrobatic"
+        ],
         "rules": [
           {
             "name": "Dance of Distortion",
@@ -28592,6 +28782,13 @@
         "required_enhancements": [],
         "grants": [],
         "excludes": [],
+        "warlord_from": {
+          "rule": "Servants of the Whispering God",
+          "targets": [
+            "Yvraine",
+            "The Yncarne"
+          ]
+        },
         "stratagems": [
           {
             "name": "Macabre Resilience",
@@ -30236,8 +30433,8 @@
     "excludes": [],
     "allies": [
       {
-        "rule": "Disparate Paths",
-        "detachment": null,
+        "rule": "Travelling Players",
+        "detachment": "Ghosts of the Webway",
         "units": [
           {
             "faction": "aeldari",
@@ -30252,7 +30449,48 @@
         "enhancements": true,
         "price_keyword": null,
         "keyword_as": null,
-        "battleline_by": []
+        "battleline_by": [],
+        "of_army": true
+      },
+      {
+        "rule": "Travelling Players",
+        "detachment": "Serpent’s Brood",
+        "units": [
+          {
+            "faction": "aeldari",
+            "targets": [
+              "Harlequins"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": null,
+        "warlord": true,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": [],
+        "of_army": true
+      },
+      {
+        "rule": "Disparate Paths",
+        "detachment": null,
+        "units": [
+          {
+            "faction": "aeldari",
+            "targets": [
+              "Harlequins"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": null,
+        "warlord": false,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": [],
+        "of_army": true
       },
       {
         "rule": "Servants of the Whispering God",
@@ -30263,7 +30501,9 @@
             "targets": [
               "Ynnari"
             ],
-            "excludes": []
+            "excludes": [
+              "Asuryani"
+            ]
           }
         ],
         "limit": null,

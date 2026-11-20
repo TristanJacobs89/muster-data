@@ -2,10 +2,39 @@
   "dataVersion": 1026,
   "date": "2026-11-20",
   "changes": {
-    "changed": [],
-    "new": [],
-    "gone": []
+    "changed": [
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/0/choices/0/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/0/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/0/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/1/choices/0/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/1/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/1/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/2/choices/0/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/2/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/2/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/6/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/6/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/0/choices/0/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/0/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/0/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/1/choices/0/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/1/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/1/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/2/choices/0/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/2/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/2/instruction",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/6/heading",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/6/instruction"
+    ],
+    "new": [
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/0/choices/1/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/0/choices/1/text"
+    ],
+    "gone": [
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/1/choices/1/text",
+      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/1/choices/1/text"
+    ]
   },
-  "revision": "517efd280aa8",
+  "revision": "013ba97e9b77",
   "from": 1025
 }
