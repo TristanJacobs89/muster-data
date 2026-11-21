@@ -711,6 +711,10 @@
               "cost": 0
             },
             {
+              "name": "Combi-bolter",
+              "cost": 0
+            },
+            {
               "name": "Flamer",
               "cost": 0
             },
@@ -723,7 +727,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -746,6 +750,10 @@
               "text": "",
               "items": [
                 {
+                  "option": "Combi-bolter",
+                  "count": 1
+                },
+                {
                   "option": "Flamer",
                   "count": 1
                 }
@@ -755,6 +763,10 @@
               "text": "",
               "items": [
                 {
+                  "option": "Combi-bolter",
+                  "count": 1
+                },
+                {
                   "option": "Meltagun",
                   "count": 1
                 }
@@ -763,6 +775,10 @@
             {
               "text": "",
               "items": [
+                {
+                  "option": "Combi-bolter",
+                  "count": 1
+                },
                 {
                   "option": "Plasma gun",
                   "count": 1
@@ -1246,6 +1262,10 @@
                 "cost": 0
               },
               {
+                "name": "Combi-bolter",
+                "cost": 0
+              },
+              {
                 "name": "Flamer",
                 "cost": 0
               },
@@ -1258,7 +1278,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -1281,6 +1301,10 @@
                 "text": "",
                 "items": [
                   {
+                    "option": "Combi-bolter",
+                    "count": 1
+                  },
+                  {
                     "option": "Flamer",
                     "count": 1
                   }
@@ -1290,6 +1314,10 @@
                 "text": "",
                 "items": [
                   {
+                    "option": "Combi-bolter",
+                    "count": 1
+                  },
+                  {
                     "option": "Meltagun",
                     "count": 1
                   }
@@ -1298,6 +1326,10 @@
               {
                 "text": "",
                 "items": [
+                  {
+                    "option": "Combi-bolter",
+                    "count": 1
+                  },
                   {
                     "option": "Plasma gun",
                     "count": 1
@@ -8214,39 +8246,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Magma cutters",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Magma cutters",
-                  "count": 2
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Excruciator cannon"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Hades lascannon",
               "cost": 15
             },
@@ -8360,6 +8359,42 @@
             "Heavy missile launcher"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Magma cutters",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Magma cutters",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Excruciator cannon"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Excruciator cannon": 2
+          }
         }
       ],
       "composition": [
@@ -8713,39 +8748,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Magma cutters",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Magma cutters",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Excruciator cannon"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Hades lascannon",
                 "cost": 15
               },
@@ -8859,6 +8861,42 @@
               "Heavy missile launcher"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Magma cutters",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Magma cutters",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Excruciator cannon"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Excruciator cannon": 2
+            }
           }
         ]
       }
@@ -19395,7 +19433,7 @@
               "cost": 0
             }
           ],
-          "source": 10,
+          "source": 12,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -19416,7 +19454,8 @@
                   "option": "Close Combat Weapon",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "unit"
             },
             {
               "text": "",
@@ -19429,7 +19468,8 @@
                   "option": "Close Combat Weapon",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "unit"
             },
             {
               "text": "",
@@ -19442,7 +19482,8 @@
                   "option": "Close Combat Weapon",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "unit"
             }
           ],
           "replaces": [
@@ -19470,7 +19511,7 @@
               "cost": 0
             }
           ],
-          "source": 11,
+          "source": 13,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -19496,7 +19537,8 @@
                   "option": "Close Combat Weapon",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "unit"
             },
             {
               "text": "",
@@ -19509,7 +19551,8 @@
                   "option": "Close Combat Weapon",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "unit"
             },
             {
               "text": "",
@@ -19522,7 +19565,8 @@
                   "option": "Close Combat Weapon",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "unit"
             }
           ],
           "replaces": [
@@ -20058,7 +20102,7 @@
                 "cost": 0
               }
             ],
-            "source": 10,
+            "source": 12,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -20079,7 +20123,8 @@
                     "option": "Close Combat Weapon",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "unit"
               },
               {
                 "text": "",
@@ -20092,7 +20137,8 @@
                     "option": "Close Combat Weapon",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "unit"
               },
               {
                 "text": "",
@@ -20105,7 +20151,8 @@
                     "option": "Close Combat Weapon",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "unit"
               }
             ],
             "replaces": [
@@ -20133,7 +20180,7 @@
                 "cost": 0
               }
             ],
-            "source": 11,
+            "source": 13,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -20159,7 +20206,8 @@
                     "option": "Close Combat Weapon",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "unit"
               },
               {
                 "text": "",
@@ -20172,7 +20220,8 @@
                     "option": "Close Combat Weapon",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "unit"
               },
               {
                 "text": "",
@@ -20185,7 +20234,8 @@
                     "option": "Close Combat Weapon",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "unit"
               }
             ],
             "replaces": [
@@ -20266,20 +20316,16 @@
             {
               "name": "Meltagun",
               "cost": 0
-            },
-            {
-              "name": "Power fist",
-              "cost": 0
             }
           ],
-          "source": 3,
+          "source": 4,
           "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
             "kind": "per",
             "every": 5,
-            "up": 2
+            "up": 1
           },
           "each": 1,
           "choices": [
@@ -20298,7 +20344,32 @@
                   "up": 1
                 }
               ]
-            },
+            }
+          ],
+          "replaces": [
+            "Boltgun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Power fist",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
             {
               "text": "",
               "items": [
@@ -20317,7 +20388,6 @@
             }
           ],
           "replaces": [
-            "Boltgun",
             "Reaver’s blade"
           ],
           "replaces_options": []
@@ -20588,20 +20658,16 @@
               {
                 "name": "Meltagun",
                 "cost": 0
-              },
-              {
-                "name": "Power fist",
-                "cost": 0
               }
             ],
-            "source": 3,
+            "source": 4,
             "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
               "kind": "per",
               "every": 5,
-              "up": 2
+              "up": 1
             },
             "each": 1,
             "choices": [
@@ -20620,7 +20686,32 @@
                     "up": 1
                   }
                 ]
-              },
+              }
+            ],
+            "replaces": [
+              "Boltgun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Power fist",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
               {
                 "text": "",
                 "items": [
@@ -20639,7 +20730,6 @@
               }
             ],
             "replaces": [
-              "Boltgun",
               "Reaver’s blade"
             ],
             "replaces_options": []
