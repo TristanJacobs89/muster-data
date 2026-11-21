@@ -10033,6 +10033,1660 @@
         ],
         "wargear_options": []
       }
+    },
+    {
+      "id": "1cb3cf6f-8e6a-5e4d-a0df-44c65542ae4f",
+      "name": "Rotigus",
+      "keywords": [
+        "Daemon",
+        "Nurgle",
+        "Chaos",
+        "Psyker",
+        "Epic Hero",
+        "Character",
+        "Monster",
+        "Rotigus",
+        "Summoned"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 280,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Streams of brackish filth",
+        "Gnarlrod"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Rotigus",
+            "m": "7\"",
+            "t": "12",
+            "sv": "5+",
+            "w": "22",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Streams of brackish filth",
+            "profiles": [
+              {
+                "name": "Streams of brackish filth",
+                "range": "12\"",
+                "a": "2D6",
+                "skill": "-",
+                "s": "8",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Gnarlrod",
+            "profiles": [
+              {
+                "name": "Gnarlrod – strike",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "10",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Lethal Hits",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Gnarlrod – sweep",
+                "range": "Melee",
+                "a": "14",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Feel No Pain 6+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Decay",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Virulent Blessing (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Deluge of Nurgle (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "130mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Nurgle",
+          "Chaos",
+          "Psyker",
+          "Epic Hero",
+          "Character",
+          "Monster",
+          "Rotigus",
+          "Summoned"
+        ],
+        "factions": [
+          "Plague Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "deathguard",
+          "id": "1cb3cf6f-8e6a-5e4d-a0df-44c65542ae4f",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 280
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 280,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Streams of brackish filth",
+          "Gnarlrod"
+        ],
+        "model_types": [
+          {
+            "name": "Rotigus",
+            "min": 1,
+            "max": 1,
+            "statline": "Rotigus"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Streams of brackish filth",
+              "Gnarlrod"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "90e6fdb3-c583-5ad0-9769-e8bbf6ed9b23",
+      "name": "Great Unclean One",
+      "keywords": [
+        "Monster",
+        "Great Unclean One",
+        "Daemon",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Summoned",
+        "Nurgle"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 265,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Plague flail",
+        "Putrid vomit",
+        "Bilesword"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Bileblade",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bileblade",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Plague flail"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Doomsday bell",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Doomsday bell",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Bilesword"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Great Unclean One",
+            "m": "7\"",
+            "t": "12",
+            "sv": "5+",
+            "w": "20",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Plague flail",
+            "profiles": [
+              {
+                "name": "Plague flail",
+                "range": "6\"",
+                "a": "D6+1",
+                "skill": "3+",
+                "s": "7",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Putrid vomit",
+            "profiles": [
+              {
+                "name": "Putrid vomit",
+                "range": "12\"",
+                "a": "D6+3",
+                "skill": "-",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Bileblade",
+            "profiles": [
+              {
+                "name": "Bileblade",
+                "range": "Melee",
+                "a": "3",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Extra Attacks",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bilesword",
+            "profiles": [
+              {
+                "name": "Bilesword – strike",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6+1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              },
+              {
+                "name": "Bilesword – sweep",
+                "range": "Melee",
+                "a": "12",
+                "skill": "2+",
+                "s": "7",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Doomsday bell",
+            "profiles": [
+              {
+                "name": "Doomsday bell",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "7",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Lethal Hits",
+                  "Reverberating Summons"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Feel No Pain 6+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Decay",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Daemon Lord of Nurgle (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Nurgle’s Rot (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "movement"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "130mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Monster",
+          "Great Unclean One",
+          "Daemon",
+          "Character",
+          "Psyker",
+          "Chaos",
+          "Summoned",
+          "Nurgle"
+        ],
+        "factions": [
+          "Plague Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "deathguard",
+          "id": "90e6fdb3-c583-5ad0-9769-e8bbf6ed9b23",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 265
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 265,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "extra_cost": {
+          "cost": 15,
+          "after": 2
+        },
+        "loadout": [
+          "Plague flail",
+          "Putrid vomit",
+          "Bilesword"
+        ],
+        "model_types": [
+          {
+            "name": "Great Unclean One",
+            "min": 1,
+            "max": 1,
+            "statline": "Great Unclean One"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Plague flail",
+              "Putrid vomit",
+              "Bilesword"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Bileblade",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bileblade",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Plague flail"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Doomsday bell",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Doomsday bell",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Bilesword"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "93d69aa3-c846-548b-9b1e-1acad8cdd304",
+      "name": "Plaguebearers",
+      "keywords": [
+        "Battleline",
+        "Infantry",
+        "Nurgle",
+        "Plaguebearers",
+        "Chaos",
+        "Daemon",
+        "Summoned"
+      ],
+      "points": [
+        {
+          "models": 10,
+          "cost": 115,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Plaguesword"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Plaguebearers",
+            "m": "5\"",
+            "t": "5",
+            "sv": "7+",
+            "w": "2",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Plaguesword",
+            "profiles": [
+              {
+                "name": "Plaguesword",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Decay",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Infected Outbreak",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "command"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Battleline",
+          "Infantry",
+          "Nurgle",
+          "Plaguebearers",
+          "Chaos",
+          "Daemon",
+          "Summoned"
+        ],
+        "factions": [
+          "Plague Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "deathguard",
+          "id": "93d69aa3-c846-548b-9b1e-1acad8cdd304",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 10,
+            "cost": 115
+          }
+        ],
+        "prices": [
+          {
+            "models": 10,
+            "cost": 115,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Plaguesword"
+        ],
+        "model_types": [
+          {
+            "name": "Plagueridden",
+            "min": 1,
+            "max": 1,
+            "statline": "Plaguebearers"
+          },
+          {
+            "name": "Plaguebearers",
+            "min": 9,
+            "max": 9,
+            "statline": "Plaguebearers"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Plaguesword"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "3965ce69-e651-5f6b-a588-9b62e6f7bf20",
+      "name": "Plague Drones",
+      "keywords": [
+        "Daemon",
+        "Mounted",
+        "Fly",
+        "Chaos",
+        "Nurgle",
+        "Summoned",
+        "Plague Drones"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 110,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 220,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Mounted"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Death’s Heads",
+        "Foul mouthparts",
+        "Plaguesword"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Plague Drones",
+            "m": "10\"",
+            "t": "8",
+            "sv": "6+",
+            "w": "5",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Death’s Heads",
+            "profiles": [
+              {
+                "name": "Death’s Heads",
+                "range": "12\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Blast",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Foul mouthparts",
+            "profiles": [
+              {
+                "name": "Foul mouthparts",
+                "range": "Melee",
+                "a": "2",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Extra Attacks",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Plaguesword",
+            "profiles": [
+              {
+                "name": "Plaguesword",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Decay",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Death’s Heads",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm flying base",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Mounted",
+          "Fly",
+          "Chaos",
+          "Nurgle",
+          "Summoned",
+          "Plague Drones"
+        ],
+        "factions": [
+          "Plague Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "deathguard",
+          "id": "3965ce69-e651-5f6b-a588-9b62e6f7bf20",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 110
+          },
+          {
+            "models": 6,
+            "cost": 220
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 110,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 220,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Death’s Heads",
+          "Foul mouthparts",
+          "Plaguesword"
+        ],
+        "model_types": [
+          {
+            "name": "Plaguebringer",
+            "min": 1,
+            "max": 1,
+            "statline": "Plague Drones"
+          },
+          {
+            "name": "Plague Drones",
+            "min": 2,
+            "max": 5,
+            "statline": "Plague Drones"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Death’s Heads",
+              "Foul mouthparts",
+              "Plaguesword"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b55306ab-087e-57c1-b00c-3e17b9096524",
+      "name": "Beasts of Nurgle",
+      "keywords": [
+        "Daemon",
+        "Nurgle",
+        "Summoned",
+        "Beasts of Nurgle",
+        "Beast",
+        "Chaos"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 70,
+          "label": "1 model"
+        },
+        {
+          "models": 2,
+          "cost": 140,
+          "label": "2 models"
+        }
+      ],
+      "unit_types": [
+        "Beast"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Putrid appendages"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Beasts of Nurgle",
+            "m": "6\"",
+            "t": "9",
+            "sv": "6+",
+            "w": "7",
+            "ld": "7+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Putrid appendages",
+            "profiles": [
+              {
+                "name": "Putrid appendages",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise 1",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Scouts 6\"",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Decay",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Grotesque Regeneration",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "any"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Nurgle",
+          "Summoned",
+          "Beasts of Nurgle",
+          "Beast",
+          "Chaos"
+        ],
+        "factions": [
+          "Plague Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "deathguard",
+          "id": "b55306ab-087e-57c1-b00c-3e17b9096524",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 70
+          },
+          {
+            "models": 2,
+            "cost": 140
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 70,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 2,
+            "cost": 140,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Putrid appendages"
+        ],
+        "model_types": [
+          {
+            "name": "Beasts of Nurgle",
+            "min": 1,
+            "max": 2,
+            "statline": "Beasts of Nurgle"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Putrid appendages"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "31562dce-97d5-5677-9a8e-0f972d4275fe",
+      "name": "Nurglings",
+      "keywords": [
+        "Nurgle",
+        "Chaos",
+        "Swarm",
+        "Nurglings",
+        "Daemon",
+        "Summoned"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 45,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 90,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Swarm"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Diseased claws and teeth"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Nurglings",
+            "m": "5\"",
+            "t": "3",
+            "sv": "7+",
+            "w": "4",
+            "ld": "8+",
+            "oc": "0"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Diseased claws and teeth",
+            "profiles": [
+              {
+                "name": "Diseased claws and teeth",
+                "range": "Melee",
+                "a": "4",
+                "skill": "5+",
+                "s": "2",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Decay",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Mischief Makers",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Nurgle",
+          "Chaos",
+          "Swarm",
+          "Nurglings",
+          "Daemon",
+          "Summoned"
+        ],
+        "factions": [
+          "Plague Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "deathguard",
+          "id": "31562dce-97d5-5677-9a8e-0f972d4275fe",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 45
+          },
+          {
+            "models": 6,
+            "cost": 90
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 45,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Diseased claws and teeth"
+        ],
+        "model_types": [
+          {
+            "name": "Nurgling Swarms",
+            "min": 3,
+            "max": 6,
+            "statline": "Nurglings"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Diseased claws and teeth"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
     }
   ],
   "rules": {
@@ -10496,7 +12150,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "plague legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Fleshy Avalanche",
@@ -10512,7 +12172,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "plague legions monster"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Avatars of Decay",
@@ -10527,7 +12193,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "plague legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Mireslick",
@@ -10542,7 +12214,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "plague legions"
+              ],
+              "excludes": []
+            }
           }
         ]
       },
@@ -11652,6 +13330,32 @@
           "Nurgle",
           "Slaanesh"
         ]
+      },
+      {
+        "rule": "Plague Legions",
+        "detachment": "Tallyband Summoners",
+        "units": [
+          {
+            "faction": "deathguard",
+            "targets": [
+              "Plague Legions"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "points",
+          "by_size": {
+            "Incursion": 500,
+            "Strike Force": 1000,
+            "Onslaught": 1500
+          }
+        },
+        "warlord": false,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": []
       }
     ]
   }
