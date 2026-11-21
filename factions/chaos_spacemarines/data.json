@@ -25589,7 +25589,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Traitor Guardsmen Squad"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
