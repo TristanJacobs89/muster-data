@@ -11766,7 +11766,10 @@
         "enhancements": false,
         "price_keyword": null,
         "keyword_as": null,
-        "battleline_by": []
+        "battleline_by": [],
+        "not_in": [
+          "Reaper’s Wager"
+        ]
       }
     ]
   }
