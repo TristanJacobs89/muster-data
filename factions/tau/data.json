@@ -8181,9 +8181,9 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 6,
           "model": 0,
-          "loadout": 1,
+          "loadout": 0,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -8214,9 +8214,9 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 7,
           "model": 1,
-          "loadout": 0,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "per",
@@ -8444,7 +8444,7 @@
         ],
         "loadouts": [
           {
-            "model": 1,
+            "model": 0,
             "role": null,
             "wargear": [
               "Kroot pistol",
@@ -8453,7 +8453,7 @@
             ]
           },
           {
-            "model": 0,
+            "model": 1,
             "role": null,
             "wargear": [
               "Kroot rifle",
@@ -8470,9 +8470,9 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 6,
             "model": 0,
-            "loadout": 1,
+            "loadout": 0,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -8503,9 +8503,9 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 7,
             "model": 1,
-            "loadout": 0,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "per",

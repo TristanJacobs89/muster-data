@@ -9852,7 +9852,7 @@
           ],
           "source": 9,
           "model": 3,
-          "loadout": 4,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -9885,7 +9885,7 @@
           ],
           "source": 10,
           "model": 3,
-          "loadout": 4,
+          "loadout": 3,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -10272,15 +10272,8 @@
             ]
           },
           {
-            "model": null,
-            "role": null,
-            "wargear": [
-              "Death Cult blades"
-            ]
-          },
-          {
             "model": 3,
-            "role": null,
+            "role": "Plasma gun",
             "wargear": [
               "Plasma gun",
               "Sanctifier melee weapon"
@@ -10289,6 +10282,13 @@
           {
             "model": 2,
             "role": null,
+            "wargear": [
+              "Death Cult blades"
+            ]
+          },
+          {
+            "model": 3,
+            "role": "Ministorum flamer",
             "wargear": [
               "Ministorum flamer",
               "Sanctifier melee weapon"
@@ -10388,7 +10388,7 @@
             ],
             "source": 9,
             "model": 3,
-            "loadout": 4,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "fixed",
@@ -10421,7 +10421,7 @@
             ],
             "source": 10,
             "model": 3,
-            "loadout": 4,
+            "loadout": 3,
             "heading": "",
             "cap": {
               "kind": "fixed",

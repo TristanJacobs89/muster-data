@@ -10699,6 +10699,91 @@
             "Havoc lascannon"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Havoc autocannon",
+              "cost": 0
+            },
+            {
+              "name": "Havoc heavy bolter",
+              "cost": 0
+            },
+            {
+              "name": "Havoc lascannon",
+              "cost": 0
+            },
+            {
+              "name": "Havoc missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Havoc reaper chaincannon",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc autocannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc heavy bolter",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc lascannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc reaper chaincannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Havoc autocannon"
+          ],
+          "replaces_options": []
         }
       ],
       "composition": [
@@ -11065,7 +11150,8 @@
           },
           {
             "model": 1,
-            "role": "Havoc autocannon",
+            "role": null,
+            "size": 2,
             "wargear": [
               "Havoc autocannon",
               "Close Combat Weapon"
@@ -11074,6 +11160,7 @@
           {
             "model": 1,
             "role": null,
+            "size": 2,
             "wargear": [
               "Havoc lascannon",
               "Close Combat Weapon"
@@ -11307,6 +11394,91 @@
             ],
             "replaces": [
               "Havoc lascannon"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Havoc autocannon",
+                "cost": 0
+              },
+              {
+                "name": "Havoc heavy bolter",
+                "cost": 0
+              },
+              {
+                "name": "Havoc lascannon",
+                "cost": 0
+              },
+              {
+                "name": "Havoc missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Havoc reaper chaincannon",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc autocannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc heavy bolter",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc lascannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc reaper chaincannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Havoc autocannon"
             ],
             "replaces_options": []
           }

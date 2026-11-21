@@ -4190,24 +4190,25 @@
         ],
         "loadouts": [
           {
-            "model": null,
-            "role": null,
-            "wargear": [
-              "Venom bolt",
-              "Ravener heavy claws and talons"
-            ]
-          },
-          {
-            "model": null,
+            "model": 0,
             "role": null,
             "wargear": [
               "Prime claws and talons"
             ]
           },
           {
-            "model": null,
+            "model": 1,
             "role": null,
+            "size": 3,
             "wargear": [
+              "Ravener heavy claws and talons"
+            ]
+          },
+          {
+            "model": 1,
+            "role": "Venom bolt",
+            "wargear": [
+              "Venom bolt",
               "Ravener heavy claws and talons"
             ]
           }

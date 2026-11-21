@@ -5068,7 +5068,7 @@
           },
           {
             "model": 1,
-            "role": null,
+            "role": "Regimental Standard",
             "wargear": [
               "Lasgun",
               "Regimental Standard",
@@ -5077,7 +5077,7 @@
           },
           {
             "model": 1,
-            "role": "Laspistol",
+            "role": "Las pistol, Chainsword",
             "wargear": [
               "Laspistol",
               "Chainsword"
@@ -14371,7 +14371,7 @@
           },
           {
             "model": 1,
-            "role": null,
+            "role": "Corbec’s hot-shot lascarbine",
             "wargear": [
               "Corbec’s hot-shot lascarbine",
               "Straight silver knife"
