@@ -7929,134 +7929,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Blight launcher",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Blight launcher",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Boltgun"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Plague spewer",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Plague spewer",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Boltgun"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Meltagun",
-              "cost": 0
-            },
-            {
-              "name": "Plague belcher",
-              "cost": 0
-            },
-            {
-              "name": "Plasma gun",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Meltagun",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Plague belcher",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Plasma gun",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Boltgun"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Bubotic weapons",
               "cost": 0
             }
@@ -8125,12 +7997,140 @@
           "instruction": "",
           "options": [
             {
+              "name": "Blight launcher",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Blight launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Boltgun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Plague spewer",
+              "cost": 0
+            }
+          ],
+          "source": 11,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plague spewer",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Boltgun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Meltagun",
+              "cost": 0
+            },
+            {
+              "name": "Plague belcher",
+              "cost": 0
+            },
+            {
+              "name": "Plasma gun",
+              "cost": 0
+            }
+          ],
+          "source": 12,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Meltagun",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plague belcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma gun",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Boltgun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Icon of Despair (Aura)",
               "cost": 0
             }
           ],
-          "source": 9,
-          "model": null,
+          "source": 13,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -8638,134 +8638,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Blight launcher",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Blight launcher",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Boltgun"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Plague spewer",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Plague spewer",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Boltgun"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Meltagun",
-                "cost": 0
-              },
-              {
-                "name": "Plague belcher",
-                "cost": 0
-              },
-              {
-                "name": "Plasma gun",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Meltagun",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Plague belcher",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Plasma gun",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Boltgun"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Bubotic weapons",
                 "cost": 0
               }
@@ -8834,12 +8706,140 @@
             "instruction": "",
             "options": [
               {
+                "name": "Blight launcher",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Blight launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Boltgun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Plague spewer",
+                "cost": 0
+              }
+            ],
+            "source": 11,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plague spewer",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Boltgun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Meltagun",
+                "cost": 0
+              },
+              {
+                "name": "Plague belcher",
+                "cost": 0
+              },
+              {
+                "name": "Plasma gun",
+                "cost": 0
+              }
+            ],
+            "source": 12,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Meltagun",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plague belcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma gun",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Boltgun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
                 "name": "Icon of Despair (Aura)",
                 "cost": 0
               }
             ],
-            "source": 9,
-            "model": null,
+            "source": 13,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
