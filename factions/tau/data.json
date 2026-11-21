@@ -18530,7 +18530,14 @@
           }
         ],
         "required_enhancements": [],
-        "grants": [],
+        "grants": [
+          {
+            "targets": [
+              "Kroot Carnivores"
+            ],
+            "keyword": "Battleline"
+          }
+        ],
         "excludes": [],
         "stratagems": [
           {
