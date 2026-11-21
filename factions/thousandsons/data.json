@@ -6675,39 +6675,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Soulreaper cannon",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": null,
-          "loadout": null,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Soulreaper cannon",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Inferno boltgun"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Warpflamer",
               "cost": 0
             }
@@ -6741,13 +6708,46 @@
           "instruction": "",
           "options": [
             {
+              "name": "Soulreaper cannon",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Soulreaper cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Inferno boltgun"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
               "name": "Icon of Flame",
               "cost": 0
             }
           ],
-          "source": 5,
-          "model": null,
-          "loadout": null,
+          "source": 7,
+          "model": 1,
+          "loadout": 1,
           "heading": "",
           "cap": {
             "kind": "fixed",
@@ -7099,39 +7099,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Soulreaper cannon",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": null,
-            "loadout": null,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Soulreaper cannon",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Inferno boltgun"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Warpflamer",
                 "cost": 0
               }
@@ -7165,13 +7132,46 @@
             "instruction": "",
             "options": [
               {
+                "name": "Soulreaper cannon",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Soulreaper cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Inferno boltgun"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
                 "name": "Icon of Flame",
                 "cost": 0
               }
             ],
-            "source": 5,
-            "model": null,
-            "loadout": null,
+            "source": 7,
+            "model": 1,
+            "loadout": 1,
             "heading": "",
             "cap": {
               "kind": "fixed",

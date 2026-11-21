@@ -8177,40 +8177,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Tanglebomb launcher",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": null,
-          "loadout": null,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 10,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Tanglebomb launcher",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Kroot rifle"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Kroot carbine",
               "cost": 0
             }
@@ -8230,6 +8196,40 @@
               "items": [
                 {
                   "option": "Kroot carbine",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Kroot rifle"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Tanglebomb launcher",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 10,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Tanglebomb launcher",
                   "count": 1
                 }
               ]
@@ -8466,40 +8466,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Tanglebomb launcher",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": null,
-            "loadout": null,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 10,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Tanglebomb launcher",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Kroot rifle"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Kroot carbine",
                 "cost": 0
               }
@@ -8519,6 +8485,40 @@
                 "items": [
                   {
                     "option": "Kroot carbine",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Kroot rifle"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Tanglebomb launcher",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 10,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Tanglebomb launcher",
                     "count": 1
                   }
                 ]

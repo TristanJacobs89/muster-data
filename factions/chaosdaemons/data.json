@@ -3027,8 +3027,8 @@
               "cost": 0
             }
           ],
-          "source": 2,
-          "model": null,
+          "source": 4,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -3058,8 +3058,8 @@
               "cost": 0
             }
           ],
-          "source": 3,
-          "model": null,
+          "source": 5,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -3249,8 +3249,8 @@
                 "cost": 0
               }
             ],
-            "source": 2,
-            "model": null,
+            "source": 4,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -3280,8 +3280,8 @@
                 "cost": 0
               }
             ],
-            "source": 3,
-            "model": null,
+            "source": 5,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -7771,8 +7771,8 @@
               "cost": 0
             }
           ],
-          "source": 2,
-          "model": null,
+          "source": 4,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -7802,8 +7802,8 @@
               "cost": 0
             }
           ],
-          "source": 3,
-          "model": null,
+          "source": 5,
+          "model": 1,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -8039,8 +8039,8 @@
                 "cost": 0
               }
             ],
-            "source": 2,
-            "model": null,
+            "source": 4,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -8070,8 +8070,8 @@
                 "cost": 0
               }
             ],
-            "source": 3,
-            "model": null,
+            "source": 5,
+            "model": 1,
             "loadout": 0,
             "heading": "",
             "cap": {
