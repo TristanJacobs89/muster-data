@@ -1163,7 +1163,7 @@
         "Forge bolter",
         "Grav-pistol",
         "Omnissian power axe",
-        "Servo-arm"
+        "Servo-arms"
       ],
       "wargear_options": [],
       "composition": [
@@ -1218,23 +1218,6 @@
           }
         ],
         "melee": [
-          {
-            "name": "Servo-arm",
-            "profiles": [
-              {
-                "name": "Servo-arm",
-                "range": "Melee",
-                "a": "1",
-                "skill": "3+",
-                "s": "8",
-                "ap": "-2",
-                "d": "3",
-                "keywords": [
-                  "Extra Attacks"
-                ]
-              }
-            ]
-          },
           {
             "name": "Omnissian power axe",
             "profiles": [
@@ -1381,7 +1364,7 @@
           "Forge bolter",
           "Grav-pistol",
           "Omnissian power axe",
-          "Servo-arm"
+          "Servo-arms"
         ],
         "model_types": [
           {
@@ -1399,7 +1382,7 @@
               "Forge bolter",
               "Grav-pistol",
               "Omnissian power axe",
-              "Servo-arm"
+              "Servo-arms"
             ]
           }
         ],
