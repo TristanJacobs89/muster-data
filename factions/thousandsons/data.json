@@ -4817,13 +4817,13 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
           "cap": {
-            "kind": "per_model",
-            "read": false
+            "kind": "per_item",
+            "item": "Helbrute fist"
           },
           "each": 1,
           "choices": [
@@ -5331,13 +5331,13 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
             "cap": {
-              "kind": "per_model",
-              "read": false
+              "kind": "per_item",
+              "item": "Helbrute fist"
             },
             "each": 1,
             "choices": [
