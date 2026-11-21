@@ -27269,7 +27269,10 @@
         "enhancements": true,
         "price_keyword": null,
         "keyword_as": "Heretic Astartes",
-        "battleline_by": []
+        "battleline_by": [],
+        "not_in": [
+          "Renegade Warband"
+        ]
       }
     ]
   }
