@@ -36883,7 +36883,7 @@
             "targets": [
               "astra militarum titanic character"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [],
             "modifiers": [
               {
@@ -36903,7 +36903,7 @@
             "targets": [
               "astra militarum titanic character"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": []
           },
           {
@@ -36923,7 +36923,7 @@
             "targets": [
               "astra militarum titanic character transport"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": []
           }
         ],

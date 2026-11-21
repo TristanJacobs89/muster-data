@@ -7691,7 +7691,7 @@
             "targets": [
               "war dog"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [],
             "modifiers": [
               {
@@ -7707,7 +7707,7 @@
             "targets": [
               "war dog"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": []
           },
           {
@@ -7717,7 +7717,7 @@
             "targets": [
               "war dog"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [],
             "modifiers": [
               {
@@ -7734,7 +7734,7 @@
             "targets": [
               "war dog"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": []
           }
         ],

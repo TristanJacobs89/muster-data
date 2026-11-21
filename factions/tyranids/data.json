@@ -12334,7 +12334,7 @@
             "targets": [
               "trygon"
             ],
-            "non_character": true,
+            "non_character": false,
             "excludes": [],
             "modifiers": [
               {
