@@ -1,26 +1,11 @@
 {
-  "dataVersion": 1035,
+  "dataVersion": 1036,
   "date": "2026-11-21",
   "changes": {
     "changed": [],
-    "new": [
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/choices/0/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/choices/1/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/choices/2/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/choices/3/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/choices/4/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/heading",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/data/wargear_options/3/instruction",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/choices/0/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/choices/1/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/choices/2/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/choices/3/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/choices/4/text",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/heading",
-      "chaos_spacemarines/datasheets/8ac4b6f6-8adb-5f06-b9f5-51e4c1e4ed0d/wargear_options/3/instruction"
-    ],
+    "new": [],
     "gone": []
   },
   "revision": "32846c7bcb17",
-  "from": 1034
+  "from": 1035
 }
