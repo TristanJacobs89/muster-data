@@ -6434,6 +6434,1469 @@
           }
         ]
       }
+    },
+    {
+      "id": "0b32b123-9646-5210-9678-08faefceea18",
+      "name": "Shalaxi Helbane",
+      "keywords": [
+        "Shalaxi Helbane",
+        "Slaanesh",
+        "Summoned",
+        "Daemon",
+        "Chaos",
+        "Psyker",
+        "Epic Hero",
+        "Character",
+        "Monster"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 315,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Lash of Slaanesh",
+        "Pavane of Slaanesh",
+        "Snapping claws",
+        "Soulpiercer"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Shalaxi Helbane",
+            "m": "14\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "20",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Lash of Slaanesh",
+            "profiles": [
+              {
+                "name": "Lash of Slaanesh",
+                "range": "12\"",
+                "a": "6",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Assault"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pavane of Slaanesh",
+            "profiles": [
+              {
+                "name": "Pavane of Slaanesh – witchfire",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-1",
+                "d": "D3",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Pavane of Slaanesh – focused witchfire",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D3",
+                "keywords": [
+                  "Hazardous",
+                  "Devastating Wounds",
+                  "Psychic",
+                  "Sustained Hits 3"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Snapping claws",
+            "profiles": [
+              {
+                "name": "Snapping claws",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Soulpiercer",
+            "profiles": [
+              {
+                "name": "Soulpiercer",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": [
+                  "Precision"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Excess",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "No Prey Can Evade",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Monarch of the Hunt",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "100mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Shalaxi Helbane",
+          "Slaanesh",
+          "Summoned",
+          "Daemon",
+          "Chaos",
+          "Psyker",
+          "Epic Hero",
+          "Character",
+          "Monster"
+        ],
+        "factions": [
+          "Legions of Excess"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "emperors_children",
+          "id": "0b32b123-9646-5210-9678-08faefceea18",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 315
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 315,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lash of Slaanesh",
+          "Pavane of Slaanesh",
+          "Snapping claws",
+          "Soulpiercer"
+        ],
+        "model_types": [
+          {
+            "name": "Shalaxi Helbane",
+            "min": 1,
+            "max": 1,
+            "statline": "Shalaxi Helbane"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lash of Slaanesh",
+              "Pavane of Slaanesh",
+              "Snapping claws",
+              "Soulpiercer"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "8d0df563-fc2d-5816-a379-83083bc51455",
+      "name": "Daemonettes",
+      "keywords": [
+        "Daemon",
+        "Chaos",
+        "Summoned",
+        "Daemonettes",
+        "Slaanesh",
+        "Infantry",
+        "Battleline"
+      ],
+      "points": [
+        {
+          "models": 10,
+          "cost": 100,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Slashing claws"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Daemonettes",
+            "m": "9\"",
+            "t": "3",
+            "sv": "7+",
+            "w": "1",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Slashing claws",
+            "profiles": [
+              {
+                "name": "Slashing claws",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Fights First",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Excess",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Horrifying Beauty",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Chaos",
+          "Summoned",
+          "Daemonettes",
+          "Slaanesh",
+          "Infantry",
+          "Battleline"
+        ],
+        "factions": [
+          "Legions of Excess"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "emperors_children",
+          "id": "8d0df563-fc2d-5816-a379-83083bc51455",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 10,
+            "cost": 100
+          }
+        ],
+        "prices": [
+          {
+            "models": 10,
+            "cost": 100,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Slashing claws"
+        ],
+        "model_types": [
+          {
+            "name": "Alluress",
+            "min": 1,
+            "max": 1,
+            "statline": "Daemonettes"
+          },
+          {
+            "name": "Daemonettes",
+            "min": 9,
+            "max": 9,
+            "statline": "Daemonettes"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Slashing claws"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "21d75021-b06f-58f9-8b8c-0bc257ca84d7",
+      "name": "Fiends",
+      "keywords": [
+        "Beast",
+        "Slaanesh",
+        "Fiends",
+        "Summoned",
+        "Daemon",
+        "Chaos"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 90,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 190,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Beast"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Barbed tail and dissecting claws"
+      ],
+      "wargear_options": [],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Fiends",
+            "m": "12\"",
+            "t": "5",
+            "sv": "7+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Barbed tail and dissecting claws",
+            "profiles": [
+              {
+                "name": "Barbed tail and dissecting claws",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Excess",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Soporific Musk",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "75 x 42mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Beast",
+          "Slaanesh",
+          "Fiends",
+          "Summoned",
+          "Daemon",
+          "Chaos"
+        ],
+        "factions": [
+          "Legions of Excess"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "emperors_children",
+          "id": "21d75021-b06f-58f9-8b8c-0bc257ca84d7",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 90
+          },
+          {
+            "models": 6,
+            "cost": 190
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 190,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Barbed tail and dissecting claws"
+        ],
+        "model_types": [
+          {
+            "name": "Blissbringer",
+            "min": 1,
+            "max": 1,
+            "statline": "Fiends"
+          },
+          {
+            "name": "Fiends",
+            "min": 2,
+            "max": 5,
+            "statline": "Fiends"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Barbed tail and dissecting claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "5bd8ece3-6805-5791-9d54-95740abe526f",
+      "name": "Keeper of Secrets",
+      "keywords": [
+        "Daemon",
+        "Chaos",
+        "Psyker",
+        "Monster",
+        "Keeper of Secrets",
+        "Summoned",
+        "Slaanesh",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 265,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Phantasmagoria",
+        "Snapping claws",
+        "Witstealer sword"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Living whip",
+              "cost": 0
+            },
+            {
+              "name": "Ritual knife",
+              "cost": 0
+            },
+            {
+              "name": "Shining Aegis",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Living whip",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Ritual knife",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shining Aegis",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Keeper of Secrets",
+            "m": "14\"",
+            "t": "10",
+            "sv": "5+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Living whip",
+            "profiles": [
+              {
+                "name": "Living whip",
+                "range": "12\"",
+                "a": "6",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Assault"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phantasmagoria",
+            "profiles": [
+              {
+                "name": "Phantasmagoria – witchfire",
+                "range": "18\"",
+                "a": "6",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Phantasmagoria – focused witchfire",
+                "range": "18\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Hazardous",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ritual knife",
+            "profiles": [
+              {
+                "name": "Ritual knife",
+                "range": "Melee",
+                "a": "3",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Snapping claws",
+            "profiles": [
+              {
+                "name": "Snapping claws",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Witstealer sword",
+            "profiles": [
+              {
+                "name": "Witstealer sword",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-2",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Excess",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Daemon Lord of Slaanesh (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Mesmerising Form",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Shining Aegis",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "sv",
+                "change": "3+"
+              }
+            ]
+          },
+          {
+            "name": "Damaged: 1-6 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "100mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Chaos",
+          "Psyker",
+          "Monster",
+          "Keeper of Secrets",
+          "Summoned",
+          "Slaanesh",
+          "Character"
+        ],
+        "factions": [
+          "Legions of Excess"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "emperors_children",
+          "id": "5bd8ece3-6805-5791-9d54-95740abe526f",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 265
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 265,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "extra_cost": {
+          "cost": 15,
+          "after": 2
+        },
+        "loadout": [
+          "Phantasmagoria",
+          "Snapping claws",
+          "Witstealer sword"
+        ],
+        "model_types": [
+          {
+            "name": "Keeper of Secrets",
+            "min": 1,
+            "max": 1,
+            "statline": "Keeper of Secrets"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Phantasmagoria",
+              "Snapping claws",
+              "Witstealer sword"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Living whip",
+                "cost": 0
+              },
+              {
+                "name": "Ritual knife",
+                "cost": 0
+              },
+              {
+                "name": "Shining Aegis",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Living whip",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Ritual knife",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shining Aegis",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "4d2edb43-3f4c-5862-8c47-cb000561b538",
+      "name": "Seekers",
+      "keywords": [
+        "Summoned",
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Seekers"
+      ],
+      "points": [
+        {
+          "models": 5,
+          "cost": 85,
+          "label": "5 models"
+        },
+        {
+          "models": 10,
+          "cost": 155,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Mounted"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Lashing tongue",
+        "Slashing claws"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Seekers",
+            "m": "14\"",
+            "t": "4",
+            "sv": "7+",
+            "w": "2",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Lashing tongue",
+            "profiles": [
+              {
+                "name": "Lashing tongue",
+                "range": "Melee",
+                "a": "2",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Extra Attacks",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Slashing claws",
+            "profiles": [
+              {
+                "name": "Slashing claws",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Scouts 9\"",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Excess",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Unholy Speed",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60 x 35.5mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Summoned",
+          "Mounted",
+          "Chaos",
+          "Daemon",
+          "Slaanesh",
+          "Seekers"
+        ],
+        "factions": [
+          "Legions of Excess"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "emperors_children",
+          "id": "4d2edb43-3f4c-5862-8c47-cb000561b538",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 5,
+            "cost": 85
+          },
+          {
+            "models": 10,
+            "cost": 155
+          }
+        ],
+        "prices": [
+          {
+            "models": 5,
+            "cost": 85,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 155,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lashing tongue",
+          "Slashing claws"
+        ],
+        "model_types": [
+          {
+            "name": "Heartseeker",
+            "min": 1,
+            "max": 1,
+            "statline": "Seekers"
+          },
+          {
+            "name": "Seekers",
+            "min": 4,
+            "max": 9,
+            "statline": "Seekers"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lashing tongue",
+              "Slashing claws"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
     }
   ],
   "rules": {
@@ -6980,7 +8443,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "legions of excess"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Uncanny Reactions",
@@ -8308,6 +9777,32 @@
           "Nurgle",
           "Slaanesh"
         ]
+      },
+      {
+        "rule": "Legions of Excess",
+        "detachment": "Carnival of Excess",
+        "units": [
+          {
+            "faction": "emperors_children",
+            "targets": [
+              "Legions of Excess"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "points",
+          "by_size": {
+            "Incursion": 500,
+            "Strike Force": 1000,
+            "Onslaught": 1500
+          }
+        },
+        "warlord": false,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": []
       }
     ]
   }
