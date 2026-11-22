@@ -96,11 +96,11 @@
               "cost": 0
             },
             {
-              "name": "Grenade Launcher",
+              "name": "Astartes Grenade Launcher",
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 9,
           "model": 5,
           "loadout": 0,
           "heading": "",
@@ -128,7 +128,7 @@
                   "count": 1
                 },
                 {
-                  "option": "Grenade Launcher",
+                  "option": "Astartes Grenade Launcher",
                   "count": 1
                 }
               ]
@@ -151,7 +151,7 @@
               "cost": 0
             }
           ],
-          "source": 8,
+          "source": 10,
           "model": 3,
           "loadout": 2,
           "heading": "",
@@ -168,12 +168,7 @@
                 {
                   "option": "Power Weapon",
                   "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
+                },
                 {
                   "option": "Storm Shield",
                   "count": 1
@@ -233,35 +228,6 @@
                   "PRECISION",
                   "LETHAL HITS",
                   "HEAVY"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Grenade Launcher",
-            "profiles": [
-              {
-                "name": "Grenade Launcher – Frag",
-                "range": "24\"",
-                "a": "4",
-                "skill": "3+",
-                "s": "4",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "BLAST 1"
-                ]
-              },
-              {
-                "name": "Grenade Launcher – Krak",
-                "range": "24\"",
-                "a": "1",
-                "skill": "3+",
-                "s": "10",
-                "ap": "-2",
-                "d": "3",
-                "keywords": [
-                  "RAPID FIRE 1"
                 ]
               }
             ]
@@ -585,7 +551,7 @@
           }
         ],
         "transport": "",
-        "base_size": "KILL TEAM SERGEANT, DEATHWATCH VETERAN: 32mm, GRAVIS VETERAN: 40mm",
+        "base_size": "Kill Team Sergeant, Deathwatch Veteran: 32mm, Gravis Veteran: 40mm",
         "imperial_armour": false,
         "keywords": [
           "Imperium",
@@ -635,6 +601,30 @@
             "detachment": null
           }
         ],
+        "mixes": [
+          {
+            "models": {
+              "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol": 0,
+              "Kill Team Sergeant": 1,
+              "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …": 1,
+              "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol": 1,
+              "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists": 1,
+              "Gravis Veteran": 1
+            },
+            "cost": 110
+          },
+          {
+            "models": {
+              "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol": 1,
+              "Kill Team Sergeant": 1,
+              "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …": 2,
+              "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol": 2,
+              "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists": 2,
+              "Gravis Veteran": 2
+            },
+            "cost": 210
+          }
+        ],
         "loadout": [
           "Plasma Pistol",
           "Power Weapon",
@@ -650,7 +640,7 @@
         "model_types": [
           {
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "min": 1,
+            "min": 0,
             "max": 1,
             "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "statline_assumed": true
@@ -790,11 +780,11 @@
                 "cost": 0
               },
               {
-                "name": "Grenade Launcher",
+                "name": "Astartes Grenade Launcher",
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 9,
             "model": 5,
             "loadout": 0,
             "heading": "",
@@ -822,7 +812,7 @@
                     "count": 1
                   },
                   {
-                    "option": "Grenade Launcher",
+                    "option": "Astartes Grenade Launcher",
                     "count": 1
                   }
                 ]
@@ -845,7 +835,7 @@
                 "cost": 0
               }
             ],
-            "source": 8,
+            "source": 10,
             "model": 3,
             "loadout": 2,
             "heading": "",
@@ -862,12 +852,7 @@
                   {
                     "option": "Power Weapon",
                     "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
+                  },
                   {
                     "option": "Storm Shield",
                     "count": 1
@@ -5979,7 +5964,7 @@
           },
           {
             "type": "leader",
-            "target": "Battleline",
+            "target": "Imperium+Battleline+Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6001,20 +5986,6 @@
           {
             "type": "leader",
             "target": "Imperial Navy Breachers",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Imperium",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6423,14 +6394,13 @@
           "Subductor Squad",
           "Vigilant Squad",
           "Deathwatch Kill Team",
-          "Aquila Kill Team",
-          "Sanctifiers"
+          "Aquila Kill Team"
         ],
         "supports": [],
         "attaches": [
           {
             "type": "leader",
-            "target": "Battleline",
+            "target": "Imperium+Battleline+Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6452,20 +6422,6 @@
           {
             "type": "leader",
             "target": "Imperial Navy Breachers",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Imperium",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6501,13 +6457,6 @@
           {
             "type": "leader",
             "target": "Aquila Kill Team",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Sanctifiers",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6760,7 +6709,7 @@
           },
           {
             "type": "leader",
-            "target": "Battleline",
+            "target": "Imperium+Battleline+Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6775,20 +6724,6 @@
           {
             "type": "leader",
             "target": "Imperial Navy Breachers",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Imperium",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6913,7 +6848,7 @@
       "loadout": [
         "Castigation",
         "Condemnor stake",
-        "Master-crafter power sword"
+        "Master-crafted power sword"
       ],
       "wargear_options": [],
       "composition": [
@@ -7066,7 +7001,7 @@
         "attaches": [
           {
             "type": "leader",
-            "target": "Battleline",
+            "target": "Imperium+Battleline+Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -7081,20 +7016,6 @@
           {
             "type": "leader",
             "target": "Imperial Navy Breachers",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Imperium",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          },
-          {
-            "type": "leader",
-            "target": "Infantry",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -7172,7 +7093,7 @@
         "loadout": [
           "Castigation",
           "Condemnor stake",
-          "Master-crafter power sword"
+          "Master-crafted power sword"
         ],
         "model_types": [
           {
@@ -7189,7 +7110,7 @@
             "wargear": [
               "Castigation",
               "Condemnor stake",
-              "Master-crafter power sword"
+              "Master-crafted power sword"
             ]
           }
         ],
@@ -7375,19 +7296,9 @@
         "factions": [
           "Agents of the Imperium"
         ],
-        "leads": [
-          "Sanctifiers"
-        ],
+        "leads": [],
         "supports": [],
-        "attaches": [
-          {
-            "type": "leader",
-            "target": "Sanctifiers",
-            "requires_detachment": null,
-            "requires_keyword": null,
-            "excludes_detachment": null
-          }
-        ],
+        "attaches": [],
         "source": {
           "faction": "agents",
           "id": "a2e60945-f476-5506-add2-c58e48d3ae64",
