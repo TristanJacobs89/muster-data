@@ -9806,6 +9806,1572 @@
           }
         ]
       }
+    },
+    {
+      "id": "e495a74a-c53f-5f81-a702-0fbad9689cd8",
+      "name": "Kairos Fateweaver",
+      "keywords": [
+        "Summoned",
+        "Monster",
+        "Epic Hero",
+        "Fly",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Kairos Fateweaver",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 305,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Infernal Gateway",
+        "Staff of Tomorrow"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Kairos Fateweaver",
+            "m": "12\"",
+            "t": "10",
+            "sv": "6+",
+            "w": "20",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Infernal Gateway",
+            "profiles": [
+              {
+                "name": "Infernal Gateway – Witchfire",
+                "range": "24\"",
+                "a": "D6+3",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D3",
+                "keywords": [
+                  "Blast",
+                  "Indirect Fire",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Infernal Gateway – Focused Witchfire",
+                "range": "24\"",
+                "a": "D3+6",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Blast",
+                  "Indirect Fire",
+                  "Hazardous",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Staff of Tomorrow",
+            "profiles": [
+              {
+                "name": "Staff of Tomorrow",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "2D3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Sorcery",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "One Head Looks Forward",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "command"
+                }
+              ]
+            }
+          },
+          {
+            "name": "One Head Looks Back (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "turn",
+              "when": []
+            }
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "100mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Summoned",
+          "Monster",
+          "Epic Hero",
+          "Fly",
+          "Psyker",
+          "Chaos",
+          "Daemon",
+          "Tzeentch",
+          "Kairos Fateweaver",
+          "Character"
+        ],
+        "factions": [
+          "Scintillating Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "e495a74a-c53f-5f81-a702-0fbad9689cd8",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 305
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 305,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Infernal Gateway",
+          "Staff of Tomorrow"
+        ],
+        "model_types": [
+          {
+            "name": "Kairos Fateweaver",
+            "min": 1,
+            "max": 1,
+            "statline": "Kairos Fateweaver"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Infernal Gateway",
+              "Staff of Tomorrow"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "43742159-e708-522e-b1c3-840c3e47fab1",
+      "name": "Lord of Change",
+      "keywords": [
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Summoned",
+        "Lord of Change",
+        "Monster",
+        "Character",
+        "Fly"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 320,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Bolt of Change",
+        "Staff of Tzeentch"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Rod of sorcery",
+              "cost": 0
+            },
+            {
+              "name": "Baleful sword",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Rod of sorcery",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Baleful sword",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Lord of Change",
+            "m": "12\"",
+            "t": "10",
+            "sv": "6+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Rod of sorcery",
+            "profiles": [
+              {
+                "name": "Rod of sorcery",
+                "range": "18\"",
+                "a": "6",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bolt of Change",
+            "profiles": [
+              {
+                "name": "Bolt of Change – witchfire",
+                "range": "18\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Bolt of Change – focused witchfire",
+                "range": "18\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Hazardous",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Baleful sword",
+            "profiles": [
+              {
+                "name": "Baleful sword",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "7",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Staff of Tzeentch",
+            "profiles": [
+              {
+                "name": "Staff of Tzeentch",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Sorcery",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Daemon Lord of Tzeentch (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Master of Magicks (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "100mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Psyker",
+          "Chaos",
+          "Daemon",
+          "Tzeentch",
+          "Summoned",
+          "Lord of Change",
+          "Monster",
+          "Character",
+          "Fly"
+        ],
+        "factions": [
+          "Scintillating Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "43742159-e708-522e-b1c3-840c3e47fab1",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 320
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 320,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "extra_cost": {
+          "cost": 20,
+          "after": 2
+        },
+        "loadout": [
+          "Bolt of Change",
+          "Staff of Tzeentch"
+        ],
+        "model_types": [
+          {
+            "name": "Lord of Change",
+            "min": 1,
+            "max": 1,
+            "statline": "Lord of Change"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bolt of Change",
+              "Staff of Tzeentch"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Rod of sorcery",
+                "cost": 0
+              },
+              {
+                "name": "Baleful sword",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Rod of sorcery",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Baleful sword",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "442eed99-b119-5f25-bb7b-23c5d16b967c",
+      "name": "Flamers",
+      "keywords": [
+        "Chaos",
+        "Fly",
+        "Infantry",
+        "Flamers",
+        "Summoned",
+        "Tzeentch",
+        "Daemon"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 65,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 130,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Flickering flames",
+        "Flamer mouths"
+      ],
+      "wargear_options": [],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Flamers",
+            "m": "9\"",
+            "t": "4",
+            "sv": "7+",
+            "w": "3",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Flickering flames",
+            "profiles": [
+              {
+                "name": "Flickering flames",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Psychic",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Flamer mouths",
+            "profiles": [
+              {
+                "name": "Flamer mouths",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Sorcery",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Bounding Leaps",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Chaos",
+          "Fly",
+          "Infantry",
+          "Flamers",
+          "Summoned",
+          "Tzeentch",
+          "Daemon"
+        ],
+        "factions": [
+          "Scintillating Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "442eed99-b119-5f25-bb7b-23c5d16b967c",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 65
+          },
+          {
+            "models": 6,
+            "cost": 130
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 65,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 130,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Flickering flames",
+          "Flamer mouths"
+        ],
+        "model_types": [
+          {
+            "name": "Pyrocaster",
+            "min": 1,
+            "max": 1,
+            "statline": "Flamers"
+          },
+          {
+            "name": "Flamers",
+            "min": 2,
+            "max": 5,
+            "statline": "Flamers"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Flickering flames",
+              "Flamer mouths"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "f9e1a782-9425-5015-9e10-887f2ac1e8a7",
+      "name": "Screamers",
+      "keywords": [
+        "Beast",
+        "Chaos",
+        "Daemon",
+        "Fly",
+        "Tzeentch",
+        "Summoned",
+        "Screamers"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 80,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 160,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Beast"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Lamprey bite"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Screamers",
+            "m": "14\"",
+            "t": "4",
+            "sv": "6+",
+            "w": "3",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Lamprey bite",
+            "profiles": [
+              {
+                "name": "Lamprey bite",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Anti-monster 4+",
+                  "Anti-vehicle 4+"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Sorcery",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Slashing Dive",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "movement"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm flying base",
+        "imperial_armour": false,
+        "keywords": [
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Fly",
+          "Tzeentch",
+          "Summoned",
+          "Screamers"
+        ],
+        "factions": [
+          "Scintillating Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "f9e1a782-9425-5015-9e10-887f2ac1e8a7",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 80
+          },
+          {
+            "models": 6,
+            "cost": 160
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 80,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 160,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lamprey bite"
+        ],
+        "model_types": [
+          {
+            "name": "Screamers",
+            "min": 3,
+            "max": 6,
+            "statline": "Screamers"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lamprey bite"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "775a71a7-fcde-54ed-bb43-6ad8830eb23c",
+      "name": "Pink Horrors",
+      "keywords": [
+        "Summoned",
+        "Tzeentch",
+        "Battleline",
+        "Brimstone",
+        "Infantry",
+        "Chaos",
+        "Daemon",
+        "Blue",
+        "Pink",
+        "Horrors"
+      ],
+      "points": [
+        {
+          "models": 10,
+          "cost": 115,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Coruscating pink flames",
+        "Pink claws",
+        "Coruscating blue flames",
+        "Blue claws",
+        "Coruscating yellow flames",
+        "Yellow claws"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 4,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "PINK HORROR",
+            "m": "6\"",
+            "t": "3",
+            "sv": "7+",
+            "w": "1",
+            "ld": "7+",
+            "oc": "1"
+          },
+          {
+            "name": "BLUE HORROR/BRIMSTONE HORROR",
+            "m": "6\"",
+            "t": "3",
+            "sv": "7+",
+            "w": "1",
+            "ld": "8+",
+            "oc": "0"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Coruscating blue flames",
+            "profiles": [
+              {
+                "name": "Coruscating blue flames",
+                "range": "18\"",
+                "a": "2",
+                "skill": "4+",
+                "s": "3",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Pistol",
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Coruscating pink flames",
+            "profiles": [
+              {
+                "name": "Coruscating pink flames",
+                "range": "18\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Pistol",
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Coruscating yellow flames",
+            "profiles": [
+              {
+                "name": "Coruscating yellow flames",
+                "range": "18\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "2",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Pistol",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Blue claws",
+            "profiles": [
+              {
+                "name": "Blue claws",
+                "range": "Melee",
+                "a": "1",
+                "skill": "5+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Pink claws",
+            "profiles": [
+              {
+                "name": "Pink claws",
+                "range": "Melee",
+                "a": "1",
+                "skill": "4+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Yellow claws",
+            "profiles": [
+              {
+                "name": "Yellow claws",
+                "range": "Melee",
+                "a": "2",
+                "skill": "5+",
+                "s": "2",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Sorcery",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Split",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Horrors Are Pink. Horrors Are Blue. Whereonce There Was One, Now There Are Two.",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "PINK HORROR: 32mm, BLUE HORROR/BRIMSTONE HORROR: 25mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Summoned",
+          "Tzeentch",
+          "Battleline",
+          "Brimstone",
+          "Infantry",
+          "Chaos",
+          "Daemon",
+          "Blue",
+          "Pink",
+          "Horrors"
+        ],
+        "factions": [
+          "Scintillating Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "775a71a7-fcde-54ed-bb43-6ad8830eb23c",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 10,
+            "cost": 115
+          }
+        ],
+        "prices": [
+          {
+            "models": 10,
+            "cost": 115,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Coruscating pink flames",
+          "Pink claws",
+          "Coruscating blue flames",
+          "Blue claws",
+          "Coruscating yellow flames",
+          "Yellow claws"
+        ],
+        "model_types": [
+          {
+            "name": "Pink Horrors",
+            "min": 10,
+            "max": 10,
+            "statline": "PINK HORROR"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Coruscating pink flames",
+              "Pink claws",
+              "Coruscating blue flames",
+              "Blue claws",
+              "Coruscating yellow flames",
+              "Yellow claws"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 4,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "a45845a5-d4bb-5a79-abe1-a494fbba7751",
+      "name": "Blue Horrors",
+      "keywords": [
+        "Daemon",
+        "Chaos",
+        "Battleline",
+        "Infantry",
+        "Horrors",
+        "Summoned",
+        "Blue",
+        "Brimstone",
+        "Tzeentch"
+      ],
+      "points": [
+        {
+          "models": 10,
+          "cost": 90,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Coruscating blue flames",
+        "Blue claws",
+        "Coruscating yellow flames",
+        "Yellow claws"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Blue Horrors/Brimstone Horror",
+            "m": "6\"",
+            "t": "3",
+            "sv": "7+",
+            "w": "1",
+            "ld": "8+",
+            "oc": "0"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Coruscating blue flames",
+            "profiles": [
+              {
+                "name": "Coruscating blue flames",
+                "range": "18\"",
+                "a": "2",
+                "skill": "4+",
+                "s": "3",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Pistol",
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Coruscating yellow flames",
+            "profiles": [
+              {
+                "name": "Coruscating yellow flames",
+                "range": "18\"",
+                "a": "2",
+                "skill": "5+",
+                "s": "2",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Pistol",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Blue claws",
+            "profiles": [
+              {
+                "name": "Blue claws",
+                "range": "Melee",
+                "a": "1",
+                "skill": "5+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Yellow claws",
+            "profiles": [
+              {
+                "name": "Yellow claws",
+                "range": "Melee",
+                "a": "2",
+                "skill": "5+",
+                "s": "2",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Sorcery",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Split",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Sullen Malevolence (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Exploding Horrors",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Chaos",
+          "Battleline",
+          "Infantry",
+          "Horrors",
+          "Summoned",
+          "Blue",
+          "Brimstone",
+          "Tzeentch"
+        ],
+        "factions": [
+          "Scintillating Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "a45845a5-d4bb-5a79-abe1-a494fbba7751",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 10,
+            "cost": 90
+          }
+        ],
+        "prices": [
+          {
+            "models": 10,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Coruscating blue flames",
+          "Blue claws",
+          "Coruscating yellow flames",
+          "Yellow claws"
+        ],
+        "model_types": [
+          {
+            "name": "Blue Horrors",
+            "min": 10,
+            "max": 10,
+            "statline": "Blue Horrors/Brimstone Horror"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Coruscating blue flames",
+              "Blue claws",
+              "Coruscating yellow flames",
+              "Yellow claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
     }
   ],
   "rules": {
@@ -9911,7 +11477,14 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "thousand sons",
+                "scintillating legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Ethereal Phantasm",
@@ -9926,7 +11499,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "scintillating legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Fractal Disjunction",
@@ -9941,7 +11520,15 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "scintillating legions"
+              ],
+              "excludes": [
+                "monsters"
+              ]
+            }
           },
           {
             "name": "Chronosorcerous Bleed",
@@ -9956,7 +11543,14 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "thousand sons psyker",
+                "scintillating legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Glimmershift Portal",
@@ -10030,7 +11624,7 @@
             "points": 10,
             "text": "",
             "targets": [
-              "spawn"
+              "Chaos Spawn"
             ],
             "non_character": true,
             "excludes": [],
@@ -11472,6 +13066,32 @@
           "Nurgle",
           "Slaanesh"
         ]
+      },
+      {
+        "rule": "Scintillating Legions",
+        "detachment": "Changehost of Deceit",
+        "units": [
+          {
+            "faction": "thousandsons",
+            "targets": [
+              "Scintillating Legions"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "points",
+          "by_size": {
+            "Incursion": 500,
+            "Strike Force": 1000,
+            "Onslaught": 1500
+          }
+        },
+        "warlord": false,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": []
       }
     ]
   }
