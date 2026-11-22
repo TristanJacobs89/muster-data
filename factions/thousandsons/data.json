@@ -3001,39 +3001,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Pyraflux magma cutters",
-              "cost": 0
-            }
-          ],
-          "source": 2,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Pyraflux magma cutters",
-                  "count": 2
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Excruciator cannon"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Hades lascannon",
               "cost": 15
             },
@@ -3147,6 +3114,42 @@
             "Heavy missile launcher"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Pyraflux magma cutters",
+              "cost": 0
+            }
+          ],
+          "source": 5,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Pyraflux magma cutters",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Excruciator cannon"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Excruciator cannon": 2
+          }
         }
       ],
       "composition": [
@@ -3498,39 +3501,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Pyraflux magma cutters",
-                "cost": 0
-              }
-            ],
-            "source": 2,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Pyraflux magma cutters",
-                    "count": 2
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Excruciator cannon"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Hades lascannon",
                 "cost": 15
               },
@@ -3644,6 +3614,42 @@
               "Heavy missile launcher"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Pyraflux magma cutters",
+                "cost": 0
+              }
+            ],
+            "source": 5,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Pyraflux magma cutters",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Excruciator cannon"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Excruciator cannon": 2
+            }
           }
         ]
       }
