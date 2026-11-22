@@ -2,10 +2,24 @@
   "dataVersion": 1042,
   "date": "2026-11-22",
   "changes": {
-    "changed": [],
+    "changed": [
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/data/wargear_options/1/choices/1/text",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/data/wargear_options/1/instruction",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/data/wargear_options/2/choices/0/text",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/data/wargear_options/2/heading",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/data/wargear_options/2/instruction",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/wargear_options/1/choices/1/text",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/wargear_options/1/instruction",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/wargear_options/2/choices/0/text",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/wargear_options/2/heading",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/wargear_options/2/instruction"
+    ],
     "new": [],
-    "gone": []
+    "gone": [
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/data/wargear_options/2/choices/1/text",
+      "agents/datasheets/1311bb33-4981-5327-b549-4828708e9337/wargear_options/2/choices/1/text"
+    ]
   },
-  "revision": "e8f27e307196",
+  "revision": "86653a69a42a",
   "from": 1041
 }
