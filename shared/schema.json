@@ -1,5 +1,5 @@
 {
-  "schema": 50,
+  "schema": 51,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "faction": {
           "type": "object",
@@ -278,6 +278,38 @@
                 "required": [
                   "rule",
                   "keywords"
+                ],
+                "additionalProperties": false
+              },
+              "two_leaders": {
+                "type": "object",
+                "properties": {
+                  "one_of": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "models": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "distinct": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "one_of",
+                  "models",
+                  "distinct"
                 ],
                 "additionalProperties": false
               },
@@ -6298,7 +6330,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "stratagems": {
           "type": "array",
@@ -6482,7 +6514,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "source": {
           "type": "string"
@@ -6755,7 +6787,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "source": {
           "type": "string"
@@ -7077,7 +7109,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "sizes": {
           "minItems": 1,
@@ -7136,7 +7168,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 50
+          "const": 51
         },
         "text": {
           "type": "object",
