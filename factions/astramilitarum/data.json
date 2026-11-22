@@ -6574,6 +6574,11 @@
         "Infantry"
       ],
       "epic_hero": false,
+      "two_leaders": {
+        "one_of": "Command Squad",
+        "models": null,
+        "distinct": false
+      },
       "loadout": [
         "Laspistol",
         "Chainsword",
@@ -9003,6 +9008,11 @@
         "Infantry"
       ],
       "epic_hero": false,
+      "two_leaders": {
+        "one_of": "Command Squad",
+        "models": null,
+        "distinct": false
+      },
       "loadout": [
         "Laspistol",
         "Close combat weapon",
@@ -11539,6 +11549,11 @@
         "Infantry"
       ],
       "epic_hero": false,
+      "two_leaders": {
+        "one_of": "Command Squad",
+        "models": null,
+        "distinct": false
+      },
       "loadout": [
         "Laspistol",
         "Chainsword",
@@ -34390,6 +34405,11 @@
         "Infantry"
       ],
       "epic_hero": false,
+      "two_leaders": {
+        "one_of": "Command Squad",
+        "models": null,
+        "distinct": false
+      },
       "loadout": [
         "Hot-shot laspistol",
         "Chainsword",
