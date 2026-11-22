@@ -8735,6 +8735,1435 @@
         ],
         "wargear_options": []
       }
+    },
+    {
+      "id": "4d79ef4e-48d1-55ba-bb47-6f6f78c44b67",
+      "name": "Skarbrand",
+      "keywords": [
+        "Skarbrand",
+        "Summoned",
+        "Daemon",
+        "Khorne",
+        "Chaos",
+        "Epic Hero",
+        "Character",
+        "Monster"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 315,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Bellow of endless fury",
+        "Slaughter and Carnage"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Skarbrand",
+            "m": "10\"",
+            "t": "11",
+            "sv": "3+",
+            "w": "20",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Bellow of endless fury",
+            "profiles": [
+              {
+                "name": "Bellow of endless fury",
+                "range": "12\"",
+                "a": "2D6",
+                "skill": "-",
+                "s": "8",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Slaughter and Carnage",
+            "profiles": [
+              {
+                "name": "Slaughter and Carnage – strike",
+                "range": "Melee",
+                "a": "8",
+                "skill": "2+",
+                "s": "16",
+                "ap": "-4",
+                "d": "6",
+                "keywords": []
+              },
+              {
+                "name": "Slaughter and Carnage – sweep",
+                "range": "Melee",
+                "a": "16",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Blood",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Rage Embodied (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Murderlust",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "100mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Skarbrand",
+          "Summoned",
+          "Daemon",
+          "Khorne",
+          "Chaos",
+          "Epic Hero",
+          "Character",
+          "Monster"
+        ],
+        "factions": [
+          "Blood Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "4d79ef4e-48d1-55ba-bb47-6f6f78c44b67",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 315
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 315,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bellow of endless fury",
+          "Slaughter and Carnage"
+        ],
+        "model_types": [
+          {
+            "name": "Skarbrand",
+            "min": 1,
+            "max": 1,
+            "statline": "Skarbrand"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bellow of endless fury",
+              "Slaughter and Carnage"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "2721e98f-b017-55dd-8221-dd6cf3eae640",
+      "name": "Bloodthirster",
+      "keywords": [
+        "Monster",
+        "Bloodthirster",
+        "Summoned",
+        "Khorne",
+        "Daemon",
+        "Chaos",
+        "Fly",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 320,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Hellfire breath",
+        "Great axe of Khorne"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Axe of Khorne",
+              "cost": 0
+            },
+            {
+              "name": "Bloodflail",
+              "cost": 0
+            },
+            {
+              "name": "Lash of Khorne",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Axe of Khorne",
+                  "count": 1
+                },
+                {
+                  "option": "Bloodflail",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Axe of Khorne",
+                  "count": 1
+                },
+                {
+                  "option": "Lash of Khorne",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Great axe of Khorne"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Bloodthirster",
+            "m": "12\"",
+            "t": "11",
+            "sv": "3+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Bloodflail",
+            "profiles": [
+              {
+                "name": "Bloodflail",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "16",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hellfire breath",
+            "profiles": [
+              {
+                "name": "Hellfire breath",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lash of Khorne",
+            "profiles": [
+              {
+                "name": "Lash of Khorne",
+                "range": "12\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-1",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Axe of Khorne",
+            "profiles": [
+              {
+                "name": "Axe of Khorne – strike",
+                "range": "Melee",
+                "a": "8",
+                "skill": "2+",
+                "s": "14",
+                "ap": "-4",
+                "d": "D3+1",
+                "keywords": []
+              },
+              {
+                "name": "Axe of Khorne – sweep",
+                "range": "Melee",
+                "a": "16",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Great axe of Khorne",
+            "profiles": [
+              {
+                "name": "Great axe of Khorne – strike",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "16",
+                "ap": "-4",
+                "d": "D6+2",
+                "keywords": []
+              },
+              {
+                "name": "Great axe of Khorne – sweep",
+                "range": "Melee",
+                "a": "14",
+                "skill": "2+",
+                "s": "10",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Blood",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Daemon Lord of Khorne (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Relentless Carnage",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-6 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Monster",
+          "Bloodthirster",
+          "Summoned",
+          "Khorne",
+          "Daemon",
+          "Chaos",
+          "Fly",
+          "Character"
+        ],
+        "factions": [
+          "Blood Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "2721e98f-b017-55dd-8221-dd6cf3eae640",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 320
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 320,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "extra_cost": {
+          "cost": 15,
+          "after": 2
+        },
+        "loadout": [
+          "Hellfire breath",
+          "Great axe of Khorne"
+        ],
+        "model_types": [
+          {
+            "name": "Bloodthirster",
+            "min": 1,
+            "max": 1,
+            "statline": "Bloodthirster"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Hellfire breath",
+              "Great axe of Khorne"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Axe of Khorne",
+                "cost": 0
+              },
+              {
+                "name": "Bloodflail",
+                "cost": 0
+              },
+              {
+                "name": "Lash of Khorne",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Axe of Khorne",
+                    "count": 1
+                  },
+                  {
+                    "option": "Bloodflail",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Axe of Khorne",
+                    "count": 1
+                  },
+                  {
+                    "option": "Lash of Khorne",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Great axe of Khorne"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa09cfd8-b01b-5d20-abce-82a2d5a4d05e",
+      "name": "Bloodletters",
+      "keywords": [
+        "Bloodletters",
+        "Summoned",
+        "Khorne",
+        "Battleline",
+        "Infantry",
+        "Daemon",
+        "Chaos"
+      ],
+      "points": [
+        {
+          "models": 10,
+          "cost": 90,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Hellblade"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Bloodletters",
+            "m": "8\"",
+            "t": "4",
+            "sv": "7+",
+            "w": "1",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Hellblade",
+            "profiles": [
+              {
+                "name": "Hellblade",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Blood",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Bane of Cowards",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Bloodletters",
+          "Summoned",
+          "Khorne",
+          "Battleline",
+          "Infantry",
+          "Daemon",
+          "Chaos"
+        ],
+        "factions": [
+          "Blood Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "fa09cfd8-b01b-5d20-abce-82a2d5a4d05e",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 10,
+            "cost": 90
+          }
+        ],
+        "prices": [
+          {
+            "models": 10,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Hellblade"
+        ],
+        "model_types": [
+          {
+            "name": "Bloodreaper",
+            "min": 1,
+            "max": 1,
+            "statline": "Bloodletters"
+          },
+          {
+            "name": "Bloodletters",
+            "min": 9,
+            "max": 9,
+            "statline": "Bloodletters"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Hellblade"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "38ca44ee-e6bc-576f-a47a-a6126a7a97ac",
+      "name": "Bloodcrushers",
+      "keywords": [
+        "Bloodcrushers",
+        "Summoned",
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Khorne"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 95,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 190,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Mounted"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Hellblade",
+        "Juggernaut’s bladed horn"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Bloodcrushers",
+            "m": "10\"",
+            "t": "7",
+            "sv": "3+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Hellblade",
+            "profiles": [
+              {
+                "name": "Hellblade",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Bladed horn",
+            "profiles": [
+              {
+                "name": "Bladed horn",
+                "range": "Melee",
+                "a": "4",
+                "skill": "4+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Extra Attacks",
+                  "Lance"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Blood",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Brass Stampede",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "90 x 52mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Bloodcrushers",
+          "Summoned",
+          "Mounted",
+          "Chaos",
+          "Daemon",
+          "Khorne"
+        ],
+        "factions": [
+          "Blood Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "38ca44ee-e6bc-576f-a47a-a6126a7a97ac",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 95
+          },
+          {
+            "models": 6,
+            "cost": 190
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 95,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 190,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "extra_cost": {
+          "cost": 20,
+          "after": 2
+        },
+        "loadout": [
+          "Hellblade",
+          "Juggernaut’s bladed horn"
+        ],
+        "model_types": [
+          {
+            "name": "Bloodhunter",
+            "min": 1,
+            "max": 1,
+            "statline": "Bloodcrushers"
+          },
+          {
+            "name": "Bloodcrushers",
+            "min": 2,
+            "max": 5,
+            "statline": "Bloodcrushers"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Hellblade",
+              "Juggernaut’s bladed horn"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "934ec91f-de41-56a7-9ecc-358920d2f900",
+      "name": "Flesh Hounds",
+      "keywords": [
+        "Daemon",
+        "Chaos",
+        "Beast",
+        "Flesh Hounds",
+        "Summoned",
+        "Khorne"
+      ],
+      "points": [
+        {
+          "models": 5,
+          "cost": 75,
+          "label": "5 models"
+        },
+        {
+          "models": 10,
+          "cost": 150,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Beast"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Burning roar",
+        "Gore-drenched fangs",
+        "Collar of Khorne"
+      ],
+      "wargear_options": [],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Flesh Hounds",
+            "m": "12\"",
+            "t": "4",
+            "sv": "7+",
+            "w": "2",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Burning roar",
+            "profiles": [
+              {
+                "name": "Burning roar",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Gore-drenched fangs",
+            "profiles": [
+              {
+                "name": "Gore-drenched fangs",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Pact of Blood",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Hunters from the Warp",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Collar of Khorne",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 3+ against Psychic Attacks"
+              }
+            ]
+          }
+        ],
+        "transport": "",
+        "base_size": "60 x 35.5mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Daemon",
+          "Chaos",
+          "Beast",
+          "Flesh Hounds",
+          "Summoned",
+          "Khorne"
+        ],
+        "factions": [
+          "Blood Legions"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "934ec91f-de41-56a7-9ecc-358920d2f900",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 5,
+            "cost": 75
+          },
+          {
+            "models": 10,
+            "cost": 150
+          }
+        ],
+        "prices": [
+          {
+            "models": 5,
+            "cost": 75,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 150,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Burning roar",
+          "Gore-drenched fangs",
+          "Collar of Khorne"
+        ],
+        "model_types": [
+          {
+            "name": "Gore Hound",
+            "min": 1,
+            "max": 1,
+            "statline": "Flesh Hounds"
+          },
+          {
+            "name": "Flesh Hounds",
+            "min": 4,
+            "max": 9,
+            "statline": "Flesh Hounds"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Burning roar",
+              "Gore-drenched fangs",
+              "Collar of Khorne"
+            ]
+          },
+          {
+            "model": 1,
+            "role": null,
+            "wargear": [
+              "Gore-drenched fangs",
+              "Collar of Khorne"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
     }
   ],
   "rules": {
@@ -9343,6 +10772,15 @@
               {
                 "kind": "ability",
                 "name": "Deep Strike"
+              },
+              {
+                "kind": "keyword",
+                "keyword": "Blood Legions"
+              },
+              {
+                "kind": "keyword",
+                "keyword": "World Eaters",
+                "lose": true
               }
             ],
             "attaches": [
@@ -9412,7 +10850,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "blood legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Blessing of Burning Blood",
@@ -9428,7 +10872,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "blood legions"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "A Worthy Skull",
@@ -9443,7 +10893,14 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "blood legions",
+                "world eaters"
+              ],
+              "excludes": []
+            }
           },
           {
             "name": "Summoned by Slaughter",
@@ -9500,7 +10957,13 @@
             "effect": "",
             "restrictions": "",
             "once_per": null,
-            "secondary_effect": null
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "blood legions"
+              ],
+              "excludes": []
+            }
           }
         ]
       },
@@ -10247,6 +11710,32 @@
           "Nurgle",
           "Slaanesh"
         ]
+      },
+      {
+        "rule": "Blood Legions",
+        "detachment": "Khorne Daemonkin",
+        "units": [
+          {
+            "faction": "worldeaters",
+            "targets": [
+              "Blood Legions"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "points",
+          "by_size": {
+            "Incursion": 500,
+            "Strike Force": 1000,
+            "Onslaught": 1500
+          }
+        },
+        "warlord": false,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": []
       }
     ]
   }
