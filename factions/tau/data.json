@@ -8167,6 +8167,11 @@
         "Infantry"
       ],
       "epic_hero": false,
+      "two_leaders": {
+        "one_of": null,
+        "models": 20,
+        "distinct": true
+      },
       "loadout": [
         "Kroot pistol",
         "Kroot rifle",
