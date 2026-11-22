@@ -12513,6 +12513,15 @@
         "Character"
       ],
       "epic_hero": false,
+      "keyword_pick": {
+        "rule": "Daemonic Allegiance",
+        "keywords": [
+          "Khorne",
+          "Tzeentch",
+          "Nurgle",
+          "Slaanesh"
+        ]
+      },
       "loadout": [
         "Infernal cannon",
         "Hellforged weapons"
@@ -12727,6 +12736,15 @@
         "Character"
       ],
       "epic_hero": false,
+      "keyword_pick": {
+        "rule": "Daemonic Allegiance",
+        "keywords": [
+          "Khorne",
+          "Tzeentch",
+          "Nurgle",
+          "Slaanesh"
+        ]
+      },
       "loadout": [
         "Infernal cannon",
         "Hellforged weapons"
