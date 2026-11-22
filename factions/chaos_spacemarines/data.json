@@ -1774,52 +1774,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Accursed weapon",
-              "cost": 0
-            },
-            {
-              "name": "Astartes chainsword",
-              "cost": 0
-            }
-          ],
-          "source": 1,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Accursed weapon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Astartes chainsword",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Daemon hammer"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Power fist",
               "cost": 0
             }
@@ -1846,6 +1800,52 @@
           ],
           "replaces": [
             "Plasma pistol"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Accursed weapon",
+              "cost": 0
+            },
+            {
+              "name": "Astartes chainblade",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Accursed weapon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Astartes chainblade",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Daemon hammer"
           ],
           "replaces_options": []
         }
@@ -1916,21 +1916,6 @@
                 "keywords": [
                   "Devastating Wounds"
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Astartes chainsword",
-            "profiles": [
-              {
-                "name": "Astartes chainsword",
-                "range": "Melee",
-                "a": "7",
-                "skill": "2+",
-                "s": "5",
-                "ap": "-1",
-                "d": "1",
-                "keywords": []
               }
             ]
           },
@@ -2254,52 +2239,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Accursed weapon",
-                "cost": 0
-              },
-              {
-                "name": "Astartes chainsword",
-                "cost": 0
-              }
-            ],
-            "source": 1,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Accursed weapon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Astartes chainsword",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Daemon hammer"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Power fist",
                 "cost": 0
               }
@@ -2326,6 +2265,52 @@
             ],
             "replaces": [
               "Plasma pistol"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Accursed weapon",
+                "cost": 0
+              },
+              {
+                "name": "Astartes chainblade",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Accursed weapon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Astartes chainblade",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Daemon hammer"
             ],
             "replaces_options": []
           }
