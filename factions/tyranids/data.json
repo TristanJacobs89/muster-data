@@ -12326,7 +12326,8 @@
               "tyranids"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "requires_ability": "Deep Strike"
           },
           {
             "name": "Trygon Prime",

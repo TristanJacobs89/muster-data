@@ -26430,7 +26430,8 @@
               "heretic astartes"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "requires_ability": "Deep Strike"
           },
           {
             "name": "Akshur’s Binding Runes",
@@ -26440,7 +26441,8 @@
               "heretic astartes"
             ],
             "non_character": false,
-            "excludes": []
+            "excludes": [],
+            "requires_ability": "Deep Strike"
           },
           {
             "name": "Tzagulla",
@@ -26451,6 +26453,7 @@
             ],
             "non_character": false,
             "excludes": [],
+            "requires_ability": "Deep Strike",
             "modifiers": [
               {
                 "kind": "weapon",
