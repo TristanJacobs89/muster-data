@@ -9349,23 +9349,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Torturer’s tools",
-            "profiles": [
-              {
-                "name": "Torturer’s tools",
-                "range": "Melee",
-                "a": "2",
-                "skill": "3+",
-                "s": "4",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "Anti-infantry 4+"
-                ]
-              }
-            ]
           }
         ],
         "abilities": [
