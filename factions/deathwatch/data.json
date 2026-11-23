@@ -2465,53 +2465,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Power Weapon",
-              "cost": 0
-            },
-            {
-              "name": "Storm Shield",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 3,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Power Weapon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Storm Shield",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy Thunder Hammer"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Plasma Incinerator",
               "cost": 0
             }
@@ -2539,6 +2492,48 @@
           ],
           "replaces": [
             "Stalker Bolt Rifle"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Power Weapon",
+              "cost": 0
+            },
+            {
+              "name": "Storm Shield",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 3,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Power Weapon",
+                  "count": 1
+                },
+                {
+                  "option": "Storm Shield",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Heavy Thunder Hammer"
           ],
           "replaces_options": []
         }
@@ -3142,53 +3137,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Power Weapon",
-                "cost": 0
-              },
-              {
-                "name": "Storm Shield",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 3,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Power Weapon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Storm Shield",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy Thunder Hammer"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Plasma Incinerator",
                 "cost": 0
               }
@@ -3216,6 +3164,48 @@
             ],
             "replaces": [
               "Stalker Bolt Rifle"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Power Weapon",
+                "cost": 0
+              },
+              {
+                "name": "Storm Shield",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 3,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Power Weapon",
+                    "count": 1
+                  },
+                  {
+                    "option": "Storm Shield",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Heavy Thunder Hammer"
             ],
             "replaces_options": []
           }
@@ -3506,7 +3496,7 @@
               "cost": 0
             }
           ],
-          "source": 15,
+          "source": 16,
           "model": null,
           "loadout": null,
           "heading": "",
@@ -3528,7 +3518,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Deathwatch Bolt Rifle"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -4295,7 +4292,7 @@
                 "cost": 0
               }
             ],
-            "source": 15,
+            "source": 16,
             "model": null,
             "loadout": null,
             "heading": "",
@@ -4317,7 +4314,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Deathwatch Bolt Rifle"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -4390,52 +4394,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Auto Boltstorm Gauntlets",
-              "cost": 0
-            },
-            {
-              "name": "Fragstorm Grenade Launcher",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": 0,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per_model",
-            "read": true
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Auto Boltstorm Gauntlets",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Fragstorm Grenade Launcher",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Flamestorm Gauntlets"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Multi-melta",
               "cost": 0
             }
@@ -4462,6 +4420,47 @@
           ],
           "replaces": [
             "Melta Rifle"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Auto Boltstorm Gauntlets",
+              "cost": 0
+            },
+            {
+              "name": "Fragstorm Grenade Launcher",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": 0,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Auto Boltstorm Gauntlets",
+                  "count": 1
+                },
+                {
+                  "option": "Fragstorm Grenade Launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Flamestorm Gauntlets"
           ],
           "replaces_options": []
         }
@@ -4851,52 +4850,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Auto Boltstorm Gauntlets",
-                "cost": 0
-              },
-              {
-                "name": "Fragstorm Grenade Launcher",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": 0,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per_model",
-              "read": true
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Auto Boltstorm Gauntlets",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Fragstorm Grenade Launcher",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Flamestorm Gauntlets"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Multi-melta",
                 "cost": 0
               }
@@ -4923,6 +4876,47 @@
             ],
             "replaces": [
               "Melta Rifle"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Auto Boltstorm Gauntlets",
+                "cost": 0
+              },
+              {
+                "name": "Fragstorm Grenade Launcher",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": 0,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Auto Boltstorm Gauntlets",
+                    "count": 1
+                  },
+                  {
+                    "option": "Fragstorm Grenade Launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Flamestorm Gauntlets"
             ],
             "replaces_options": []
           }
@@ -5073,7 +5067,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 7,
           "model": 2,
           "loadout": 2,
           "heading": "",
@@ -5089,12 +5083,7 @@
                 {
                   "option": "Deathwatch Bolt Carbine",
                   "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
+                },
                 {
                   "option": "Ceramite Fists",
                   "count": 1
@@ -5613,7 +5602,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 7,
             "model": 2,
             "loadout": 2,
             "heading": "",
@@ -5629,12 +5618,7 @@
                   {
                     "option": "Deathwatch Bolt Carbine",
                     "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
+                  },
                   {
                     "option": "Ceramite Fists",
                     "count": 1

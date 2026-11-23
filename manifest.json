@@ -2,10 +2,48 @@
   "dataVersion": 1048,
   "date": "2026-11-23",
   "changes": {
-    "changed": [],
+    "changed": [
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/data/wargear_options/3/choices/0/text",
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/data/wargear_options/3/heading",
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/data/wargear_options/3/instruction",
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/wargear_options/3/choices/0/text",
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/wargear_options/3/heading",
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/wargear_options/3/instruction",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/1/choices/0/text",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/1/heading",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/1/instruction",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/2/choices/0/text",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/2/heading",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/2/instruction",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/1/choices/0/text",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/1/heading",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/1/instruction",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/2/choices/0/text",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/2/heading",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/2/instruction",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/1/choices/0/text",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/1/heading",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/1/instruction",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/2/choices/0/text",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/2/heading",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/2/instruction",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/1/choices/0/text",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/1/heading",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/1/instruction",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/2/choices/0/text",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/2/heading",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/2/instruction"
+    ],
     "new": [],
-    "gone": []
+    "gone": [
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/data/wargear_options/3/choices/1/text",
+      "deathwatch/datasheets/55e4e25e-f3a5-5d16-919f-b82aa3e7a00f/wargear_options/3/choices/1/text",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/data/wargear_options/1/choices/1/text",
+      "deathwatch/datasheets/cfcdda12-8be4-5326-8a7a-49e645d0ac5e/wargear_options/1/choices/1/text",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/data/wargear_options/1/choices/1/text",
+      "deathwatch/datasheets/dbdca121-6845-5c9d-9f5f-87bf34e025aa/wargear_options/1/choices/1/text"
+    ]
   },
-  "revision": "92064cf8eb55",
+  "revision": "c3e5e6588b5c",
   "from": 1047
 }
