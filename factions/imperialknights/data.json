@@ -4299,7 +4299,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4316,7 +4316,8 @@
                   "option": "Bellatus reaper chainsword",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "model"
             },
             {
               "text": "",
@@ -4325,7 +4326,8 @@
                   "option": "Thundershock spear",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "model"
             }
           ],
           "replaces": [
@@ -4345,7 +4347,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4362,7 +4364,8 @@
                   "option": "Bellatus reaper chainsword",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "model"
             },
             {
               "text": "",
@@ -4371,7 +4374,8 @@
                   "option": "Thundershock spear",
                   "count": 1
                 }
-              ]
+              ],
+              "once": "model"
             }
           ],
           "replaces": [
@@ -4653,7 +4657,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4670,7 +4674,8 @@
                     "option": "Bellatus reaper chainsword",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "model"
               },
               {
                 "text": "",
@@ -4679,7 +4684,8 @@
                     "option": "Thundershock spear",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "model"
               }
             ],
             "replaces": [
@@ -4699,7 +4705,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -4716,7 +4722,8 @@
                     "option": "Bellatus reaper chainsword",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "model"
               },
               {
                 "text": "",
@@ -4725,7 +4732,8 @@
                     "option": "Thundershock spear",
                     "count": 1
                   }
-                ]
+                ],
+                "once": "model"
               }
             ],
             "replaces": [

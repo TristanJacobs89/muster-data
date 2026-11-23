@@ -3250,124 +3250,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Hades lascannon",
-              "cost": 15
-            },
-            {
-              "name": "Heavy reaper autocannon",
-              "cost": 15
-            },
-            {
-              "name": "Electroscourge",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Hades lascannon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Heavy reaper autocannon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Electroscourge",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy baleflamer"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Hades lascannon",
-              "cost": 15
-            },
-            {
-              "name": "Heavy reaper autocannon",
-              "cost": 15
-            },
-            {
-              "name": "Electroscourge",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Hades lascannon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Heavy reaper autocannon",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Electroscourge",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [
-            "Heavy missile launcher"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Magma cutters",
               "cost": 0
             }
@@ -3399,6 +3281,126 @@
           "replaces_counts": {
             "Excruciator cannon": 2
           }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Hades lascannon",
+              "cost": 15
+            },
+            {
+              "name": "Heavy reaper autocannon",
+              "cost": 15
+            },
+            {
+              "name": "Electroscourge",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Hades lascannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy reaper autocannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Electroscourge",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            }
+          ],
+          "replaces": [
+            "Heavy baleflamer"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Hades lascannon",
+              "cost": 15
+            },
+            {
+              "name": "Heavy reaper autocannon",
+              "cost": 15
+            },
+            {
+              "name": "Electroscourge",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Hades lascannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy reaper autocannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Electroscourge",
+                  "count": 1
+                }
+              ],
+              "once": "model"
+            }
+          ],
+          "replaces": [
+            "Heavy missile launcher"
+          ],
+          "replaces_options": []
         }
       ],
       "composition": [
@@ -3772,124 +3774,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Hades lascannon",
-                "cost": 15
-              },
-              {
-                "name": "Heavy reaper autocannon",
-                "cost": 15
-              },
-              {
-                "name": "Electroscourge",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Hades lascannon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Heavy reaper autocannon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Electroscourge",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy baleflamer"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Hades lascannon",
-                "cost": 15
-              },
-              {
-                "name": "Heavy reaper autocannon",
-                "cost": 15
-              },
-              {
-                "name": "Electroscourge",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Hades lascannon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Heavy reaper autocannon",
-                    "count": 1
-                  }
-                ]
-              },
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Electroscourge",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [
-              "Heavy missile launcher"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Magma cutters",
                 "cost": 0
               }
@@ -3921,6 +3805,126 @@
             "replaces_counts": {
               "Excruciator cannon": 2
             }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Hades lascannon",
+                "cost": 15
+              },
+              {
+                "name": "Heavy reaper autocannon",
+                "cost": 15
+              },
+              {
+                "name": "Electroscourge",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Hades lascannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy reaper autocannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Electroscourge",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              }
+            ],
+            "replaces": [
+              "Heavy baleflamer"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Hades lascannon",
+                "cost": 15
+              },
+              {
+                "name": "Heavy reaper autocannon",
+                "cost": 15
+              },
+              {
+                "name": "Electroscourge",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Hades lascannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy reaper autocannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Electroscourge",
+                    "count": 1
+                  }
+                ],
+                "once": "model"
+              }
+            ],
+            "replaces": [
+              "Heavy missile launcher"
+            ],
+            "replaces_options": []
           }
         ]
       }
