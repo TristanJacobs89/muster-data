@@ -105,12 +105,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -3413,12 +3407,6 @@
             "name": "Sumfin’ to Prove",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           }
         ],
@@ -14569,12 +14557,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -16709,12 +16691,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -16908,12 +16884,6 @@
               "once_per": "battle",
               "when": []
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -17319,12 +17289,6 @@
               "once_per": "round",
               "when": []
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -21699,12 +21663,6 @@
             "name": "Waaagh! Energy (psyker level 1)",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           },
           {

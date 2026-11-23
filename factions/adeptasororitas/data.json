@@ -4699,12 +4699,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -4931,12 +4925,6 @@
                 "change": 1
               }
             ]
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -6434,12 +6422,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -6694,12 +6676,6 @@
                 "change": "4+"
               }
             ]
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",

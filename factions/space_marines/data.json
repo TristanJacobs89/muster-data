@@ -969,12 +969,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -1300,12 +1294,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -1541,12 +1529,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -1830,12 +1812,6 @@
                 "keyword": "Lethal Hits: non-Vehicle"
               }
             ]
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -3787,12 +3763,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -19050,12 +19020,6 @@
                 "name": "Fights First"
               }
             ]
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -19335,12 +19299,6 @@
             "name": "Calgar’s Champion",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           }
         ],
@@ -24575,12 +24533,6 @@
                 "change": "4+"
               }
             ]
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -25175,12 +25127,6 @@
               "once_per": "turn",
               "when": []
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -42257,12 +42203,6 @@
             "name": "Strategium Command",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           }
         ],

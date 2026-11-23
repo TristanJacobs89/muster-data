@@ -2859,12 +2859,6 @@
               "once_per": "battle",
               "when": []
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -3082,12 +3076,6 @@
             "name": "Scrambler Array",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           }
         ],
@@ -4643,12 +4631,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -5914,12 +5896,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",

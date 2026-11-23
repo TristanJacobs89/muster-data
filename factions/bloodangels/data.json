@@ -5380,12 +5380,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
