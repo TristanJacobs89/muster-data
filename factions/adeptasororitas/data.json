@@ -13172,8 +13172,7 @@
             "name": "Sisters Novitiate",
             "min": 9,
             "max": 9,
-            "statline": "Novitiate Superior",
-            "statline_assumed": true
+            "statline": "Sister Novitiate"
           }
         ],
         "loadouts": [
