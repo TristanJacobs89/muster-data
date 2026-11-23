@@ -1761,21 +1761,6 @@
                 "keywords": []
               }
             ]
-          },
-          {
-            "name": "Close-combat weapon",
-            "profiles": [
-              {
-                "name": "Close-combat weapon",
-                "range": "Melee",
-                "a": "1",
-                "skill": "4+",
-                "s": "4",
-                "ap": "0",
-                "d": "1",
-                "keywords": []
-              }
-            ]
           }
         ],
         "abilities": [
@@ -1984,21 +1969,6 @@
             "profiles": [
               {
                 "name": "Close combat weapon",
-                "range": "Melee",
-                "a": "1",
-                "skill": "4+",
-                "s": "4",
-                "ap": "0",
-                "d": "1",
-                "keywords": []
-              }
-            ]
-          },
-          {
-            "name": "Close-combat weapon",
-            "profiles": [
-              {
-                "name": "Close-combat weapon",
                 "range": "Melee",
                 "a": "1",
                 "skill": "4+",
