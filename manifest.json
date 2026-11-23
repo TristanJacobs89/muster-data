@@ -1,16 +1,11 @@
 {
-  "dataVersion": 1051,
+  "dataVersion": 1052,
   "date": "2026-11-23",
   "changes": {
-    "changed": [
-      "astramilitarum/datasheets/e13c0399-951f-5348-9403-5b088ba94d19/data/wargear_options/0/heading",
-      "astramilitarum/datasheets/e13c0399-951f-5348-9403-5b088ba94d19/data/wargear_options/0/instruction",
-      "astramilitarum/datasheets/e13c0399-951f-5348-9403-5b088ba94d19/wargear_options/0/heading",
-      "astramilitarum/datasheets/e13c0399-951f-5348-9403-5b088ba94d19/wargear_options/0/instruction"
-    ],
+    "changed": [],
     "new": [],
     "gone": []
   },
   "revision": "b74c4b164ae7",
-  "from": 1050
+  "from": 1051
 }
