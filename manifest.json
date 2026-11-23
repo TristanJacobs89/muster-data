@@ -1,36 +1,11 @@
 {
-  "dataVersion": 1053,
+  "dataVersion": 1054,
   "date": "2026-11-23",
   "changes": {
-    "changed": [
-      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/7/heading",
-      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/data/wargear_options/7/instruction",
-      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/7/heading",
-      "aeldari/datasheets/e9ea6d32-6a27-5001-b786-4eed3a007a31/wargear_options/7/instruction",
-      "bloodangels/datasheets/8b22cef6-4f2b-599c-8504-b457c3f430fc/data/wargear_options/4/heading",
-      "bloodangels/datasheets/8b22cef6-4f2b-599c-8504-b457c3f430fc/data/wargear_options/4/instruction",
-      "bloodangels/datasheets/8b22cef6-4f2b-599c-8504-b457c3f430fc/wargear_options/4/heading",
-      "bloodangels/datasheets/8b22cef6-4f2b-599c-8504-b457c3f430fc/wargear_options/4/instruction",
-      "deathwatch/datasheets/6d6d7954-6b4c-5b5e-ab5f-b972bf64503e/data/wargear_options/5/heading",
-      "deathwatch/datasheets/6d6d7954-6b4c-5b5e-ab5f-b972bf64503e/data/wargear_options/5/instruction",
-      "deathwatch/datasheets/6d6d7954-6b4c-5b5e-ab5f-b972bf64503e/wargear_options/5/heading",
-      "deathwatch/datasheets/6d6d7954-6b4c-5b5e-ab5f-b972bf64503e/wargear_options/5/instruction",
-      "gsc/datasheets/ec6bdc77-1eec-501e-be1a-1e4105102db9/data/wargear_options/3/heading",
-      "gsc/datasheets/ec6bdc77-1eec-501e-be1a-1e4105102db9/data/wargear_options/3/instruction",
-      "gsc/datasheets/ec6bdc77-1eec-501e-be1a-1e4105102db9/wargear_options/3/heading",
-      "gsc/datasheets/ec6bdc77-1eec-501e-be1a-1e4105102db9/wargear_options/3/instruction",
-      "spacewolves/datasheets/c086546e-a615-5212-be4a-d91d1f6a1b70/data/wargear_options/3/heading",
-      "spacewolves/datasheets/c086546e-a615-5212-be4a-d91d1f6a1b70/data/wargear_options/3/instruction",
-      "spacewolves/datasheets/c086546e-a615-5212-be4a-d91d1f6a1b70/wargear_options/3/heading",
-      "spacewolves/datasheets/c086546e-a615-5212-be4a-d91d1f6a1b70/wargear_options/3/instruction",
-      "tau/datasheets/26f6d9d6-8272-59f8-b141-c4f8fb760593/data/wargear_options/2/heading",
-      "tau/datasheets/26f6d9d6-8272-59f8-b141-c4f8fb760593/data/wargear_options/2/instruction",
-      "tau/datasheets/26f6d9d6-8272-59f8-b141-c4f8fb760593/wargear_options/2/heading",
-      "tau/datasheets/26f6d9d6-8272-59f8-b141-c4f8fb760593/wargear_options/2/instruction"
-    ],
+    "changed": [],
     "new": [],
     "gone": []
   },
   "revision": "d0ddb3d5815a",
-  "from": 1052
+  "from": 1053
 }
