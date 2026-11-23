@@ -1,5 +1,5 @@
 {
-  "schema": 53,
+  "schema": 54,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "faction": {
           "type": "object",
@@ -468,6 +468,10 @@
                         },
                         "carried": {
                           "type": "boolean"
+                        },
+                        "per_model": {
+                          "type": "boolean",
+                          "const": true
                         }
                       },
                       "required": [
@@ -2320,6 +2324,10 @@
                             },
                             "carried": {
                               "type": "boolean"
+                            },
+                            "per_model": {
+                              "type": "boolean",
+                              "const": true
                             }
                           },
                           "required": [
@@ -6382,7 +6390,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "stratagems": {
           "type": "array",
@@ -6566,7 +6574,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "source": {
           "type": "string"
@@ -6839,7 +6847,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "source": {
           "type": "string"
@@ -7161,7 +7169,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "sizes": {
           "minItems": 1,
@@ -7220,7 +7228,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 53
+          "const": 54
         },
         "text": {
           "type": "object",
