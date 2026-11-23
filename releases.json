@@ -187,6 +187,10 @@
     {
       "version": 1051,
       "commit": "7fa32de3118309448d1c358d8b66ea84be3a82c7"
+    },
+    {
+      "version": 1052,
+      "commit": "1064964b4fe160382133183f2c314f17ac0ef1b7"
     }
   ]
 }
