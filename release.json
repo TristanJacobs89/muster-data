@@ -1,5 +1,5 @@
 {
-  "data_version": 1048,
+  "data_version": 1049,
   "schema": 54,
   "sha": "aaad39405193b160be0cb4def679ad93a9f32526",
   "date": "2026-11-23",
@@ -178,5 +178,5 @@
     "updated": "2026-11-12 23:45:38",
     "sha": "aaad39405193b160be0cb4def679ad93a9f32526"
   },
-  "bundle": "1048-5b1cc2b8775e"
+  "bundle": "1049-5b1cc2b8775e"
 }
