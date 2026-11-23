@@ -1,5 +1,5 @@
 {
-  "schema": 52,
+  "schema": 53,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "faction": {
           "type": "object",
@@ -2009,6 +2009,55 @@
                       "required": [
                         "models",
                         "cost"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "type_limits": {
+                    "minItems": 1,
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "types": {
+                          "minItems": 1,
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "max": {
+                          "type": "integer",
+                          "minimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "unless": {
+                          "type": "object",
+                          "properties": {
+                            "types": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "models": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 9007199254740991
+                            }
+                          },
+                          "required": [
+                            "types",
+                            "models"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "types",
+                        "max",
+                        "unless"
                       ],
                       "additionalProperties": false
                     }
@@ -6333,7 +6382,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "stratagems": {
           "type": "array",
@@ -6517,7 +6566,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "source": {
           "type": "string"
@@ -6790,7 +6839,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "source": {
           "type": "string"
@@ -7112,7 +7161,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "sizes": {
           "minItems": 1,
@@ -7171,7 +7220,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 52
+          "const": 53
         },
         "text": {
           "type": "object",
