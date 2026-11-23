@@ -10335,8 +10335,8 @@
       "epic_hero": false,
       "loadout": [
         "Kroot pistol and hunting javelins",
-        "Hunting blades",
-        "Rampager fists"
+        "Close combat weapon",
+        "Krootox fists"
       ],
       "wargear_options": [],
       "composition": [
@@ -10376,41 +10376,6 @@
           }
         ],
         "melee": [
-          {
-            "name": "Hunting blades",
-            "profiles": [
-              {
-                "name": "Hunting blades",
-                "range": "Melee",
-                "a": "3",
-                "skill": "3+",
-                "s": "4",
-                "ap": "-1",
-                "d": "1",
-                "keywords": [
-                  "Lance"
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Rampager fists",
-            "profiles": [
-              {
-                "name": "Rampager fists",
-                "range": "Melee",
-                "a": "4",
-                "skill": "3+",
-                "s": "6",
-                "ap": "-1",
-                "d": "2",
-                "keywords": [
-                  "Sustained Hits 1",
-                  "Extra Attacks"
-                ]
-              }
-            ]
-          },
           {
             "name": "Close combat weapon",
             "profiles": [
@@ -10513,8 +10478,8 @@
         },
         "loadout": [
           "Kroot pistol and hunting javelins",
-          "Hunting blades",
-          "Rampager fists"
+          "Close combat weapon",
+          "Krootox fists"
         ],
         "model_types": [
           {
@@ -10530,8 +10495,8 @@
             "role": null,
             "wargear": [
               "Kroot pistol and hunting javelins",
-              "Hunting blades",
-              "Rampager fists"
+              "Close combat weapon",
+              "Krootox fists"
             ]
           }
         ],
@@ -11511,7 +11476,8 @@
                 "d": "1",
                 "keywords": []
               }
-            ]
+            ],
+            "given_by": "Recon Drone"
           }
         ],
         "melee": [
@@ -16054,7 +16020,8 @@
                   "Twin-linked"
                 ]
               }
-            ]
+            ],
+            "given_by": "MV15 Gun Drone"
           }
         ],
         "melee": [

@@ -35617,7 +35617,7 @@
       "loadout": [
         "Hellstrike missiles",
         "Armoured hull",
-        "Militarum multi-laser"
+        "Multi-laser"
       ],
       "wargear_options": [
         {
@@ -35628,7 +35628,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 7,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -35649,7 +35649,7 @@
             }
           ],
           "replaces": [
-            "Militarum multi-laser"
+            "Multi-laser"
           ],
           "replaces_options": []
         },
@@ -35661,7 +35661,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 8,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -35694,7 +35694,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 9,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -35911,7 +35911,7 @@
         "loadout": [
           "Hellstrike missiles",
           "Armoured hull",
-          "Militarum multi-laser"
+          "Multi-laser"
         ],
         "model_types": [
           {
@@ -35927,7 +35927,7 @@
             "role": null,
             "wargear": [
               "Hellstrike missiles",
-              "Militarum multi-laser",
+              "Multi-laser",
               "Armoured hull"
             ]
           }
@@ -35941,7 +35941,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 7,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -35962,7 +35962,7 @@
               }
             ],
             "replaces": [
-              "Militarum multi-laser"
+              "Multi-laser"
             ],
             "replaces_options": []
           },
@@ -35974,7 +35974,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 8,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -36007,7 +36007,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 9,
             "model": null,
             "loadout": 0,
             "heading": "",

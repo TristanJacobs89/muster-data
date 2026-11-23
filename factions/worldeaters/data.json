@@ -9678,7 +9678,7 @@
       "epic_hero": false,
       "loadout": [
         "Hellblade",
-        "Juggernaut’s bladed horn"
+        "Bladed horn"
       ],
       "wargear_options": [
         {
@@ -9689,7 +9689,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -9727,7 +9727,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -9908,7 +9908,7 @@
         },
         "loadout": [
           "Hellblade",
-          "Juggernaut’s bladed horn"
+          "Bladed horn"
         ],
         "model_types": [
           {
@@ -9930,7 +9930,7 @@
             "role": null,
             "wargear": [
               "Hellblade",
-              "Juggernaut’s bladed horn"
+              "Bladed horn"
             ]
           }
         ],
@@ -9943,7 +9943,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -9981,7 +9981,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",

@@ -5828,7 +5828,7 @@
         "Meltagun",
         "Questoris heavy stubber",
         "Reaper chainsword",
-        "Rapid-fire battlecannon"
+        "Rapid-fire battle cannon"
       ],
       "wargear_options": [
         {
@@ -5839,7 +5839,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 7,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -5872,7 +5872,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 8,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -5913,7 +5913,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 9,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -6217,7 +6217,7 @@
           "Meltagun",
           "Questoris heavy stubber",
           "Reaper chainsword",
-          "Rapid-fire battlecannon"
+          "Rapid-fire battle cannon"
         ],
         "model_types": [
           {
@@ -6234,7 +6234,7 @@
             "wargear": [
               "Meltagun",
               "Questoris heavy stubber",
-              "Rapid-fire battlecannon",
+              "Rapid-fire battle cannon",
               "Reaper chainsword"
             ]
           }
@@ -6248,7 +6248,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 7,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -6281,7 +6281,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 8,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -6322,7 +6322,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 9,
             "model": null,
             "loadout": 0,
             "heading": "",
