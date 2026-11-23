@@ -11107,7 +11107,21 @@
           "Tzeentch",
           "Nurgle",
           "Slaanesh"
-        ]
+        ],
+        "gives": {
+          "Khorne": [
+            "Torrent of burning blood"
+          ],
+          "Tzeentch": [
+            "Warp gaze"
+          ],
+          "Nurgle": [
+            "Phlegm bombardment"
+          ],
+          "Slaanesh": [
+            "Scream of despair"
+          ]
+        }
       },
       "loadout": [
         "Harvester cannon",
