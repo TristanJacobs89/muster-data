@@ -5019,6 +5019,20 @@
             "detachment": null
           }
         ],
+        "type_limits": [
+          {
+            "types": [
+              "Neurogaunt Nodebeasts"
+            ],
+            "max": 1,
+            "unless": {
+              "types": [
+                "Neurogaunts"
+              ],
+              "models": 20
+            }
+          }
+        ],
         "loadout": [
           "Chitinous claws and teeth"
         ],

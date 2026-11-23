@@ -7874,6 +7874,20 @@
             "detachment": null
           }
         ],
+        "type_limits": [
+          {
+            "types": [
+              "Gun Servitors"
+            ],
+            "max": 1,
+            "unless": {
+              "types": [
+                "Inquisitorial Agents"
+              ],
+              "models": 10
+            }
+          }
+        ],
         "loadout": [
           "Agent firearm",
           "Agent melee weapon",

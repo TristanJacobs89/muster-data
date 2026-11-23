@@ -2311,6 +2311,20 @@
           "cost": 10,
           "after": 2
         },
+        "type_limits": [
+          {
+            "types": [
+              "Atalan Wolfquads"
+            ],
+            "max": 1,
+            "unless": {
+              "types": [
+                "Atalan Jackals"
+              ],
+              "models": 8
+            }
+          }
+        ],
         "loadout": [
           "Atalan small arms",
           "Close combat weapon",
