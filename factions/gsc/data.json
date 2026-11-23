@@ -5106,37 +5106,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Cult Icon",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": 1,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Cult Icon",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Heavy stubber",
               "cost": 0
             },
@@ -5252,6 +5221,44 @@
             "Hybrid firearm"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Cult Icon",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Cult Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Hybrid firearm"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -5669,37 +5676,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Cult Icon",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": 1,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Cult Icon",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Heavy stubber",
                 "cost": 0
               },
@@ -5815,6 +5791,44 @@
               "Hybrid firearm"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Cult Icon",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Cult Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Hybrid firearm"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

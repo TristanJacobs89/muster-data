@@ -6023,7 +6023,7 @@
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 8,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -6051,7 +6051,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -6513,7 +6520,7 @@
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 8,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -6541,7 +6548,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -6659,41 +6673,6 @@
             "Laspistol",
             "Chainsword"
           ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Vox-caster",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 10,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Vox-caster",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Lasgun"
-              ]
-            }
-          ],
-          "replaces": [],
           "replaces_options": []
         },
         {
@@ -6844,6 +6823,48 @@
             "Lasgun"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Vox-caster",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 10,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Vox-caster",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Lasgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -7261,41 +7282,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Vox-caster",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 10,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Vox-caster",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Lasgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Flamer",
                 "cost": 0
               },
@@ -7440,6 +7426,48 @@
               "Lasgun"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Vox-caster",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 10,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Vox-caster",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Lasgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -7577,99 +7605,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Master Vox",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Master Vox",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Medi-pack",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Medi-pack",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Regimental Standard",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Regimental Standard",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Bolt pistol",
               "cost": 0
             },
@@ -7781,6 +7716,120 @@
           ],
           "replaces": [],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Master Vox",
+              "cost": 0
+            }
+          ],
+          "source": 8,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Master Vox",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Medi-pack",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Medi-pack",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Regimental Standard",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Regimental Standard",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -8363,99 +8412,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Master Vox",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Master Vox",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Medi-pack",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Medi-pack",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Regimental Standard",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Regimental Standard",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Bolt pistol",
                 "cost": 0
               },
@@ -8567,6 +8523,120 @@
             ],
             "replaces": [],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Master Vox",
+                "cost": 0
+              }
+            ],
+            "source": 8,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Master Vox",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Medi-pack",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Medi-pack",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Regimental Standard",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Regimental Standard",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -9061,7 +9131,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 4,
           "model": 1,
           "loadout": 1,
           "heading": "",
@@ -9086,7 +9156,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -9343,7 +9420,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 4,
             "model": 1,
             "loadout": 1,
             "heading": "",
@@ -9368,7 +9445,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -11686,76 +11770,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Death Korps Medi-pack",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 10,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Death Korps Medi-pack",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Lasgun"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Vox-caster",
-              "cost": 0
-            }
-          ],
-          "source": 7,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 10,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Vox-caster",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Lasgun"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Flamer",
               "cost": 0
             },
@@ -11932,6 +11946,90 @@
             "Lasgun"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Death Korps Medi-pack",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 10,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Death Korps Medi-pack",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Lasgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Vox-caster",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 10,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Vox-caster",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Lasgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -12466,76 +12564,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Death Korps Medi-pack",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 10,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Death Korps Medi-pack",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Lasgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Vox-caster",
-                "cost": 0
-              }
-            ],
-            "source": 7,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 10,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Vox-caster",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Lasgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Flamer",
                 "cost": 0
               },
@@ -12712,6 +12740,90 @@
               "Lasgun"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Death Korps Medi-pack",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 10,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Death Korps Medi-pack",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Lasgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Vox-caster",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 10,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Vox-caster",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Lasgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -16511,7 +16623,7 @@
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 8,
           "model": 1,
           "loadout": 1,
           "heading": "",
@@ -16535,7 +16647,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Hot-shot lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -17179,7 +17298,7 @@
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 8,
             "model": 1,
             "loadout": 1,
             "heading": "",
@@ -17203,7 +17322,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Hot-shot lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -18265,7 +18391,7 @@
               "cost": 0
             }
           ],
-          "source": 10,
+          "source": 11,
           "model": 1,
           "loadout": 1,
           "heading": "",
@@ -18297,7 +18423,14 @@
           "replaces": [
             "Laspistol"
           ],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Alchemyk Counteragents"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -18995,7 +19128,7 @@
                 "cost": 0
               }
             ],
-            "source": 10,
+            "source": 11,
             "model": 1,
             "loadout": 1,
             "heading": "",
@@ -19027,7 +19160,14 @@
             "replaces": [
               "Laspistol"
             ],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Alchemyk Counteragents"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -26362,40 +26502,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Regimental Standard",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Regimental Standard",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Hot-shot lasgun"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Hot-shot laspistol",
               "cost": 0
             },
@@ -26497,6 +26603,47 @@
             "Hot-shot lasgun"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Regimental Standard",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Regimental Standard",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Hot-shot lasgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Hot-shot lasgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -27055,40 +27202,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Regimental Standard",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Regimental Standard",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Hot-shot lasgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Hot-shot laspistol",
                 "cost": 0
               },
@@ -27190,6 +27303,47 @@
               "Hot-shot lasgun"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Regimental Standard",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Regimental Standard",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Hot-shot lasgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Hot-shot lasgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

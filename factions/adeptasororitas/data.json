@@ -770,7 +770,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 7,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -794,7 +794,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Boltgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -1531,7 +1538,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 7,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -1555,7 +1562,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Boltgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -3311,7 +3325,7 @@
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 8,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -3335,7 +3349,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Condemnor bolt pistol"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -3757,7 +3778,7 @@
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 8,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -3781,7 +3802,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Condemnor bolt pistol"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -5249,7 +5277,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -5273,7 +5301,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Boltgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -5877,7 +5912,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -5901,7 +5936,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Boltgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -11435,7 +11477,7 @@
               "cost": 0
             }
           ],
-          "source": 10,
+          "source": 11,
           "model": 3,
           "loadout": 3,
           "heading": "",
@@ -11459,7 +11501,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Plasma gun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -11970,7 +12019,7 @@
                 "cost": 0
               }
             ],
-            "source": 10,
+            "source": 11,
             "model": 3,
             "loadout": 3,
             "heading": "",
@@ -11994,7 +12043,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Plasma gun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

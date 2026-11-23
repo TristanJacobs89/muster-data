@@ -1575,7 +1575,7 @@
               "cost": 0
             }
           ],
-          "source": 11,
+          "source": 12,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -1599,7 +1599,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Splinter rifle"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -2359,7 +2366,7 @@
                 "cost": 0
               }
             ],
-            "source": 11,
+            "source": 12,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -2383,7 +2390,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Splinter rifle"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

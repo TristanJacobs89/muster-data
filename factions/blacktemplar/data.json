@@ -7238,6 +7238,12 @@
             "Kill Team"
           ]
         },
+        "no_warlord": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Deathwatch"
+          ]
+        },
         "stratagems": [
           {
             "name": "Blackstar Extraction",

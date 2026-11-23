@@ -3299,108 +3299,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Excruciator maul",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Excruciator maul",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Arbites combat shotgun"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Arbites Medi-kit",
-              "cost": 0
-            }
-          ],
-          "source": 5,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Arbites Medi-kit",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Arbites combat shotgun"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
-              "name": "Soulguilt Scanner",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": 1,
-          "loadout": 1,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Soulguilt Scanner",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Arbites combat shotgun"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Nuncio Aquila",
               "cost": 0
             }
@@ -3427,6 +3325,129 @@
           ],
           "replaces": [],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Excruciator maul",
+              "cost": 0
+            }
+          ],
+          "source": 8,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Excruciator maul",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Arbites combat shotgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Arbites combat shotgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Arbites Medi-kit",
+              "cost": 0
+            }
+          ],
+          "source": 9,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Arbites Medi-kit",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Arbites combat shotgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Arbites combat shotgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Soulguilt Scanner",
+              "cost": 0
+            }
+          ],
+          "source": 10,
+          "model": 1,
+          "loadout": 1,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Soulguilt Scanner",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Arbites combat shotgun"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Arbites combat shotgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -3845,108 +3866,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Excruciator maul",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Excruciator maul",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Arbites combat shotgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Arbites Medi-kit",
-                "cost": 0
-              }
-            ],
-            "source": 5,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Arbites Medi-kit",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Arbites combat shotgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
-                "name": "Soulguilt Scanner",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": 1,
-            "loadout": 1,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Soulguilt Scanner",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Arbites combat shotgun"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Nuncio Aquila",
                 "cost": 0
               }
@@ -3973,6 +3892,129 @@
             ],
             "replaces": [],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Excruciator maul",
+                "cost": 0
+              }
+            ],
+            "source": 8,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Excruciator maul",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Arbites combat shotgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Arbites combat shotgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Arbites Medi-kit",
+                "cost": 0
+              }
+            ],
+            "source": 9,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Arbites Medi-kit",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Arbites combat shotgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Arbites combat shotgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Soulguilt Scanner",
+                "cost": 0
+              }
+            ],
+            "source": 10,
+            "model": 1,
+            "loadout": 1,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Soulguilt Scanner",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Arbites combat shotgun"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Arbites combat shotgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -4076,37 +4118,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Ancient’s Banner",
-              "cost": 0
-            }
-          ],
-          "source": 6,
-          "model": 1,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Ancient’s Banner",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Narthecium",
               "cost": 0
             }
@@ -4135,6 +4146,44 @@
             "Storm Bolter"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Ancient’s Banner",
+              "cost": 0
+            }
+          ],
+          "source": 8,
+          "model": 1,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Ancient’s Banner",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Storm Bolter"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -4442,37 +4491,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Ancient’s Banner",
-                "cost": 0
-              }
-            ],
-            "source": 6,
-            "model": 1,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Ancient’s Banner",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Narthecium",
                 "cost": 0
               }
@@ -4501,6 +4519,44 @@
               "Storm Bolter"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Ancient’s Banner",
+                "cost": 0
+              }
+            ],
+            "source": 8,
+            "model": 1,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Ancient’s Banner",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Storm Bolter"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -9808,7 +9864,7 @@
               "cost": 0
             }
           ],
-          "source": 10,
+          "source": 11,
           "model": 3,
           "loadout": 3,
           "heading": "",
@@ -9832,7 +9888,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Plasma gun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -10344,7 +10407,7 @@
                 "cost": 0
               }
             ],
-            "source": 10,
+            "source": 11,
             "model": 3,
             "loadout": 3,
             "heading": "",
@@ -10368,7 +10431,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Plasma gun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -11127,7 +11197,7 @@
               "cost": 0
             }
           ],
-          "source": 6,
+          "source": 7,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -11151,7 +11221,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Boltgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -11896,7 +11973,7 @@
                 "cost": 0
               }
             ],
-            "source": 6,
+            "source": 7,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -11920,7 +11997,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Boltgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
