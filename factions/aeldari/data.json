@@ -15534,12 +15534,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -17202,12 +17196,6 @@
             "name": "Yvraine’s Champion",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           },
           {
@@ -20072,12 +20060,6 @@
             "text": "",
             "kind": "other",
             "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
           }
         ],
         "transport": "",
@@ -20398,12 +20380,6 @@
             "name": "Psychic Communion",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           }
         ],
@@ -20764,12 +20740,6 @@
             "name": "Psychic Communion",
             "text": "",
             "kind": "other",
-            "timing": null
-          },
-          {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
             "timing": null
           }
         ],

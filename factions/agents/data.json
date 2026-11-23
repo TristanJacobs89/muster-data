@@ -8948,12 +8948,6 @@
             }
           },
           {
-            "name": "Support",
-            "text": "",
-            "kind": "special",
-            "timing": null
-          },
-          {
             "name": "Assigned Agents",
             "text": "",
             "kind": "faction",
