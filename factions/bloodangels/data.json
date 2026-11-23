@@ -3318,38 +3318,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Grenade Launcher",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Grenade Launcher",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Power Fist",
               "cost": 0
             },
@@ -3445,6 +3413,45 @@
             "Chainsword"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Grenade Launcher",
+              "cost": 0
+            }
+          ],
+          "source": 7,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Grenade Launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Bolt Rifle"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -3902,38 +3909,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Grenade Launcher",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Grenade Launcher",
-                    "count": 1
-                  }
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Power Fist",
                 "cost": 0
               },
@@ -4029,6 +4004,45 @@
               "Chainsword"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Grenade Launcher",
+                "cost": 0
+              }
+            ],
+            "source": 7,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Grenade Launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Bolt Rifle"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -7252,6 +7266,12 @@
           "rule": "Mission Tactics",
           "targets": [
             "Kill Team"
+          ]
+        },
+        "no_warlord": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Deathwatch"
           ]
         },
         "stratagems": [

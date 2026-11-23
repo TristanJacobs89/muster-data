@@ -5983,13 +5983,15 @@
               {
                 "name": "Instigator Bolt Carbine",
                 "range": "24\"",
-                "a": "1",
+                "a": "2",
                 "skill": "2+",
-                "s": "4",
+                "s": "5",
                 "ap": "-2",
                 "d": "2",
                 "keywords": [
-                  "PRECISION"
+                  "PRECISION",
+                  "ASSAULT",
+                  "Rapid Fire 1"
                 ]
               }
             ]
@@ -44969,6 +44971,12 @@
           "rule": "Mission Tactics",
           "targets": [
             "Kill Team"
+          ]
+        },
+        "no_warlord": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Deathwatch"
           ]
         },
         "stratagems": [

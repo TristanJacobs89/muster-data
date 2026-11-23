@@ -6866,7 +6866,7 @@
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 8,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -6902,7 +6902,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Galvanic rifle"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -7344,7 +7351,7 @@
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 8,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -7380,7 +7387,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Galvanic rifle"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -7586,7 +7600,7 @@
               "cost": 0
             }
           ],
-          "source": 7,
+          "source": 8,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -7622,7 +7636,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Radium carbine"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -8052,7 +8073,7 @@
                 "cost": 0
               }
             ],
-            "source": 7,
+            "source": 8,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -8088,7 +8109,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Radium carbine"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

@@ -5991,43 +5991,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Power fist",
-              "cost": 0
-            }
-          ],
-          "source": 4,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "per",
-            "every": 5,
-            "up": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Power fist",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Boltgun"
-              ]
-            }
-          ],
-          "replaces": [
-            "Accursed weapon"
-          ],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Chaos Icon",
               "cost": 0
             }
@@ -6054,6 +6017,50 @@
           ],
           "replaces": [],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Power fist",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Power fist",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Boltgun"
+              ]
+            }
+          ],
+          "replaces": [
+            "Accursed weapon"
+          ],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Boltgun"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -6413,43 +6420,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Power fist",
-                "cost": 0
-              }
-            ],
-            "source": 4,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "per",
-              "every": 5,
-              "up": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Power fist",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Boltgun"
-                ]
-              }
-            ],
-            "replaces": [
-              "Accursed weapon"
-            ],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Chaos Icon",
                 "cost": 0
               }
@@ -6476,6 +6446,50 @@
             ],
             "replaces": [],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Power fist",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Power fist",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Boltgun"
+                ]
+              }
+            ],
+            "replaces": [
+              "Accursed weapon"
+            ],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Boltgun"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

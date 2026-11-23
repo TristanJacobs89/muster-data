@@ -488,7 +488,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -509,7 +509,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -519,7 +526,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -540,7 +547,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -728,7 +742,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -749,7 +763,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -759,7 +780,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -780,7 +801,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -820,7 +848,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -841,7 +869,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -851,7 +886,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -872,7 +907,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -1026,7 +1068,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -1047,7 +1089,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -1057,7 +1106,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -1078,7 +1127,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -3045,7 +3101,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -3066,7 +3122,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -3076,7 +3139,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 7,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -3097,7 +3160,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -3267,7 +3337,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -3288,7 +3358,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -3298,7 +3375,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 7,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -3319,7 +3396,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -7378,7 +7462,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -7399,7 +7483,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -7409,7 +7500,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -7430,7 +7521,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -7690,7 +7788,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -7711,7 +7809,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -7721,7 +7826,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -7742,7 +7847,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -7789,7 +7901,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 6,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -7810,7 +7922,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -7820,7 +7939,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 7,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -7841,7 +7960,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -8057,7 +8183,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 6,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -8078,7 +8204,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -8088,7 +8221,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 7,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -8109,7 +8242,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -8149,7 +8289,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -8170,7 +8310,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -8180,7 +8327,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -8201,7 +8348,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -8365,7 +8519,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -8386,7 +8540,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -8396,7 +8557,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -8417,7 +8578,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -9236,7 +9404,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -9257,7 +9425,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -9267,7 +9442,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": 1,
           "loadout": 0,
           "heading": "",
@@ -9288,7 +9463,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -9480,7 +9662,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -9501,7 +9683,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -9511,7 +9700,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": 1,
             "loadout": 0,
             "heading": "",
@@ -9532,7 +9721,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }

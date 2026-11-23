@@ -1358,7 +1358,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 4,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -1384,7 +1384,14 @@
           ],
           "replaces_options": [
             "Concussion maul"
-          ]
+          ],
+          "requires": {
+            "items": [
+              "Mole grenade launcher"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -1394,7 +1401,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 5,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -1416,7 +1423,15 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Twin concussion gauntlet",
+              "Mole grenade launcher"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -1648,7 +1663,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 4,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -1674,7 +1689,14 @@
             ],
             "replaces_options": [
               "Concussion maul"
-            ]
+            ],
+            "requires": {
+              "items": [
+                "Mole grenade launcher"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -1684,7 +1706,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 5,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -1706,7 +1728,15 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Twin concussion gauntlet",
+                "Mole grenade launcher"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }
@@ -4652,7 +4682,7 @@
               "cost": 0
             }
           ],
-          "source": 3,
+          "source": 6,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4673,7 +4703,15 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "HYLas rotary cannon",
+              "Ion beamer"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -4683,7 +4721,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 7,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4704,7 +4742,15 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "HYLas rotary cannon",
+              "Ion beamer"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         },
         {
           "instruction": "",
@@ -4714,7 +4760,7 @@
               "cost": 0
             }
           ],
-          "source": 5,
+          "source": 8,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -4735,7 +4781,15 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "HYLas rotary cannon",
+              "Ion beamer"
+            ],
+            "carried": false,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -5025,7 +5079,7 @@
                 "cost": 0
               }
             ],
-            "source": 3,
+            "source": 6,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -5046,7 +5100,15 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "HYLas rotary cannon",
+                "Ion beamer"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -5056,7 +5118,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 7,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -5077,7 +5139,15 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "HYLas rotary cannon",
+                "Ion beamer"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           },
           {
             "instruction": "",
@@ -5087,7 +5157,7 @@
                 "cost": 0
               }
             ],
-            "source": 5,
+            "source": 8,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -5108,7 +5178,15 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "HYLas rotary cannon",
+                "Ion beamer"
+              ],
+              "carried": false,
+              "per_model": true
+            }
           }
         ]
       }

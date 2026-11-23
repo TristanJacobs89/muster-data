@@ -8652,7 +8652,7 @@
               "cost": 0
             }
           ],
-          "source": 4,
+          "source": 5,
           "model": 1,
           "loadout": 1,
           "heading": "",
@@ -8673,7 +8673,14 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Farstalker firearm"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -9057,7 +9064,7 @@
                 "cost": 0
               }
             ],
-            "source": 4,
+            "source": 5,
             "model": 1,
             "loadout": 1,
             "heading": "",
@@ -9078,7 +9085,14 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Farstalker firearm"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
@@ -11257,40 +11271,6 @@
           "instruction": "",
           "options": [
             {
-              "name": "Semi-automatic grenade launcher",
-              "cost": 0
-            }
-          ],
-          "source": 3,
-          "model": null,
-          "loadout": 0,
-          "heading": "",
-          "cap": {
-            "kind": "fixed",
-            "n": 1
-          },
-          "each": 1,
-          "choices": [
-            {
-              "text": "",
-              "items": [
-                {
-                  "option": "Semi-automatic grenade launcher",
-                  "count": 1
-                }
-              ],
-              "keeps": [
-                "Pulse carbine"
-              ]
-            }
-          ],
-          "replaces": [],
-          "replaces_options": []
-        },
-        {
-          "instruction": "",
-          "options": [
-            {
               "name": "Ion rifle",
               "cost": 5
             },
@@ -11332,6 +11312,47 @@
             "Pulse carbine"
           ],
           "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Semi-automatic grenade launcher",
+              "cost": 0
+            }
+          ],
+          "source": 6,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Semi-automatic grenade launcher",
+                  "count": 1
+                }
+              ],
+              "keeps": [
+                "Pulse carbine"
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Pulse carbine"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -11788,40 +11809,6 @@
             "instruction": "",
             "options": [
               {
-                "name": "Semi-automatic grenade launcher",
-                "cost": 0
-              }
-            ],
-            "source": 3,
-            "model": null,
-            "loadout": 0,
-            "heading": "",
-            "cap": {
-              "kind": "fixed",
-              "n": 1
-            },
-            "each": 1,
-            "choices": [
-              {
-                "text": "",
-                "items": [
-                  {
-                    "option": "Semi-automatic grenade launcher",
-                    "count": 1
-                  }
-                ],
-                "keeps": [
-                  "Pulse carbine"
-                ]
-              }
-            ],
-            "replaces": [],
-            "replaces_options": []
-          },
-          {
-            "instruction": "",
-            "options": [
-              {
                 "name": "Ion rifle",
                 "cost": 5
               },
@@ -11863,6 +11850,47 @@
               "Pulse carbine"
             ],
             "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Semi-automatic grenade launcher",
+                "cost": 0
+              }
+            ],
+            "source": 6,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Semi-automatic grenade launcher",
+                    "count": 1
+                  }
+                ],
+                "keeps": [
+                  "Pulse carbine"
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Pulse carbine"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }

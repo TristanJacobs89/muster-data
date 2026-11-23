@@ -3788,7 +3788,7 @@
               "cost": 0
             }
           ],
-          "source": 23,
+          "source": 24,
           "model": 0,
           "loadout": 3,
           "heading": "",
@@ -3809,7 +3809,15 @@
             }
           ],
           "replaces": [],
-          "replaces_options": []
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Shuriken pistol",
+              "Power sword"
+            ],
+            "carried": true,
+            "per_model": true
+          }
         }
       ],
       "composition": [
@@ -4584,7 +4592,7 @@
                 "cost": 0
               }
             ],
-            "source": 23,
+            "source": 24,
             "model": 0,
             "loadout": 3,
             "heading": "",
@@ -4605,7 +4613,15 @@
               }
             ],
             "replaces": [],
-            "replaces_options": []
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Shuriken pistol",
+                "Power sword"
+              ],
+              "carried": true,
+              "per_model": true
+            }
           }
         ]
       }
