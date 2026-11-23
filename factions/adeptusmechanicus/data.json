@@ -5623,15 +5623,13 @@
             "name": "Gun Servitors",
             "min": 2,
             "max": 2,
-            "statline": "Servitor Underseer",
-            "statline_assumed": true
+            "statline": "Combat Servitor"
           },
           {
             "name": "Combat Servitors",
             "min": 6,
             "max": 6,
-            "statline": "Servitor Underseer",
-            "statline_assumed": true
+            "statline": "Combat Servitor"
           }
         ],
         "loadouts": [

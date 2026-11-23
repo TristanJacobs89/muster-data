@@ -642,36 +642,31 @@
             "name": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
             "min": 0,
             "max": 1,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Kill Team Sergeant",
             "min": 1,
             "max": 1,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and …",
             "min": 1,
             "max": 2,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol",
             "min": 1,
             "max": 2,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists",
             "min": 1,
             "max": 2,
-            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol",
-            "statline_assumed": true
+            "statline": "Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol"
           },
           {
             "name": "Gravis Veteran",
@@ -9652,22 +9647,19 @@
             "name": "Death Cult Assassin",
             "min": 1,
             "max": 1,
-            "statline": "Rogue Trader",
-            "statline_assumed": true
+            "statline": "Rejuvenat Adept"
           },
           {
             "name": "Lectro-Maester",
             "min": 1,
             "max": 1,
-            "statline": "Rogue Trader",
-            "statline_assumed": true
+            "statline": "Rejuvenat Adept"
           },
           {
             "name": "Rejuvenat Adept",
             "min": 1,
             "max": 1,
-            "statline": "Rogue Trader",
-            "statline_assumed": true
+            "statline": "Rejuvenat Adept"
           }
         ],
         "loadouts": [
