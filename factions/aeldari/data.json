@@ -4184,6 +4184,22 @@
             "detachment": null
           }
         ],
+        "type_limits": [
+          {
+            "types": [
+              "Shade Runner",
+              "Soul Weaver",
+              "Way Seeker"
+            ],
+            "max": 0,
+            "unless": {
+              "types": [
+                "Corsair Voidscarred"
+              ],
+              "models": 5
+            }
+          }
+        ],
         "loadout": [
           "Shuriken pistol",
           "Power sword",
