@@ -1,0 +1,2895 @@
+{
+  "schema": 55,
+  "faction": {
+    "key": "ironhands",
+    "name": "Iron Hands",
+    "parent": "space_marines",
+    "group": "Imperium"
+  },
+  "datasheets": [
+    {
+      "id": "4b8a6081-793e-5f5b-ba13-97dc447236f8",
+      "name": "Caanok Var",
+      "keywords": [
+        "Captain",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Infantry",
+        "Terminator"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 100,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Axiom",
+        "Storm Bolter"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Caanok Var",
+            "m": "5\"",
+            "t": "6",
+            "sv": "2+",
+            "w": "6",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Storm Bolter",
+            "profiles": [
+              {
+                "name": "Storm Bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "RAPID FIRE 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Axiom",
+            "profiles": [
+              {
+                "name": "Axiom",
+                "range": "Melee",
+                "a": "5",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "CLEAVE 1"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Feel No Pain 5+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Transhuman Strategist",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Combat Doctrines",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Cold and Calculating",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                },
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Cerebrex Logic Engine",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "50mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Captain",
+          "Character",
+          "Epic Hero",
+          "Imperium",
+          "Infantry",
+          "Terminator"
+        ],
+        "factions": [
+          "Adeptus Astartes",
+          "Iron Hands"
+        ],
+        "leads": [
+          "Terminator Assault Squad",
+          "Terminator Squad"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Terminator Assault Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Terminator Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "ironhands",
+          "id": "4b8a6081-793e-5f5b-ba13-97dc447236f8",
+          "data_version": "995"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 100
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 100,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Axiom",
+          "Storm Bolter"
+        ],
+        "model_types": [
+          {
+            "name": "Caanok Var",
+            "min": 1,
+            "max": 1,
+            "statline": "Caanok Var"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Axiom",
+              "Storm Bolter"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "7a55a0fb-d80d-5724-9ef8-5dbe69f98112",
+      "name": "Iron Father Feirros",
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Gravis",
+        "Imperium",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 85,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Bolt Pistol",
+        "Gorgon’s Wrath",
+        "Harrowhand",
+        "Medusan Manipuli"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Iron Father Feirros",
+            "m": "5\"",
+            "t": "6",
+            "sv": "2+",
+            "w": "6",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Gorgon’s Wrath",
+            "profiles": [
+              {
+                "name": "Gorgon’s Wrath",
+                "range": "36\"",
+                "a": "3",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "SUSTAINED HITS 2",
+                  "RAPID FIRE 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bolt Pistol",
+            "profiles": [
+              {
+                "name": "Bolt Pistol",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "CLOSE-QUARTERS"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Harrowhand",
+            "profiles": [
+              {
+                "name": "Harrowhand",
+                "range": "Melee",
+                "a": "6",
+                "skill": "3+",
+                "s": "7",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Medusan Manipuli",
+            "profiles": [
+              {
+                "name": "Medusan Manipuli",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "EXTRA ATTACKS"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 5+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Transhuman Strategist",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Combat Doctrines",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Master of the Forge",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "movement"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Rites of Tempering",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Iron Father",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "keywords": [
+          "Character",
+          "Epic Hero",
+          "Gravis",
+          "Imperium",
+          "Infantry"
+        ],
+        "factions": [
+          "Adeptus Astartes",
+          "Iron Hands"
+        ],
+        "leads": [
+          "Aggressor Squad",
+          "Eradicator Squad with heavy bolters",
+          "Eradicator Squad with melta rifles",
+          "Heavy Intercessor Squad"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Aggressor Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Eradicator Squad with heavy bolters",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Eradicator Squad with melta rifles",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Heavy Intercessor Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "ironhands",
+          "id": "7a55a0fb-d80d-5724-9ef8-5dbe69f98112",
+          "data_version": "995"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 85
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 85,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bolt Pistol",
+          "Gorgon’s Wrath",
+          "Harrowhand",
+          "Medusan Manipuli"
+        ],
+        "model_types": [
+          {
+            "name": "Iron Father Feirros",
+            "min": 1,
+            "max": 1,
+            "statline": "Iron Father Feirros"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bolt Pistol",
+              "Gorgon’s Wrath",
+              "Harrowhand",
+              "Medusan Manipuli"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    }
+  ],
+  "rules": {
+    "faction": "ironhands",
+    "name": "Iron Hands",
+    "data_version": "2026-11-12 23:45:38",
+    "army_rules": [
+      {
+        "name": "Combat Doctrines",
+        "text": ""
+      },
+      {
+        "name": "Transhuman Strategist",
+        "text": ""
+      },
+      {
+        "name": "Librarius",
+        "text": ""
+      },
+      {
+        "name": "Space Marine Chapters",
+        "text": ""
+      },
+      {
+        "name": "Special Move Types",
+        "text": ""
+      }
+    ],
+    "detachments": [
+      {
+        "id": "0a2a5520-e6cc-4f3f-ac87-b00addae1023",
+        "name": "Stormlance Task Force",
+        "dp": 1,
+        "dispositions": [
+          "Reconnaissance"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Lightning-fast Strike",
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Adeptus Astartes+Mounted",
+                    "Adeptus Astartes+Speeder"
+                  ],
+                  "units": true
+                },
+                "kind": "stat",
+                "stat": "m",
+                "change": 2
+              }
+            ]
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Supercharged Engines (Upgrade)",
+            "points": 10,
+            "text": "",
+            "targets": [
+              "adeptus astartes mounted"
+            ],
+            "non_character": true,
+            "excludes": []
+          },
+          {
+            "name": "Auspex Triangulation Shrines (Upgrade)",
+            "points": 10,
+            "text": "",
+            "targets": [
+              "adeptus astartes speeder"
+            ],
+            "non_character": true,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Hurtling Targets",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes mounted",
+                "speeder"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Wind-Swift Evasion",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Sudden Onslaught",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes mounted",
+                "speeder"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "114dee6f-802a-49f4-a0db-0296eb5434b3",
+        "name": "Gladius Task Force",
+        "dp": 3,
+        "dispositions": [
+          "Take and Hold",
+          "Priority Assets"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Codex Discipline",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Artificer Armour",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "sv",
+                "change": "2+"
+              },
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 5+"
+              }
+            ]
+          },
+          {
+            "name": "Laurels of Triumph",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "weapon",
+                "weapons": "melee",
+                "stat": "s",
+                "change": 1
+              },
+              {
+                "kind": "weapon",
+                "weapons": "melee",
+                "stat": "ap",
+                "change": 1
+              }
+            ]
+          },
+          {
+            "name": "Adept of the Codex",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "captain"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Standard of the Emperor Ascendant",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "ancient"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "oc",
+                "change": 1
+              },
+              {
+                "kind": "stat",
+                "stat": "ld",
+                "change": 1
+              },
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 5+"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Armour of Contempt",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Adaptive Strategy",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "A Worthy Death",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Responsive Tactics",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes infantry",
+                "mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Storm of devastation",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Might of angels",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "1f9b6d20-1a56-4a45-8621-4ee2648e029a",
+        "name": "Ironclad Champions",
+        "dp": 1,
+        "dispositions": [
+          "Priority Assets"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Enduring Vengeance",
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Adeptus Astartes+Dreadnought"
+                  ],
+                  "units": true
+                },
+                "kind": "reroll",
+                "weapons": "all",
+                "roll": "hit",
+                "ones": true
+              }
+            ]
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Venerable Champion (Aura) (Upgrade)",
+            "points": 30,
+            "text": "",
+            "targets": [
+              "dreadnought"
+            ],
+            "non_character": true,
+            "excludes": []
+          },
+          {
+            "name": "Artificer Sarcophagus (Upgrade)",
+            "points": 40,
+            "text": "",
+            "targets": [
+              "dreadnought"
+            ],
+            "non_character": true,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Adamantine Terror",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "dreadnought"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Mercy is Weakness",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "dreadnought"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Upstoppable Advance",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "charge",
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "dreadnought"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "2df70179-96ad-4f64-b5fd-a0ee2b7a904d",
+        "name": "Tactical Brethren",
+        "dp": 1,
+        "dispositions": [
+          "Priority Assets"
+        ],
+        "unique": [
+          "Doctrines"
+        ],
+        "rules": [
+          {
+            "name": "Tactical Mastery",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Laurels of Vigilance",
+            "points": 10,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Tactical Insight",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "captain"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Armour of Contempt",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Masterful Tactics",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes infantry",
+                "mounted"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Domination Fire",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "2fc4c2ed-d11d-40a5-8b56-2339e226203c",
+        "name": "Gravis Siege Force",
+        "dp": 1,
+        "dispositions": [
+          "Take and Hold"
+        ],
+        "unique": [
+          "Gravis"
+        ],
+        "rules": [
+          {
+            "name": "Indomitable Defence",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Immovable Conquerors (Upgrade)",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "gravis"
+            ],
+            "non_character": true,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "oc",
+                "change": 1
+              }
+            ]
+          },
+          {
+            "name": "Narthecis Gauntlet",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "apothecary biologis"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Annihilating Force",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "gravis"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Suppression Volleys",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "gravis"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Stand Unyielding",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "gravis"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "31cf4080-95f4-44a4-acfc-9ac9e2c93c62",
+        "name": "Devastator Brethren",
+        "dp": 1,
+        "dispositions": [
+          "Purge the Foe"
+        ],
+        "unique": [
+          "Doctrines"
+        ],
+        "rules": [
+          {
+            "name": "Devastator Mastery",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Master-forged Firearms",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "adeptus astartes infantry",
+              "mounted"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "unless": "Psychic",
+                "kind": "weapon",
+                "weapons": "ranged",
+                "stat": "a",
+                "change": 1
+              },
+              {
+                "unless": "Psychic",
+                "kind": "weapon",
+                "weapons": "ranged",
+                "stat": "s",
+                "change": 1
+              },
+              {
+                "unless": "Psychic",
+                "kind": "weapon",
+                "weapons": "ranged",
+                "stat": "ap",
+                "change": 1
+              },
+              {
+                "unless": "Psychic",
+                "kind": "weapon",
+                "weapons": "ranged",
+                "stat": "d",
+                "change": 1
+              }
+            ]
+          },
+          {
+            "name": "Honour of Vigilance",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "weapon_keyword",
+                "weapons": "ranged",
+                "keyword": "Lethal Hits"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Armour of Contempt",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Storm of Fire",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Hail of Vengeance",
+            "cp": 2,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "32355f5d-db41-4589-ad75-e2801b5d8afb",
+        "name": "Terminator Storm Force",
+        "dp": 1,
+        "dispositions": [
+          "Priority Assets"
+        ],
+        "unique": [
+          "Terminator"
+        ],
+        "rules": [
+          {
+            "name": "Death Blow",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Champion of the First Company",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "adeptus astartes terminator"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "weapon_keyword",
+                "weapons": "melee",
+                "keyword": "Lethal Hits"
+              }
+            ]
+          },
+          {
+            "name": "Corporeum Reliquary",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "adeptus astartes terminator"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Gunship Extraction",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes terminator"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Merciless Veterans",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes terminator"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Tactical Dreadnought Fortitude",
+            "cp": 2,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes terminator"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "40603815-0ddb-4180-bd06-143ab40f0985",
+        "name": "Tacticus Firestorm Force",
+        "dp": 1,
+        "dispositions": [
+          "Priority Assets"
+        ],
+        "unique": [
+          "Tacticus"
+        ],
+        "rules": [
+          {
+            "name": "Codex Fire-patterns",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Tempered in Battle (Aura)",
+            "points": 10,
+            "text": "",
+            "targets": [
+              "tacticus"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Cyber-familiar",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "tacticus"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Point-blank Brutality",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tacticus"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "For the Emperor!",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tacticus"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Relentless Assault",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tacticus"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "4fde4216-b0dd-4665-8556-2d394d293ed6",
+        "name": "Deathwatch Support",
+        "dp": 1,
+        "dispositions": [
+          "Disruption"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Mission Tactics",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Beacon Angelis",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": {
+                  "leading": "Kill Team"
+                },
+                "kind": "ability",
+                "name": "Deep Strike"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "own_enhancements": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Kill Team"
+          ]
+        },
+        "no_warlord": {
+          "rule": "Mission Tactics",
+          "targets": [
+            "Deathwatch"
+          ]
+        },
+        "stratagems": [
+          {
+            "name": "Blackstar Extraction",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Kraken Rounds",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Dragonfire Rounds",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Hellfire Rounds",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "kill team"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "55db5c18-2a63-4cbb-8ed4-542525cf600a",
+        "name": "Phobos Shock Force",
+        "dp": 1,
+        "dispositions": [
+          "Disruption"
+        ],
+        "unique": [
+          "Phobos"
+        ],
+        "rules": [
+          {
+            "name": "Vanguard Ambushers",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Seal of Shrouding",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "phobos"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Venator Omni-auspex",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "phobos"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Umbral Evasion",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "phobos"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Strike from the Shadows",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "phobos"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Transhuman Reactions",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "phobos"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "6fead3ce-6ab9-4637-9c53-70af7ee47328",
+        "name": "Assault Brethren",
+        "dp": 1,
+        "dispositions": [
+          "Take and Hold"
+        ],
+        "unique": [
+          "Doctrines"
+        ],
+        "rules": [
+          {
+            "name": "Assault Mastery",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Furious Assault (Upgrade)",
+            "points": 10,
+            "text": "",
+            "targets": [
+              "adeptus astartes infantry"
+            ],
+            "non_character": true,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "weapon_keyword",
+                "weapons": "melee",
+                "keyword": "Sustained Hits 1: non-Monster/Vehicle"
+              }
+            ]
+          },
+          {
+            "name": "Imperium’s Sword",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "weapons": [
+              {
+                "name": "Imperium’s Sword",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "7",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [],
+                "kind": "melee"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Gene-wrought Might",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Armour of Contempt",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Duty in Death",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "930a1894-6943-499a-afdb-d738d8feecde",
+        "name": "Medusa's Wrath",
+        "dp": 2,
+        "dispositions": [
+          "Purge the Foe"
+        ],
+        "unique": [
+          "Ironstorm"
+        ],
+        "rules": [
+          {
+            "name": "Armoured Wrath",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "The Flesh is Weak",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "t",
+                "change": 1
+              },
+              {
+                "kind": "ability",
+                "name": "Feel No Pain 5+"
+              }
+            ]
+          },
+          {
+            "name": "Adept of the Omnissiah",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "techmarine"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Master of the Machine War",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "adeptus astartes"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Target Augury Web",
+            "points": 30,
+            "text": "",
+            "targets": [
+              "techmarine"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Unbowed Conviction",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Spirits of Iron",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "any"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Vengeful Animus",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "any"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes vehicle"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Methodical Brutality",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Ancient Fury",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes dreadnought"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Power of the Machine Spirit",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes vehicle"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "ad2c163a-82ee-4279-8dde-b36217f3e5d3",
+        "name": "Phobos Shadow Force",
+        "dp": 1,
+        "dispositions": [
+          "Disruption"
+        ],
+        "unique": [
+          "Phobos"
+        ],
+        "rules": [
+          {
+            "name": "Shadow Masters",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Venator Omni-auspex",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "phobos"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Execute and Redeploy",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "phobos"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Mortis Snares",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "phobos",
+                "scout squad"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Tactical withdrawal",
+            "cp": 1,
+            "type": "",
+            "turn": "opponents",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "phobos",
+                "scout squad"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Strike from the Shadows",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "phobos"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "b9473893-6dae-43fd-a3f2-e27a93a56c95",
+        "name": "Ironstorm Spearhead",
+        "dp": 1,
+        "dispositions": [
+          "Purge the Foe"
+        ],
+        "unique": [
+          "Ironstorm"
+        ],
+        "rules": [
+          {
+            "name": "Ironstorm Auto-targeters",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Gunnery Honours (Upgrade)",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "adeptus astartes vehicle"
+            ],
+            "non_character": true,
+            "excludes": [
+              "Fly",
+              "Walker",
+              "Dedicated Transport"
+            ],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "weapon_keyword",
+                "weapons": "ranged",
+                "keyword": "Heavy"
+              }
+            ]
+          },
+          {
+            "name": "Redoubtable Machine Spirit (Upgrade)",
+            "points": 25,
+            "text": "",
+            "targets": [
+              "adeptus astartes vehicle"
+            ],
+            "non_character": true,
+            "excludes": [
+              "Fly",
+              "Walker",
+              "Dedicated Transport"
+            ],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "invul",
+                "change": "5+"
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Might of the machine Spirit",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "command"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes vehicle"
+              ],
+              "excludes": [
+                "dedicated transport",
+                "fly",
+                "walker"
+              ]
+            }
+          },
+          {
+            "name": "Layered Ceramite",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "any"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes vehicle"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Headhunter Doctrine",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes vehicle"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "c36cda66-a994-4354-aa2a-fb4fd2338efa",
+        "name": "Gravis Linebreaker Force",
+        "dp": 1,
+        "dispositions": [
+          "Take and Hold"
+        ],
+        "unique": [
+          "Gravis"
+        ],
+        "rules": [
+          {
+            "name": "Walking Fortress",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Indefatigable Fortitude",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "gravis"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Relentless Advance",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "gravis"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "ability",
+                "name": "Scouts 5\""
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Purgation Push",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "gravis"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Armoured Impact",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "charge"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "gravis"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Annihilating Force",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "gravis"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "e27a3395-01d7-4d89-aa99-cc333d833217",
+        "name": "Gauntlet Task Force",
+        "dp": 1,
+        "dispositions": [
+          "Reconnaissance"
+        ],
+        "unique": [],
+        "rules": [
+          {
+            "name": "Combined Deployment",
+            "text": ""
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Damocles-class Uplink",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "captain"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Linebreaker Onslaught",
+            "points": 20,
+            "text": "",
+            "targets": [
+              "adeptus astartes infantry"
+            ],
+            "non_character": false,
+            "excludes": []
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Storm and Secure",
+            "cp": 1,
+            "type": "",
+            "turn": "your",
+            "phases": [
+              "movement"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes transport"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Aggressive Disembarkation",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "any"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Duty is Never Done",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "adeptus astartes infantry"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "fe1cc3f3-76af-4036-9709-629374090134",
+        "name": "Tacticus Attack Force",
+        "dp": 1,
+        "dispositions": [
+          "Take and Hold"
+        ],
+        "unique": [
+          "Tacticus"
+        ],
+        "rules": [
+          {
+            "name": "Wrath of the Chapter",
+            "text": "",
+            "modifiers": [
+              {
+                "who": {
+                  "with": [
+                    "Tacticus"
+                  ],
+                  "units": true
+                },
+                "kind": "unit_reroll",
+                "roll": "advance"
+              }
+            ]
+          }
+        ],
+        "enhancements": [
+          {
+            "name": "Martial Paragon",
+            "points": 10,
+            "text": "",
+            "targets": [
+              "tacticus"
+            ],
+            "non_character": false,
+            "excludes": []
+          },
+          {
+            "name": "Spearpoint War Leader",
+            "points": 15,
+            "text": "",
+            "targets": [
+              "tacticus"
+            ],
+            "non_character": false,
+            "excludes": [],
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "ability",
+                "name": "Scouts 6\""
+              }
+            ]
+          }
+        ],
+        "required_enhancements": [],
+        "grants": [],
+        "excludes": [],
+        "stratagems": [
+          {
+            "name": "Transhuman Swiftness",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tacticus"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Tactical Focus",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tacticus"
+              ],
+              "excludes": []
+            }
+          },
+          {
+            "name": "Relentless Assault",
+            "cp": 1,
+            "type": "",
+            "turn": "either",
+            "phases": [
+              "fight",
+              "shooting"
+            ],
+            "when": "",
+            "target": "",
+            "effect": "",
+            "restrictions": "",
+            "once_per": null,
+            "secondary_effect": null,
+            "units": {
+              "targets": [
+                "tacticus"
+              ],
+              "excludes": []
+            }
+          }
+        ]
+      }
+    ],
+    "excludes": [],
+    "allies": [
+      {
+        "rule": "Assigned Agents",
+        "detachment": null,
+        "units": [
+          {
+            "faction": "agents",
+            "targets": [],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "counts",
+          "groups": [
+            {
+              "name": "Retinue",
+              "targets": [
+                "Retinue"
+              ],
+              "by_size": {
+                "Incursion": 1,
+                "Strike Force": 2,
+                "Onslaught": 3
+              }
+            },
+            {
+              "name": "Character",
+              "targets": [
+                "Character"
+              ],
+              "by_size": {
+                "Incursion": 1,
+                "Strike Force": 2,
+                "Onslaught": 3
+              }
+            },
+            {
+              "name": "Requisitioned",
+              "targets": [
+                "Requisitioned"
+              ],
+              "by_size": {
+                "Incursion": 1,
+                "Strike Force": 1,
+                "Onslaught": 2
+              }
+            }
+          ]
+        },
+        "warlord": true,
+        "enhancements": true,
+        "price_keyword": "Imperium",
+        "keyword_as": null,
+        "battleline_by": []
+      },
+      {
+        "rule": "Freeblades",
+        "detachment": null,
+        "units": [
+          {
+            "faction": "imperialknights",
+            "targets": [
+              "Titanic",
+              "Armiger"
+            ],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "either",
+          "groups": [
+            {
+              "name": "Titanic",
+              "targets": [
+                "Titanic"
+              ],
+              "by_size": {
+                "Incursion": 1,
+                "Strike Force": 1,
+                "Onslaught": 1
+              }
+            },
+            {
+              "name": "Armiger",
+              "targets": [
+                "Armiger"
+              ],
+              "by_size": {
+                "Incursion": 3,
+                "Strike Force": 3,
+                "Onslaught": 3
+              }
+            }
+          ]
+        },
+        "warlord": false,
+        "enhancements": false,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": []
+      },
+      {
+        "rule": "Deathwatch Allies",
+        "detachment": "Deathwatch Support",
+        "units": [
+          {
+            "faction": "deathwatch",
+            "targets": [],
+            "excludes": []
+          }
+        ],
+        "limit": {
+          "kind": "points",
+          "by_size": {
+            "Incursion": 500,
+            "Strike Force": 500,
+            "Onslaught": 500
+          }
+        },
+        "warlord": false,
+        "enhancements": true,
+        "price_keyword": null,
+        "keyword_as": null,
+        "battleline_by": []
+      }
+    ]
+  }
+}

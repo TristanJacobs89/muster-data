@@ -171,6 +171,42 @@
       "name": "World Eaters",
       "parent": null,
       "group": "Chaos"
+    },
+    {
+      "key": "imperialfists",
+      "name": "Imperial Fists",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "ironhands",
+      "name": "Iron Hands",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "ravenguard",
+      "name": "Raven Guard",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "salamanders",
+      "name": "Salamanders",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "ultramarines",
+      "name": "Ultramarines",
+      "parent": "space_marines",
+      "group": "Imperium"
+    },
+    {
+      "key": "whitescars",
+      "name": "White Scars",
+      "parent": "space_marines",
+      "group": "Imperium"
     }
   ],
   "upstream": {
@@ -178,5 +214,5 @@
     "updated": "2026-11-12 23:45:38",
     "sha": "aaad39405193b160be0cb4def679ad93a9f32526"
   },
-  "bundle": "1055-a7071521585f"
+  "bundle": "1055-de7acf5aaa68"
 }
