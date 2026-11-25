@@ -56865,6 +56865,14 @@
             "role": null,
             "wargear": [
               "Laspistol",
+              "Close combat weapon"
+            ]
+          },
+          {
+            "model": 2,
+            "role": null,
+            "wargear": [
+              "Laspistol",
               "Astropath’s stave"
             ]
           }
@@ -57747,7 +57755,7 @@
           },
           {
             "model": 1,
-            "role": null,
+            "role": "Demolitions, Meltagun, Close combat weapon",
             "wargear": [
               "Demolitions",
               "Meltagun",
@@ -57768,6 +57776,14 @@
             "wargear": [
               "Power weapon",
               "Regimental Banner"
+            ]
+          },
+          {
+            "model": 1,
+            "role": "Bolt pistol",
+            "wargear": [
+              "Bolt pistol",
+              "Power weapon"
             ]
           }
         ],
