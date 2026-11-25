@@ -10354,7 +10354,7 @@
           "instruction": "",
           "options": [
             {
-              "name": "Monstrous weapon",
+              "name": "Monstrous weapons",
               "cost": 0
             },
             {
@@ -10362,7 +10362,7 @@
               "cost": 0
             }
           ],
-          "source": 1,
+          "source": 2,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -10376,7 +10376,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Monstrous weapon",
+                  "option": "Monstrous weapons",
                   "count": 1
                 },
                 {
@@ -10577,7 +10577,7 @@
             "instruction": "",
             "options": [
               {
-                "name": "Monstrous weapon",
+                "name": "Monstrous weapons",
                 "cost": 0
               },
               {
@@ -10585,7 +10585,7 @@
                 "cost": 0
               }
             ],
-            "source": 1,
+            "source": 2,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -10599,7 +10599,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Monstrous weapon",
+                    "option": "Monstrous weapons",
                     "count": 1
                   },
                   {

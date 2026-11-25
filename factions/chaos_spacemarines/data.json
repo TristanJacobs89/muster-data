@@ -30501,7 +30501,7 @@
           "instruction": "",
           "options": [
             {
-              "name": "Twin Decimator claw",
+              "name": "Twin Decimator claws",
               "cost": 0
             },
             {
@@ -30509,7 +30509,7 @@
               "cost": 0
             }
           ],
-          "source": 2,
+          "source": 3,
           "model": null,
           "loadout": 0,
           "heading": "",
@@ -30523,7 +30523,7 @@
               "text": "",
               "items": [
                 {
-                  "option": "Twin Decimator claw",
+                  "option": "Twin Decimator claws",
                   "count": 1
                 },
                 {
@@ -30873,7 +30873,7 @@
             "instruction": "",
             "options": [
               {
-                "name": "Twin Decimator claw",
+                "name": "Twin Decimator claws",
                 "cost": 0
               },
               {
@@ -30881,7 +30881,7 @@
                 "cost": 0
               }
             ],
-            "source": 2,
+            "source": 3,
             "model": null,
             "loadout": 0,
             "heading": "",
@@ -30895,7 +30895,7 @@
                 "text": "",
                 "items": [
                   {
-                    "option": "Twin Decimator claw",
+                    "option": "Twin Decimator claws",
                     "count": 1
                   },
                   {

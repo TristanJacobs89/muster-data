@@ -56675,7 +56675,8 @@
       "epic_hero": false,
       "loadout": [
         "Laspistol",
-        "Astropath’s stave"
+        "Astropath’s stave",
+        "Close combat weapon"
       ],
       "wargear_options": [],
       "composition": [
@@ -56827,7 +56828,8 @@
         ],
         "loadout": [
           "Laspistol",
-          "Astropath’s stave"
+          "Astropath’s stave",
+          "Close combat weapon"
         ],
         "model_types": [
           {
@@ -56851,7 +56853,15 @@
         ],
         "loadouts": [
           {
-            "model": 2,
+            "model": 0,
+            "role": null,
+            "wargear": [
+              "Laspistol",
+              "Close combat weapon"
+            ]
+          },
+          {
+            "model": 1,
             "role": null,
             "wargear": [
               "Laspistol",
@@ -57723,8 +57733,7 @@
             "name": "Lesk’s Heroes",
             "min": 4,
             "max": 4,
-            "statline": "MINKA LESK",
-            "statline_assumed": true
+            "statline": "LESK’S VETERANS"
           }
         ],
         "loadouts": [
@@ -58059,10 +58068,10 @@
         ],
         "melee": [
           {
-            "name": "Chainsword and Gun But",
+            "name": "Chainsword and Gun Butt",
             "profiles": [
               {
-                "name": "Chainsword and Gun But",
+                "name": "Chainsword and Gun Butt",
                 "range": "Melee",
                 "a": "6",
                 "skill": "2+",

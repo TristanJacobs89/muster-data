@@ -17804,7 +17804,7 @@
             }
           ],
           "source": 4,
-          "model": 1,
+          "model": 0,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -17951,7 +17951,7 @@
             }
           ],
           "source": 7,
-          "model": 3,
+          "model": 2,
           "loadout": 2,
           "heading": "",
           "cap": {
@@ -18094,7 +18094,7 @@
             }
           ],
           "source": 9,
-          "model": 4,
+          "model": 3,
           "loadout": 3,
           "heading": "",
           "cap": {
@@ -18671,13 +18671,6 @@
         ],
         "model_types": [
           {
-            "name": "MODELS MAXIMUM",
-            "min": 10,
-            "max": 10,
-            "statline": "KILL TEAM VETERANS",
-            "statline_assumed": true
-          },
-          {
             "name": "Kill Team Veterans",
             "min": 5,
             "max": 10,
@@ -18704,7 +18697,7 @@
         ],
         "loadouts": [
           {
-            "model": 1,
+            "model": 0,
             "role": null,
             "wargear": [
               "Boltgun",
@@ -18713,7 +18706,7 @@
             ]
           },
           {
-            "model": 2,
+            "model": 1,
             "role": null,
             "wargear": [
               "Long Vigil melee weapon",
@@ -18722,7 +18715,7 @@
             ]
           },
           {
-            "model": 3,
+            "model": 2,
             "role": null,
             "wargear": [
               "Twin boltgun",
@@ -18730,7 +18723,7 @@
             ]
           },
           {
-            "model": 4,
+            "model": 3,
             "role": null,
             "wargear": [
               "Storm bolter",
@@ -18760,7 +18753,7 @@
               }
             ],
             "source": 4,
-            "model": 1,
+            "model": 0,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -18907,7 +18900,7 @@
               }
             ],
             "source": 7,
-            "model": 3,
+            "model": 2,
             "loadout": 2,
             "heading": "",
             "cap": {
@@ -19050,7 +19043,7 @@
               }
             ],
             "source": 9,
-            "model": 4,
+            "model": 3,
             "loadout": 3,
             "heading": "",
             "cap": {
@@ -19177,7 +19170,7 @@
             }
           ],
           "source": 4,
-          "model": 1,
+          "model": 0,
           "loadout": 0,
           "heading": "",
           "cap": {
@@ -19324,7 +19317,7 @@
             }
           ],
           "source": 7,
-          "model": 2,
+          "model": 1,
           "loadout": 1,
           "heading": "",
           "cap": {
@@ -19690,13 +19683,6 @@
         ],
         "model_types": [
           {
-            "name": "MODELS MAXIMUM",
-            "min": 10,
-            "max": 10,
-            "statline": "KILL TEAM INTERCESSOR",
-            "statline_assumed": true
-          },
-          {
             "name": "Kill Team Intercessors",
             "min": 5,
             "max": 10,
@@ -19723,7 +19709,7 @@
         ],
         "loadouts": [
           {
-            "model": 1,
+            "model": 0,
             "role": null,
             "wargear": [
               "Bolt pistol",
@@ -19732,7 +19718,7 @@
             ]
           },
           {
-            "model": 2,
+            "model": 1,
             "role": null,
             "wargear": [
               "Bolt pistol",
@@ -19741,7 +19727,7 @@
             ]
           },
           {
-            "model": 3,
+            "model": 2,
             "role": null,
             "wargear": [
               "Heavy bolt pistol",
@@ -19749,7 +19735,7 @@
             ]
           },
           {
-            "model": 4,
+            "model": 3,
             "role": null,
             "wargear": [
               "Bolt pistol",
@@ -19780,7 +19766,7 @@
               }
             ],
             "source": 4,
-            "model": 1,
+            "model": 0,
             "loadout": 0,
             "heading": "",
             "cap": {
@@ -19927,7 +19913,7 @@
               }
             ],
             "source": 7,
-            "model": 2,
+            "model": 1,
             "loadout": 1,
             "heading": "",
             "cap": {
@@ -20525,12 +20511,6 @@
         ],
         "model_types": [
           {
-            "name": "MODELS MAXIMUM",
-            "min": 10,
-            "max": 10,
-            "statline": "Indomitor Kill Team"
-          },
-          {
             "name": "Kill Team Heavy Intercessors",
             "min": 5,
             "max": 10,
@@ -20557,7 +20537,7 @@
         ],
         "loadouts": [
           {
-            "model": 1,
+            "model": 0,
             "role": null,
             "wargear": [
               "Bolt pistol",
@@ -20566,7 +20546,7 @@
             ]
           },
           {
-            "model": 2,
+            "model": 1,
             "role": null,
             "wargear": [
               "Flamestorm gauntlets",
@@ -20574,7 +20554,7 @@
             ]
           },
           {
-            "model": 3,
+            "model": 2,
             "role": null,
             "wargear": [
               "Bolt pistol",
@@ -20583,7 +20563,7 @@
             ]
           },
           {
-            "model": 4,
+            "model": 3,
             "role": null,
             "wargear": [
               "Assault bolters",
@@ -21346,12 +21326,6 @@
           "Combat knife"
         ],
         "model_types": [
-          {
-            "name": "MODELS MAXIMUM",
-            "min": 10,
-            "max": 10,
-            "statline": "Spectrus Kill Team"
-          },
           {
             "name": "Kill Team Infiltrators",
             "min": 5,
