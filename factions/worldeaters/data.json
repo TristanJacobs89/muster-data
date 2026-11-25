@@ -10224,6 +10224,1601 @@
         ],
         "wargear_options": []
       }
+    },
+    {
+      "id": "067cc189-6fcf-526d-af25-d6a4982cbfc8",
+      "name": "Blood Slaughterer",
+      "keywords": [
+        "Daemon",
+        "Khorne",
+        "Chaos",
+        "Walker",
+        "Vehicle",
+        "Blood Slaughterer",
+        "Frame"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 160,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Walker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Impaler harpoon",
+        "Slaughter blade"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Twin slaughter blade",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin slaughter blade",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Impaler harpoon",
+            "Slaughter blade"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Blood Slaughterer",
+            "m": "12\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "10",
+            "ld": "6+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Impaler harpoon",
+            "profiles": [
+              {
+                "name": "Impaler harpoon",
+                "range": "12\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Anti-monster 2+",
+                  "Anti-vehicle 2+",
+                  "Impaled"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Slaughter blade",
+            "profiles": [
+              {
+                "name": "Slaughter blade",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin slaughter blade",
+            "profiles": [
+              {
+                "name": "Twin slaughter blade",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Blessings of Khorne",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Scuttling Gait",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Daemon",
+          "Khorne",
+          "Chaos",
+          "Walker",
+          "Vehicle",
+          "Blood Slaughterer",
+          "Frame"
+        ],
+        "factions": [
+          "World Eaters"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "067cc189-6fcf-526d-af25-d6a4982cbfc8",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 160
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 160,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Impaler harpoon",
+          "Slaughter blade"
+        ],
+        "model_types": [
+          {
+            "name": "Blood Slaughterer",
+            "min": 1,
+            "max": 1,
+            "statline": "Blood Slaughterer"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Impaler harpoon",
+              "Slaughter blade"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Twin slaughter blade",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin slaughter blade",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Impaler harpoon",
+              "Slaughter blade"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "1cb80338-31d8-5b94-8b9e-3ef06b7cfe83",
+      "name": "Chaos Thunderhawk",
+      "keywords": [
+        "Aircraft",
+        "Transport",
+        "Chaos",
+        "Thunderhawk",
+        "Vehicle",
+        "Titanic",
+        "Fly"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 840,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Lascannon",
+        "Thunderhawk heavy cannon",
+        "Twin heavy bolter",
+        "Armoured hull",
+        "Thunderhawk Cluster Bombs"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Turbo-laser destructor",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Turbo-laser destructor",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Thunderhawk heavy cannon"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Hellstrike missile battery",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Hellstrike missile battery",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Thunderhawk Cluster Bombs"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Chaos Thunderhawk",
+            "m": "20\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "30",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Hellstrike missile battery",
+            "profiles": [
+              {
+                "name": "Hellstrike missile battery",
+                "range": "72\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Anti-fly 4+"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "profiles": [
+              {
+                "name": "Lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Thunderhawk heavy cannon",
+            "profiles": [
+              {
+                "name": "Thunderhawk heavy cannon",
+                "range": "48\"",
+                "a": "D6+6",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Turbo-laser destructor",
+            "profiles": [
+              {
+                "name": "Turbo-laser destructor",
+                "range": "96\"",
+                "a": "D3+1",
+                "skill": "3+",
+                "s": "20",
+                "ap": "-4",
+                "d": "D6+6",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin heavy bolter",
+            "profiles": [
+              {
+                "name": "Twin heavy bolter",
+                "range": "36\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "profiles": [
+              {
+                "name": "Armoured hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "8",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Hover",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Blessings of Khorne",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Aerial Assault",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Thunderhawk Cluster Bombs",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Aircraft",
+          "Transport",
+          "Chaos",
+          "Thunderhawk",
+          "Vehicle",
+          "Titanic",
+          "Fly"
+        ],
+        "factions": [
+          "World Eaters"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "1cb80338-31d8-5b94-8b9e-3ef06b7cfe83",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 840
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 840,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lascannon",
+          "Thunderhawk heavy cannon",
+          "Twin heavy bolter",
+          "Armoured hull",
+          "Thunderhawk Cluster Bombs"
+        ],
+        "model_types": [
+          {
+            "name": "Chaos Thunderhawk",
+            "min": 1,
+            "max": 1,
+            "statline": "Chaos Thunderhawk"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lascannon",
+              "Thunderhawk heavy cannon",
+              "Twin heavy bolter",
+              "Armoured hull",
+              "Thunderhawk Cluster Bombs"
+            ],
+            "counts": {
+              "Lascannon": 2,
+              "Twin heavy bolter": 4
+            }
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Turbo-laser destructor",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Turbo-laser destructor",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Thunderhawk heavy cannon"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Hellstrike missile battery",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Hellstrike missile battery",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Thunderhawk Cluster Bombs"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "78509964-f52c-513c-8bbd-0207c5e59a10",
+      "name": "Greater Brass Scorpion",
+      "keywords": [
+        "Frame",
+        "Daemon",
+        "Chaos",
+        "Walker",
+        "Titanic",
+        "Vehicle",
+        "Greater Brass Scorpion",
+        "Khorne"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 500,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Walker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Demolisher cannon",
+        "Scorpion cannon",
+        "Hellmaw flame cannons",
+        "Hellcrusher claws"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Greater Brass Scorpion",
+            "m": "12\"",
+            "t": "12",
+            "sv": "3+",
+            "w": "26",
+            "ld": "6+",
+            "oc": "10"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Demolisher cannon",
+            "profiles": [
+              {
+                "name": "Demolisher cannon",
+                "range": "24\"",
+                "a": "D6+3",
+                "skill": "3+",
+                "s": "14",
+                "ap": "-3",
+                "d": "D6",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scorpion cannon",
+            "profiles": [
+              {
+                "name": "Scorpion cannon",
+                "range": "36\"",
+                "a": "15",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hellmaw flame cannons",
+            "profiles": [
+              {
+                "name": "Hellmaw flame cannons",
+                "range": "12\"",
+                "a": "2D6",
+                "skill": "-",
+                "s": "8",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hellcrusher claws",
+            "profiles": [
+              {
+                "name": "Hellcrusher claws – sweep",
+                "range": "Melee",
+                "a": "18",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              },
+              {
+                "name": "Hellcrusher claws – strike",
+                "range": "Melee",
+                "a": "6",
+                "skill": "3+",
+                "s": "14",
+                "ap": "-3",
+                "d": "6",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Super-heavy Walker",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Blessings of Khorne",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Super-heavy Walker",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Runes of the Blood God",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Frame",
+          "Daemon",
+          "Chaos",
+          "Walker",
+          "Titanic",
+          "Vehicle",
+          "Greater Brass Scorpion",
+          "Khorne"
+        ],
+        "factions": [
+          "World Eaters"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "78509964-f52c-513c-8bbd-0207c5e59a10",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 500
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 500,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Demolisher cannon",
+          "Scorpion cannon",
+          "Hellmaw flame cannons",
+          "Hellcrusher claws"
+        ],
+        "model_types": [
+          {
+            "name": "Greater Brass Scorpion",
+            "min": 1,
+            "max": 1,
+            "statline": "Greater Brass Scorpion"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Demolisher cannon",
+              "Scorpion cannon",
+              "Hellmaw flame cannons",
+              "Hellcrusher claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "c5c2bc5c-0006-5f97-912c-575b4e5280df",
+      "name": "Kytan Ravager",
+      "keywords": [
+        "Kytan Ravager",
+        "Titanic",
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne",
+        "Daemon"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 400,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Walker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Kytan gatling cannon",
+        "Kytan cleaver"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Kytan Ravager",
+            "m": "10\"",
+            "t": "12",
+            "sv": "3+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "10"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Kytan gatling cannon",
+            "profiles": [
+              {
+                "name": "Kytan gatling cannon",
+                "range": "36\"",
+                "a": "18",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Kytan cleaver",
+            "profiles": [
+              {
+                "name": "Kytan cleaver – strike",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "14",
+                "ap": "-4",
+                "d": "6",
+                "keywords": []
+              },
+              {
+                "name": "Kytan cleaver – sweep",
+                "range": "Melee",
+                "a": "12",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Super-heavy Walker",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Blessings of Khorne",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Super-heavy Walker",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Bloodlust",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "170 x 109mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Kytan Ravager",
+          "Titanic",
+          "Vehicle",
+          "Walker",
+          "Chaos",
+          "Khorne",
+          "Daemon"
+        ],
+        "factions": [
+          "World Eaters"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "c5c2bc5c-0006-5f97-912c-575b4e5280df",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 400
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 400,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Kytan gatling cannon",
+          "Kytan cleaver"
+        ],
+        "model_types": [
+          {
+            "name": "Kytan Ravager",
+            "min": 1,
+            "max": 1,
+            "statline": "Kytan Ravager"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Kytan gatling cannon",
+              "Kytan cleaver"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "fc0f4dd4-0a8a-5761-9f8f-163234748bc2",
+      "name": "Hell Blade",
+      "keywords": [
+        "Vehicle",
+        "Chaos",
+        "Aircraft",
+        "Khorne",
+        "Hell Blade",
+        "Fly"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 115,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Twin autocannon",
+        "Armoured hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Twin lascannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin lascannon",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Twin autocannon"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Twin autocannon": 2
+          }
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Hell Blade",
+            "m": "-",
+            "t": "8",
+            "sv": "3+",
+            "w": "10",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Twin lascannon",
+            "profiles": [
+              {
+                "name": "Twin lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin autocannon",
+            "profiles": [
+              {
+                "name": "Twin autocannon",
+                "range": "48\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "profiles": [
+              {
+                "name": "Armoured hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Blessings of Khorne",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Interceptor",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Chaos",
+          "Aircraft",
+          "Khorne",
+          "Hell Blade",
+          "Fly"
+        ],
+        "factions": [
+          "World Eaters"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "fc0f4dd4-0a8a-5761-9f8f-163234748bc2",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 115
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 115,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Twin autocannon",
+          "Armoured hull"
+        ],
+        "model_types": [
+          {
+            "name": "Hell Blade",
+            "min": 1,
+            "max": 1,
+            "statline": "Hell Blade"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Twin autocannon",
+              "Armoured hull"
+            ],
+            "counts": {
+              "Twin autocannon": 2
+            }
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Twin lascannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin lascannon",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Twin autocannon"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Twin autocannon": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "f45715a6-c06c-5a59-8cba-93dc3d2adc9e",
+      "name": "Hell Talon",
+      "keywords": [
+        "Aircraft",
+        "Fly",
+        "Hell Talon",
+        "Vehicle",
+        "Chaos",
+        "Khorne"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 140,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Autocannon",
+        "Twin lascannon",
+        "Armoured hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Havoc launcher",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Autocannon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Hell Talon",
+            "m": "-",
+            "t": "9",
+            "sv": "3+",
+            "w": "14",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Autocannon",
+            "profiles": [
+              {
+                "name": "Autocannon",
+                "range": "48\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-1",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin lascannon",
+            "profiles": [
+              {
+                "name": "Twin lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Havoc launcher",
+            "profiles": [
+              {
+                "name": "Havoc launcher",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "profiles": [
+              {
+                "name": "Armoured hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Blessings of Khorne",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Bomb Rack",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Aircraft",
+          "Fly",
+          "Hell Talon",
+          "Vehicle",
+          "Chaos",
+          "Khorne"
+        ],
+        "factions": [
+          "World Eaters"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "worldeaters",
+          "id": "f45715a6-c06c-5a59-8cba-93dc3d2adc9e",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 140
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 140,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Autocannon",
+          "Twin lascannon",
+          "Armoured hull"
+        ],
+        "model_types": [
+          {
+            "name": "Hell Talon",
+            "min": 1,
+            "max": 1,
+            "statline": "Hell Talon"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Autocannon",
+              "Twin lascannon",
+              "Armoured hull"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Havoc launcher",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Autocannon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
     }
   ],
   "rules": {

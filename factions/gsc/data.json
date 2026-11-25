@@ -7118,6 +7118,156 @@
           }
         ]
       }
+    },
+    {
+      "id": "0422c3fc-a375-563f-b9f9-53f45ff988f5",
+      "name": "Tectonic Fragdrill",
+      "keywords": [
+        "Frame",
+        "Tectonic Fragdrill",
+        "Fortification",
+        "Vehicle"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 125,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Fortification"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Fragdrill"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Tectonic Fragdrill",
+            "m": "-",
+            "t": "11",
+            "sv": "3+",
+            "w": "14",
+            "ld": "7+",
+            "oc": "0"
+          }
+        ],
+        "invul": null,
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Fragdrill",
+            "profiles": [
+              {
+                "name": "Fragdrill",
+                "range": "Melee",
+                "a": "6",
+                "skill": "6+",
+                "s": "12",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Tectonic Fragdrill",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Underground Egress",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Manufactorum Cover",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Fortification",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Frame",
+          "Tectonic Fragdrill",
+          "Fortification",
+          "Vehicle"
+        ],
+        "factions": [
+          "Genestealer Cults"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "gsc",
+          "id": "0422c3fc-a375-563f-b9f9-53f45ff988f5",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 125
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 125,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Fragdrill"
+        ],
+        "model_types": [
+          {
+            "name": "Tectonic Fragdrill",
+            "min": 1,
+            "max": 1,
+            "statline": "Tectonic Fragdrill"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Fragdrill"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
     }
   ],
   "rules": {

@@ -172,7 +172,8 @@
           "Celestian Sacresants",
           "Dominion Squad",
           "Retributor Squad",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "supports": [],
         "attaches": [
@@ -214,6 +215,13 @@
           {
             "type": "leader",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -2044,7 +2052,8 @@
           "Celestian Sacresants",
           "Dominion Squad",
           "Retributor Squad",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "supports": [],
         "attaches": [
@@ -2086,6 +2095,13 @@
           {
             "type": "leader",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -4720,7 +4736,8 @@
           "Celestian Sacresants",
           "Dominion Squad",
           "Retributor Squad",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "attaches": [
           {
@@ -4761,6 +4778,13 @@
           {
             "type": "support",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "support",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -4946,7 +4970,8 @@
           "Celestian Insidiants",
           "Celestian Sacresants",
           "Dominion Squad",
-          "Retributor Squad"
+          "Retributor Squad",
+          "Crusaders"
         ],
         "attaches": [
           {
@@ -4980,6 +5005,13 @@
           {
             "type": "support",
             "target": "Retributor Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "support",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6443,7 +6475,8 @@
           "Celestian Sacresants",
           "Dominion Squad",
           "Retributor Squad",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "attaches": [
           {
@@ -6484,6 +6517,13 @@
           {
             "type": "support",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "support",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -6697,7 +6737,8 @@
           "Celestian Insidiants",
           "Celestian Sacresants",
           "Dominion Squad",
-          "Retributor Squad"
+          "Retributor Squad",
+          "Crusaders"
         ],
         "attaches": [
           {
@@ -6731,6 +6772,13 @@
           {
             "type": "support",
             "target": "Retributor Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "support",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -7594,7 +7642,8 @@
           "Celestian Sacresants",
           "Dominion Squad",
           "Retributor Squad",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "supports": [],
         "attaches": [
@@ -7636,6 +7685,13 @@
           {
             "type": "leader",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -7910,7 +7966,8 @@
           "Celestian Insidiants",
           "Dominion Squad",
           "Sanctifiers",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "supports": [],
         "attaches": [
@@ -7952,6 +8009,13 @@
           {
             "type": "leader",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -9052,7 +9116,8 @@
           "Celestian Sacresants",
           "Dominion Squad",
           "Retributor Squad",
-          "Sisters Novitiate Squad"
+          "Sisters Novitiate Squad",
+          "Crusaders"
         ],
         "supports": [],
         "attaches": [
@@ -9094,6 +9159,13 @@
           {
             "type": "leader",
             "target": "Sisters Novitiate Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -13798,13 +13870,21 @@
           "Adepta Sororitas"
         ],
         "leads": [
-          "Battle Sisters Squad"
+          "Battle Sisters Squad",
+          "Crusaders"
         ],
         "supports": [],
         "attaches": [
           {
             "type": "leader",
             "target": "Battle Sisters Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Crusaders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -14210,6 +14290,1047 @@
             "replaces_options": []
           }
         ]
+      }
+    },
+    {
+      "id": "42f0549f-6eab-5030-9db1-abd15f6d1df0",
+      "name": "Crusaders",
+      "keywords": [
+        "Crusaders",
+        "Infantry",
+        "Imperium"
+      ],
+      "points": [
+        {
+          "models": 2,
+          "cost": 40,
+          "label": "2 models"
+        },
+        {
+          "models": 4,
+          "cost": 80,
+          "label": "4 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Power weapon"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Crusaders",
+            "m": "6\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Power weapon",
+            "profiles": [
+              {
+                "name": "Power weapon",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Acts of Faith",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Spiritual Fortitude",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Attached Unit",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Crusaders",
+          "Infantry",
+          "Imperium"
+        ],
+        "factions": [
+          "Adepta Sororitas"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "adeptasororitas",
+          "id": "42f0549f-6eab-5030-9db1-abd15f6d1df0",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 2,
+            "cost": 40
+          },
+          {
+            "models": 4,
+            "cost": 80
+          }
+        ],
+        "prices": [
+          {
+            "models": 2,
+            "cost": 40,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 4,
+            "cost": 80,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Power weapon"
+        ],
+        "model_types": [
+          {
+            "name": "Crusaders",
+            "min": 2,
+            "max": 4,
+            "statline": "Crusaders"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Power weapon"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "d95e291f-6862-5ddb-96dd-01fc6c07ad49",
+      "name": "Death Cult Assassins",
+      "keywords": [
+        "Death Cult Assassins",
+        "Infantry",
+        "Imperium"
+      ],
+      "points": [
+        {
+          "models": 2,
+          "cost": 55,
+          "label": "2 models"
+        },
+        {
+          "models": 4,
+          "cost": 110,
+          "label": "4 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Death Cult power blades"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Death Cult Assassins",
+            "m": "7\"",
+            "t": "3",
+            "sv": "5+",
+            "w": "2",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Death Cult power blades",
+            "profiles": [
+              {
+                "name": "Death Cult power blades",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Precision"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Fights First",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Lone Operative",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Acts of Faith",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Death Cult",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Death Cult Assassins",
+          "Infantry",
+          "Imperium"
+        ],
+        "factions": [
+          "Adepta Sororitas"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "adeptasororitas",
+          "id": "d95e291f-6862-5ddb-96dd-01fc6c07ad49",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 2,
+            "cost": 55
+          },
+          {
+            "models": 4,
+            "cost": 110
+          }
+        ],
+        "prices": [
+          {
+            "models": 2,
+            "cost": 55,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 4,
+            "cost": 110,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Death Cult power blades"
+        ],
+        "model_types": [
+          {
+            "name": "Death Cult Assassins",
+            "min": 2,
+            "max": 4,
+            "statline": "Death Cult Assassins"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Death Cult power blades"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "b5db6976-6d32-516c-ac5b-186216db1cfd",
+      "name": "Repressor",
+      "keywords": [
+        "Imperium",
+        "Vehicle",
+        "Smoke",
+        "Transport",
+        "Frame",
+        "Repressor",
+        "Dedicated Transport"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 130,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Repressor twin heavy flamer",
+        "Storm bolter",
+        "Dozer ram"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Hunter-killer missile",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Hunter-killer missile",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Heavy flamer",
+              "cost": 0
+            },
+            {
+              "name": "Storm bolter",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy flamer",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Storm bolter",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Repressor",
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "6+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Heavy flamer",
+            "profiles": [
+              {
+                "name": "Heavy flamer",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hunter-killer missile",
+            "profiles": [
+              {
+                "name": "Hunter-killer missile",
+                "range": "48\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "14",
+                "ap": "-3",
+                "d": "D6",
+                "keywords": [
+                  "One Shot"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Repressor twin heavy flamer",
+            "profiles": [
+              {
+                "name": "Repressor twin heavy flamer",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Storm bolter",
+            "profiles": [
+              {
+                "name": "Storm bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Rapid Fire 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Dozer ram",
+            "profiles": [
+              {
+                "name": "Dozer ram",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "7",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Firing Deck 6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Acts of Faith",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Emergency Combat Embarkation",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "turn",
+              "when": [
+                {
+                  "turn": "opponents",
+                  "phase": "charge"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-4 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Imperium",
+          "Vehicle",
+          "Smoke",
+          "Transport",
+          "Frame",
+          "Repressor",
+          "Dedicated Transport"
+        ],
+        "factions": [
+          "Adepta Sororitas"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "adeptasororitas",
+          "id": "b5db6976-6d32-516c-ac5b-186216db1cfd",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 130
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 130,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Repressor twin heavy flamer",
+          "Storm bolter",
+          "Dozer ram"
+        ],
+        "model_types": [
+          {
+            "name": "Repressor",
+            "min": 1,
+            "max": 1,
+            "statline": "Repressor"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Repressor twin heavy flamer",
+              "Storm bolter",
+              "Dozer ram"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Hunter-killer missile",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Hunter-killer missile",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Heavy flamer",
+                "cost": 0
+              },
+              {
+                "name": "Storm bolter",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy flamer",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Storm bolter",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "49bfdad8-c31b-5933-b124-7e44aaea9d1b",
+      "name": "Battle Sanctum",
+      "keywords": [
+        "Imperium",
+        "Towering",
+        "Battle Sanctum",
+        "Frame",
+        "Fortification"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 170,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Fortification"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Nothing"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Battle Sanctum",
+            "m": "-",
+            "t": "11",
+            "sv": "3+",
+            "w": "20",
+            "ld": "7+",
+            "oc": "0"
+          }
+        ],
+        "invul": null,
+        "ranged": [],
+        "melee": [],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Acts of Faith",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Consecrated Ground",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Holy Cover",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Holy Cover: Fortification",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Imperium",
+          "Towering",
+          "Battle Sanctum",
+          "Frame",
+          "Fortification"
+        ],
+        "factions": [
+          "Adepta Sororitas"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "adeptasororitas",
+          "id": "49bfdad8-c31b-5933-b124-7e44aaea9d1b",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 170
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 170,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Nothing"
+        ],
+        "model_types": [
+          {
+            "name": "Battle Sanctum",
+            "min": 1,
+            "max": 1,
+            "statline": "Battle Sanctum"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Nothing"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "1644a9f5-976d-5af7-bb27-224cab40181e",
+      "name": "Celestian Sacresant Aveline",
+      "keywords": [
+        "Epic Hero",
+        "Grenades",
+        "Celestian Sacresant Aveline",
+        "Infantry",
+        "Character",
+        "Imperium"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 45,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Ministorum hand flamer",
+        "The Thorn of the White Rose"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Celestian Sacresant Aveline",
+            "m": "6\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Ministorum hand flamer",
+            "profiles": [
+              {
+                "name": "Ministorum hand flamer",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Pistol",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "The Thorn of the White Rose",
+            "profiles": [
+              {
+                "name": "The Thorn of the White Rose",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Feel No Pain 6+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Lone Operative",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Acts of Faith",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Instrument of the Emperor’s Wrath",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "battle",
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Daemonbreaker",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "50mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Epic Hero",
+          "Grenades",
+          "Celestian Sacresant Aveline",
+          "Infantry",
+          "Character",
+          "Imperium"
+        ],
+        "factions": [
+          "Adepta Sororitas"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "adeptasororitas",
+          "id": "1644a9f5-976d-5af7-bb27-224cab40181e",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 45
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 45,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Ministorum hand flamer",
+          "The Thorn of the White Rose"
+        ],
+        "model_types": [
+          {
+            "name": "Celestian Sacresant Aveline",
+            "min": 1,
+            "max": 1,
+            "statline": "Celestian Sacresant Aveline"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Ministorum hand flamer",
+              "The Thorn of the White Rose"
+            ]
+          }
+        ],
+        "wargear_options": []
       }
     }
   ],

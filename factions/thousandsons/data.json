@@ -11432,6 +11432,1606 @@
         ],
         "wargear_options": []
       }
+    },
+    {
+      "id": "a7cb95be-db4b-55b2-a1a5-9f590481cc81",
+      "name": "Chaos Thunderhawk",
+      "keywords": [
+        "Aircraft",
+        "Fly",
+        "Titanic",
+        "Vehicle",
+        "Thunderhawk",
+        "Chaos",
+        "Transport"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 840,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Lascannon",
+        "Thunderhawk heavy cannon",
+        "Twin heavy bolter",
+        "Armoured hull",
+        "Thunderhawk Cluster Bombs"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Turbo-laser destructor",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Turbo-laser destructor",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Thunderhawk heavy cannon"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Hellstrike missile battery",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Hellstrike missile battery",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Thunderhawk Cluster Bombs"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Chaos Thunderhawk",
+            "m": "20\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "30",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Hellstrike missile battery",
+            "profiles": [
+              {
+                "name": "Hellstrike missile battery",
+                "range": "72\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Anti-fly 4+"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lascannon",
+            "profiles": [
+              {
+                "name": "Lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Thunderhawk heavy cannon",
+            "profiles": [
+              {
+                "name": "Thunderhawk heavy cannon",
+                "range": "48\"",
+                "a": "D6+6",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Turbo-laser destructor",
+            "profiles": [
+              {
+                "name": "Turbo-laser destructor",
+                "range": "96\"",
+                "a": "D3+1",
+                "skill": "3+",
+                "s": "20",
+                "ap": "-4",
+                "d": "D6+6",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin heavy bolter",
+            "profiles": [
+              {
+                "name": "Twin heavy bolter",
+                "range": "36\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "profiles": [
+              {
+                "name": "Armoured hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "8",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Hover",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Aerial Assault",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Thunderhawk Cluster Bombs",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Aircraft",
+          "Fly",
+          "Titanic",
+          "Vehicle",
+          "Thunderhawk",
+          "Chaos",
+          "Transport"
+        ],
+        "factions": [
+          "Thousand Sons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "a7cb95be-db4b-55b2-a1a5-9f590481cc81",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 840
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 840,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lascannon",
+          "Thunderhawk heavy cannon",
+          "Twin heavy bolter",
+          "Armoured hull",
+          "Thunderhawk Cluster Bombs"
+        ],
+        "model_types": [
+          {
+            "name": "Chaos Thunderhawk",
+            "min": 1,
+            "max": 1,
+            "statline": "Chaos Thunderhawk"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lascannon",
+              "Thunderhawk heavy cannon",
+              "Twin heavy bolter",
+              "Armoured hull",
+              "Thunderhawk Cluster Bombs"
+            ],
+            "counts": {
+              "Lascannon": 2,
+              "Twin heavy bolter": 4
+            }
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Turbo-laser destructor",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Turbo-laser destructor",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Thunderhawk heavy cannon"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Hellstrike missile battery",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Hellstrike missile battery",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Thunderhawk Cluster Bombs"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "2803146d-f659-51d1-b3fc-942294889625",
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "keywords": [
+        "Chaos",
+        "Tzeentch",
+        "Fly",
+        "Chaos Lord",
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Disc of Tzeentch"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 100,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Bolt pistol",
+        "Astartes chainsword",
+        "Close combat weapon"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Plasma pistol",
+              "cost": 0
+            },
+            {
+              "name": "Combi-bolter",
+              "cost": 0
+            },
+            {
+              "name": "Combi-weapon",
+              "cost": 0
+            },
+            {
+              "name": "Accursed weapon",
+              "cost": 0
+            },
+            {
+              "name": "Power fist",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Combi-bolter",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Combi-weapon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Accursed weapon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Power fist",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Bolt pistol"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Bolt pistol",
+              "cost": 0
+            },
+            {
+              "name": "Plasma pistol",
+              "cost": 0
+            },
+            {
+              "name": "Accursed weapon",
+              "cost": 0
+            },
+            {
+              "name": "Power fist",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bolt pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Accursed weapon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Power fist",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Astartes chainsword"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Paired accursed weapons",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Paired accursed weapons",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Bolt pistol",
+            "Astartes chainsword"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Chaos Lord On Disc Of Tzeentch",
+            "m": "12\"",
+            "t": "4",
+            "sv": "3+",
+            "w": "6",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Combi-weapon",
+            "profiles": [
+              {
+                "name": "Combi-weapon",
+                "range": "24\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Anti-infantry 4+",
+                  "Devastating Wounds",
+                  "Rapid Fire 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Plasma pistol",
+            "profiles": [
+              {
+                "name": "Plasma pistol – supercharge",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Hazardous",
+                  "Pistol"
+                ]
+              },
+              {
+                "name": "Plasma pistol – standard",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "7",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bolt pistol",
+            "profiles": [
+              {
+                "name": "Bolt pistol",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Combi-bolter",
+            "profiles": [
+              {
+                "name": "Combi-bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "2+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Rapid Fire 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Accursed weapon",
+            "profiles": [
+              {
+                "name": "Accursed weapon",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Power fist",
+            "profiles": [
+              {
+                "name": "Power fist",
+                "range": "Melee",
+                "a": "5",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Paired accursed weapons",
+            "profiles": [
+              {
+                "name": "Paired accursed weapons",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Astartes chainsword",
+            "profiles": [
+              {
+                "name": "Astartes chainsword",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Cabal of Sorcerers",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Lord of Chaos",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "round",
+              "when": []
+            }
+          },
+          {
+            "name": "Lord of Fate",
+            "text": "",
+            "kind": "other",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "leading",
+                "kind": "ability",
+                "name": "Feel No Pain 5+ against mortal wounds"
+              }
+            ]
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Chaos",
+          "Tzeentch",
+          "Fly",
+          "Chaos Lord",
+          "Infantry",
+          "Character",
+          "Grenades",
+          "Disc of Tzeentch"
+        ],
+        "factions": [
+          "Thousand Sons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "2803146d-f659-51d1-b3fc-942294889625",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 100
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 100,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bolt pistol",
+          "Astartes chainsword",
+          "Close combat weapon"
+        ],
+        "model_types": [
+          {
+            "name": "Chaos Lord on Disc of Tzeentch",
+            "min": 1,
+            "max": 1,
+            "statline": "Chaos Lord On Disc Of Tzeentch"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bolt pistol",
+              "Astartes chainsword",
+              "Close combat weapon"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Plasma pistol",
+                "cost": 0
+              },
+              {
+                "name": "Combi-bolter",
+                "cost": 0
+              },
+              {
+                "name": "Combi-weapon",
+                "cost": 0
+              },
+              {
+                "name": "Accursed weapon",
+                "cost": 0
+              },
+              {
+                "name": "Power fist",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Combi-bolter",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Combi-weapon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Accursed weapon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Power fist",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Bolt pistol"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Bolt pistol",
+                "cost": 0
+              },
+              {
+                "name": "Plasma pistol",
+                "cost": 0
+              },
+              {
+                "name": "Accursed weapon",
+                "cost": 0
+              },
+              {
+                "name": "Power fist",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bolt pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Accursed weapon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Power fist",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Astartes chainsword"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Paired accursed weapons",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Paired accursed weapons",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Bolt pistol",
+              "Astartes chainsword"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "8e55b250-79df-5c15-93fd-326c14ac5231",
+      "name": "Hell Blade",
+      "keywords": [
+        "Vehicle",
+        "Chaos",
+        "Aircraft",
+        "Fly",
+        "Tzeentch",
+        "Hell Blade"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 115,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Twin autocannon",
+        "Armoured hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Twin lascannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin lascannon",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Twin autocannon"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Twin autocannon": 2
+          }
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Hell Blade",
+            "m": "-",
+            "t": "8",
+            "sv": "3+",
+            "w": "10",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Twin lascannon",
+            "profiles": [
+              {
+                "name": "Twin lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin autocannon",
+            "profiles": [
+              {
+                "name": "Twin autocannon",
+                "range": "48\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "profiles": [
+              {
+                "name": "Armoured hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Interceptor",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Chaos",
+          "Aircraft",
+          "Fly",
+          "Tzeentch",
+          "Hell Blade"
+        ],
+        "factions": [
+          "Thousand Sons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "8e55b250-79df-5c15-93fd-326c14ac5231",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 115
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 115,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Twin autocannon",
+          "Armoured hull"
+        ],
+        "model_types": [
+          {
+            "name": "Hell Blade",
+            "min": 1,
+            "max": 1,
+            "statline": "Hell Blade"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Twin autocannon",
+              "Armoured hull"
+            ],
+            "counts": {
+              "Twin autocannon": 2
+            }
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Twin lascannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin lascannon",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Twin autocannon"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Twin autocannon": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "e6c719d1-3501-54ba-a52b-081af1a78ee9",
+      "name": "Hell Talon",
+      "keywords": [
+        "Vehicle",
+        "Chaos",
+        "Aircraft",
+        "Fly",
+        "Tzeentch",
+        "Hell Talon"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 140,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Autocannon",
+        "Twin lascannon",
+        "Armoured hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Havoc launcher",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Havoc launcher",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Autocannon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Hell Talon",
+            "m": "-",
+            "t": "9",
+            "sv": "3+",
+            "w": "14",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Autocannon",
+            "profiles": [
+              {
+                "name": "Autocannon",
+                "range": "48\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-1",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin lascannon",
+            "profiles": [
+              {
+                "name": "Twin lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Havoc launcher",
+            "profiles": [
+              {
+                "name": "Havoc launcher",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured hull",
+            "profiles": [
+              {
+                "name": "Armoured hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Bomb Rack",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Chaos",
+          "Aircraft",
+          "Fly",
+          "Tzeentch",
+          "Hell Talon"
+        ],
+        "factions": [
+          "Thousand Sons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "thousandsons",
+          "id": "e6c719d1-3501-54ba-a52b-081af1a78ee9",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 140
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 140,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Autocannon",
+          "Twin lascannon",
+          "Armoured hull"
+        ],
+        "model_types": [
+          {
+            "name": "Hell Talon",
+            "min": 1,
+            "max": 1,
+            "statline": "Hell Talon"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Autocannon",
+              "Twin lascannon",
+              "Armoured hull"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Havoc launcher",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Havoc launcher",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Autocannon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
     }
   ],
   "rules": {

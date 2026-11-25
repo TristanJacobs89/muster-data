@@ -5786,13 +5786,29 @@
           "Legiones Daemonica"
         ],
         "leads": [
-          "Beasts of Nurgle"
+          "Beasts of Nurgle",
+          "Plague Toads",
+          "Pox Riders"
         ],
         "supports": [],
         "attaches": [
           {
             "type": "leader",
             "target": "Beasts of Nurgle",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Plague Toads",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Pox Riders",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -12904,6 +12920,2205 @@
             "role": null,
             "wargear": [
               "Ravaging claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "7b794414-41f4-5028-ac4d-4a069ddc1d59",
+      "name": "Herald Of Slaanesh On Steed Of Slaanesh",
+      "keywords": [
+        "Herald of Slaanesh",
+        "Mounted",
+        "Shadow Legion",
+        "Daemon",
+        "Slaanesh",
+        "Character",
+        "Psyker",
+        "Chaos"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 70,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Mounted",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Lashing tongue",
+        "Ravaging claws"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Herald Of Slaanesh On Steed Of Slaanesh",
+            "m": "14\"",
+            "t": "4",
+            "sv": "7+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Lashing tongue",
+            "profiles": [
+              {
+                "name": "Lashing tongue",
+                "range": "Melee",
+                "a": "2",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Extra Attacks",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ravaging claws",
+            "profiles": [
+              {
+                "name": "Ravaging claws",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Scouts 9\"",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Lethal Caress",
+            "text": "",
+            "kind": "other",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "leading",
+                "kind": "weapon",
+                "weapons": "melee",
+                "stat": "ap",
+                "change": 1
+              }
+            ]
+          },
+          {
+            "name": "Symphony of Pain (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "movement"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "60 x 35.5mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Herald of Slaanesh",
+          "Mounted",
+          "Shadow Legion",
+          "Daemon",
+          "Slaanesh",
+          "Character",
+          "Psyker",
+          "Chaos"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [
+          "Seekers"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Seekers",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "7b794414-41f4-5028-ac4d-4a069ddc1d59",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 70
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 70,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lashing tongue",
+          "Ravaging claws"
+        ],
+        "model_types": [
+          {
+            "name": "Herald of Slaanesh on Steed of Slaanesh",
+            "min": 1,
+            "max": 1,
+            "statline": "Herald Of Slaanesh On Steed Of Slaanesh"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lashing tongue",
+              "Ravaging claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "3dbe167f-1de0-52be-942d-6143b0bb76cd",
+      "name": "Furies",
+      "keywords": [
+        "Shadow Legion",
+        "Furies",
+        "Fly",
+        "Daemon",
+        "Chaos",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 5,
+          "cost": 40,
+          "label": "5 models"
+        },
+        {
+          "models": 10,
+          "cost": 80,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "keyword_pick": {
+        "rule": "Daemonic Allegiance",
+        "keywords": [
+          "Khorne",
+          "Tzeentch",
+          "Nurgle",
+          "Slaanesh"
+        ]
+      },
+      "loadout": [
+        "Daemonic claws"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Furies",
+            "m": "12\"",
+            "t": "3",
+            "sv": "7+",
+            "w": "1",
+            "ld": "8+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Daemonic claws",
+            "profiles": [
+              {
+                "name": "Daemonic claws",
+                "range": "Melee",
+                "a": "2",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Prey on the Weak",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Allegiance",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Shadow Legion",
+          "Furies",
+          "Fly",
+          "Daemon",
+          "Chaos",
+          "Infantry"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "3dbe167f-1de0-52be-942d-6143b0bb76cd",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 5,
+            "cost": 40
+          },
+          {
+            "models": 10,
+            "cost": 80
+          }
+        ],
+        "prices": [
+          {
+            "models": 5,
+            "cost": 40,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 80,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Daemonic claws"
+        ],
+        "model_types": [
+          {
+            "name": "Furies",
+            "min": 5,
+            "max": 10,
+            "statline": "Furies"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Daemonic claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "498c0e53-eb47-5e1e-b42d-0f2a1d6c2d63",
+      "name": "An’ggrath the Unbound",
+      "keywords": [
+        "Towering",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Titanic",
+        "An'ggrath the Unbound"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 415,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Bloodlash",
+        "Axe of Khorne"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "An'ggrath The Unbound",
+            "m": "12\"",
+            "t": "11",
+            "sv": "4+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "6"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Bloodlash",
+            "profiles": [
+              {
+                "name": "Bloodlash",
+                "range": "12\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "8",
+                "ap": "0",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Axe of Khorne",
+            "profiles": [
+              {
+                "name": "Axe of Khorne – Strike",
+                "range": "Melee",
+                "a": "8",
+                "skill": "2+",
+                "s": "16",
+                "ap": "-4",
+                "d": "D6+2",
+                "keywords": []
+              },
+              {
+                "name": "Axe of Khorne – Sweep",
+                "range": "Melee",
+                "a": "16",
+                "skill": "2+",
+                "s": "10",
+                "ap": "-2",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Emissary of the Blood God (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Relentless Carnage",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "fight"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-8 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "130mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Towering",
+          "Chaos",
+          "Daemon",
+          "Khorne",
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "An'ggrath the Unbound"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "498c0e53-eb47-5e1e-b42d-0f2a1d6c2d63",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 415
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 415,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bloodlash",
+          "Axe of Khorne"
+        ],
+        "model_types": [
+          {
+            "name": "An'ggrath the Unbound",
+            "min": 1,
+            "max": 1,
+            "statline": "An'ggrath The Unbound"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bloodlash",
+              "Axe of Khorne"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "300755ff-bc29-5ae9-a013-699f71296389",
+      "name": "Zarakynel",
+      "keywords": [
+        "Monster",
+        "Slaanesh",
+        "Zarakynel",
+        "Daemon",
+        "Chaos",
+        "Psyker",
+        "Epic Hero",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 320,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Phantasmagoria",
+        "Snapping claws",
+        "Souleater blade"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Zarakynel",
+            "m": "14\"",
+            "t": "10",
+            "sv": "5+",
+            "w": "20",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Phantasmagoria",
+            "profiles": [
+              {
+                "name": "Phantasmagoria – Focused witchfire",
+                "range": "18\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Hazardous",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Phantasmagoria – Witchfire",
+                "range": "18\"",
+                "a": "6",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Snapping claws",
+            "profiles": [
+              {
+                "name": "Snapping claws",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Extra Attacks"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Souleater blade",
+            "profiles": [
+              {
+                "name": "Souleater blade",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-2",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Emissary of the Prince of Excess (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Mesmerising Form",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "105 x 70mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Monster",
+          "Slaanesh",
+          "Zarakynel",
+          "Daemon",
+          "Chaos",
+          "Psyker",
+          "Epic Hero",
+          "Character"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "300755ff-bc29-5ae9-a013-699f71296389",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 320
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 320,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Phantasmagoria",
+          "Snapping claws",
+          "Souleater blade"
+        ],
+        "model_types": [
+          {
+            "name": "Zarakynel",
+            "min": 1,
+            "max": 1,
+            "statline": "Zarakynel"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Phantasmagoria",
+              "Snapping claws",
+              "Souleater blade"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "fe92085d-162e-5194-8983-e438976fcf45",
+      "name": "Aetaos’rau’keres",
+      "keywords": [
+        "Daemon",
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Titanic",
+        "Towering",
+        "Fly",
+        "Tzeentch",
+        "Aetaos'rau'keres",
+        "Chaos",
+        "Psyker"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 315,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Bolt of Tzeentch",
+        "Staff of cataclysm",
+        "Warpfire talons"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Aetaos'rau'keres",
+            "m": "12\"",
+            "t": "10",
+            "sv": "6+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "6"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Bolt of Tzeentch",
+            "profiles": [
+              {
+                "name": "Bolt of Tzeentch – focused witchfire",
+                "range": "24\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D3",
+                "keywords": [
+                  "Hazardous",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Bolt of Tzeentch – witchfire",
+                "range": "24\"",
+                "a": "9",
+                "skill": "2+",
+                "s": "10",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Staff of cataclysm",
+            "profiles": [
+              {
+                "name": "Staff of cataclysm",
+                "range": "Melee",
+                "a": "6",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Warpfire talons",
+            "profiles": [
+              {
+                "name": "Warpfire talons",
+                "range": "Melee",
+                "a": "12",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Emissary of the Great Mutator (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Master of Magicks (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-8 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "130mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Daemon",
+          "Monster",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "Fly",
+          "Tzeentch",
+          "Aetaos'rau'keres",
+          "Chaos",
+          "Psyker"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "fe92085d-162e-5194-8983-e438976fcf45",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 315
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 315,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bolt of Tzeentch",
+          "Staff of cataclysm",
+          "Warpfire talons"
+        ],
+        "model_types": [
+          {
+            "name": "Aetaos'rau'keres",
+            "min": 1,
+            "max": 1,
+            "statline": "Aetaos'rau'keres"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bolt of Tzeentch",
+              "Staff of cataclysm",
+              "Warpfire talons"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "97e7beef-9c6b-5a50-a452-20a6b8d019eb",
+      "name": "Plague Toads",
+      "keywords": [
+        "Plague Toads",
+        "Beast",
+        "Chaos",
+        "Daemon",
+        "Nurgle",
+        "Shadow Legion"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 120,
+          "label": "3 models"
+        }
+      ],
+      "unit_types": [
+        "Beast"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Grasping tongue",
+        "Yawning maw"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Plague Toads",
+            "m": "7\"",
+            "t": "8",
+            "sv": "6+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Grasping tongue",
+            "profiles": [
+              {
+                "name": "Grasping tongue",
+                "range": "9\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Yawning maw",
+            "profiles": [
+              {
+                "name": "Yawning maw",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Pouncing Leap",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Grandfather's Blessing",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Plague Toads",
+          "Beast",
+          "Chaos",
+          "Daemon",
+          "Nurgle",
+          "Shadow Legion"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "97e7beef-9c6b-5a50-a452-20a6b8d019eb",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 120
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 120,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Grasping tongue",
+          "Yawning maw"
+        ],
+        "model_types": [
+          {
+            "name": "Plague Toads",
+            "min": 3,
+            "max": 3,
+            "statline": "Plague Toads"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Grasping tongue",
+              "Yawning maw"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "0119af79-d568-54a6-bac5-5dde7daa50fe",
+      "name": "Pox Riders",
+      "keywords": [
+        "Daemon",
+        "Nurgle",
+        "Pox Riders",
+        "Shadow Legion",
+        "Mounted",
+        "Chaos"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 160,
+          "label": "3 models"
+        }
+      ],
+      "unit_types": [
+        "Mounted"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Grasping tongue",
+        "Pox Rider plaguesword",
+        "Yawning maw"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Instrument of Chaos",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Instrument of Chaos",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Daemonic Icon"
+            ],
+            "carried": false,
+            "per_model": true
+          }
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Daemonic Icon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Daemonic Icon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": [],
+          "requires": {
+            "items": [
+              "Instrument of Chaos"
+            ],
+            "carried": false,
+            "per_model": true
+          }
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Pox Riders",
+            "m": "7\"",
+            "t": "8",
+            "sv": "6+",
+            "w": "5",
+            "ld": "7+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Grasping tongue",
+            "profiles": [
+              {
+                "name": "Grasping tongue",
+                "range": "9\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Pox Rider plaguesword",
+            "profiles": [
+              {
+                "name": "Pox Rider plaguesword",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Extra Attacks",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Yawning maw",
+            "profiles": [
+              {
+                "name": "Yawning maw",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Bounding Assault",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Icon",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "unit",
+                "kind": "stat",
+                "stat": "ld",
+                "change": "6+"
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          },
+          {
+            "name": "Grandfather's Blessing",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Daemon",
+          "Nurgle",
+          "Pox Riders",
+          "Shadow Legion",
+          "Mounted",
+          "Chaos"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "0119af79-d568-54a6-bac5-5dde7daa50fe",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 160
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 160,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Grasping tongue",
+          "Pox Rider plaguesword",
+          "Yawning maw"
+        ],
+        "model_types": [
+          {
+            "name": "Pox Riders",
+            "min": 3,
+            "max": 3,
+            "statline": "Pox Riders"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Grasping tongue",
+              "Pox Rider plaguesword",
+              "Yawning maw"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Instrument of Chaos",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Instrument of Chaos",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Daemonic Icon"
+              ],
+              "carried": false,
+              "per_model": true
+            }
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Daemonic Icon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Daemonic Icon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": [],
+            "requires": {
+              "items": [
+                "Instrument of Chaos"
+              ],
+              "carried": false,
+              "per_model": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9df427dc-e08e-56a2-85bb-d27296e06d70",
+      "name": "Spined Chaos Beast",
+      "keywords": [
+        "Shadow Legion",
+        "Monster",
+        "Chaos",
+        "Spined Chaos Beast"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 145,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "keyword_pick": {
+        "rule": "Daemonic Allegiance",
+        "keywords": [
+          "Khorne",
+          "Tzeentch",
+          "Nurgle",
+          "Slaanesh"
+        ]
+      },
+      "loadout": [
+        "Jagged claws and tusked maw"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Spined Chaos Beast",
+            "m": "10\"",
+            "t": "10",
+            "sv": "4+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "4"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Jagged claws and tusked maw",
+            "profiles": [
+              {
+                "name": "Jagged claws and tusked maw",
+                "range": "Melee",
+                "a": "6",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-2",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Warp Spines",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Daemonic Allegiance",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          },
+          {
+            "name": "Warp Spines: Creature of Khorne",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Warp Spines: Creature of Tzeentch",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Warp Spines: Creature of Nurgle",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Warp Spines: Creature of Slaanesh",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-4 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "No official base size",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Shadow Legion",
+          "Monster",
+          "Chaos",
+          "Spined Chaos Beast"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "9df427dc-e08e-56a2-85bb-d27296e06d70",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 145
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 145,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Jagged claws and tusked maw"
+        ],
+        "model_types": [
+          {
+            "name": "Spined Chaos Beast",
+            "min": 1,
+            "max": 1,
+            "statline": "Spined Chaos Beast"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Jagged claws and tusked maw"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "2fa9918f-84b5-59bf-876c-a16010f439bd",
+      "name": "Giant Chaos Spawn",
+      "keywords": [
+        "Monster",
+        "Shadow Legion",
+        "Chaos",
+        "Giant Chaos Spawn"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 130,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "keyword_pick": {
+        "rule": "Daemonic Allegiance",
+        "keywords": [
+          "Khorne",
+          "Tzeentch",
+          "Nurgle",
+          "Slaanesh"
+        ]
+      },
+      "loadout": [
+        "Churning fangs and claws"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Giant Chaos Spawn",
+            "m": "10\"",
+            "t": "8",
+            "sv": "4+",
+            "w": "10",
+            "ld": "7+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Churning fangs and claws",
+            "profiles": [
+              {
+                "name": "Churning fangs and claws",
+                "range": "Melee",
+                "a": "D6+6",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-1",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Feel No Pain 5+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Regenerating Monstrosity",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "either",
+                  "phase": "command"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Daemonic Allegiance",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          },
+          {
+            "name": "Regenerating Monstrosity: Creature of Khorne",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Regenerating Monstrosity: Creature of Tzeentch",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Regenerating Monstrosity: Creature of Nurgle",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          },
+          {
+            "name": "Regenerating Monstrosity: Creature of Slaanesh",
+            "text": "",
+            "kind": "primarch",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "100mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Monster",
+          "Shadow Legion",
+          "Chaos",
+          "Giant Chaos Spawn"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "2fa9918f-84b5-59bf-876c-a16010f439bd",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 130
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 130,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Churning fangs and claws"
+        ],
+        "model_types": [
+          {
+            "name": "Giant Chaos Spawn",
+            "min": 1,
+            "max": 1,
+            "statline": "Giant Chaos Spawn"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Churning fangs and claws"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "0df43f24-a967-550e-ab33-4cc9a4aa573f",
+      "name": "Scabeiathrax The Bloated",
+      "keywords": [
+        "Epic Hero",
+        "Psyker",
+        "Chaos",
+        "Nurgle",
+        "Scabeiathrax the Bloated",
+        "Daemon",
+        "Monster",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 275,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Putrid vomit",
+        "Blade of decay"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Scabeiathrax The Bloated",
+            "m": "7\"",
+            "t": "12",
+            "sv": "5+",
+            "w": "22",
+            "ld": "6+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Putrid vomit",
+            "profiles": [
+              {
+                "name": "Putrid vomit",
+                "range": "6\"",
+                "a": "D6+3",
+                "skill": "-",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Blade of decay",
+            "profiles": [
+              {
+                "name": "Blade of decay – Strike",
+                "range": "Melee",
+                "a": "7",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              },
+              {
+                "name": "Blade of decay – Sweep",
+                "range": "Melee",
+                "a": "14",
+                "skill": "2+",
+                "s": "7",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Feel No Pain 6+",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "The Shadow of Chaos",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Emissary of the Plague God (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Nurgle’s Rot (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "movement"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Epic Hero",
+          "Psyker",
+          "Chaos",
+          "Nurgle",
+          "Scabeiathrax the Bloated",
+          "Daemon",
+          "Monster",
+          "Character"
+        ],
+        "factions": [
+          "Legiones Daemonica"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "chaosdaemons",
+          "id": "0df43f24-a967-550e-ab33-4cc9a4aa573f",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 275
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 275,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Putrid vomit",
+          "Blade of decay"
+        ],
+        "model_types": [
+          {
+            "name": "Scabeiathrax the Bloated",
+            "min": 1,
+            "max": 1,
+            "statline": "Scabeiathrax The Bloated"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Putrid vomit",
+              "Blade of decay"
             ]
           }
         ],
