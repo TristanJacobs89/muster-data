@@ -1,8 +1,8 @@
 {
-  "data_version": 1056,
+  "data_version": 1057,
   "schema": 55,
   "sha": "aaad39405193b160be0cb4def679ad93a9f32526",
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "factions": [
     {
       "key": "adeptasororitas",
@@ -214,5 +214,5 @@
     "updated": "2026-11-12 23:45:38",
     "sha": "aaad39405193b160be0cb4def679ad93a9f32526"
   },
-  "bundle": "1056-ba43179d18bd"
+  "bundle": "1057-ba43179d18bd"
 }
