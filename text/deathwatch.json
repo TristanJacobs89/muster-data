@@ -298,5 +298,15 @@
   "deathwatch/rules/army_rules/Space Marine Chapters/text": "ADEPTUS ASTARTES unit's Chapter: the second Faction keyword on its datasheet, if it has one\nYour army: units from 1 Chapter at most",
   "deathwatch/rules/army_rules/Special Move Types/text": "## Shock Disembark Move\nCondition:\n- unit embarked within a TRANSPORT that is on the battlefield\n- unit has not embarked within it this phase\nResult:\n- unit set up as in Set Up (core rules 03.02)\n- each model set up wholly within 3\" of that TRANSPORT\n- afterwards: unit ineligible to declare a charge until end of turn\n## Assault Disembark Move\nCondition:\n- unit embarked within a TRANSPORT that is on the battlefield\n- unit has not embarked within it this phase\n- no advance or fall-back move by that TRANSPORT this phase\nResult:\n- unit set up as in Set Up (core rules 03.02)\n- each model set up wholly within 3\" of that TRANSPORT",
   "deathwatch/rules/army_rules/Transhuman Strategist/text": "Start of the battle round\nCondition: a model with this ability is your Warlord\n1CP gained",
-  "deathwatch/rules/army_rules/Veteran Recruits/text": "Army cannot include these Adeptus Astartes units:\n- Scout Squad\n- Terminator Squad\n- Terminator Assault Squad"
+  "deathwatch/rules/army_rules/Veteran Recruits/text": "Army cannot include these Adeptus Astartes units:\n- Scout Squad\n- Terminator Squad\n- Terminator Assault Squad",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/0": "1 Chaplain Cassius: EPIC HERO",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/1": "8 Kill Team Veterans:\n- Vael Donatus\n- Zameon Gydrael\n- Rodricus Grytt\n- Antor Delassio\n- Edryc Setorax\n- Jensus Natorian\n- Drenn Redblade\n- Ennox Sorrlock",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/2": "1 Kill Team Terminator (Garran Branatar)",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/3": "1 Kill Team Biker (Jetek Suberei)",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Cassius/text": "Chaplain Cassius and KILL TEAM CASSIUS: never both in same army",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Catechism of Death/text": "While Chaplain Cassius in this unit\nMelee weapons of this unit's models: [DEVASTATING WOUNDS] gained",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Jump Pack/text": "Bearer: M 12\"\nBearer: may pass over models and terrain as though absent",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Psychic Hood/text": "Bearer's unit: Feel No Pain 4+ gained against Psychic Attacks",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Unflinching/text": "Battle-shock tests for this unit: may re-roll",
+  "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/invul/condition": "Only Chaplain Cassius and Kill Team Terminator models"
 }
