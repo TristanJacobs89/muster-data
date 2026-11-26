@@ -12726,6 +12726,2707 @@
           }
         ]
       }
+    },
+    {
+      "id": "c3117276-ce3b-5447-9ffd-1d495fc17a74",
+      "name": "Lord",
+      "keywords": [
+        "Lord",
+        "Noble",
+        "Character",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 65,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Staff of light"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Lord’s blade",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Lord’s blade",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Staff of light"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Resurrection Orb",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Resurrection Orb",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Lord",
+            "m": "5\"",
+            "t": "5",
+            "sv": "3+",
+            "w": "4",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Staff of light",
+            "profiles": [
+              {
+                "name": "Staff of light – Ranged",
+                "range": "18\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Staff of light",
+            "profiles": [
+              {
+                "name": "Staff of light – Melee",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Lord’s blade",
+            "profiles": [
+              {
+                "name": "Lord’s blade",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Relentless March",
+            "text": "",
+            "kind": "other",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "leading",
+                "kind": "stat",
+                "stat": "m",
+                "change": 1
+              }
+            ]
+          },
+          {
+            "name": "The Lord’s Will",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Resurrection Orb",
+            "text": "",
+            "kind": "wargear",
+            "timing": {
+              "once_per": "battle",
+              "when": []
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Lord",
+          "Noble",
+          "Character",
+          "Infantry"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [
+          "Necron Warriors",
+          "Immortals",
+          "Lychguard"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Necron Warriors",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Immortals",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Lychguard",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "necrons",
+          "id": "c3117276-ce3b-5447-9ffd-1d495fc17a74",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 65
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 65,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Staff of light"
+        ],
+        "model_types": [
+          {
+            "name": "Lord",
+            "min": 1,
+            "max": 1,
+            "statline": "Lord"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Staff of light"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Lord’s blade",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Lord’s blade",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Staff of light"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Resurrection Orb",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Resurrection Orb",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "e85a5aaf-4a1b-56da-9e52-8a986cc2335f",
+      "name": "Nemesor Zahndrekh",
+      "keywords": [
+        "Noble",
+        "Infantry",
+        "Nemesor Zahndrekh",
+        "Character",
+        "Epic Hero"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 85,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Staff of light"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Nemesor Zahndrekh",
+            "m": "5\"",
+            "t": "5",
+            "sv": "2+",
+            "w": "6",
+            "ld": "7+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Staff of light",
+            "profiles": [
+              {
+                "name": "Staff of light – Ranged",
+                "range": "18\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Staff of light",
+            "profiles": [
+              {
+                "name": "Staff of light – Melee",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Transient Madness",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "command"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Counter-tactics",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "battle",
+              "when": []
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Noble",
+          "Infantry",
+          "Nemesor Zahndrekh",
+          "Character",
+          "Epic Hero"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [
+          "Necron Warriors",
+          "Lychguard",
+          "Immortals"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Necron Warriors",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Lychguard",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Immortals",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "necrons",
+          "id": "e85a5aaf-4a1b-56da-9e52-8a986cc2335f",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 85
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 85,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Staff of light"
+        ],
+        "model_types": [
+          {
+            "name": "Nemesor Zahndrekh",
+            "min": 1,
+            "max": 1,
+            "statline": "Nemesor Zahndrekh"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Staff of light"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "ba27eead-1320-5ae2-b7e1-6d171b7bf4f6",
+      "name": "Vargard Obyron",
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Epic Hero",
+        "Vargard Obyron"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 85,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Warscythe"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Vargard Obyron",
+            "m": "5\"",
+            "t": "5",
+            "sv": "2+",
+            "w": "5",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": null,
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Warscythe",
+            "profiles": [
+              {
+                "name": "Warscythe",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Precision"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Ghostwalk Mantle",
+            "text": "",
+            "kind": "other",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "leading",
+                "kind": "ability",
+                "name": "Fights First"
+              }
+            ]
+          },
+          {
+            "name": "The Vargard’s Duty",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Character",
+          "Infantry",
+          "Epic Hero",
+          "Vargard Obyron"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [
+          "Necron Warriors",
+          "Immortals",
+          "Lychguard"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Necron Warriors",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Immortals",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Lychguard",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "necrons",
+          "id": "ba27eead-1320-5ae2-b7e1-6d171b7bf4f6",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 85
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 85,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Warscythe"
+        ],
+        "model_types": [
+          {
+            "name": "Vargard Obyron",
+            "min": 1,
+            "max": 1,
+            "statline": "Vargard Obyron"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Warscythe"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "6640e558-bc74-5126-b9d5-b6efb9f838f1",
+      "name": "Anrakyr The Traveller",
+      "keywords": [
+        "Anrakyr the Traveller",
+        "Noble",
+        "Character",
+        "Infantry",
+        "Epic Hero"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 95,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Tachyon arrow",
+        "Warscythe"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Anrakyr The Traveller",
+            "m": "5\"",
+            "t": "5",
+            "sv": "2+",
+            "w": "6",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Tachyon arrow",
+            "profiles": [
+              {
+                "name": "Tachyon arrow",
+                "range": "72\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "16",
+                "ap": "-5",
+                "d": "D6+2",
+                "keywords": [
+                  "One Shot"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Warscythe",
+            "profiles": [
+              {
+                "name": "Warscythe",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Lord of the Pyrrhian Eternals",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Mind in the Machine",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "opponents",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Anrakyr the Traveller",
+          "Noble",
+          "Character",
+          "Infantry",
+          "Epic Hero"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [
+          "Immortals"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Immortals",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "necrons",
+          "id": "6640e558-bc74-5126-b9d5-b6efb9f838f1",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 95
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 95,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Tachyon arrow",
+          "Warscythe"
+        ],
+        "model_types": [
+          {
+            "name": "Anrakyr the Traveller",
+            "min": 1,
+            "max": 1,
+            "statline": "Anrakyr The Traveller"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Tachyon arrow",
+              "Warscythe"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "230abf67-688c-5f76-99f8-28cbc13de98b",
+      "name": "Canoptek Tomb Stalker",
+      "keywords": [
+        "Monster",
+        "Tomb Stalker",
+        "Canoptek"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 130,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Gauss slicers",
+        "Tomb Stalker claws",
+        "Gloom Prism (Aura)"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Canoptek Tomb Stalker",
+            "m": "10\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "9",
+            "ld": "8+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Gauss slicers",
+            "profiles": [
+              {
+                "name": "Gauss slicers",
+                "range": "24\"",
+                "a": "8",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Tomb Stalker claws",
+            "profiles": [
+              {
+                "name": "Tomb Stalker claws",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Snaking Ambush",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Gloom Prism (Aura)",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Monster",
+          "Tomb Stalker",
+          "Canoptek"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "230abf67-688c-5f76-99f8-28cbc13de98b",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 130
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 130,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Gauss slicers",
+          "Tomb Stalker claws",
+          "Gloom Prism (Aura)"
+        ],
+        "model_types": [
+          {
+            "name": "Canoptek Tomb Stalker",
+            "min": 1,
+            "max": 1,
+            "statline": "Canoptek Tomb Stalker"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Gauss slicers",
+              "Tomb Stalker claws",
+              "Gloom Prism (Aura)"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "f9c59666-d091-5cc0-89b0-fc9a5bc877b5",
+      "name": "Canoptek Acanthrites",
+      "keywords": [
+        "Beasts",
+        "Fly",
+        "Canoptek",
+        "Acanthrites"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 85,
+          "label": "3 models"
+        },
+        {
+          "models": 6,
+          "cost": 170,
+          "label": "6 models"
+        }
+      ],
+      "unit_types": [
+        "Beast"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Cutting beam",
+        "Voidblade"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Canoptek Acanthrites",
+            "m": "12\"",
+            "t": "5",
+            "sv": "3+",
+            "w": "2",
+            "ld": "8+",
+            "oc": "2"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Cutting beam",
+            "profiles": [
+              {
+                "name": "Cutting beam",
+                "range": "12\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "9",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Melta 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Voidblade",
+            "profiles": [
+              {
+                "name": "Voidblade",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Damaged Armour",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Beasts",
+          "Fly",
+          "Canoptek",
+          "Acanthrites"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "f9c59666-d091-5cc0-89b0-fc9a5bc877b5",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 85
+          },
+          {
+            "models": 6,
+            "cost": 170
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 85,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 170,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Cutting beam",
+          "Voidblade"
+        ],
+        "model_types": [
+          {
+            "name": "Canoptek Acanthrites",
+            "min": 3,
+            "max": 6,
+            "statline": "Canoptek Acanthrites"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Cutting beam",
+              "Voidblade"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "aab3899b-4d62-5b90-b9ed-22ac7d9e497a",
+      "name": "Canoptek Tomb Sentinel",
+      "keywords": [
+        "Monster",
+        "Canoptek",
+        "Tomb Sentinel"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 115,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Exile cannon",
+        "Tomb Sentinel claws",
+        "Gloom Prism (Aura)"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Canoptek Tomb Sentinel",
+            "m": "10\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "9",
+            "ld": "8+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Exile cannon",
+            "profiles": [
+              {
+                "name": "Exile cannon",
+                "range": "18\"",
+                "a": "D6+1",
+                "skill": "4+",
+                "s": "10",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Tomb Sentinel claws",
+            "profiles": [
+              {
+                "name": "Tomb Sentinel claws",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Aggressor Guardian",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Gloom Prism (Aura)",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Monster",
+          "Canoptek",
+          "Tomb Sentinel"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "aab3899b-4d62-5b90-b9ed-22ac7d9e497a",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 115
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 115,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Exile cannon",
+          "Tomb Sentinel claws",
+          "Gloom Prism (Aura)"
+        ],
+        "model_types": [
+          {
+            "name": "Canoptek Tomb Sentinel",
+            "min": 1,
+            "max": 1,
+            "statline": "Canoptek Tomb Sentinel"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Exile cannon",
+              "Tomb Sentinel claws",
+              "Gloom Prism (Aura)"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "21ca6b71-9a10-5ca9-8a32-aaa280ea12a9",
+      "name": "Night Shroud",
+      "keywords": [
+        "Night Shroud",
+        "Fly",
+        "Aircraft",
+        "Vehicle"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 140,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Twin tesla destructor",
+        "Armoured bulk"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Night Shroud",
+            "m": "20\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "14",
+            "ld": "7+",
+            "oc": "-"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Twin tesla destructor",
+            "profiles": [
+              {
+                "name": "Twin tesla destructor",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "8",
+                "ap": "0",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 2",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured bulk",
+            "profiles": [
+              {
+                "name": "Armoured bulk",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Death Sphere Bombardment",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-5 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Night Shroud",
+          "Fly",
+          "Aircraft",
+          "Vehicle"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "21ca6b71-9a10-5ca9-8a32-aaa280ea12a9",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 140
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 140,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Twin tesla destructor",
+          "Armoured bulk"
+        ],
+        "model_types": [
+          {
+            "name": "Night Shroud",
+            "min": 1,
+            "max": 1,
+            "statline": "Night Shroud"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Twin tesla destructor",
+              "Armoured bulk"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "191335f5-6da6-5633-9383-8aad60344ccb",
+      "name": "Sentry Pylon",
+      "keywords": [
+        "Sentry Pylon",
+        "Frame",
+        "Vehicle",
+        "Fortification"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 120,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Fortification"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Gauss exterminator"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Focused death ray",
+              "cost": 0
+            },
+            {
+              "name": "Heat cannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Focused death ray",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heat cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Gauss exterminator"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Sentry Pylon",
+            "m": "-",
+            "t": "8",
+            "sv": "3+",
+            "w": "10",
+            "ld": "7+",
+            "oc": "0"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Focused death ray",
+            "profiles": [
+              {
+                "name": "Focused death ray",
+                "range": "36\"",
+                "a": "6",
+                "skill": "4+",
+                "s": "8",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gauss exterminator",
+            "profiles": [
+              {
+                "name": "Gauss exterminator",
+                "range": "48\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "14",
+                "ap": "-3",
+                "d": "6",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heat cannon",
+            "profiles": [
+              {
+                "name": "Heat cannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "4+",
+                "s": "9",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Melta 4"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Teleportation Matrix",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "battle",
+              "when": []
+            }
+          },
+          {
+            "name": "Phase-shifted Cover",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Fortification",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Sentry Pylon",
+          "Frame",
+          "Vehicle",
+          "Fortification"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "191335f5-6da6-5633-9383-8aad60344ccb",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 120
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 120,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Gauss exterminator"
+        ],
+        "model_types": [
+          {
+            "name": "Sentry Pylon",
+            "min": 1,
+            "max": 1,
+            "statline": "Sentry Pylon"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Gauss exterminator"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Focused death ray",
+                "cost": 0
+              },
+              {
+                "name": "Heat cannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Focused death ray",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heat cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Gauss exterminator"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "31583507-c878-5475-b2d1-e51db515ef21",
+      "name": "Tesseract Ark",
+      "keywords": [
+        "Fly",
+        "Tesseract Ark",
+        "Vehicle"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 130,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Tesseract singularity chamber",
+        "Tesla cannon",
+        "Armoured bulk"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Gauss cannon",
+              "cost": 0
+            },
+            {
+              "name": "Particle beamer",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Gauss cannon",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Particle beamer",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Tesla cannon"
+          ],
+          "replaces_options": [],
+          "replaces_counts": {
+            "Tesla cannon": 2
+          }
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Tesseract Ark",
+            "m": "9\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "10",
+            "ld": "6+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Gauss cannon",
+            "profiles": [
+              {
+                "name": "Gauss cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Particle beamer",
+            "profiles": [
+              {
+                "name": "Particle beamer",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Blast",
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tesla cannon",
+            "profiles": [
+              {
+                "name": "Tesla cannon",
+                "range": "24\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Sustained Hits 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tesseract singularity chamber",
+            "profiles": [
+              {
+                "name": "Tesseract singularity chamber – particle hurricane",
+                "range": "12\"",
+                "a": "D6+3",
+                "skill": "-",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              },
+              {
+                "name": "Tesseract singularity chamber – seismic lash",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured bulk",
+            "profiles": [
+              {
+                "name": "Armoured bulk",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise 1",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Gravitational Field",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Fly",
+          "Tesseract Ark",
+          "Vehicle"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "31583507-c878-5475-b2d1-e51db515ef21",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 130
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 130,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Tesseract singularity chamber",
+          "Tesla cannon",
+          "Armoured bulk"
+        ],
+        "model_types": [
+          {
+            "name": "Tesseract Ark",
+            "min": 1,
+            "max": 1,
+            "statline": "Tesseract Ark"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Tesseract singularity chamber",
+              "Tesla cannon",
+              "Armoured bulk"
+            ],
+            "counts": {
+              "Tesla cannon": 2
+            }
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Gauss cannon",
+                "cost": 0
+              },
+              {
+                "name": "Particle beamer",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Gauss cannon",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Particle beamer",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Tesla cannon"
+            ],
+            "replaces_options": [],
+            "replaces_counts": {
+              "Tesla cannon": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3d07bd78-b036-5b05-9a04-bcc9a9317f82",
+      "name": "Gauss Pylon",
+      "keywords": [
+        "Vehicle",
+        "Towering",
+        "Gauss Pylon",
+        "Titanic",
+        "Fortification"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 210,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Fortification"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Gauss annihilator",
+        "Tesla arc"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Gauss Pylon",
+            "m": "-",
+            "t": "12",
+            "sv": "3+",
+            "w": "22",
+            "ld": "7+",
+            "oc": "0"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Gauss annihilator",
+            "profiles": [
+              {
+                "name": "Gauss annihilator",
+                "range": "120\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "16",
+                "ap": "-4",
+                "d": "D6+6",
+                "keywords": [
+                  "Anti-fly 2+",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tesla arc",
+            "profiles": [
+              {
+                "name": "Tesla arc",
+                "range": "6\"",
+                "a": "6",
+                "skill": "4+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Sustained Hits 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Phase Shift Generator (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Phase-shifted Cover",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Fortification",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-7 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Towering",
+          "Gauss Pylon",
+          "Titanic",
+          "Fortification"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "3d07bd78-b036-5b05-9a04-bcc9a9317f82",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 210
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 210,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Gauss annihilator",
+          "Tesla arc"
+        ],
+        "model_types": [
+          {
+            "name": "Gauss Pylon",
+            "min": 1,
+            "max": 1,
+            "statline": "Gauss Pylon"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Gauss annihilator",
+              "Tesla arc"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "0f918d8f-6573-587b-bc82-74484db24ef5",
+      "name": "Tomb Citadel Walls",
+      "keywords": [
+        "Tomb Citadel",
+        "Frame",
+        "Vehicle",
+        "Titanic",
+        "Fortification"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 180,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Fortification"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Nothing"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Gauss exterminator",
+              "cost": 0
+            },
+            {
+              "name": "Twin tesla destructor",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Gauss exterminator",
+                  "count": 1
+                },
+                {
+                  "option": "Twin tesla destructor",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Gauss exterminator",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin tesla destructor",
+                  "count": 2
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Tomb Citadel Walls",
+            "m": "-",
+            "t": "13",
+            "sv": "2+",
+            "w": "50",
+            "ld": "7+",
+            "oc": "0"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Gauss exterminator",
+            "profiles": [
+              {
+                "name": "Gauss exterminator",
+                "range": "48\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "14",
+                "ap": "-3",
+                "d": "6",
+                "keywords": [
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin tesla destructor",
+            "profiles": [
+              {
+                "name": "Twin tesla destructor",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "8",
+                "ap": "0",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 2",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [],
+        "abilities": [
+          {
+            "name": "Deadly Demise 3D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reanimation Protocols",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Ziggurat Dock",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Phased Cover",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Fortification",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-15 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Tomb Citadel",
+          "Frame",
+          "Vehicle",
+          "Titanic",
+          "Fortification"
+        ],
+        "factions": [
+          "Necrons"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "necrons",
+          "id": "0f918d8f-6573-587b-bc82-74484db24ef5",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 180
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 180,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Nothing"
+        ],
+        "model_types": [
+          {
+            "name": "Tomb Citadel",
+            "min": 1,
+            "max": 1,
+            "statline": "Tomb Citadel Walls"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Nothing"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Gauss exterminator",
+                "cost": 0
+              },
+              {
+                "name": "Twin tesla destructor",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Gauss exterminator",
+                    "count": 1
+                  },
+                  {
+                    "option": "Twin tesla destructor",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Gauss exterminator",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin tesla destructor",
+                    "count": 2
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
     }
   ],
   "rules": {

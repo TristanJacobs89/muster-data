@@ -10465,7 +10465,8 @@
         ],
         "leads": [
           "Corsair Voidreavers",
-          "Corsair Voidscarred"
+          "Corsair Voidscarred",
+          "Corsair Reaver Band"
         ],
         "supports": [],
         "attaches": [
@@ -10479,6 +10480,13 @@
           {
             "type": "leader",
             "target": "Corsair Voidscarred",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Corsair Reaver Band",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -12325,7 +12333,8 @@
         ],
         "leads": [
           "Corsair Voidreavers",
-          "Corsair Voidscarred"
+          "Corsair Voidscarred",
+          "Corsair Reaver Band"
         ],
         "supports": [],
         "attaches": [
@@ -12339,6 +12348,13 @@
           {
             "type": "leader",
             "target": "Corsair Voidscarred",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Corsair Reaver Band",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -17225,7 +17241,8 @@
           "Guardian Defenders",
           "Storm Guardians",
           "Ynnari Kabalite Warriors",
-          "Ynnari Wyches"
+          "Ynnari Wyches",
+          "Corsair Reaver Band"
         ],
         "attaches": [
           {
@@ -17266,6 +17283,13 @@
           {
             "type": "support",
             "target": "Ynnari Wyches",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "support",
+            "target": "Corsair Reaver Band",
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
@@ -27403,7 +27427,8 @@
           "Storm Guardians",
           "Ynnari Incubi",
           "Ynnari Kabalite Warriors",
-          "Ynnari Wyches"
+          "Ynnari Wyches",
+          "Corsair Reaver Band"
         ],
         "supports": [],
         "attaches": [
@@ -27455,6 +27480,13 @@
             "requires_detachment": null,
             "requires_keyword": null,
             "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Corsair Reaver Band",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
           }
         ],
         "source": {
@@ -27496,6 +27528,7537 @@
             "wargear": [
               "Storm of Whispers",
               "Kha-vir"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "8881035c-55fc-5e5b-9942-88dfd1b64ca9",
+      "name": "Illic Nightspear",
+      "keywords": [
+        "Illic Nightspear",
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Aeldari"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 70,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Voidbringer",
+        "Shuriken pistol",
+        "Aeldari power sword"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Illic Nightspear",
+            "m": "7\"",
+            "t": "3",
+            "sv": "5+",
+            "w": "3",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": "",
+          "against": "ranged"
+        },
+        "ranged": [
+          {
+            "name": "Shuriken pistol",
+            "profiles": [
+              {
+                "name": "Shuriken pistol",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Voidbringer",
+            "profiles": [
+              {
+                "name": "Voidbringer",
+                "range": "48\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Heavy",
+                  "Precision"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Aeldari power sword",
+            "profiles": [
+              {
+                "name": "Aeldari power sword",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Stealth",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Bringer of the True Death",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Hunter Unseen",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Illic Nightspear",
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Aeldari"
+        ],
+        "factions": [
+          "Asuryani"
+        ],
+        "leads": [
+          "Rangers"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Rangers",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "aeldari",
+          "id": "8881035c-55fc-5e5b-9942-88dfd1b64ca9",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 70
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 70,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Voidbringer",
+          "Shuriken pistol",
+          "Aeldari power sword"
+        ],
+        "model_types": [
+          {
+            "name": "Illic Nightspear",
+            "min": 1,
+            "max": 1,
+            "statline": "Illic Nightspear"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Voidbringer",
+              "Shuriken pistol",
+              "Aeldari power sword"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "7d86cbc7-2b09-513f-a577-b229db9ff716",
+      "name": "Karandras",
+      "keywords": [
+        "Epic Hero",
+        "Phoenix Lord",
+        "Aeldari",
+        "Karandras",
+        "Infantry",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 90,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Arhra’s Bane",
+        "Isirmathil",
+        "The Scorpion’s Bite"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Karandras",
+            "m": "7\"",
+            "t": "3",
+            "sv": "2+",
+            "w": "5",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Arhra’s Bane",
+            "profiles": [
+              {
+                "name": "Arhra’s Bane – Ranged",
+                "range": "12\"",
+                "a": "2",
+                "skill": "2+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Assault",
+                  "Pistol"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Arhra’s Bane",
+            "profiles": [
+              {
+                "name": "Arhra’s Bane – Melee",
+                "range": "Melee",
+                "a": "5",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Isirmathil",
+            "profiles": [
+              {
+                "name": "Isirmathil",
+                "range": "Melee",
+                "a": "8",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Shadow Hunter",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Sustained Assault",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "The Scorpion’s Bite",
+            "text": "",
+            "kind": "wargear",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Epic Hero",
+          "Phoenix Lord",
+          "Aeldari",
+          "Karandras",
+          "Infantry",
+          "Character"
+        ],
+        "factions": [
+          "Asuryani"
+        ],
+        "leads": [
+          "Striking Scorpions"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Striking Scorpions",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "aeldari",
+          "id": "7d86cbc7-2b09-513f-a577-b229db9ff716",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 90
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Arhra’s Bane",
+          "Isirmathil",
+          "The Scorpion’s Bite"
+        ],
+        "model_types": [
+          {
+            "name": "Karandras",
+            "min": 1,
+            "max": 1,
+            "statline": "Karandras"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Arhra’s Bane",
+              "Isirmathil",
+              "The Scorpion’s Bite"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "2d03f90b-7f60-556e-ac91-7b24cca7d720",
+      "name": "Autarch Skyrunner",
+      "keywords": [
+        "Autarch Skyrunner",
+        "Autarch",
+        "Fly",
+        "Mounted",
+        "Aeldari",
+        "Character"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 90,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Mounted",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Close combat weapon",
+        "Laser lance",
+        "Twin shuriken catapult"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Dragon fusion gun",
+              "cost": 0
+            },
+            {
+              "name": "Banshee blade",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Dragon fusion gun",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Banshee blade",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Laser lance"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Autarch Skyrunner",
+            "m": "14\"",
+            "t": "4",
+            "sv": "3+",
+            "w": "5",
+            "ld": "6+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Dragon fusion gun",
+            "profiles": [
+              {
+                "name": "Dragon fusion gun",
+                "range": "12\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "9",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Assault",
+                  "Melta 3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Laser lance",
+            "profiles": [
+              {
+                "name": "Laser lance – Ranged",
+                "range": "6\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Assault"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin shuriken catapult",
+            "profiles": [
+              {
+                "name": "Twin shuriken catapult",
+                "range": "18\"",
+                "a": "2",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Laser lance",
+            "profiles": [
+              {
+                "name": "Laser lance – Melee",
+                "range": "Melee",
+                "a": "4",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Lance"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Banshee blade",
+            "profiles": [
+              {
+                "name": "Banshee blade",
+                "range": "Melee",
+                "a": "5",
+                "skill": "2+",
+                "s": "4",
+                "ap": "-3",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "3",
+                "skill": "2+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Ride the Wind",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Path of Command",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "round",
+              "when": []
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Autarch Skyrunner",
+          "Autarch",
+          "Fly",
+          "Mounted",
+          "Aeldari",
+          "Character"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [
+          "Windriders",
+          "Corsair Cloud Dancer Band"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Windriders",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Corsair Cloud Dancer Band",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "aeldari",
+          "id": "2d03f90b-7f60-556e-ac91-7b24cca7d720",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 90
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Close combat weapon",
+          "Laser lance",
+          "Twin shuriken catapult"
+        ],
+        "model_types": [
+          {
+            "name": "Autarch Skyrunner",
+            "min": 1,
+            "max": 1,
+            "statline": "Autarch Skyrunner"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Close combat weapon",
+              "Laser lance",
+              "Twin shuriken catapult"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Dragon fusion gun",
+                "cost": 0
+              },
+              {
+                "name": "Banshee blade",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Dragon fusion gun",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Banshee blade",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Laser lance"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "1b934ac3-ca78-5005-a17b-af1a2a1fa17a",
+      "name": "Shadow Spectres",
+      "keywords": [
+        "Shadow Spectres",
+        "Aeldari",
+        "Infantry",
+        "Jump Pack",
+        "Fly"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 30,
+          "label": "1 model"
+        },
+        {
+          "models": 5,
+          "cost": 115,
+          "label": "5 models"
+        },
+        {
+          "models": 10,
+          "cost": 230,
+          "label": "10 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Prism rifle",
+        "Close combat weapon"
+      ],
+      "wargear_options": [],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "SHADOW SPECTRE",
+            "m": "12\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "1",
+            "ld": "6+",
+            "oc": "1"
+          },
+          {
+            "name": "SHADOW SPECTRE EXARCH",
+            "m": "12\"",
+            "t": "3",
+            "sv": "3+",
+            "w": "2",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Prism rifle",
+            "profiles": [
+              {
+                "name": "Prism rifle – dispersed",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Prism rifle – focused",
+                "range": "24\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-2",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Stealth",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Shade of Twilight",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Shadow Spectres",
+          "Aeldari",
+          "Infantry",
+          "Jump Pack",
+          "Fly"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "1b934ac3-ca78-5005-a17b-af1a2a1fa17a",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 30
+          },
+          {
+            "models": 5,
+            "cost": 115
+          },
+          {
+            "models": 10,
+            "cost": 230
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 30,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 5,
+            "cost": 115,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 230,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Prism rifle",
+          "Close combat weapon"
+        ],
+        "model_types": [
+          {
+            "name": "Shadow Spectre Exarch",
+            "min": 0,
+            "max": 1,
+            "statline": "SHADOW SPECTRE EXARCH"
+          },
+          {
+            "name": "Shadow Spectres",
+            "min": 5,
+            "max": 10,
+            "statline": "SHADOW SPECTRE"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Prism rifle",
+              "Close combat weapon"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "3e7e68b0-bcf0-55c3-97c7-328bc8c39de4",
+      "name": "Wasp Assault Walker",
+      "keywords": [
+        "Fly",
+        "Walker",
+        "Vehicle",
+        "Wasp Assault Walker",
+        "Aeldari"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 95,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Walker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Scatter laser",
+        "Shuriken cannon",
+        "Wasp feet"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Scatter laser"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Shuriken cannon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Wasp Assault Walker",
+            "m": "10\"",
+            "t": "7",
+            "sv": "3+",
+            "w": "6",
+            "ld": "6+",
+            "oc": "2"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – starshot",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              },
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bright lance",
+            "profiles": [
+              {
+                "name": "Bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wasp feet",
+            "profiles": [
+              {
+                "name": "Wasp feet",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Cloudbreakers",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Fly",
+          "Walker",
+          "Vehicle",
+          "Wasp Assault Walker",
+          "Aeldari"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "3e7e68b0-bcf0-55c3-97c7-328bc8c39de4",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 95
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 95,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Scatter laser",
+          "Shuriken cannon",
+          "Wasp feet"
+        ],
+        "model_types": [
+          {
+            "name": "Wasp Assault Walker",
+            "min": 1,
+            "max": 1,
+            "statline": "Wasp Assault Walker"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Scatter laser",
+              "Shuriken cannon",
+              "Wasp feet"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Scatter laser"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Shuriken cannon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "dab594ce-cb82-539c-b094-8b77b9fa69f4",
+      "name": "Wraithseer",
+      "keywords": [
+        "Walker",
+        "Wraithseer",
+        "Aeldari",
+        "Psyker",
+        "Wraith Construct",
+        "Monster"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 160,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Walker",
+        "Psyker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Destructor",
+        "Ghostspear"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            },
+            {
+              "name": "Wraithseer D-cannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Wraithseer D-cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Wraithseer",
+            "m": "8\"",
+            "t": "11",
+            "sv": "2+",
+            "w": "10",
+            "ld": "6+",
+            "oc": "3"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "4+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Aeldari missile launcher – starshot",
+                "range": "48\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Bright lance",
+            "profiles": [
+              {
+                "name": "Bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Destructor",
+            "profiles": [
+              {
+                "name": "Destructor",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Psychic",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "4+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "4+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Wraithseer D-cannon",
+            "profiles": [
+              {
+                "name": "Wraithseer D-cannon",
+                "range": "24\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "14",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Ghostspear",
+            "profiles": [
+              {
+                "name": "Ghostspear – sweep",
+                "range": "Melee",
+                "a": "12",
+                "skill": "4+",
+                "s": "7",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Anti-infantry 2+",
+                  "Psychic"
+                ]
+              },
+              {
+                "name": "Ghostspear – strike",
+                "range": "Melee",
+                "a": "4",
+                "skill": "4+",
+                "s": "10",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Anti-infantry 2+",
+                  "Precision",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise 1",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Horrify (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Walker",
+          "Wraithseer",
+          "Aeldari",
+          "Psyker",
+          "Wraith Construct",
+          "Monster"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "dab594ce-cb82-539c-b094-8b77b9fa69f4",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 160
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 160,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Destructor",
+          "Ghostspear"
+        ],
+        "model_types": [
+          {
+            "name": "Wraithseer",
+            "min": 1,
+            "max": 1,
+            "statline": "Wraithseer"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Destructor",
+              "Ghostspear"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              },
+              {
+                "name": "Wraithseer D-cannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Wraithseer D-cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "7d566666-cad2-52f3-8c56-09831e9dde01",
+      "name": "Hornet",
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Aeldari",
+        "Hornet"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 100,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Hornet pulse laser",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 2,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Hornet pulse laser"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Hornet",
+            "m": "14\"",
+            "t": "7",
+            "sv": "3+",
+            "w": "8",
+            "ld": "6+",
+            "oc": "2"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – starshot",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              },
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bright lance",
+            "profiles": [
+              {
+                "name": "Bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Hornet pulse laser",
+            "profiles": [
+              {
+                "name": "Hornet pulse laser",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D3",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise 1",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Lightning Assault",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Fly",
+          "Aeldari",
+          "Hornet"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "7d566666-cad2-52f3-8c56-09831e9dde01",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 100
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 100,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Hornet pulse laser",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Hornet",
+            "min": 1,
+            "max": 1,
+            "statline": "Hornet"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Hornet pulse laser",
+              "Wraithbone hull"
+            ],
+            "counts": {
+              "Hornet pulse laser": 2
+            }
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 2,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Hornet pulse laser"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f893992-971e-57d2-b47b-8dbd3c937bed",
+      "name": "Warp Hunter",
+      "keywords": [
+        "Vehicle",
+        "Aeldari",
+        "Warp Hunter",
+        "Fly"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 145,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "D-flail",
+        "Twin shuriken catapult",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Twin shuriken catapult"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Warp Hunter",
+            "m": "14\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "12",
+            "ld": "6+",
+            "oc": "3"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "D-flail",
+            "profiles": [
+              {
+                "name": "D-flail – blast",
+                "range": "24\"",
+                "a": "D3",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-4",
+                "d": "3",
+                "keywords": [
+                  "Blast",
+                  "Devastating Wounds"
+                ]
+              },
+              {
+                "name": "D-flail – rift",
+                "range": "12\"",
+                "a": "D3",
+                "skill": "-",
+                "s": "12",
+                "ap": "-4",
+                "d": "3",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin shuriken catapult",
+            "profiles": [
+              {
+                "name": "Twin shuriken catapult",
+                "range": "18\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-3",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Devastating Assault",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-4 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Aeldari",
+          "Warp Hunter",
+          "Fly"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "0f893992-971e-57d2-b47b-8dbd3c937bed",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 145
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 145,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "D-flail",
+          "Twin shuriken catapult",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Warp Hunter",
+            "min": 1,
+            "max": 1,
+            "statline": "Warp Hunter"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "D-flail",
+              "Twin shuriken catapult",
+              "Wraithbone hull"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Twin shuriken catapult"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "baec8dd7-eb73-575f-a2a0-4c20e82c85ee",
+      "name": "Lynx",
+      "keywords": [
+        "Lynx",
+        "Vehicle",
+        "Aeldari",
+        "Fly"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 180,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Lynx pulsar",
+        "Shuriken cannon",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Shuriken cannon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Lynx",
+            "m": "14\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "16",
+            "ld": "6+",
+            "oc": "4"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Aeldari missile launcher – starshot",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Bright lance",
+            "profiles": [
+              {
+                "name": "Bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Lynx pulsar",
+            "profiles": [
+              {
+                "name": "Lynx pulsar",
+                "range": "48\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "16",
+                "ap": "-3",
+                "d": "D6",
+                "keywords": [
+                  "Assault"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Speed of Vaul",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-5 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Lynx",
+          "Vehicle",
+          "Aeldari",
+          "Fly"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "baec8dd7-eb73-575f-a2a0-4c20e82c85ee",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 180
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 180,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Lynx pulsar",
+          "Shuriken cannon",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Lynx",
+            "min": 1,
+            "max": 1,
+            "statline": "Lynx"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Lynx pulsar",
+              "Shuriken cannon",
+              "Wraithbone hull"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Shuriken cannon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "08032dcc-b30d-599d-bfb9-cc7423baded3",
+      "name": "Scorpion",
+      "keywords": [
+        "Vehicle",
+        "Titanic",
+        "Fly",
+        "Aeldari",
+        "Scorpion"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 410,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Shuriken cannon",
+        "Twin Scorpion pulsar",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Shuriken cannon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Scorpion",
+            "m": "14\"",
+            "t": "11",
+            "sv": "2+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "8"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Aeldari missile launcher – starshot",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Bright lance",
+            "profiles": [
+              {
+                "name": "Bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin Scorpion pulsar",
+            "profiles": [
+              {
+                "name": "Twin Scorpion pulsar",
+                "range": "60\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "18",
+                "ap": "-3",
+                "d": "5",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Lanced Obliteration",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-8 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Titanic",
+          "Fly",
+          "Aeldari",
+          "Scorpion"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "08032dcc-b30d-599d-bfb9-cc7423baded3",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 410
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 410,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Shuriken cannon",
+          "Twin Scorpion pulsar",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Scorpion",
+            "min": 1,
+            "max": 1,
+            "statline": "Scorpion"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Shuriken cannon",
+              "Twin Scorpion pulsar",
+              "Wraithbone hull"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Shuriken cannon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "8056384c-682c-5073-81ac-f3668f025e5c",
+      "name": "Cobra",
+      "keywords": [
+        "Cobra",
+        "Aeldari",
+        "Vehicle",
+        "Fly",
+        "Titanic"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 415,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "D-impaler",
+        "Shuriken cannon",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Bright lance",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Bright lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Shuriken cannon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Cobra",
+            "m": "14\"",
+            "t": "11",
+            "sv": "2+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "8"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Aeldari missile launcher – starshot",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Bright lance",
+            "profiles": [
+              {
+                "name": "Bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "D-impaler",
+            "profiles": [
+              {
+                "name": "D-impaler",
+                "range": "36\"",
+                "a": "D6+3",
+                "skill": "3+",
+                "s": "16",
+                "ap": "-4",
+                "d": "4",
+                "keywords": [
+                  "Blast",
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "D-rift",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-8 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Cobra",
+          "Aeldari",
+          "Vehicle",
+          "Fly",
+          "Titanic"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "8056384c-682c-5073-81ac-f3668f025e5c",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 415
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 415,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "D-impaler",
+          "Shuriken cannon",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Cobra",
+            "min": 1,
+            "max": 1,
+            "statline": "Cobra"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "D-impaler",
+              "Shuriken cannon",
+              "Wraithbone hull"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Bright lance",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Bright lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Shuriken cannon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "65e3ac22-b14e-5580-8452-f1f699cd8d29",
+      "name": "Nightwing",
+      "keywords": [
+        "Aircraft",
+        "Fly",
+        "Vehicle",
+        "Aeldari",
+        "Nightwing"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 150,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Twin bright lance",
+        "Twin shuriken cannon",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Nightwing",
+            "m": "-",
+            "t": "8",
+            "sv": "3+",
+            "w": "12",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Twin bright lance",
+            "profiles": [
+              {
+                "name": "Twin bright lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin shuriken cannon",
+            "profiles": [
+              {
+                "name": "Twin shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Interceptor",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-4 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Aircraft",
+          "Fly",
+          "Vehicle",
+          "Aeldari",
+          "Nightwing"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "65e3ac22-b14e-5580-8452-f1f699cd8d29",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 150
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 150,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Twin bright lance",
+          "Twin shuriken cannon",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Nightwing",
+            "min": 1,
+            "max": 1,
+            "statline": "Nightwing"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Twin bright lance",
+              "Twin shuriken cannon",
+              "Wraithbone hull"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "f769bc85-1ec3-55d9-8c54-e36a1bb6b5f5",
+      "name": "Phoenix",
+      "keywords": [
+        "Phoenix",
+        "Aeldari",
+        "Vehicle",
+        "Fly",
+        "Aircraft"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 175,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Phoenix missile array",
+        "Phoenix pulse laser",
+        "Twin shuriken cannon",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Phoenix",
+            "m": "-",
+            "t": "9",
+            "sv": "3+",
+            "w": "16",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Phoenix missile array",
+            "profiles": [
+              {
+                "name": "Phoenix missile array",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phoenix pulse laser",
+            "profiles": [
+              {
+                "name": "Phoenix pulse laser",
+                "range": "48\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin shuriken cannon",
+            "profiles": [
+              {
+                "name": "Twin shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Strafing Run",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-5 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Phoenix",
+          "Aeldari",
+          "Vehicle",
+          "Fly",
+          "Aircraft"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "f769bc85-1ec3-55d9-8c54-e36a1bb6b5f5",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 175
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 175,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Phoenix missile array",
+          "Phoenix pulse laser",
+          "Twin shuriken cannon",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Phoenix",
+            "min": 1,
+            "max": 1,
+            "statline": "Phoenix"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Phoenix missile array",
+              "Phoenix pulse laser",
+              "Twin shuriken cannon",
+              "Wraithbone hull"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "f8462642-08f1-5be4-ba8b-1b82882753ab",
+      "name": "Vampire Raider",
+      "keywords": [
+        "Fly",
+        "Vehicle",
+        "Aeldari",
+        "Transport",
+        "Titanic",
+        "Vampire Raider"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 430,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Scatter laser",
+        "Twin pulse laser",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Vampire Raider",
+            "m": "14\"",
+            "t": "12",
+            "sv": "3+",
+            "w": "30",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "4*",
+          "condition": "",
+          "against": "ranged"
+        },
+        "ranged": [
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin pulse laser",
+            "profiles": [
+              {
+                "name": "Twin pulse laser",
+                "range": "48\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Hover",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Into the Foe",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-10 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "170 x 109mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Fly",
+          "Vehicle",
+          "Aeldari",
+          "Transport",
+          "Titanic",
+          "Vampire Raider"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "f8462642-08f1-5be4-ba8b-1b82882753ab",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 430
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 430,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Scatter laser",
+          "Twin pulse laser",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Vampire Raider",
+            "min": 1,
+            "max": 1,
+            "statline": "Vampire Raider"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Scatter laser",
+              "Twin pulse laser",
+              "Wraithbone hull"
+            ],
+            "counts": {
+              "Twin pulse laser": 2
+            }
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "787ad07f-f97a-5dd0-af15-b8fff700f050",
+      "name": "Vampire Hunter",
+      "keywords": [
+        "Titanic",
+        "Vampire Hunter",
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Aeldari"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 460,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Scatter laser",
+        "Twin pulse laser",
+        "Twin Vampire pulsar",
+        "Wraithbone hull"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Vampire Hunter",
+            "m": "-",
+            "t": "12",
+            "sv": "3+",
+            "w": "30",
+            "ld": "6+",
+            "oc": "-"
+          }
+        ],
+        "invul": {
+          "value": "4*",
+          "condition": "",
+          "against": "ranged"
+        },
+        "ranged": [
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Twin pulse laser",
+            "profiles": [
+              {
+                "name": "Twin pulse laser",
+                "range": "48\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin Vampire pulsar",
+            "profiles": [
+              {
+                "name": "Twin Vampire pulsar",
+                "range": "60\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "4",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Wraithbone hull",
+            "profiles": [
+              {
+                "name": "Wraithbone hull",
+                "range": "Melee",
+                "a": "6",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6+2",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Titan Hunter",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-10 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "170 x 109mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Titanic",
+          "Vampire Hunter",
+          "Vehicle",
+          "Fly",
+          "Aircraft",
+          "Aeldari"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "787ad07f-f97a-5dd0-af15-b8fff700f050",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 460
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 460,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Scatter laser",
+          "Twin pulse laser",
+          "Twin Vampire pulsar",
+          "Wraithbone hull"
+        ],
+        "model_types": [
+          {
+            "name": "Vampire Hunter",
+            "min": 1,
+            "max": 1,
+            "statline": "Vampire Hunter"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Scatter laser",
+              "Twin pulse laser",
+              "Twin Vampire pulsar",
+              "Wraithbone hull"
+            ],
+            "counts": {
+              "Twin pulse laser": 2
+            }
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "69971889-30b1-5bc3-9e59-b35ef5eb65da",
+      "name": "Skathach Wraithknight",
+      "keywords": [
+        "Skathach Wraithknight",
+        "Monster",
+        "Towering",
+        "Walker",
+        "Aeldari",
+        "Wraith Construct",
+        "Titanic"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 490,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster",
+        "Walker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Inferno lance",
+        "Titanic feet",
+        "Scattershield"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            },
+            {
+              "name": "Starcannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 2
+          },
+          "each": 2,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Starcannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Deathshroud cannon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Deathshroud cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Inferno lance"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Inferno lance",
+              "cost": 0
+            },
+            {
+              "name": "Deathshroud cannon",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Inferno lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Deathshroud cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Scattershield"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Skathach Wraithknight",
+            "m": "10\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "10"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Deathshroud cannon",
+            "profiles": [
+              {
+                "name": "Deathshroud cannon – dispersed",
+                "range": "12\"",
+                "a": "3D6",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Blast",
+                  "Devastating Wounds"
+                ]
+              },
+              {
+                "name": "Deathshroud cannon – focused",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Blast",
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Inferno lance",
+            "profiles": [
+              {
+                "name": "Inferno lance",
+                "range": "24\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Melta 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Starcannon",
+            "profiles": [
+              {
+                "name": "Starcannon",
+                "range": "36\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Titanic feet",
+            "profiles": [
+              {
+                "name": "Titanic feet",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-1",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Agile",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Webway Shunt Generator",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "battle",
+              "when": []
+            }
+          },
+          {
+            "name": "Scattershield",
+            "text": "",
+            "kind": "wargear",
+            "timing": null,
+            "modifiers": [
+              {
+                "kind": "stat",
+                "stat": "invul",
+                "change": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Damaged: 1-6 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Skathach Wraithknight",
+          "Monster",
+          "Towering",
+          "Walker",
+          "Aeldari",
+          "Wraith Construct",
+          "Titanic"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "69971889-30b1-5bc3-9e59-b35ef5eb65da",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 490
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 490,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Inferno lance",
+          "Titanic feet",
+          "Scattershield"
+        ],
+        "model_types": [
+          {
+            "name": "Skathach Wraithknight",
+            "min": 1,
+            "max": 1,
+            "statline": "Skathach Wraithknight"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Inferno lance",
+              "Titanic feet",
+              "Scattershield"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              },
+              {
+                "name": "Starcannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 2
+            },
+            "each": 2,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Starcannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Deathshroud cannon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Deathshroud cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Inferno lance"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Inferno lance",
+                "cost": 0
+              },
+              {
+                "name": "Deathshroud cannon",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Inferno lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Deathshroud cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Scattershield"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "567cf984-ef3e-596f-bcba-6a69ed4f99df",
+      "name": "Corsair Cloud Dancer Band",
+      "keywords": [
+        "Grenades",
+        "Anhrathe",
+        "Aeldari",
+        "Corsair Cloud Dancer Band",
+        "Mounted"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 125,
+          "label": "3 models"
+        },
+        {
+          "models": 4,
+          "cost": 150,
+          "label": "4 models"
+        },
+        {
+          "models": 6,
+          "cost": 210,
+          "label": "6 models"
+        },
+        {
+          "models": 7,
+          "cost": 245,
+          "label": "7 models"
+        }
+      ],
+      "unit_types": [
+        "Mounted"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Brace of pistols",
+        "Twin shuriken catapult",
+        "Close combat weapon"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Dark lance",
+              "cost": 0
+            },
+            {
+              "name": "Dissonance cannon",
+              "cost": 0
+            },
+            {
+              "name": "Scatter laser",
+              "cost": 0
+            },
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            },
+            {
+              "name": "Splinter cannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Dark lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Dissonance cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Scatter laser",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Splinter cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Twin shuriken catapult"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Dissonance pistol",
+              "cost": 0
+            },
+            {
+              "name": "Void sabre",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": 0,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Dissonance pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Void sabre",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Corsair Cloud Dancer Band",
+            "m": "14\"",
+            "t": "4",
+            "sv": "3+",
+            "w": "2",
+            "ld": "6+",
+            "oc": "2"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Brace of pistols",
+            "profiles": [
+              {
+                "name": "Brace of pistols",
+                "range": "12\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dark lance",
+            "profiles": [
+              {
+                "name": "Dark lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Dissonance cannon",
+            "profiles": [
+              {
+                "name": "Dissonance cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dissonance pistol",
+            "profiles": [
+              {
+                "name": "Dissonance pistol",
+                "range": "12\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scatter laser",
+            "profiles": [
+              {
+                "name": "Scatter laser",
+                "range": "36\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "5",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Splinter cannon",
+            "profiles": [
+              {
+                "name": "Splinter cannon",
+                "range": "36\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "3",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Anti-infantry 3+",
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin shuriken catapult",
+            "profiles": [
+              {
+                "name": "Twin shuriken catapult",
+                "range": "18\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-3",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Void sabre",
+            "profiles": [
+              {
+                "name": "Void sabre",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Scouts 7\"",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Reckless Abandon",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm flying base",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Grenades",
+          "Anhrathe",
+          "Aeldari",
+          "Corsair Cloud Dancer Band",
+          "Mounted"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "567cf984-ef3e-596f-bcba-6a69ed4f99df",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 125
+          },
+          {
+            "models": 4,
+            "cost": 150
+          },
+          {
+            "models": 6,
+            "cost": 210
+          },
+          {
+            "models": 7,
+            "cost": 245
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 125,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 4,
+            "cost": 150,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 210,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 7,
+            "cost": 245,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Brace of pistols",
+          "Twin shuriken catapult",
+          "Close combat weapon"
+        ],
+        "model_types": [
+          {
+            "name": "Cloud Dancer Felarch",
+            "min": 0,
+            "max": 1,
+            "statline": "Corsair Cloud Dancer Band"
+          },
+          {
+            "name": "Corsair Cloud Dancers",
+            "min": 3,
+            "max": 6,
+            "statline": "Corsair Cloud Dancer Band"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Brace of pistols",
+              "Twin shuriken catapult",
+              "Close combat weapon"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Dark lance",
+                "cost": 0
+              },
+              {
+                "name": "Dissonance cannon",
+                "cost": 0
+              },
+              {
+                "name": "Scatter laser",
+                "cost": 0
+              },
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              },
+              {
+                "name": "Splinter cannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Dark lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Dissonance cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Scatter laser",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Splinter cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Twin shuriken catapult"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Dissonance pistol",
+                "cost": 0
+              },
+              {
+                "name": "Void sabre",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": 0,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Dissonance pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Void sabre",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "e7cca8f3-a07c-5176-81db-f19f50d3fb29",
+      "name": "Irillyth",
+      "keywords": [
+        "Jump Pack",
+        "Phoenix Lord",
+        "Fly",
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Irillyth",
+        "Aeldari"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 105,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Spear of Starlight"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Irillyth",
+            "m": "12\"",
+            "t": "3",
+            "sv": "2+",
+            "w": "5",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Spear of Starlight",
+            "profiles": [
+              {
+                "name": "Spear of Starlight – Ranged",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-2",
+                "d": "4",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Spear of Starlight",
+            "profiles": [
+              {
+                "name": "Spear of Starlight – Melee",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Stealth",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Reaper of Souls",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Shadow of Death (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Jump Pack",
+          "Phoenix Lord",
+          "Fly",
+          "Epic Hero",
+          "Character",
+          "Infantry",
+          "Irillyth",
+          "Aeldari"
+        ],
+        "factions": [
+          "Asuryani"
+        ],
+        "leads": [
+          "Shadow Spectres"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Shadow Spectres",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "aeldari",
+          "id": "e7cca8f3-a07c-5176-81db-f19f50d3fb29",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 105
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 105,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Spear of Starlight"
+        ],
+        "model_types": [
+          {
+            "name": "Irillyth",
+            "min": 1,
+            "max": 1,
+            "statline": "Irillyth"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Spear of Starlight"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "371cea4b-51a2-5f41-a4e3-02cd5ff7f661",
+      "name": "Corsair Reaver Band",
+      "keywords": [
+        "Aeldari",
+        "Corsair Reaver Band",
+        "Anhrathe",
+        "Grenades",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 5,
+          "cost": 125,
+          "label": "5 models"
+        },
+        {
+          "models": 6,
+          "cost": 150,
+          "label": "6 models"
+        },
+        {
+          "models": 10,
+          "cost": 250,
+          "label": "10 models"
+        },
+        {
+          "models": 11,
+          "cost": 275,
+          "label": "11 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Brace of pistols",
+        "Corsair firearm",
+        "Close combat weapon"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Spar-glaive",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Spar-glaive",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Corsair firearm"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Aeldari missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Blaster",
+              "cost": 0
+            },
+            {
+              "name": "Dark lance",
+              "cost": 0
+            },
+            {
+              "name": "Flamer",
+              "cost": 0
+            },
+            {
+              "name": "Fusion gun",
+              "cost": 0
+            },
+            {
+              "name": "Shredder",
+              "cost": 0
+            },
+            {
+              "name": "Shuriken cannon",
+              "cost": 0
+            },
+            {
+              "name": "Splinter cannon",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per",
+            "every": 5,
+            "up": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Aeldari missile launcher",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Blaster",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Dark lance",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Flamer",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Fusion gun",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shredder",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Shuriken cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Splinter cannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Corsair firearm"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Dissonance pistol",
+              "cost": 0
+            },
+            {
+              "name": "Void sabre",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": 0,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Dissonance pistol",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Void sabre",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        "",
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Corsair Reaver Band",
+            "m": "7\"",
+            "t": "3",
+            "sv": "5+",
+            "w": "3",
+            "ld": "6+",
+            "oc": "2"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Aeldari missile launcher",
+            "profiles": [
+              {
+                "name": "Aeldari missile launcher – starshot ",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              },
+              {
+                "name": "Aeldari missile launcher – sunburst",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "BLAST"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blaster",
+            "profiles": [
+              {
+                "name": "Blaster",
+                "range": "18\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-4",
+                "d": "D6+1",
+                "keywords": [
+                  "Assault"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Brace of pistols",
+            "profiles": [
+              {
+                "name": "Brace of pistols",
+                "range": "12\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Corsair firearm",
+            "profiles": [
+              {
+                "name": "Corsair firearm",
+                "range": "24\"",
+                "a": "4",
+                "skill": "3+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Lethal Hits"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dark lance",
+            "profiles": [
+              {
+                "name": "Dark lance",
+                "range": "36\"",
+                "a": "1",
+                "skill": "4+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+2",
+                "keywords": [
+                  "Heavy"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dissonance pistol",
+            "profiles": [
+              {
+                "name": "Dissonance pistol",
+                "range": "12\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Pistol"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flamer",
+            "profiles": [
+              {
+                "name": "Flamer",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fusion gun",
+            "profiles": [
+              {
+                "name": "Fusion gun",
+                "range": "12\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-4",
+                "d": "D6+1",
+                "keywords": [
+                  "Assault",
+                  "Melta 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Shredder",
+            "profiles": [
+              {
+                "name": "Shredder",
+                "range": "18\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Assault",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Shuriken cannon",
+            "profiles": [
+              {
+                "name": "Shuriken cannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "6",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Splinter cannon",
+            "profiles": [
+              {
+                "name": "Splinter cannon",
+                "range": "36\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "3",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Anti-infantry 3+",
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Close combat weapon",
+            "profiles": [
+              {
+                "name": "Close combat weapon",
+                "range": "Melee",
+                "a": "2",
+                "skill": "3+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Spar-glaive",
+            "profiles": [
+              {
+                "name": "Spar-glaive",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Void sabre",
+            "profiles": [
+              {
+                "name": "Void sabre",
+                "range": "Melee",
+                "a": "3",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Reaver Band",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "opponents",
+                  "phase": "movement"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Corsairs",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Aeldari",
+          "Corsair Reaver Band",
+          "Anhrathe",
+          "Grenades",
+          "Infantry"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "371cea4b-51a2-5f41-a4e3-02cd5ff7f661",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 5,
+            "cost": 125
+          },
+          {
+            "models": 6,
+            "cost": 150
+          },
+          {
+            "models": 10,
+            "cost": 250
+          },
+          {
+            "models": 11,
+            "cost": 275
+          }
+        ],
+        "prices": [
+          {
+            "models": 5,
+            "cost": 125,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 6,
+            "cost": 150,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 10,
+            "cost": 250,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          },
+          {
+            "models": 11,
+            "cost": 275,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Brace of pistols",
+          "Corsair firearm",
+          "Close combat weapon"
+        ],
+        "model_types": [
+          {
+            "name": "Corsair Reaver Felarch",
+            "min": 0,
+            "max": 1,
+            "statline": "Corsair Reaver Band"
+          },
+          {
+            "name": "Corsair Reavers",
+            "min": 5,
+            "max": 10,
+            "statline": "Corsair Reaver Band"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Brace of pistols",
+              "Corsair firearm",
+              "Close combat weapon"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Spar-glaive",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Spar-glaive",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Corsair firearm"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Aeldari missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Blaster",
+                "cost": 0
+              },
+              {
+                "name": "Dark lance",
+                "cost": 0
+              },
+              {
+                "name": "Flamer",
+                "cost": 0
+              },
+              {
+                "name": "Fusion gun",
+                "cost": 0
+              },
+              {
+                "name": "Shredder",
+                "cost": 0
+              },
+              {
+                "name": "Shuriken cannon",
+                "cost": 0
+              },
+              {
+                "name": "Splinter cannon",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per",
+              "every": 5,
+              "up": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Aeldari missile launcher",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Blaster",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Dark lance",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Flamer",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Fusion gun",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shredder",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Shuriken cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Splinter cannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Corsair firearm"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Dissonance pistol",
+                "cost": 0
+              },
+              {
+                "name": "Void sabre",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": 0,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Dissonance pistol",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Void sabre",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "761de0a2-032d-501b-8702-bc1da31d49a7",
+      "name": "Bonesinger",
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Bonesinger",
+        "Aeldari",
+        "Psyker"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 45,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Psytronome shaper"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Bonesinger",
+            "m": "7\"",
+            "t": "3",
+            "sv": "6+",
+            "w": "3",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Psytronome shaper",
+            "profiles": [
+              {
+                "name": "Psytronome shaper",
+                "range": "Melee",
+                "a": "2",
+                "skill": "2+",
+                "s": "3",
+                "ap": "0",
+                "d": "D3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Way of the Shaper (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": {
+                  "leading": "Wraith Construct"
+                },
+                "kind": "ability",
+                "name": "Feel No Pain 6+"
+              }
+            ]
+          },
+          {
+            "name": "Bonesinger",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Psytronome Shaper",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "command"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Infantry",
+          "Character",
+          "Bonesinger",
+          "Aeldari",
+          "Psyker"
+        ],
+        "factions": [
+          "Ynnari",
+          "Asuryani"
+        ],
+        "leads": [
+          "Wraithblades",
+          "Wraithlord",
+          "Wraithguard"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Wraithblades",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Wraithlord",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Wraithguard",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "aeldari",
+          "id": "761de0a2-032d-501b-8702-bc1da31d49a7",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 45
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 45,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Psytronome shaper"
+        ],
+        "model_types": [
+          {
+            "name": "Bonesinger",
+            "min": 1,
+            "max": 1,
+            "statline": "Bonesinger"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Psytronome shaper"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "9db6c3cf-f86c-54b3-a5e2-d849f1103fe9",
+      "name": "Amallyn Shadowguide",
+      "keywords": [
+        "Character",
+        "Grenades",
+        "Epic Hero",
+        "Aeldari",
+        "Amallyn Shadowguide",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 75,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Ranger long rifle",
+        "Power blade"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Amallyn Shadowguide",
+            "m": "7\"",
+            "t": "3",
+            "sv": "5+",
+            "w": "3",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Ranger long rifle",
+            "profiles": [
+              {
+                "name": "Ranger long rifle",
+                "range": "36\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Heavy",
+                  "Precision"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Power blade",
+            "profiles": [
+              {
+                "name": "Power blade",
+                "range": "Melee",
+                "a": "4",
+                "skill": "3+",
+                "s": "4",
+                "ap": "-2",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Infiltrators",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Lone Operative",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Stealth",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Battle Focus",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "The Path Least Travelled",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Path of the Outcast",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "opponents",
+                  "phase": "movement"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "32mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Character",
+          "Grenades",
+          "Epic Hero",
+          "Aeldari",
+          "Amallyn Shadowguide",
+          "Infantry"
+        ],
+        "factions": [
+          "Asuryani"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "9db6c3cf-f86c-54b3-a5e2-d849f1103fe9",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 75
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 75,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Ranger long rifle",
+          "Power blade"
+        ],
+        "model_types": [
+          {
+            "name": "Amallyn Shadowguide",
+            "min": 1,
+            "max": 1,
+            "statline": "Amallyn Shadowguide"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Ranger long rifle",
+              "Power blade"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "af7da03d-9240-5334-983f-e9f5f9366881",
+      "name": "Webway Gate",
+      "keywords": [
+        "Fortification",
+        "Aeldari",
+        "Webway Gate",
+        "Frame"
+      ],
+      "points": [
+        {
+          "models": 2,
+          "cost": 105,
+          "label": "2 models"
+        }
+      ],
+      "unit_types": [
+        "Fortification"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Nothing"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Webway Gate",
+            "m": "-",
+            "t": "12",
+            "sv": "3+",
+            "w": "14",
+            "ld": "6+",
+            "oc": "0"
+          }
+        ],
+        "invul": null,
+        "ranged": [],
+        "melee": [],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Arcane Cover",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Webway Strike",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Fortification",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Deployment",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Fortification",
+          "Aeldari",
+          "Webway Gate",
+          "Frame"
+        ],
+        "factions": [
+          "Asuryani",
+          "Ynnari"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "aeldari",
+          "id": "af7da03d-9240-5334-983f-e9f5f9366881",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 2,
+            "cost": 105
+          }
+        ],
+        "prices": [
+          {
+            "models": 2,
+            "cost": 105,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Nothing"
+        ],
+        "model_types": [
+          {
+            "name": "Wraithbone Arches",
+            "min": 2,
+            "max": 2,
+            "statline": "Webway Gate"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Nothing"
             ]
           }
         ],

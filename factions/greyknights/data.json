@@ -10658,6 +10658,2113 @@
           }
         ]
       }
+    },
+    {
+      "id": "af74c80b-85ec-54a5-950f-94aafbf4d148",
+      "name": "Kaldor Draigo",
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Kaldor Draigo",
+        "Imperium",
+        "Grenades",
+        "Terminator",
+        "Psyker"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 125,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "warlord": "must",
+      "loadout": [
+        "Scourging",
+        "Storm Bolter",
+        "The Titansword"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Kaldor Draigo",
+            "m": "5\"",
+            "t": "5",
+            "sv": "2+",
+            "w": "7",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Scourging",
+            "profiles": [
+              {
+                "name": "Scourging",
+                "range": "18\"",
+                "a": "3",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Anti-daemon 2+",
+                  "Ignores Cover",
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Storm Bolter",
+            "profiles": [
+              {
+                "name": "Storm Bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "2+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Rapid Fire 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "The Titansword",
+            "profiles": [
+              {
+                "name": "The Titansword",
+                "range": "Melee",
+                "a": "6",
+                "skill": "2+",
+                "s": "8",
+                "ap": "-4",
+                "d": "3",
+                "keywords": [
+                  "Anti-daemon 2+",
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Gate of Infinity",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Untouchable Purity",
+            "text": "",
+            "kind": "other",
+            "timing": null,
+            "modifiers": [
+              {
+                "who": "leading",
+                "kind": "ability",
+                "name": "Feel No Pain 4+ against mortal wounds"
+              }
+            ]
+          },
+          {
+            "name": "One With the Warp (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": "battle",
+              "when": []
+            }
+          },
+          {
+            "name": "Supreme Commander",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Epic Hero",
+          "Character",
+          "Infantry",
+          "Kaldor Draigo",
+          "Imperium",
+          "Grenades",
+          "Terminator",
+          "Psyker"
+        ],
+        "factions": [
+          "Grey Knights"
+        ],
+        "leads": [
+          "Paladin Squad",
+          "Brotherhood Terminator Squad"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Paladin Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Brotherhood Terminator Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "greyknights",
+          "id": "af74c80b-85ec-54a5-950f-94aafbf4d148",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 125
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 125,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Scourging",
+          "Storm Bolter",
+          "The Titansword"
+        ],
+        "model_types": [
+          {
+            "name": "Kaldor Draigo",
+            "min": 1,
+            "max": 1,
+            "statline": "Kaldor Draigo"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Scourging",
+              "Storm Bolter",
+              "The Titansword"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "db1155da-635d-51fd-9ac1-05a66c6700ae",
+      "name": "Brother-captain Stern",
+      "keywords": [
+        "Imperium",
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Terminator",
+        "Brother-Captain Stern"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 90,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Psyker",
+        "Character"
+      ],
+      "epic_hero": true,
+      "loadout": [
+        "Storm Bolter",
+        "Nemesis force sword"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Brother-captain Stern",
+            "m": "5\"",
+            "t": "5",
+            "sv": "2+",
+            "w": "6",
+            "ld": "6+",
+            "oc": "1"
+          }
+        ],
+        "invul": {
+          "value": "4+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Storm Bolter",
+            "profiles": [
+              {
+                "name": "Storm Bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "2+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Rapid Fire 2"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Nemesis force sword",
+            "profiles": [
+              {
+                "name": "Nemesis force sword",
+                "range": "Melee",
+                "a": "5",
+                "skill": "2+",
+                "s": "6",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Gate of Infinity",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Exemplar of the Silvered Host",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Strands of Fate (Psychic)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Imperium",
+          "Infantry",
+          "Character",
+          "Epic Hero",
+          "Psyker",
+          "Terminator",
+          "Brother-Captain Stern"
+        ],
+        "factions": [
+          "Grey Knights"
+        ],
+        "leads": [
+          "Paladin Squad",
+          "Brotherhood Terminator Squad"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Paladin Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          },
+          {
+            "type": "leader",
+            "target": "Brotherhood Terminator Squad",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "greyknights",
+          "id": "db1155da-635d-51fd-9ac1-05a66c6700ae",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 90
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 90,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Storm Bolter",
+          "Nemesis force sword"
+        ],
+        "model_types": [
+          {
+            "name": "Brother-Captain Stern",
+            "min": 1,
+            "max": 1,
+            "statline": "Brother-captain Stern"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Storm Bolter",
+              "Nemesis force sword"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "bc1cadba-806d-5e92-b25a-ea54190d7452",
+      "name": "Grey Knights Dreadnought",
+      "keywords": [
+        "Walker",
+        "Psyker",
+        "Imperium",
+        "Dreadnought",
+        "Smoke",
+        "Vehicle"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 160,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle",
+        "Walker",
+        "Psyker"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Assault cannon",
+        "Storm Bolter",
+        "Dreadnought combat weapon"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Heavy plasma cannon",
+              "cost": 0
+            },
+            {
+              "name": "Multi-melta",
+              "cost": 0
+            },
+            {
+              "name": "Twin lascannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy plasma cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Multi-melta",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin lascannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Assault cannon"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Heavy psycannon",
+              "cost": 0
+            },
+            {
+              "name": "Storm Bolter",
+              "cost": 0
+            },
+            {
+              "name": "Nemesis doomglaive",
+              "cost": 0
+            },
+            {
+              "name": "Incinerator",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy psycannon",
+                  "count": 1
+                },
+                {
+                  "option": "Storm Bolter",
+                  "count": 1
+                },
+                {
+                  "option": "Nemesis doomglaive",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy psycannon",
+                  "count": 1
+                },
+                {
+                  "option": "Incinerator",
+                  "count": 1
+                },
+                {
+                  "option": "Nemesis doomglaive",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Assault cannon",
+            "Storm Bolter",
+            "Dreadnought combat weapon"
+          ],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Missile launcher",
+              "cost": 0
+            },
+            {
+              "name": "Armoured feet",
+              "cost": 0
+            },
+            {
+              "name": "Heavy flamer",
+              "cost": 0
+            },
+            {
+              "name": "Dreadnought combat weapon",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Missile launcher",
+                  "count": 1
+                },
+                {
+                  "option": "Armoured feet",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy flamer",
+                  "count": 1
+                },
+                {
+                  "option": "Dreadnought combat weapon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Storm Bolter",
+            "Dreadnought combat weapon"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Grey Knights Dreadnought",
+            "m": "6\"",
+            "t": "9",
+            "sv": "2+",
+            "w": "8",
+            "ld": "6+",
+            "oc": "3"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Assault cannon",
+            "profiles": [
+              {
+                "name": "Assault cannon",
+                "range": "24\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heavy flamer",
+            "profiles": [
+              {
+                "name": "Heavy flamer",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "5",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heavy plasma cannon",
+            "profiles": [
+              {
+                "name": "Heavy plasma cannon – Standard",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "3+",
+                "s": "7",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Heavy plasma cannon – Supercharge",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Blast",
+                  "Hazardous"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heavy psycannon",
+            "profiles": [
+              {
+                "name": "Heavy psycannon",
+                "range": "24\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "10",
+                "ap": "-1",
+                "d": "3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Incinerator",
+            "profiles": [
+              {
+                "name": "Incinerator",
+                "range": "12\"",
+                "a": "D6",
+                "skill": "-",
+                "s": "6",
+                "ap": "-1",
+                "d": "1",
+                "keywords": [
+                  "Ignores Cover",
+                  "Torrent"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Missile launcher",
+            "profiles": [
+              {
+                "name": "Missile launcher – frag",
+                "range": "48\"",
+                "a": "D6",
+                "skill": "3+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Blast"
+                ]
+              },
+              {
+                "name": "Missile launcher – krak",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-2",
+                "d": "D6",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Multi-melta",
+            "profiles": [
+              {
+                "name": "Multi-melta",
+                "range": "18\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Melta 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Storm Bolter",
+            "profiles": [
+              {
+                "name": "Storm Bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Rapid Fire 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin lascannon",
+            "profiles": [
+              {
+                "name": "Twin lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured feet",
+            "profiles": [
+              {
+                "name": "Armoured feet",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Dreadnought combat weapon",
+            "profiles": [
+              {
+                "name": "Dreadnought combat weapon",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-2",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Nemesis doomglaive",
+            "profiles": [
+              {
+                "name": "Nemesis doomglaive",
+                "range": "Melee",
+                "a": "5",
+                "skill": "3+",
+                "s": "14",
+                "ap": "-3",
+                "d": "3",
+                "keywords": [
+                  "Psychic"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise 1",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Gate of Infinity",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Wisdom of the Ancients (Aura)",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Walker",
+          "Psyker",
+          "Imperium",
+          "Dreadnought",
+          "Smoke",
+          "Vehicle"
+        ],
+        "factions": [
+          "Grey Knights"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "greyknights",
+          "id": "bc1cadba-806d-5e92-b25a-ea54190d7452",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 160
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 160,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Assault cannon",
+          "Storm Bolter",
+          "Dreadnought combat weapon"
+        ],
+        "model_types": [
+          {
+            "name": "Grey Knights Dreadnought",
+            "min": 1,
+            "max": 1,
+            "statline": "Grey Knights Dreadnought"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Assault cannon",
+              "Storm Bolter",
+              "Dreadnought combat weapon"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Heavy plasma cannon",
+                "cost": 0
+              },
+              {
+                "name": "Multi-melta",
+                "cost": 0
+              },
+              {
+                "name": "Twin lascannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy plasma cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Multi-melta",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin lascannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Assault cannon"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Heavy psycannon",
+                "cost": 0
+              },
+              {
+                "name": "Storm Bolter",
+                "cost": 0
+              },
+              {
+                "name": "Nemesis doomglaive",
+                "cost": 0
+              },
+              {
+                "name": "Incinerator",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy psycannon",
+                    "count": 1
+                  },
+                  {
+                    "option": "Storm Bolter",
+                    "count": 1
+                  },
+                  {
+                    "option": "Nemesis doomglaive",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy psycannon",
+                    "count": 1
+                  },
+                  {
+                    "option": "Incinerator",
+                    "count": 1
+                  },
+                  {
+                    "option": "Nemesis doomglaive",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Assault cannon",
+              "Storm Bolter",
+              "Dreadnought combat weapon"
+            ],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Missile launcher",
+                "cost": 0
+              },
+              {
+                "name": "Armoured feet",
+                "cost": 0
+              },
+              {
+                "name": "Heavy flamer",
+                "cost": 0
+              },
+              {
+                "name": "Dreadnought combat weapon",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Missile launcher",
+                    "count": 1
+                  },
+                  {
+                    "option": "Armoured feet",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy flamer",
+                    "count": 1
+                  },
+                  {
+                    "option": "Dreadnought combat weapon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Storm Bolter",
+              "Dreadnought combat weapon"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "80c3de00-42c7-533f-8ad7-a73353740668",
+      "name": "Servitors",
+      "keywords": [
+        "Imperium",
+        "Servitors",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 4,
+          "cost": 60,
+          "label": "4 models"
+        }
+      ],
+      "unit_types": [
+        "Infantry"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Servitor’s servo-arm"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Heavy bolter",
+              "cost": 0
+            },
+            {
+              "name": "Servitor’s tools",
+              "cost": 0
+            },
+            {
+              "name": "Multi-melta",
+              "cost": 0
+            },
+            {
+              "name": "Plasma cannon",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "up_to",
+            "n": 2
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Heavy bolter",
+                  "count": 1
+                },
+                {
+                  "option": "Servitor’s tools",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Multi-melta",
+                  "count": 1
+                },
+                {
+                  "option": "Servitor’s tools",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Plasma cannon",
+                  "count": 1
+                },
+                {
+                  "option": "Servitor’s tools",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Servitor’s servo-arm"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Servitors",
+            "m": "6\"",
+            "t": "4",
+            "sv": "4+",
+            "w": "1",
+            "ld": "8+",
+            "oc": "0"
+          }
+        ],
+        "invul": {
+          "value": "6+",
+          "condition": ""
+        },
+        "ranged": [
+          {
+            "name": "Heavy bolter",
+            "profiles": [
+              {
+                "name": "Heavy bolter",
+                "range": "36\"",
+                "a": "3",
+                "skill": "4+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Heavy",
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Multi-melta",
+            "profiles": [
+              {
+                "name": "Multi-melta",
+                "range": "18\"",
+                "a": "2",
+                "skill": "4+",
+                "s": "9",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Heavy",
+                  "Melta 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Plasma cannon",
+            "profiles": [
+              {
+                "name": "Plasma cannon – standard",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "7",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Blast",
+                  "Heavy"
+                ]
+              },
+              {
+                "name": "Plasma cannon – supercharge",
+                "range": "36\"",
+                "a": "D3",
+                "skill": "4+",
+                "s": "8",
+                "ap": "-3",
+                "d": "2",
+                "keywords": [
+                  "Blast",
+                  "Hazardous",
+                  "Heavy"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Servitor’s servo-arm",
+            "profiles": [
+              {
+                "name": "Servitor’s servo-arm",
+                "range": "Melee",
+                "a": "1",
+                "skill": "5+",
+                "s": "6",
+                "ap": "-2",
+                "d": "3",
+                "keywords": []
+              }
+            ]
+          },
+          {
+            "name": "Servitor’s tools",
+            "profiles": [
+              {
+                "name": "Servitor’s tools",
+                "range": "Melee",
+                "a": "1",
+                "skill": "5+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Mindlock",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Retinue",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Servitor Retinue",
+            "text": "",
+            "kind": "special",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "25mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Imperium",
+          "Servitors",
+          "Infantry"
+        ],
+        "factions": [
+          "Grey Knights"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "greyknights",
+          "id": "80c3de00-42c7-533f-8ad7-a73353740668",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 4,
+            "cost": 60
+          }
+        ],
+        "prices": [
+          {
+            "models": 4,
+            "cost": 60,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Servitor’s servo-arm"
+        ],
+        "model_types": [
+          {
+            "name": "Servitors",
+            "min": 4,
+            "max": 4,
+            "statline": "Servitors"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Servitor’s servo-arm"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Heavy bolter",
+                "cost": 0
+              },
+              {
+                "name": "Servitor’s tools",
+                "cost": 0
+              },
+              {
+                "name": "Multi-melta",
+                "cost": 0
+              },
+              {
+                "name": "Plasma cannon",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "up_to",
+              "n": 2
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Heavy bolter",
+                    "count": 1
+                  },
+                  {
+                    "option": "Servitor’s tools",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Multi-melta",
+                    "count": 1
+                  },
+                  {
+                    "option": "Servitor’s tools",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Plasma cannon",
+                    "count": 1
+                  },
+                  {
+                    "option": "Servitor’s tools",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Servitor’s servo-arm"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2fb42c3-7ce3-533d-a75e-8c7df35b8266",
+      "name": "Grey Knights Relic Razorback",
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Transport",
+        "Dedicated Transport",
+        "Imperium",
+        "Relic Razorback"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 95,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Vehicle"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Twin heavy bolter",
+        "Armoured tracks"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Hunter-killer missile",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Hunter-killer missile",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Storm Bolter",
+              "cost": 0
+            }
+          ],
+          "source": 2,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Storm Bolter",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        },
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Multi-melta",
+              "cost": 0
+            },
+            {
+              "name": "Twin assault cannon",
+              "cost": 0
+            },
+            {
+              "name": "Twin lascannon",
+              "cost": 0
+            },
+            {
+              "name": "Twin psycannon",
+              "cost": 0
+            }
+          ],
+          "source": 3,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "fixed",
+            "n": 1
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Multi-melta",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin assault cannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin lascannon",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Twin psycannon",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [
+            "Twin heavy bolter"
+          ],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Grey Knights Relic Razorback",
+            "m": "12\"",
+            "t": "9",
+            "sv": "3+",
+            "w": "10",
+            "ld": "6+",
+            "oc": "2"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Hunter-killer missile",
+            "profiles": [
+              {
+                "name": "Hunter-killer missile",
+                "range": "48\"",
+                "a": "1",
+                "skill": "2+",
+                "s": "14",
+                "ap": "-3",
+                "d": "D6",
+                "keywords": [
+                  "One Shot"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Multi-melta",
+            "profiles": [
+              {
+                "name": "Multi-melta",
+                "range": "18\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-4",
+                "d": "D6",
+                "keywords": [
+                  "Melta 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Storm Bolter",
+            "profiles": [
+              {
+                "name": "Storm Bolter",
+                "range": "24\"",
+                "a": "2",
+                "skill": "3+",
+                "s": "4",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Rapid Fire 2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin assault cannon",
+            "profiles": [
+              {
+                "name": "Twin assault cannon",
+                "range": "24\"",
+                "a": "6",
+                "skill": "3+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Devastating Wounds",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin heavy bolter",
+            "profiles": [
+              {
+                "name": "Twin heavy bolter",
+                "range": "36\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "5",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Sustained Hits 1",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin lascannon",
+            "profiles": [
+              {
+                "name": "Twin lascannon",
+                "range": "48\"",
+                "a": "1",
+                "skill": "3+",
+                "s": "12",
+                "ap": "-3",
+                "d": "D6+1",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Twin psycannon",
+            "profiles": [
+              {
+                "name": "Twin psycannon",
+                "range": "24\"",
+                "a": "3",
+                "skill": "3+",
+                "s": "8",
+                "ap": "-1",
+                "d": "2",
+                "keywords": [
+                  "Psychic",
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Armoured tracks",
+            "profiles": [
+              {
+                "name": "Armoured tracks",
+                "range": "Melee",
+                "a": "3",
+                "skill": "4+",
+                "s": "6",
+                "ap": "0",
+                "d": "1",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D3",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Fire Support",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          }
+        ],
+        "transport": "",
+        "base_size": "Use model",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Vehicle",
+          "Smoke",
+          "Transport",
+          "Dedicated Transport",
+          "Imperium",
+          "Relic Razorback"
+        ],
+        "factions": [
+          "Grey Knights"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "greyknights",
+          "id": "c2fb42c3-7ce3-533d-a75e-8c7df35b8266",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 95
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 95,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Twin heavy bolter",
+          "Armoured tracks"
+        ],
+        "model_types": [
+          {
+            "name": "Grey Knights Relic Razorback",
+            "min": 1,
+            "max": 1,
+            "statline": "Grey Knights Relic Razorback"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Twin heavy bolter",
+              "Armoured tracks"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Hunter-killer missile",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Hunter-killer missile",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Storm Bolter",
+                "cost": 0
+              }
+            ],
+            "source": 2,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Storm Bolter",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          },
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Multi-melta",
+                "cost": 0
+              },
+              {
+                "name": "Twin assault cannon",
+                "cost": 0
+              },
+              {
+                "name": "Twin lascannon",
+                "cost": 0
+              },
+              {
+                "name": "Twin psycannon",
+                "cost": 0
+              }
+            ],
+            "source": 3,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "fixed",
+              "n": 1
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Multi-melta",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin assault cannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin lascannon",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Twin psycannon",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [
+              "Twin heavy bolter"
+            ],
+            "replaces_options": []
+          }
+        ]
+      }
     }
   ],
   "rules": {

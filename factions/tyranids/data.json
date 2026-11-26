@@ -11924,6 +11924,884 @@
         ],
         "wargear_options": []
       }
+    },
+    {
+      "id": "3cdafbbb-e0a6-51be-aea8-981dd18c4647",
+      "name": "Sky-slasher Swarms",
+      "keywords": [
+        "Fly",
+        "Great Devourer",
+        "Swarm",
+        "Sky-slasher Swarms"
+      ],
+      "points": [
+        {
+          "models": 3,
+          "cost": 60,
+          "label": "3 models"
+        }
+      ],
+      "unit_types": [
+        "Swarm"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Claws and teeth"
+      ],
+      "wargear_options": [
+        {
+          "instruction": "",
+          "options": [
+            {
+              "name": "Spinemaws",
+              "cost": 0
+            }
+          ],
+          "source": 1,
+          "model": null,
+          "loadout": 0,
+          "heading": "",
+          "cap": {
+            "kind": "per_model",
+            "read": true
+          },
+          "each": 1,
+          "choices": [
+            {
+              "text": "",
+              "items": [
+                {
+                  "option": "Spinemaws",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "replaces": [],
+          "replaces_options": []
+        }
+      ],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Sky-slasher Swarms",
+            "m": "12\"",
+            "t": "2",
+            "sv": "6+",
+            "w": "4",
+            "ld": "8+",
+            "oc": "0"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Spinemaws",
+            "profiles": [
+              {
+                "name": "Spinemaws",
+                "range": "6\"",
+                "a": "4",
+                "skill": "5+",
+                "s": "3",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Pistol"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Claws and teeth",
+            "profiles": [
+              {
+                "name": "Claws and teeth",
+                "range": "Melee",
+                "a": "6",
+                "skill": "5+",
+                "s": "2",
+                "ap": "0",
+                "d": "1",
+                "keywords": [
+                  "Sustained Hits 1"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deep Strike",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Synapse",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Chitinous Horrors",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "40mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Fly",
+          "Great Devourer",
+          "Swarm",
+          "Sky-slasher Swarms"
+        ],
+        "factions": [
+          "Tyranids"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "tyranids",
+          "id": "3cdafbbb-e0a6-51be-aea8-981dd18c4647",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 3,
+            "cost": 60
+          }
+        ],
+        "prices": [
+          {
+            "models": 3,
+            "cost": 60,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Claws and teeth"
+        ],
+        "model_types": [
+          {
+            "name": "Sky-slasher Swarms",
+            "min": 3,
+            "max": 3,
+            "statline": "Sky-slasher Swarms"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Claws and teeth"
+            ]
+          }
+        ],
+        "wargear_options": [
+          {
+            "instruction": "",
+            "options": [
+              {
+                "name": "Spinemaws",
+                "cost": 0
+              }
+            ],
+            "source": 1,
+            "model": null,
+            "loadout": 0,
+            "heading": "",
+            "cap": {
+              "kind": "per_model",
+              "read": true
+            },
+            "each": 1,
+            "choices": [
+              {
+                "text": "",
+                "items": [
+                  {
+                    "option": "Spinemaws",
+                    "count": 1
+                  }
+                ]
+              }
+            ],
+            "replaces": [],
+            "replaces_options": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "7045d3f7-afdb-5121-9a5b-0bcc28e9c7dc",
+      "name": "Malanthrope",
+      "keywords": [
+        "Synapse",
+        "Malanthrope",
+        "Fly",
+        "Character",
+        "Great Devourer",
+        "Infantry"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 75,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Infantry",
+        "Character"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Grasping tail"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Malanthrope",
+            "m": "6\"",
+            "t": "5",
+            "sv": "4+",
+            "w": "10",
+            "ld": "7+",
+            "oc": "3"
+          }
+        ],
+        "invul": null,
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Grasping tail",
+            "profiles": [
+              {
+                "name": "Grasping tail",
+                "range": "Melee",
+                "a": "4",
+                "skill": "4+",
+                "s": "5",
+                "ap": "0",
+                "d": "2",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Leader",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Stealth",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Shadow in the Warp",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Synapse",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Enhanced Toxic Miasma",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Prey Adaptation",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "60mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Synapse",
+          "Malanthrope",
+          "Fly",
+          "Character",
+          "Great Devourer",
+          "Infantry"
+        ],
+        "factions": [
+          "Tyranids"
+        ],
+        "leads": [
+          "Venomthropes"
+        ],
+        "supports": [],
+        "attaches": [
+          {
+            "type": "leader",
+            "target": "Venomthropes",
+            "requires_detachment": null,
+            "requires_keyword": null,
+            "excludes_detachment": null
+          }
+        ],
+        "source": {
+          "faction": "tyranids",
+          "id": "7045d3f7-afdb-5121-9a5b-0bcc28e9c7dc",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 75
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 75,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Grasping tail"
+        ],
+        "model_types": [
+          {
+            "name": "Malanthrope",
+            "min": 1,
+            "max": 1,
+            "statline": "Malanthrope"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Grasping tail"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "d0d0a834-1c83-5f99-92c2-bd2d1e61a24d",
+      "name": "Dimachaeron",
+      "keywords": [
+        "Dimachaeron",
+        "Great Devourer",
+        "Frame",
+        "Monster"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 200,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Massive scything sickle-talons"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Dimachaeron",
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "16",
+            "ld": "7+",
+            "oc": "5"
+          }
+        ],
+        "invul": {
+          "value": "5+",
+          "condition": ""
+        },
+        "ranged": [],
+        "melee": [
+          {
+            "name": "Massive scything sickle-talons",
+            "profiles": [
+              {
+                "name": "Massive scything sickle-talons",
+                "range": "Melee",
+                "a": "10",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-2",
+                "d": "3",
+                "keywords": [
+                  "Twin-linked"
+                ]
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Synapse",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Digestion Spine",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-5 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "120 x 92mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Dimachaeron",
+          "Great Devourer",
+          "Frame",
+          "Monster"
+        ],
+        "factions": [
+          "Tyranids"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "tyranids",
+          "id": "d0d0a834-1c83-5f99-92c2-bd2d1e61a24d",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 200
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 200,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Massive scything sickle-talons"
+        ],
+        "model_types": [
+          {
+            "name": "Dimachaeron",
+            "min": 1,
+            "max": 1,
+            "statline": "Dimachaeron"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Massive scything sickle-talons"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "77eef943-380a-5b84-9e8c-458fafa9f7a9",
+      "name": "Barbed Hierodule",
+      "keywords": [
+        "Great Devourer",
+        "Barbed Hierodule",
+        "Monster",
+        "Frame"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 340,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Bio-cannon",
+        "Hierodule scything talons"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Barbed Hierodule",
+            "m": "8\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "18",
+            "ld": "8+",
+            "oc": "5"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Bio-cannon",
+            "profiles": [
+              {
+                "name": "Bio-cannon",
+                "range": "48\"",
+                "a": "D6+3",
+                "skill": "3+",
+                "s": "9",
+                "ap": "-2",
+                "d": "2",
+                "keywords": [
+                  "Blast"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hierodule scything talons",
+            "profiles": [
+              {
+                "name": "Hierodule scything talons",
+                "range": "Melee",
+                "a": "8",
+                "skill": "3+",
+                "s": "14",
+                "ap": "-2",
+                "d": "D3+3",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Synapse",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Overgrown Barbs",
+            "text": "",
+            "kind": "other",
+            "timing": {
+              "once_per": null,
+              "when": [
+                {
+                  "turn": "your",
+                  "phase": "shooting"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damaged: 1-6 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "127mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Great Devourer",
+          "Barbed Hierodule",
+          "Monster",
+          "Frame"
+        ],
+        "factions": [
+          "Tyranids"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "tyranids",
+          "id": "77eef943-380a-5b84-9e8c-458fafa9f7a9",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 340
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 340,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bio-cannon",
+          "Hierodule scything talons"
+        ],
+        "model_types": [
+          {
+            "name": "Barbed Hierodule",
+            "min": 1,
+            "max": 1,
+            "statline": "Barbed Hierodule"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bio-cannon",
+              "Hierodule scything talons"
+            ],
+            "counts": {
+              "Bio-cannon": 2
+            }
+          }
+        ],
+        "wargear_options": []
+      }
+    },
+    {
+      "id": "fefa798e-ba89-5969-9707-55df2df0ddb4",
+      "name": "Scythed Hierodule",
+      "keywords": [
+        "Frame",
+        "Monster",
+        "Great Devourer",
+        "Scythed Hierodule"
+      ],
+      "points": [
+        {
+          "models": 1,
+          "cost": 330,
+          "label": "1 model"
+        }
+      ],
+      "unit_types": [
+        "Monster"
+      ],
+      "epic_hero": false,
+      "loadout": [
+        "Bio-acid spray",
+        "Hierodule scything talons"
+      ],
+      "wargear_options": [],
+      "composition": [
+        ""
+      ],
+      "data": {
+        "stats": [
+          {
+            "name": "Scythed Hierodule",
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "18",
+            "ld": "8+",
+            "oc": "5"
+          }
+        ],
+        "invul": null,
+        "ranged": [
+          {
+            "name": "Bio-acid spray",
+            "profiles": [
+              {
+                "name": "Bio-acid spray",
+                "range": "18\"",
+                "a": "3D6",
+                "skill": "-",
+                "s": "6",
+                "ap": "-2",
+                "d": "1",
+                "keywords": [
+                  "Torrent"
+                ]
+              }
+            ]
+          }
+        ],
+        "melee": [
+          {
+            "name": "Hierodule scything talons",
+            "profiles": [
+              {
+                "name": "Hierodule scything talons",
+                "range": "Melee",
+                "a": "10",
+                "skill": "3+",
+                "s": "14",
+                "ap": "-2",
+                "d": "D3+3",
+                "keywords": []
+              }
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Deadly Demise D6",
+            "text": "",
+            "kind": "core",
+            "timing": null
+          },
+          {
+            "name": "Synapse",
+            "text": "",
+            "kind": "faction",
+            "timing": null
+          },
+          {
+            "name": "Irresistible Force",
+            "text": "",
+            "kind": "other",
+            "timing": null
+          },
+          {
+            "name": "Damaged: 1-6 WOUNDS REMAINING",
+            "text": "",
+            "kind": "damaged",
+            "timing": null
+          }
+        ],
+        "transport": "",
+        "base_size": "127mm",
+        "imperial_armour": false,
+        "legends": true,
+        "keywords": [
+          "Frame",
+          "Monster",
+          "Great Devourer",
+          "Scythed Hierodule"
+        ],
+        "factions": [
+          "Tyranids"
+        ],
+        "leads": [],
+        "supports": [],
+        "attaches": [],
+        "source": {
+          "faction": "tyranids",
+          "id": "fefa798e-ba89-5969-9707-55df2df0ddb4",
+          "data_version": "2026-11-19 18:08:15"
+        },
+        "sizes": [
+          {
+            "models": 1,
+            "cost": 330
+          }
+        ],
+        "prices": [
+          {
+            "models": 1,
+            "cost": 330,
+            "keyword": null,
+            "faction": null,
+            "detachment": null
+          }
+        ],
+        "loadout": [
+          "Bio-acid spray",
+          "Hierodule scything talons"
+        ],
+        "model_types": [
+          {
+            "name": "Scythed Hierodule",
+            "min": 1,
+            "max": 1,
+            "statline": "Scythed Hierodule"
+          }
+        ],
+        "loadouts": [
+          {
+            "model": null,
+            "role": null,
+            "wargear": [
+              "Bio-acid spray",
+              "Hierodule scything talons"
+            ]
+          }
+        ],
+        "wargear_options": []
+      }
     }
   ],
   "rules": {
