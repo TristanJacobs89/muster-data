@@ -870,5 +870,15 @@
   "agents/datasheets/e79287dc-8ac9-5be2-8408-827e309dd6cf/wargear_options/4/instruction": "Each model: Combat knife → 1 Bolt carbine and 1 Close combat weapon",
   "agents/datasheets/ea7ffd52-dc72-5526-a8bc-583f6e05af92/composition/0": "1 UR-025 (EPIC HERO)",
   "agents/datasheets/ea7ffd52-dc72-5526-a8bc-583f6e05af92/data/abilities/Evade and Survive/text": "Timing: opponent's Movement phase, when enemy unit ends Normal, Advance or Fall Back move ≤8\" of this model\nCondition: this model not within Engagement Range of any enemy unit\nResult: this model may make Normal move",
-  "agents/datasheets/ea7ffd52-dc72-5526-a8bc-583f6e05af92/data/abilities/Self Repair/text": "Start of your Command phase\n1 lost wound regained by this model"
+  "agents/datasheets/ea7ffd52-dc72-5526-a8bc-583f6e05af92/data/abilities/Self Repair/text": "Start of your Command phase\n1 lost wound regained by this model",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/0": "1 Chaplain Cassius: EPIC HERO",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/1": "8 Kill Team Veterans:\n- Vael Donatus\n- Zameon Gydrael\n- Rodricus Grytt\n- Antor Delassio\n- Edryc Setorax\n- Jensus Natorian\n- Drenn Redblade\n- Ennox Sorrlock",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/2": "1 Kill Team Terminator (Garran Branatar)",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/3": "1 Kill Team Biker (Jetek Suberei)",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Cassius/text": "Chaplain Cassius and KILL TEAM CASSIUS: never both in same army",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Catechism of Death/text": "While Chaplain Cassius in this unit\nMelee weapons of this unit's models: [DEVASTATING WOUNDS] gained",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Jump Pack/text": "Bearer: M 12\"\nBearer: may pass over models and terrain as though absent",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Psychic Hood/text": "Bearer's unit: Feel No Pain 4+ gained against Psychic Attacks",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Unflinching/text": "Battle-shock tests for this unit: may re-roll",
+  "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/invul/condition": "Only Chaplain Cassius and Kill Team Terminator models"
 }
