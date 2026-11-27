@@ -564,8 +564,7 @@
                           "type": "string"
                         },
                         "invul": {
-                          "type": "boolean",
-                          "const": true
+                          "type": "string"
                         }
                       },
                       "required": [
