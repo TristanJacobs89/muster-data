@@ -1,32 +1,11 @@
 {
-  "dataVersion": 1057,
-  "date": "2026-11-26",
+  "dataVersion": 1058,
+  "date": "2026-11-27",
   "changes": {
     "changed": [],
-    "new": [
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/0",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/1",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/2",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/composition/3",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Cassius/text",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Catechism of Death/text",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Jump Pack/text",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Psychic Hood/text",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/abilities/Unflinching/text",
-      "agents/datasheets/f396a8ba-c2b4-5b31-bead-b81227a6c37c/data/invul/condition",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/0",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/1",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/2",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/composition/3",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Cassius/text",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Catechism of Death/text",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Jump Pack/text",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Psychic Hood/text",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/abilities/Unflinching/text",
-      "deathwatch/datasheets/afa5baf5-027d-5f7a-9459-7d7b7123bda4/data/invul/condition"
-    ],
+    "new": [],
     "gone": []
   },
   "revision": "3984ffddae28",
-  "from": 1056
+  "from": 1057
 }

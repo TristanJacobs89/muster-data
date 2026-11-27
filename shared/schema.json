@@ -1,5 +1,5 @@
 {
-  "schema": 55,
+  "schema": 56,
   "files": {
     "manifest.json": {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -7,7 +7,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "bundle": {
           "type": "string",
@@ -128,7 +128,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "faction": {
           "type": "object",
@@ -562,6 +562,10 @@
                         },
                         "oc": {
                           "type": "string"
+                        },
+                        "invul": {
+                          "type": "boolean",
+                          "const": true
                         }
                       },
                       "required": [
@@ -6403,7 +6407,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "stratagems": {
           "type": "array",
@@ -6587,7 +6591,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "source": {
           "type": "string"
@@ -6860,7 +6864,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "source": {
           "type": "string"
@@ -7182,7 +7186,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "sizes": {
           "minItems": 1,
@@ -7241,7 +7245,7 @@
       "properties": {
         "schema": {
           "type": "number",
-          "const": 55
+          "const": 56
         },
         "text": {
           "type": "object",
